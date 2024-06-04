@@ -1,8 +1,10 @@
+import HeroActions from "@/components/HeroActions";
+
 const about = () => {
     return (
-        <div>
-          Test
-        </div>
+      <>
+        <HeroActions />
+      </>
     )
 };
 
