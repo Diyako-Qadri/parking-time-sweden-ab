@@ -26,6 +26,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "homeHero-image": "linear-gradient(#00000075, #0000004d), url(/images/homeHero.png)",
       },
+      screens: {
+        's': {'max':'410px'},
+      }
     },
   },
   plugins: [],
