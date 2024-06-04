@@ -4,6 +4,7 @@ import { motion, MotionConfig, Variants } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 
+
 type MenuItem = {
   name: string;
   link: string;
@@ -120,7 +121,7 @@ const HamburgerMenu = () => {
       </MotionConfig>
       {openMenu && (
         <div className="absolute flex flex-col bg-pt-primary left-0 w-full text-white h-screen">
-          <div className="mx-16 my-10">
+          <div className="mx-10 my-10">
             {menuItem.map((item, index) => (
               <Link
                 className={path === item.link ? 'active' : ''}
@@ -129,12 +130,11 @@ const HamburgerMenu = () => {
                 onClick={handleMenuItemClick}
               >
                 <motion.p
-                  className="my-6 text-base font-medium"
+                  className="my-6 text-lg font-medium"
                   custom={index}
                   initial="hidden"
                   animate="visible"
                   variants={itemVariants}
-         
                 >
                   {item.name}
                 </motion.p>
