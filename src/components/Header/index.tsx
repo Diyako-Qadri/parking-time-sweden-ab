@@ -1,5 +1,6 @@
 "use client"
 
+import LocaleSwitcher from '../LocaleSwitcher';
 import Image from 'next/image';
 import Logo from '../../../public/images/parking-time-logo.png';
 import Navigation from '../Navigation';
@@ -9,6 +10,7 @@ const Header = () => {
       <div>
         <a href="/">
         <Image
+        priority
           src={Logo}
           alt="hederLogo"
           sizes="(min-width: 768px) 50vw, 100vw"
@@ -20,7 +22,8 @@ const Header = () => {
       </div>
       <div>
         <Navigation />
-      </div>
+       
+      </div> <LocaleSwitcher/>
     </header>
   );
 };

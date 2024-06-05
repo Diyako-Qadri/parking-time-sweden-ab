@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { motion, MotionConfig, Variants } from 'framer-motion';
 import { usePathname } from 'next/navigation';
+import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 
 
@@ -30,6 +31,8 @@ const menuItem: MenuItem[] = [
 ];
 
 const HamburgerMenu = () => {
+
+
   const [active, setActive] = useState<boolean>(false);
   const handleClick = () => {
     setActive(prevActive => !prevActive);
@@ -37,6 +40,8 @@ const HamburgerMenu = () => {
   };
   const path = usePathname();
   const [openMenu, setOpenMenu] = useState<boolean>(false);
+  const locale = useLocale(); // Get the current locale from next-intl
+  const t = useTranslations('NavItem');
 
 
   const handleMenuItemClick = () => {
@@ -126,7 +131,7 @@ const HamburgerMenu = () => {
               <Link
                 className={path === item.link ? 'active' : ''}
                 key={index}
-                href={item.link}
+                href={`/${locale}${item.link}`} // Prepend the current locale to the link
                 onClick={handleMenuItemClick}
               >
                 <motion.p
@@ -136,7 +141,7 @@ const HamburgerMenu = () => {
                   animate="visible"
                   variants={itemVariants}
                 >
-                  {item.name}
+                  {t(item.name)}
                 </motion.p>
               </Link>
             ))}

@@ -1,5 +1,8 @@
+"use client";
+
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useTranslations, useLocale } from 'next-intl';
 
 type NavItemDesk = {
   name: string;
@@ -27,15 +30,18 @@ const navItem: NavItemDesk[] = [
 
 const DesktopMenu = () => {
   const path = usePathname();
+  const locale = useLocale(); // Get the current locale from next-intl
+  const t = useTranslations('NavItem');
+
   return (
     <div className="flex justify-around text-base text-white w-[368px]">
       {navItem.map((item, index) => (
         <Link
           className={path === item.link ? 'active' : ''}
           key={index}
-          href={item.link}
+          href={`/${locale}${item.link}`} // Prepend the current locale to the link
         >
-          {item.name}
+          {t(item.name)}
         </Link>
       ))}
     </div>
