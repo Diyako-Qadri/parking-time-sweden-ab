@@ -24,7 +24,13 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "newsHero-image": "linear-gradient(#00000075, #0000004d), url(/images/newsHero.png)",
+        "aboutHero-image": "linear-gradient(#00000075, #0000004d), url(/images/aboutHero.png)",
+        "contactHero-image": "linear-gradient(#00000075, #0000004d), url(/images/contactHero.png)",
       },
+      height: {
+        'custom-458': '28.625rem'
+      }
     },
   },
   plugins: [],

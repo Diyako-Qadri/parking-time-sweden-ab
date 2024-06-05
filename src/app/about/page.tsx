@@ -1,7 +1,9 @@
+import PageHero from "@/components/PageHero";
+
 const about = () => {
     return (
         <div>
-          Test
+          <PageHero bgImage={'bg-aboutHero-image'}/>
         </div>
     )
 };

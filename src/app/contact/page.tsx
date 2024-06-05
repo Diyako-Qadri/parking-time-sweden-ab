@@ -1,8 +1,8 @@
+import PageHero from "@/components/PageHero";
+
 const contact = () => {
     return (
-        <div>
-          
-        </div>
+        <PageHero bgImage={'newsHero-image'} />
     )
 };
 
