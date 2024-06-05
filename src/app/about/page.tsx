@@ -1,10 +1,14 @@
-import HeroActions from "@/components/HeroActions";
+import PageHero from "@/components/PageHero";
 
 const about = () => {
     return (
-      <>
-        <HeroActions />
-      </>
+        <div>
+          <PageHero 
+            bgImage={'bg-aboutHero-image'} 
+            categoryText="About Us" 
+            headline="Parking Time Sweden" 
+            heroText="We are a tech startup dedicated to transforming the parking experience for all stakeholders – parkers, parking attendants, municipalities, and property owners."/>
+        </div>
     )
 };
 
