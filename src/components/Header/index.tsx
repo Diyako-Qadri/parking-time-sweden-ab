@@ -6,8 +6,8 @@ import Navigation from '../Navigation';
 
 const Header = () => {
   return (
-    <header className="bg-pt-primary items-center fixed flex justify-between w-full h-20 px-7 md:px-16">
-      <div>
+    <header className="bg-pt-primary items-center fixed flex justify-between z-40 w-full h-20 px-7 md:px-16 ">
+      <div   className='z-40'>
         <a href="/">
           <Image
             src={Logo}
@@ -17,10 +17,11 @@ const Header = () => {
               width: '60px',
               height: '60px',
             }}
+          
           />
         </a>
       </div>
-      <div className='flex justify-between'>
+      <div className='flex justify-between '>
        
           <Navigation />
       
