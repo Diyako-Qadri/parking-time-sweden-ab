@@ -1,5 +1,6 @@
 'use client';
 
+import { motion, AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { useEffect, useState, useTransition } from 'react';
@@ -74,25 +75,74 @@ const LocaleSwitcher = () => {
       <button onClick={toggleDropdown} className="rounded bg-transparent text-white px-4 py-1 flex items-center">
         <Image src={getFlagImage(selectedLocale)} alt={selectedLocale} width={25} height={25} />
       </button>
+      <AnimatePresence >
       {dropdownOpen && (
-        <ul className="absolute rounded mt-3 ml-2 items-center">
-          <li onClick={() => onSelectChange('sv')} className="flex items-center p-2 cursor-pointer">
-            <Image src={Sweden1} alt='Swedish' width={30} height={30} className="mr-2" /> Swedish
-          </li>
-          <li onClick={() => onSelectChange('da')} className="flex items-center p-2 cursor-pointer">
-            <Image src={Denmark1} alt='Danish' width={30} height={30} className="mr-2" /> Danish
-          </li>
-          <li onClick={() => onSelectChange('no')} className="flex items-center p-2 cursor-pointer">
-            <Image src={Norway1} alt='Norwegian' width={30} height={30} className="mr-2" /> Norwegian
-          </li>
-          <li onClick={() => onSelectChange('fi')} className="flex items-center p-2 cursor-pointer">
-            <Image src={Finland1} alt='Finnish' width={30} height={30} className="mr-2" /> Finnish
-          </li>
-          <li onClick={() => onSelectChange('en')} className="flex items-center p-2 cursor-pointer">
-            <Image src={England1} alt='English' width={30} height={30} className="mr-2" /> English
-          </li>
-        </ul>
-      )}
+        <motion.ul 
+        initial={{ opacity: 0, y: -10 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: .4 },
+          }}
+          viewport={{ once: true }}
+        className="absolute rounded mt-3 ml-2 z-20 items-center text-white md:bg-pt-primary w-[73px]">
+          <motion.li  
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: .4 },
+          }}
+          viewport={{ once: true }}
+          onClick={() => onSelectChange('sv')} className="flex items-center p-2 cursor-pointer">
+            <Image src={Sweden1} alt='Swedish' width={30} height={30} className="mr-2" /> Sv
+          </motion.li>
+          <motion.li
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: .4 },
+          }}
+          viewport={{ once: true }}
+          onClick={() => onSelectChange('da')} className="flex items-center p-2 cursor-pointer">
+            <Image src={Denmark1} alt='Danish' width={30} height={30} className="mr-2" /> Da
+          </motion.li>
+          <motion.li 
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: .4 },
+          }}
+          viewport={{ once: true }}
+          onClick={() => onSelectChange('no')} className="flex items-center p-2 cursor-pointer">
+            <Image src={Norway1} alt='Norwegian' width={30} height={30} className="mr-2" /> No
+          </motion.li>
+          <motion.li 
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: .4 },
+          }}
+          viewport={{ once: true }}
+          onClick={() => onSelectChange('fi')} className="flex items-center p-2 cursor-pointer">
+            <Image src={Finland1} alt='Finnish' width={30} height={30} className="mr-2" /> Fi
+          </motion.li>
+          <motion.li 
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: { duration: .4 },
+          }}
+          viewport={{ once: true }}
+          onClick={() => onSelectChange('en')} className="flex items-center p-2 cursor-pointer">
+            <Image src={England1} alt='English' width={30} height={30} className="mr-2" /> En
+          </motion.li>
+        </motion.ul>
+      )}</AnimatePresence>
     </div>
   );
 };
