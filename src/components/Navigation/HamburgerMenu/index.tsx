@@ -4,7 +4,7 @@ import { motion, MotionConfig, Variants } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
-
+import LocaleSwitcher from '@/components/LocaleSwitcher';
 
 type MenuItem = {
   name: string;
@@ -125,8 +125,8 @@ const HamburgerMenu = () => {
         </motion.button>
       </MotionConfig>
       {openMenu && (
-        <div className="absolute flex flex-col bg-pt-primary left-0 w-full text-white h-screen">
-          <div className="mx-10 my-10">
+        <div className="absolute flex flex-col bg-pt-primary left-0 w-full text-white h-screen overflow-y-auto">
+          <div className="mx-10 my-10 ">
             {menuItem.map((item, index) => (
               <Link
                 className={path === item.link ? 'active' : ''}
@@ -145,6 +145,12 @@ const HamburgerMenu = () => {
                 </motion.p>
               </Link>
             ))}
+          </div>
+          <div className='ml-6'>
+            <p 
+          
+            className='flex flex-row text-lg font-medium'><LocaleSwitcher/> Change language</p>
+            
           </div>
         </div>
       )}
