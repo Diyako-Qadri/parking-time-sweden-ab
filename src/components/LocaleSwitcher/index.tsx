@@ -115,8 +115,8 @@ const LocaleSwitcher = () => {
               <Image
                 src={Sweden1}
                 alt="Swedish"
-                width={30}
-                height={30}
+                width={20}
+                height={20}
                 className="mr-2"
               />{' '}
               Sv
@@ -135,8 +135,8 @@ const LocaleSwitcher = () => {
               <Image
                 src={Denmark1}
                 alt="Danish"
-                width={30}
-                height={30}
+                width={20}
+                height={20}
                 className="mr-2"
               />{' '}
               Da
@@ -155,8 +155,8 @@ const LocaleSwitcher = () => {
               <Image
                 src={Norway1}
                 alt="Norwegian"
-                width={30}
-                height={30}
+                width={20}
+                height={20}
                 className="mr-2"
               />{' '}
               No
@@ -175,8 +175,8 @@ const LocaleSwitcher = () => {
               <Image
                 src={Finland1}
                 alt="Finnish"
-                width={30}
-                height={30}
+                width={20}
+                height={20}
                 className="mr-2"
               />{' '}
               Fi
@@ -195,8 +195,8 @@ const LocaleSwitcher = () => {
               <Image
                 src={England1}
                 alt="English"
-                width={30}
-                height={30}
+                width={20}
+                height={20}
                 className="mr-2"
               />{' '}
               En
