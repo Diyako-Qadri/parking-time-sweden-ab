@@ -35,8 +35,8 @@ const DesktopMenu = () => {
   const t = useTranslations('NavItem');
 
   return (
-    <div className='flex flex-row w-[550px] justify-between h-14 items-center'>
-    <div className="flex justify-around text-base text-white w-[368px]">
+    <div className='flex flex-row w-[567px] justify-between h-14 items-center'>
+    <div className="flex justify-around gap-[12px] text-base text-white w-[368px]">
       {navItem.map((item, index) => (
         <Link
           className={`relative group ${path === item.link ? 'active' : ''}`}
