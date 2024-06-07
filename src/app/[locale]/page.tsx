@@ -1,7 +1,8 @@
 import { useTranslations } from 'next-intl';
+
 import HomeHero from "@/components/HomeHero";
 
-export default function Home() {
+export default function index() {
   return (
     <main>
         <HomeHero 
@@ -9,7 +10,7 @@ export default function Home() {
           headline2="Parking time!" 
           heroText1="Digital parking disc, directly on your mobile."
           heroText2="A winning concept in a new, digitalized format."
-        />
+        />  
     </main>
   );
 }
