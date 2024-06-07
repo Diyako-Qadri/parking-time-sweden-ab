@@ -1,4 +1,5 @@
 import PageHero from "@/components/PageHero";
+import { useTranslations } from "next-intl";
 
 const about = () => {
     return (
@@ -8,6 +9,7 @@ const about = () => {
             categoryText="About Us" 
             headline="Parking Time Sweden" 
             heroText="We are a tech startup dedicated to transforming the parking experience for all stakeholders – parkers, parking attendants, municipalities, and property owners."/>
+      
         </div>
     )
 };
