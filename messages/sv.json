@@ -1,9 +1,8 @@
 {
-    "NavItem": {
-        "Why parking Time?": "Varför parking Time?",
-        "About us": "Om oss",
-        "News": "Nyheter",
-        "FAQ": "FAQ"
-    
-    }
+  "NavItem": {
+    "Why parking Time?": "Varför Parking Time?",
+    "About us": "Om oss",
+    "News": "Nyheter",
+    "FAQ": "FAQ"
+  }
 }

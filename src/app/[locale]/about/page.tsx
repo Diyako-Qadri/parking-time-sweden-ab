@@ -1,10 +1,9 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations } from "next-intl";
 
 const about = () => {
-  
     return (
-        <div >
-        
+        <div>
+      
         </div>
     )
 };
