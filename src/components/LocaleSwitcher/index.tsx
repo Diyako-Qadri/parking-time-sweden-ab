@@ -99,7 +99,7 @@ const LocaleSwitcher = () => {
               transition: { duration: 0.4 },
             }}
             viewport={{ once: true }}
-            className="absolute rounded mt-3 ml-2 z-20 items-center text-white md:bg-pt-primary w-[73px]"
+            className="absolute rounded mt-7 z-20 items-center text-white md:bg-pt-green-transparent w-[73px]"
           >
             <motion.li
               initial={{ opacity: 0, y: -10 }}
@@ -110,7 +110,7 @@ const LocaleSwitcher = () => {
               }}
               viewport={{ once: true }}
               onClick={() => onSelectChange('sv')}
-              className="flex items-center p-2 cursor-pointer hover:bg-pt-green"
+              className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
             >
               <Image
                 src={Sweden1}
@@ -130,7 +130,7 @@ const LocaleSwitcher = () => {
               }}
               viewport={{ once: true }}
               onClick={() => onSelectChange('da')}
-              className="flex items-center p-2 cursor-pointer hover:bg-pt-green"
+              className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
             >
               <Image
                 src={Denmark1}
@@ -150,7 +150,7 @@ const LocaleSwitcher = () => {
               }}
               viewport={{ once: true }}
               onClick={() => onSelectChange('no')}
-              className="flex items-center p-2 cursor-pointer hover:bg-pt-green"
+              className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
             >
               <Image
                 src={Norway1}
@@ -170,7 +170,7 @@ const LocaleSwitcher = () => {
               }}
               viewport={{ once: true }}
               onClick={() => onSelectChange('fi')}
-              className="flex items-center p-2 cursor-pointer hover:bg-pt-green"
+              className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
             >
               <Image
                 src={Finland1}
@@ -190,7 +190,7 @@ const LocaleSwitcher = () => {
               }}
               viewport={{ once: true }}
               onClick={() => onSelectChange('en')}
-              className="flex items-center p-2 cursor-pointer hover:bg-pt-green"
+              className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
             >
               <Image
                 src={England1}
