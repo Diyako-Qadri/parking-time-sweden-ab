@@ -10,10 +10,8 @@ const Footer = () => {
     return (
         <>
         <footer className="flex flex-col justify-center h-80 fixed mt-[100px] w-full text-white bg-pt-primary md:px-16">
-            {/* for img address contact and links */}
             <div className="flex justify-between flex-row border-b-[1px] h-24 border-white">
                 <div className="flex w-[490px] justify-start">
-                    {/* logga */}
                     <div className="flex w-[80px]">
                         <a href="/">
                         <Image
@@ -34,8 +32,17 @@ const Footer = () => {
                         <a href="mailto:info@example.com" className="hover:underline cursor-pointer">info@example.com</a> | 
                         <a href="tel:+46727224400" className="hover:underline cursor-pointer">+46727224400</a>
                         <div className="flex flex-row w-[40px] justify-between"> 
-                            <FiInstagram />
-                            <FaLinkedin />
+                           <Link href="https://www.instagram.com/parkingtimesweden" passHref legacyBehavior>
+                                <a target="_blank"> 
+                                <FiInstagram />
+                                </a>
+                            </Link> 
+                            <Link href="https://www.linkedin.com/company/parking-time-sweden/" passHref legacyBehavior>
+                                <a target="_blank">
+                                <FaLinkedin />
+                                </a>
+                            </Link>
+                            
                         </div>
                     </div>
                 </div>
