@@ -10,5 +10,17 @@
         "categoryText": "Nyheter",
         "headline": "Parking Time Sweden",
         "heroText": "Vi er en teknologibedrift dedikert til å transformere parkeringsopplevelsen for alle interessenter - parkerende, parkeringsvakter, kommuner og eiendomseiere."
+    },
+
+    "contactHero": {
+        "categoryText": "Kontakt",
+        "headline": "Ta gjerne kontakt med oss!",
+        "heroText": ""
+    },
+
+    "newsHero": {
+        "categoryText": "Nyheter",
+        "headline": "Vi transformerer parkerings- opplevelser.",
+        "heroText": ""
     }
 }

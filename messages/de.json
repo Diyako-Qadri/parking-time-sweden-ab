@@ -24,5 +24,17 @@
       "categoryText": "Nachrichten",
       "headline": "Parking Time Sweden",
       "heroText": "Wir sind ein Technologie-Startup, das sich der Transformation des Parkerlebnisses für alle Beteiligten widmet - Parkende, Parkplatzwächter, Gemeinden und Immobilienbesitzer."
+    },
+
+    "contactHero": {
+      "categoryText": "Kontakt",
+      "headline": "Kontaktieren Sie uns gerne!",
+      "heroText": ""
+    },
+
+    "newsHero": {
+      "categoryText": "Nachrichten",
+      "headline": "Wir verwandeln Parkerlebnisse.",
+      "heroText": ""
     }
   }
