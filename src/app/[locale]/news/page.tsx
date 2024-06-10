@@ -1,5 +1,4 @@
 import NewsCard from "@/components/NewsCard";
-import { useTranslations } from "next-intl";
 
 const newsItems = [
   {
