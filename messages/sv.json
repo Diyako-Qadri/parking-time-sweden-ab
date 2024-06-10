@@ -4,5 +4,17 @@
     "About us": "Om oss",
     "News": "Nyheter",
     "FAQ": "FAQ"
+  },
+
+  "WhyParkingTime": {
+    "sectionTitle": "Varför",
+    "avoidFinesTitle": "Undvik böter och minska stressen",
+    "avoidFinesDes": "Vår digitala lösning lockar fler besökare genom att eliminera fysiska skivor och minska böter. Detta förenklar parkeringen, ökar fottrafiken, ekonomisk aktivitet och stadens vitalitet samtidigt som det minskar stressen.",
+    "simplifiedTitle": "Förenklad parkering för användare",
+    "simplifiedDes": "Vår app låter dig enkelt sätta, justera och övervaka parkeringstiden. Med en användarvänlig gränssnitt kan du snabbt hitta platser och hantera parkering. Vi uppdaterar kontinuerligt baserat på kundfeedback för att säkerställa en effektiv och problemfri upplevelse.",
+    "integrationTitle": "Integration med befintliga system",
+    "integrationDes": "Vårt system för parkeringsvakter integreras sömlöst med din befintliga setup. Ett enhetligt system gynnar dig genom att effektivisera operationer och förbättra upplevelsen för personalen genom att eliminera behovet av två olika system och enheter. Vi gör denna integration effektiv, intuitiv och enkel!",
+    "dataTitle": "Datastyrd stadsplanering",
+    "dataDes": "Den digitala parkeringsskivan kan på sikt optimera parkeringsresurser och stadsplanering genom värdefull användningsdata och beteendemönster, vilket leder till ett säkrare samhälle med bättre kontroll och tillgång till parkeringsplatser."
   }
 }
