@@ -14,6 +14,7 @@ const config: Config = {
         'pt-red': '#F85252',
         'pt-background': '#ECF2F1',
         'pt-green': '#48937E',
+        'pt-green-transparent':'#48937ECC',
         'pt-darkblue1': '#14243C',
         'pt-green-transparent':'#48937ECC',
         'pt-darkblue2': '#2A394E',
@@ -25,7 +26,11 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "homeHero-image": "linear-gradient(#00000075, #0000004d), url(/images/homeHero.png)",
       },
+      screens: {
+        's': {'max':'410px'},
+      }
     },
   },
   plugins: [],

@@ -1,3 +1,11 @@
+<<<<<<< HEAD:src/app/about/page.tsx
+import HeroActions from "@/components/HeroActions";
+
+const about = () => {
+    return (
+      <>
+      </>
+=======
 import { useTranslations } from "next-intl";
 
 const about = () => {
@@ -5,6 +13,7 @@ const about = () => {
         <div>
       
         </div>
+>>>>>>> main:src/app/[locale]/about/page.tsx
     )
 };
 
