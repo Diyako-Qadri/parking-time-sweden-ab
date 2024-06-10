@@ -2,8 +2,9 @@
 import { useState } from 'react';
 import { motion, MotionConfig, Variants } from 'framer-motion';
 import { usePathname } from 'next/navigation';
+import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
-
+import LocaleSwitcher from '@/components/LocaleSwitcher';
 
 type MenuItem = {
   name: string;
@@ -31,13 +32,16 @@ const menuItem: MenuItem[] = [
 
 const HamburgerMenu = () => {
   const [active, setActive] = useState<boolean>(false);
+  const [openMenu, setOpenMenu] = useState<boolean>(false);
+
   const handleClick = () => {
     setActive(prevActive => !prevActive);
     setOpenMenu(prev => !prev);
   };
-  const path = usePathname();
-  const [openMenu, setOpenMenu] = useState<boolean>(false);
 
+  const path = usePathname();
+  const locale = useLocale();
+  const t = useTranslations('NavItem');
 
   const handleMenuItemClick = () => {
     setActive(false);
@@ -67,7 +71,7 @@ const HamburgerMenu = () => {
         <motion.button
           initial={false}
           onClick={handleClick}
-          className="relative h-12 w-12"
+          className="relative h-12 w-12 z-40"
           animate={active ? 'open' : 'closed'}
         >
           <motion.span
@@ -120,13 +124,13 @@ const HamburgerMenu = () => {
         </motion.button>
       </MotionConfig>
       {openMenu && (
-        <div className="absolute flex flex-col bg-pt-primary left-0 w-full text-white h-screen">
-          <div className="mx-10 my-10">
+        <div className="absolute  top-0 left-0 w-full h-screen bg-pt-primary text-white overflow-y-auto">
+          <div className="mx-10 my-10 z-0 pt-[35px]">
             {menuItem.map((item, index) => (
               <Link
                 className={path === item.link ? 'active' : ''}
                 key={index}
-                href={item.link}
+                href={`/${locale}${item.link}`} // Prepend the current locale to the link
                 onClick={handleMenuItemClick}
               >
                 <motion.p
@@ -136,10 +140,15 @@ const HamburgerMenu = () => {
                   animate="visible"
                   variants={itemVariants}
                 >
-                  {item.name}
+                  {t(item.name)}
                 </motion.p>
               </Link>
             ))}
+          </div>
+          <div className="ml-6">
+            <p className="flex flex-row text-lg font-medium">
+              <LocaleSwitcher /> Change language
+            </p>
           </div>
         </div>
       )}
