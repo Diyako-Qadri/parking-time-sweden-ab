@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import { Lato } from 'next/font/google';
 import "../../../src/app/globals.css";
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -32,6 +33,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
         <Header />
           {children}
+        <Footer />  
         </NextIntlClientProvider>
       </body>
     </html>
