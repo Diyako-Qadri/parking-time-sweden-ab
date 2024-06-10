@@ -1,0 +1,14 @@
+{
+    "NavItem": {
+      "Why parking Time?": "Warum Parking Time?",
+      "About us": "Über uns",
+      "News": "Nachrichten",
+      "FAQ": "FAQ"
+    },
+    "homeHero": {
+      "headline1": "Wie spät ist es?",
+      "headline2": "Parking Time!",
+      "heroText1": "Digitaler Parkscheibe - direkt auf Ihrem Handy.",
+      "heroText2": "Ein erfolgreiches Konzept in einem neuen, digitalisierten Format."
+    }
+  }

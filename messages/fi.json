@@ -4,5 +4,11 @@
         "About us": "Tietoa meistä",
         "News": "Uutiset",
         "FAQ": "FAQ"
+    },
+    "homeHero": {
+      "headline1": "Kellon aika?",
+      "headline2": "Parking Time!",
+      "heroText1": "Digitaalinen pysäköintilevy - suoraan puhelimeesi.",
+      "heroText2": "Voittava konsepti uudessa, digitaalisessa muodossa."
     }
 }
