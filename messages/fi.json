@@ -4,5 +4,11 @@
         "About us": "Tietoa meistä",
         "News": "Uutiset",
         "FAQ": "FAQ"
+    },
+    
+    "aboutHero": {
+        "categoryText": "Uutiset",
+        "headline": "Parking Time Sweden",
+        "heroText": "Olemme teknologiayritys, joka on omistautunut muuttamaan pysäköintikokemusta kaikille sidosryhmille - pysäköijille, pysäköinninvalvojille, kunnille ja kiinteistön omistajille."
     }
 }

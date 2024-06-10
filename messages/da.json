@@ -4,5 +4,11 @@
         "About us": "Om os",
         "News": "Nyheder",
         "FAQ": "FAQ"
+    },
+
+    "aboutHero": {
+        "categoryText": "Nyheder",
+        "headline": "Parking Time Sweden",
+        "heroText": "Vi er en tech-startup dedikeret til at transformere parkeringsoplevelsen for alle interessenter - parkerende, parkeringsvagter, kommuner og ejendomsejere."
     }
 }

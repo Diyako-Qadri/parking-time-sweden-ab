@@ -1,0 +1,28 @@
+{
+    "NavItem": {
+      "Why parking Time?": "Warum Parking Time?",
+      "About us": "Über uns",
+      "News": "Nachrichten",
+      "FAQ": "FAQ"
+    },
+    
+    "homeHero": {
+      "headline1": "What time is it?",
+      "headline2": "Parking Time!",
+      "heroText1": "Digitaler Parkscheibe - direkt auf Ihrem Handy.",
+      "heroText2": "Ein erfolgreiches Konzept in einem neuen, digitalisierten Format."
+    },
+
+    "heroActions": {
+      "action1": "Einfach zu benutzen",
+      "action2": "Kostenlos herunterladen",
+      "action3": "Bußgelder vermeiden",
+      "action4": "Stress reduzieren"
+    },
+
+    "aboutHero": {
+      "categoryText": "Nachrichten",
+      "headline": "Parking Time Sweden",
+      "heroText": "Wir sind ein Technologie-Startup, das sich der Transformation des Parkerlebnisses für alle Beteiligten widmet - Parkende, Parkplatzwächter, Gemeinden und Immobilienbesitzer."
+    }
+  }
