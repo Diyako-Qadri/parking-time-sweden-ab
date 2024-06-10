@@ -5,10 +5,18 @@
         "News": "Nyheter",
         "FAQ": "FAQ"
     },
+    
     "homeHero": {
       "headline1": "What time is it?",
       "headline2": "Parking Time!",
       "heroText1": "Digital parkeringsskive - direkte på din mobil.",
       "heroText2": "En vinnende konsept i et nytt, digitalisert format."
-    }
+    },
+
+    "heroActions": {
+      "action1": "Enkel å bruke",
+      "action2": "Gratis å laste ned",
+      "action3": "Unngå bøter",
+      "action4": "Redusere stress"
+      }
 }

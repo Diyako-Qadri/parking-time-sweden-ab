@@ -5,10 +5,18 @@
         "News": "Uutiset",
         "FAQ": "FAQ"
     },
+    
     "homeHero": {
       "headline1": "What time is it?",
       "headline2": "Parking Time!",
       "heroText1": "Digitaalinen pysäköintilevy - suoraan puhelimeesi.",
       "heroText2": "Voittava konsepti uudessa, digitaalisessa muodossa."
-    }
+    },
+
+    "heroActions": {
+      "action1": "Helppo käyttää",
+      "action2": "Ilmainen lataus",
+      "action3": "Vältä sakot",
+      "action4": "Vähennä stressiä"
+      }
 }
