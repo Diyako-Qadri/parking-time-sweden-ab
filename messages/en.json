@@ -11,5 +11,12 @@
     "headline2": "Parking Time!",
     "heroText1": "Digital parking disc - directly on your mobile.",
     "heroText2": "A winning concept in a new, digitalized format."
+  },
+
+  "heroActions": {
+    "action1": "Easy to use",
+    "action2": "Free to download",
+    "action3": "Avoid fined",
+    "action4": "Reduce stress"
   }
 }
