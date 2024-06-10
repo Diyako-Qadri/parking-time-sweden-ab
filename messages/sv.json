@@ -3,6 +3,12 @@
     "Why parking Time?": "Varför Parking Time?",
     "About us": "Om oss",
     "News": "Nyheter",
-    "FAQ": "FAQ"
+    "FAQ": "FAQ",
+    "Links": "Länkar"
+  },
+  "FooterInfo": {
+    "Address": "Adress",
+    "Contact": "Kontakt"
   }
+ 
 }

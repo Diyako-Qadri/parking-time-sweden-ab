@@ -4,5 +4,9 @@
         "About us": "Om os",
         "News": "Nyheder",
         "FAQ": "FAQ"
-    }
+    },
+    "FooterInfo": {
+        "Address": "Adresse",
+        "Contact": "Contact"
+      }
 }
