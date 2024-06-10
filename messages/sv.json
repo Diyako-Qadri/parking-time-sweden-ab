@@ -4,5 +4,12 @@
     "About us": "Om oss",
     "News": "Nyheter",
     "FAQ": "FAQ"
+  },
+
+  "homeHero": {
+    "headline1": "Vilken tid är det?",
+    "headline2": "Parking Time!",
+    "heroText1": "Digital parkeringsskiva - direkt i din mobil.",
+    "heroText2": "Ett vinnande koncept i ett nytt, digitaliserat format."
   }
 }
