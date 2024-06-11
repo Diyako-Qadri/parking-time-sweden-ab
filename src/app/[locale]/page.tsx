@@ -1,21 +1,12 @@
-<<<<<<< HEAD
 import { useTranslations } from 'next-intl';
 import HowItWorks from '@/components/HowItWorksSection';
-=======
-
-import WhyParkingTime from "@/components/WhyParkingTime";
-
-
->>>>>>> main
+import WhyParkingTime from '@/components/WhyParkingTime';
 export default function index() {
   
   return (
     <main>
-<<<<<<< HEAD
       <HowItWorks/>
-=======
       <WhyParkingTime/>
->>>>>>> main
     </main>
   );
 }
