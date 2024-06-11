@@ -35,7 +35,7 @@ const Footer = () => {
     const b = useTranslations('NavItem')
     return (
         <>
-        <footer className="flex flex-col h-[776px] md:justify-center md:h-80 fixed mt-[100px] w-full text-white bg-pt-primary md:px-12">
+        <footer className="flex flex-col h-[776px] md:justify-center md:h-80 py-[100px] w-full text-white bg-pt-primary md:px-12">
             <div className="flex m-12  pb-[16px] md:pb-[54px]  flex-col justify-between h-[517px] md:h-[130px] md:flex-row border-b-[1px]  border-white">
                 <div className="flex flex-col h-[334px] md:h-[102px] justify-between  md:flex-row md:w-[490px] md:justify-start">
                     <div className="flex w-[80px]">
