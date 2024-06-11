@@ -22,13 +22,9 @@ const NewsCard = ({
 }: NewsCardProps) => {
   return (
     <div
-      className="max-w-sm rounded overflow-hidden shadow-lg"
+      className="w-full sm:max-w-sm rounded overflow-hidden shadow-lg"
       style={{ boxShadow: "0 5px 50px rgba(0, 0, 0, 0.08)" }}>
-      <img
-        className="w-[405px] h-[300px] object-cover"
-        src={image}
-        alt={title}
-      />
+      <img className="w-full h-[300px] object-cover" src={image} alt={title} />
       <div className="px-4 py-6">
         <h6 className="text-2xl font-bold leading-[29px] mb-2">{title}</h6>
         <p className="text-base leading-6 mb-4">{description}</p>
