@@ -6,10 +6,12 @@
         "FAQ": "FAQ",
         "Links": "Links"
     },
+
     "FooterInfo": {
         "Address": "Adresse",
         "Contact": "Contact"
-      },
+    },
+
     "WhyParkingTime": {
         "sectionTitle": "Hvorfor",
         "avoidFinesTitle": "Undgå bøder og reducér stress",
@@ -20,5 +22,19 @@
         "integrationDes": "Vores system til parkeringsvagter integreres problemfrit med dit eksisterende setup. Et ensartet system giver dig fordele ved at effektivisere operationer og forbedre oplevelsen for personalet ved at eliminere behovet for to forskellige systemer og enheder. Vi gør denne integration effektiv, intuitiv og nem!",
         "dataTitle": "Datadrevet byplanlægning",
         "dataDes": "Den digitale parkeringsskive kan over tid optimere parkeringsressourcer og byplanlægning gennem værdifulde brugsdata og adfærdsmønstre, hvilket fører til et sikrere samfund med bedre kontrol og adgang til parkeringspladser."
-      }
+    },
+
+    "homeHero": {
+      "headline1": "What time is it?",
+      "headline2": "Parking Time!",
+      "heroText1": "Digital parkeringsskive - direkte på din mobiltelefon.",
+      "heroText2": "En vindende koncept i en ny, digitaliseret format."
+    },
+    
+    "heroActions": {
+      "action1": "Let at bruge",
+      "action2": "Gratis at downloade",
+      "action3": "Undgå bøder",
+      "action4": "Reducer stress"
+    }
 }

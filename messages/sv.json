@@ -6,6 +6,21 @@
     "FAQ": "FAQ",
     "Links": "Länkar"
   },
+
+  "homeHero": {
+    "headline1": "What time is it?",
+    "headline2": "Parking Time!",
+    "heroText1": "Digital parkeringsskiva - direkt i din mobil.",
+    "heroText2": "Ett vinnande koncept i ett nytt, digitaliserat format."
+  },
+
+  "heroActions": {
+    "action1": "Lätt att använda",
+    "action2": "Gratis nedladdning",
+    "action3": "Undvik böter",
+    "action4": "Minska stress"
+  },
+
   "FooterInfo": {
     "Address": "Adress",
     "Contact": "Kontakt"
@@ -22,5 +37,4 @@
     "dataTitle": "Datastyrd stadsplanering",
     "dataDes": "Den digitala parkeringsskivan kan på sikt optimera parkeringsresurser och stadsplanering genom värdefull användningsdata och beteendemönster, vilket leder till ett säkrare samhälle med bättre kontroll och tillgång till parkeringsplatser."
   }
- 
 }

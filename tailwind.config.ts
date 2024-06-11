@@ -29,16 +29,15 @@ const config: Config = {
         "newsHero-image": "linear-gradient(#00000075, #0000004d), url(/images/newsHero.png)",
         "aboutHero-image": "linear-gradient(#00000075, #0000004d), url(/images/aboutHero.png)",
         "contactHero-image": "linear-gradient(#00000075, #0000004d), url(/images/contactHero.png)",
-      },
+        },
       height: {
         'custom-458': '28.625rem',
       },
       screens: {
-        's': {'max':'410px'},
-      }
+          's': {'max':'410px'},
+      },
     },
   },
   plugins: [],
 };
 export default config;
-  

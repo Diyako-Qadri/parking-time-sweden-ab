@@ -6,6 +6,7 @@
     "FAQ": "FAQ",
     "Links": "Links"
   },
+  
   "FooterInfo": {
     "Address": "Address",
     "Contact": "Contact"
@@ -21,5 +22,19 @@
     "integrationDes": "Our system for parking attendants integrates seamlessly with your existing setup. A unified system benefits you by streamlining operations and enhancing the experience for personnel by eliminating the need for two different systems and devices. We make this integration efficient, intuitive, and simple!",
     "dataTitle": "Data-driven urban planning",
     "dataDes": "The digital parking disc can eventually optimize parking resources and urban planning through valuable usage data and behavior patterns, leading to a safer society with better control and access to parking spaces."
+  },
+
+  "homeHero": {
+    "headline1": "What time is it?",
+    "headline2": "Parking Time!",
+    "heroText1": "Digital parking disc - directly on your mobile.",
+    "heroText2": "A winning concept in a new, digitalized format."
+  },
+
+  "heroActions": {
+    "action1": "Easy to use",
+    "action2": "Free to download",
+    "action3": "Avoid fined",
+    "action4": "Reduce stress"
   }
 }
