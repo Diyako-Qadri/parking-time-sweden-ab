@@ -1,12 +1,7 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations } from "next-intl";
 
 const news = () => {
-   
-    return (
-        <div>
-           
-        </div>
-    )
+  return <div></div>;
 };
 
-export default news
+export default news;
