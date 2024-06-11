@@ -5,6 +5,7 @@ export default function index() {
   return (
     <main>
       <HomeHero />
+      <WhyParkingTime />
     </main>
   );
 }
