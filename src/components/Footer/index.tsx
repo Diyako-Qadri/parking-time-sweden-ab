@@ -14,8 +14,8 @@ type NavItemDesk = {
   
   const navItem: NavItemDesk[] = [
     // {
-    //   name: 'Contact',
-    //   link: '/contact',
+    //    name: 'Contact',
+    //    link: '/contact',
     // },
     {
       name: 'About us',
@@ -31,7 +31,6 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
     const path = usePathname();
     const locale = useLocale();
-    // const t = useTranslations('NavItem');
     const t = useTranslations('FooterInfo')
     const b = useTranslations('NavItem')
     return (
@@ -69,11 +68,9 @@ const Footer = () => {
                                 <FaLinkedin />
                                 </a>
                             </Link>
-                            
                         </div>
                     </div>
                 </div>
-                {/* menu goes here */}
                 <div className="w-52 flex mt-10 md:mt-0 flex-col justify-start">
                     <div>
                         <p className="font-bold">{b("Links")}</p>
@@ -85,11 +82,11 @@ const Footer = () => {
                         key={index}
                         href={`/${locale}${item.link}`}
                         >
-                            {b(item.name)}
+                        {b(item.name)}
                         </Link>
                        ))}
                     </div>
-            </div>
+                </div>
             </div>
             <div className="flex  ml-12 md:ml-0  md:flex-col h-14 md:justify-end md:px-12">
                 <div className="flex flex-col-reverse h-[90px] md:flex-row justify-between">
