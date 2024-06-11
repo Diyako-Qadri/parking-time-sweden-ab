@@ -13,10 +13,10 @@ type NavItemDesk = {
   };
   
   const navItem: NavItemDesk[] = [
-    // {
-    //    name: 'Contact',
-    //    link: '/contact',
-    // },
+    {
+       name: 'Contact',
+       link: '/contact',
+    },
     {
       name: 'About us',
       link: '/about',
@@ -35,8 +35,8 @@ const Footer = () => {
     const b = useTranslations('NavItem')
     return (
         <>
-        <footer className="flex flex-col h-[776px] md:justify-center md:h-80 py-[100px] w-full text-white bg-pt-primary md:px-12">
-            <div className="flex m-12  pb-[16px] md:pb-[54px]  flex-col justify-between h-[517px] md:h-[130px] md:flex-row border-b-[1px]  border-white">
+        <footer className="flex flex-col h-[776px] pb-[100px] md:justify-center md:h-80 md:py-[100px] w-full text-white bg-pt-primary md:px-3">
+            <div className="flex m-10 mb-5  pb-[16px] md:pb-[54px]  flex-col justify-between h-[517px] md:h-[130px] md:flex-row border-b-[1px]  border-white">
                 <div className="flex flex-col h-[334px] md:h-[102px] justify-between  md:flex-row md:w-[490px] md:justify-start">
                     <div className="flex w-[80px]">
                         <a href="/">
@@ -44,6 +44,7 @@ const Footer = () => {
                         src={Logo}
                         alt="headerLogo"
                         sizes="(min-width: 768px) 50vw, 100vw"
+                        className="w-[80px] h-[80px] md:h-[60px] md:w-[60px]"
                         width={60}
                         height={60}
                         /></a>
@@ -88,8 +89,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex  ml-12 md:ml-0  md:flex-col h-14 md:justify-end md:px-12">
-                <div className="flex flex-col-reverse h-[90px] md:flex-row justify-between">
+            <div className="flex  ml-10 md:ml-0  md:flex-col h-14 md:justify-end md:px-12">
+                <div className="flex flex-col-reverse h-[90px] md:h-[90px] md:flex-row justify-between">
                     <p className="text-sm">&copy; {currentYear} Parking Time AB</p>
                     <Link href="#" className="hover:underline">Privacy Policy</Link>
                 </div>
