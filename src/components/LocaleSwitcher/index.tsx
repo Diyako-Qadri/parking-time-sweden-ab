@@ -3,7 +3,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { usePathname, useSearchParams } from 'next/navigation';
-import { useEffect, useState, useTransition } from 'react';
+import { useEffect, useRef, useState, useTransition } from 'react';
 import Image from 'next/image';
 import Sweden from '../../../public/images/sweden.png';
 import English from '../../../public/images/circle.png';
@@ -21,37 +21,46 @@ const defaultLanguage = 'sv';
 const LocaleSwitcher = () => {
   const [isPending, startTransition] = useTransition();
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [selectedLocale, setSelectedLocale] = useState(defaultLanguage); // default to defaultLanguage
+  const [selectedLocale, setSelectedLocale] = useState(defaultLanguage);
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const dropdownRef = useRef<HTMLDivElement>(null); 
 
   useEffect(() => {
-    // Extract locale from the URL and set the initial locale
     const localeFromUrl = pathname.split('/')[1];
     if (localeFromUrl && ['sv', 'da', 'no', 'fi', 'en'].includes(localeFromUrl)) {
       setSelectedLocale(localeFromUrl);
     } else {
-      setSelectedLocale(defaultLanguage); // Set to default language if not found in URL
+      setSelectedLocale(defaultLanguage); 
     }
   }, [pathname]);
 
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [dropdownRef]);
+
   const onSelectChange = (nextLocale: string) => {
-    // Update the selected locale
     setSelectedLocale(nextLocale);
 
-    // Construct the new URL with the next locale
+    
     const newPathname = `/${nextLocale}${pathname.replace(/^\/[a-z]{2}/, '')}`;
     const newSearchParams = searchParams.toString();
-    const newUrl = `${newPathname}${
-      newSearchParams ? '?' + newSearchParams : ''
-    }`;
+    const newUrl = `${newPathname}${newSearchParams ? '?' + newSearchParams : ''}`;
 
     startTransition(() => {
       router.replace(newUrl);
     });
 
-    // Close dropdown
     setDropdownOpen(false);
   };
 
@@ -59,7 +68,7 @@ const LocaleSwitcher = () => {
     setDropdownOpen(!dropdownOpen);
   };
 
-  // Get the flag image based on the selected locale
+
   const getFlagImage = (locale: string) => {
     if (locale === 'sv') {
       return Sweden;
@@ -72,12 +81,12 @@ const LocaleSwitcher = () => {
     } else if (locale === 'en') {
       return English;
     } else {
-      return Sweden; // Default to Swedish if locale is not recognized
+      return Sweden; 
     }
   };
 
   return (
-    <div className="relative">
+    <div className="relative" ref={dropdownRef}>
       <button
         onClick={toggleDropdown}
         className="rounded bg-transparent text-white px-4 py-1 flex items-center"
@@ -93,24 +102,18 @@ const LocaleSwitcher = () => {
         {dropdownOpen && (
           <motion.ul
             initial={{ opacity: 0, y: -10 }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: { duration: 0.4 },
-            }}
-            viewport={{ once: true }}
-            className="absolute rounded mt-3 ml-2 z-20 items-center text-white md:bg-pt-primary w-[73px]"
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.4 }}
+            className="absolute rounded mt-7 z-20 items-center text-white md:bg-pt-green-transparent w-[73px]"
           >
             <motion.li
               initial={{ opacity: 0, y: -10 }}
-              whileInView={{
-                opacity: 1,
-                y: 0,
-                transition: { duration: 0.4 },
-              }}
-              viewport={{ once: true }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.4 }}
               onClick={() => onSelectChange('sv')}
-              className="flex items-center p-2 cursor-pointer hover:bg-pt-green"
+              className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
             >
               <Image
                 src={Sweden1}
@@ -123,14 +126,11 @@ const LocaleSwitcher = () => {
             </motion.li>
             <motion.li
               initial={{ opacity: 0, y: -10 }}
-              whileInView={{
-                opacity: 1,
-                y: 0,
-                transition: { duration: 0.4 },
-              }}
-              viewport={{ once: true }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.4 }}
               onClick={() => onSelectChange('da')}
-              className="flex items-center p-2 cursor-pointer hover:bg-pt-green"
+              className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
             >
               <Image
                 src={Denmark1}
@@ -143,14 +143,11 @@ const LocaleSwitcher = () => {
             </motion.li>
             <motion.li
               initial={{ opacity: 0, y: -10 }}
-              whileInView={{
-                opacity: 1,
-                y: 0,
-                transition: { duration: 0.4 },
-              }}
-              viewport={{ once: true }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.4 }}
               onClick={() => onSelectChange('no')}
-              className="flex items-center p-2 cursor-pointer hover:bg-pt-green"
+              className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
             >
               <Image
                 src={Norway1}
@@ -163,14 +160,11 @@ const LocaleSwitcher = () => {
             </motion.li>
             <motion.li
               initial={{ opacity: 0, y: -10 }}
-              whileInView={{
-                opacity: 1,
-                y: 0,
-                transition: { duration: 0.4 },
-              }}
-              viewport={{ once: true }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.4 }}
               onClick={() => onSelectChange('fi')}
-              className="flex items-center p-2 cursor-pointer hover:bg-pt-green"
+              className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
             >
               <Image
                 src={Finland1}
@@ -183,14 +177,11 @@ const LocaleSwitcher = () => {
             </motion.li>
             <motion.li
               initial={{ opacity: 0, y: -10 }}
-              whileInView={{
-                opacity: 1,
-                y: 0,
-                transition: { duration: 0.4 },
-              }}
-              viewport={{ once: true }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.4 }}
               onClick={() => onSelectChange('en')}
-              className="flex items-center p-2 cursor-pointer hover:bg-pt-green"
+              className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
             >
               <Image
                 src={England1}
