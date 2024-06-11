@@ -3,9 +3,27 @@
       "Why parking Time?": "Warum Parking Time?",
       "About us": "Über uns",
       "News": "Nachrichten",
-      "FAQ": "FAQ"
+      "FAQ": "FAQ",
+      "Links": "Links"
     },
-    
+
+    "FooterInfo": {
+      "Address": "Adresse",
+      "Contact": "Kontakt"
+  },  
+
+    "WhyParkingTime": {
+      "sectionTitle": "Warum",
+      "avoidFinesTitle": "Bußgelder vermeiden und Stress reduzieren",
+      "avoidFinesDes": "Unsere digitale Lösung zieht mehr Besucher an, indem sie physische Parkscheiben eliminiert und Bußgelder reduziert. Dies vereinfacht das Parken, erhöht die Fußgängerfrequenz, die wirtschaftliche Aktivität und die Vitalität der Stadt und reduziert gleichzeitig den Stress.",
+      "simplifiedTitle": "Vereinfachtes Parken für Nutzer",
+      "simplifiedDes": "Unsere App ermöglicht es Ihnen, die Parkzeit einfach einzustellen, anzupassen und zu überwachen. Mit einer benutzerfreundlichen Oberfläche können Sie schnell Plätze finden und das Parken verwalten. Wir aktualisieren ständig basierend auf Kundenfeedback, um eine effiziente und reibungslose Erfahrung zu gewährleisten.",
+      "integrationTitle": "Integration mit bestehenden Systemen",
+      "integrationDes": "Unser System für Parkwächter integriert sich nahtlos in Ihr bestehendes Setup. Ein einheitliches System bietet Ihnen Vorteile durch die Rationalisierung der Abläufe und die Verbesserung der Erfahrung für das Personal, indem es die Notwendigkeit für zwei verschiedene Systeme und Geräte eliminiert. Wir machen diese Integration effizient, intuitiv und einfach!",
+      "dataTitle": "Datengetriebene Stadtplanung",
+      "dataDes": "Die digitale Parkscheibe kann im Laufe der Zeit die Parkressourcen und die Stadtplanung durch wertvolle Nutzungsdaten und Verhaltensmuster optimieren, was zu einer sichereren Gemeinschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt."
+  },
+        
     "homeHero": {
       "headline1": "What time is it?",
       "headline2": "Parking Time!",
@@ -18,5 +36,23 @@
       "action2": "Kostenlos herunterladen",
       "action3": "Bußgelder vermeiden",
       "action4": "Stress reduzieren"
-      }
+    },
+
+    "aboutHero": {
+      "categoryText": "Nachrichten",
+      "headline": "Parking Time Sweden",
+      "heroText": "Wir sind ein Technologie-Startup, das sich der Transformation des Parkerlebnisses für alle Beteiligten widmet - Parkende, Parkplatzwächter, Gemeinden und Immobilienbesitzer."
+    },
+
+    "contactHero": {
+      "categoryText": "Kontakt",
+      "headline": "Kontaktieren Sie uns gerne!",
+      "heroText": ""
+    },
+
+    "newsHero": {
+      "categoryText": "Nachrichten",
+      "headline": "Wir verwandeln Parkerlebnisse.",
+      "heroText": ""
+    }
   }

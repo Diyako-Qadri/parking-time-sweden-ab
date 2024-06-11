@@ -6,6 +6,11 @@
         "FAQ": "FAQ",
         "Links": "Lenker"
     },
+
+    "FooterInfo": {
+        "Address": "Adresse",
+        "Contact": "Kontakt"
+    },    
     
     "homeHero": {
       "headline1": "What time is it?",
@@ -31,5 +36,23 @@
         "integrationDes": "Vårt system for parkeringsvakter integreres sømløst med ditt eksisterende oppsett. Et enhetlig system gir deg fordeler ved å effektivisere operasjoner og forbedre opplevelsen for personalet ved å eliminere behovet for to forskjellige systemer og enheter. Vi gjør denne integrasjonen effektiv, intuitiv og enkel!",
         "dataTitle": "Datadrevet byplanlegging",
         "dataDes": "Den digitale parkeringsskiven kan over tid optimalisere parkeringsressurser og byplanlegging gjennom verdifulle bruksdata og atferdsmønstre, noe som fører til et sikrere samfunn med bedre kontroll og tilgang til parkeringsplasser."
+    },
+
+    "aboutHero": {
+        "categoryText": "Nyheter",
+        "headline": "Parking Time Sweden",
+        "heroText": "Vi er en teknologibedrift dedikert til å transformere parkeringsopplevelsen for alle interessenter - parkerende, parkeringsvakter, kommuner og eiendomseiere."
+    },
+
+    "contactHero": {
+        "categoryText": "Kontakt",
+        "headline": "Ta gjerne kontakt med oss!",
+        "heroText": ""
+    },
+
+    "newsHero": {
+        "categoryText": "Nyheter",
+        "headline": "Vi transformerer parkerings- opplevelser.",
+        "heroText": ""
     }  
 }

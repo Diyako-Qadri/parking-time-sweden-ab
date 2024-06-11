@@ -36,5 +36,23 @@
     "integrationDes": "Vårt system för parkeringsvakter integreras sömlöst med din befintliga setup. Ett enhetligt system gynnar dig genom att effektivisera operationer och förbättra upplevelsen för personalen genom att eliminera behovet av två olika system och enheter. Vi gör denna integration effektiv, intuitiv och enkel!",
     "dataTitle": "Datastyrd stadsplanering",
     "dataDes": "Den digitala parkeringsskivan kan på sikt optimera parkeringsresurser och stadsplanering genom värdefull användningsdata och beteendemönster, vilket leder till ett säkrare samhälle med bättre kontroll och tillgång till parkeringsplatser."
+  },
+
+  "aboutHero": {
+    "categoryText": "Nyheter",
+    "headline": "Parking Time Sweden",
+    "heroText": "Vi är en tech-startup dedikerad till att förvandla parkeringsupplevelsen för alla intressenter - parkerare, parkeringsvakter, kommuner och fastighetsägare."
+    },
+
+  "contactHero": {
+    "categoryText": "Kontakt",
+    "headline": "Hör gärna av dig till oss!",
+    "heroText": ""
+  },
+
+  "newsHero": {
+    "categoryText": "Nyheter",
+    "headline": "Vi förvandlar parkerings- upplevelser.",
+    "heroText": ""
   }
 }
