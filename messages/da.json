@@ -3,8 +3,13 @@
         "Why parking Time?": "Hvorfor Parking Time?",
         "About us": "Om os",
         "News": "Nyheder",
-        "FAQ": "FAQ"
+        "FAQ": "FAQ",
+        "Links": "Links"
     },
+    "FooterInfo": {
+        "Address": "Adresse",
+        "Contact": "Contact"
+      },
     "WhyParkingTime": {
         "sectionTitle": "Hvorfor",
         "avoidFinesTitle": "Undgå bøder og reducér stress",
