@@ -7,13 +7,8 @@ import "../../../src/app/globals.css";
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-<<<<<<< HEAD
   title: 'Parking Time Sweden',
   description: 'Parking made easy with the digital parking disk of Parking Time',
-=======
-  title: 'Parking Time AB',
-  description: 'Parking Time Sweden är ett teknik-startup som syftar till att revolutionera parkeringsupplevelsen för samtliga parter - parkören, parkeringsvakten, kommunen och (eller) fastighetsägaren.',
->>>>>>> feature/pts18-thrusted-by-section
   icons: {
     icon: '/images/parking-time-logo.png',
   },
