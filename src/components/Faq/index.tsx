@@ -7,18 +7,18 @@ import { Roboto } from "next/font/google";
 const Faq = () => {
 
   return (
-    <div className="w-full h-screen bg-gradient-to-r from-indigo-500 to-blue-600">
-      <div className="p-4">
+    <div className="flex justify-center w-full h-screen bg-gradient-to-b from-pt-primary via-black to-pt-primary text-white ">
+      <div className="p-6">
       <p className=" p-3 text-lg text-center">FAQ</p>
-      <p className="text-center text-4xl py-5 md:text-5xl">Do you have a question?</p>
-      <p className="text-center text-lg py-5 md:text-5xl">Here are some common questions answered</p>
+      <p className="text-center text-4xl px-8 py-5 md:text-5xl">Do you have a question?</p>
+      <p className="text-center text-lg py-5">Here are some common questions answered</p>
 
         {/* FAQ COMPONENT HERE*/}
 
-            <div className="p-4 bg-gray-200 rounded-lg">
+            <div className="py-4">
                 <Accordion
-                    title="Do you prefer Android or iOS"
-                    answer="I like to use iOS products"
+                    title="What is Parking Time"
+                    answer="Parking Time is a free to download app that works as a digital parking disc, you just start parking through the app and parking attendants can view how long your session has lasted."
                 />
                 <Accordion
                     title="Do you prefer writing CSS or Tailwind?"
@@ -27,7 +27,8 @@ const Faq = () => {
                 <Accordion title="Firebase or Supabase?" answer="I am using Supabase!" />
             </div>
         {/* FAQ */}
-        <p>I am below the accordion menu!</p>
+        <p className="text-center text-4xl px-8 py-5 md:text-5xl">Still have a question?</p>
+        <p className="text-center text-lg py-2 px-20 ">Please feel free to contact us if you have any questions.</p>
       </div>
     </div>
   );
