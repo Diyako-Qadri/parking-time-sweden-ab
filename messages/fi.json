@@ -37,5 +37,23 @@
       "action2": "Ilmainen lataus",
       "action3": "Vältä sakot",
       "action4": "Vähennä stressiä"
-      }
+      },
+    
+    "aboutHero": {
+        "categoryText": "Uutiset",
+        "headline": "Parking Time Sweden",
+        "heroText": "Olemme teknologiayritys, joka on omistautunut muuttamaan pysäköintikokemusta kaikille sidosryhmille - pysäköijille, pysäköinninvalvojille, kunnille ja kiinteistön omistajille."
+    },
+
+    "contactHero": {
+        "categoryText": "Yhteystiedot",
+        "headline": "Ota rohkeasti yhteyttä meihin!",
+        "heroText": ""
+    },
+
+    "newsHero": {
+        "categoryText": "Uutiset",
+        "headline": "Muutamme pysäköinti- kokemuksia.",
+        "heroText": ""
+    }
 }

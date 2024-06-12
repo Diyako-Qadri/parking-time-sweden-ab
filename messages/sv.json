@@ -37,5 +37,23 @@
     "action2": "Gratis nedladdning",
     "action3": "Undvik böter",
     "action4": "Minska stress"
+  },
+
+  "aboutHero": {
+    "categoryText": "Nyheter",
+    "headline": "Parking Time Sweden",
+    "heroText": "Vi är en tech-startup dedikerad till att förvandla parkeringsupplevelsen för alla intressenter - parkerare, parkeringsvakter, kommuner och fastighetsägare."
+    },
+
+  "contactHero": {
+    "categoryText": "Kontakt",
+    "headline": "Hör gärna av dig till oss!",
+    "heroText": ""
+  },
+
+  "newsHero": {
+    "categoryText": "Nyheter",
+    "headline": "Vi förvandlar parkerings- upplevelser.",
+    "heroText": ""
   }
 }

@@ -3,7 +3,8 @@
       "Why parking Time?": "Warum Parking Time?",
       "About us": "Über uns",
       "News": "Nachrichten",
-      "FAQ": "FAQ"
+      "FAQ": "FAQ",
+      "Links": "Links"
     },
     
     "homeHero": {
@@ -18,5 +19,23 @@
       "action2": "Kostenlos herunterladen",
       "action3": "Bußgelder vermeiden",
       "action4": "Stress reduzieren"
-      }
+    },
+
+    "aboutHero": {
+      "categoryText": "Nachrichten",
+      "headline": "Parking Time Sweden",
+      "heroText": "Wir sind ein Technologie-Startup, das sich der Transformation des Parkerlebnisses für alle Beteiligten widmet - Parkende, Parkplatzwächter, Gemeinden und Immobilienbesitzer."
+    },
+
+    "contactHero": {
+      "categoryText": "Kontakt",
+      "headline": "Kontaktieren Sie uns gerne!",
+      "heroText": ""
+    },
+
+    "newsHero": {
+      "categoryText": "Nachrichten",
+      "headline": "Wir verwandeln Parkerlebnisse.",
+      "heroText": ""
+    }
   }
