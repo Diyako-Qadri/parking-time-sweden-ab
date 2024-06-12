@@ -32,7 +32,7 @@ const config: Config = {
         },
       height: {
         'custom-458': '28.625rem',
-        'custom-801': '50.063rem'
+        'custom-home': 'calc(100vh - 80px)'
       },
       screens: {
           's': {'max':'410px'},
