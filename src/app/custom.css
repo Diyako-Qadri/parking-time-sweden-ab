@@ -1,0 +1,34 @@
+.mask-gradient {
+    -webkit-mask: linear-gradient(90deg, transparent, rgb(255, 255, 255) 20%, white 80%, transparent);
+    mask: linear-gradient(90deg, transparent, rgb(255, 255, 255) 20%, white 80%, transparent);
+  }
+
+  .line::before{
+    content: "";
+    height: 1px;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.575);
+    position: absolute;
+    top: 50%;
+    z-index: -2;
+  }
+  .line::after{
+    content: "";
+    height: 1px;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.575);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -2;
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .line::before{
+      width: 45vw;
+    }
+    .line::after{
+      width: 45vw;
+    }
+  }

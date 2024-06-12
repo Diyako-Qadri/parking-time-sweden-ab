@@ -1,5 +1,6 @@
 import HomeHero from "@/components/HomeHero";
 import WhyParkingTime from "@/components/WhyParkingTime";
+import ThrustedBy from "@/components/ThrustedBy";
 
 export default function index() {
   
@@ -7,6 +8,7 @@ export default function index() {
     <main>
       <HomeHero />   
       <WhyParkingTime/>
+      <ThrustedBy/>
     </main>
   );
 }
