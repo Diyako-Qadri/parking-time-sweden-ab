@@ -1,43 +1,35 @@
-"use client";
-import { useState } from "react";
+import React from "react";
+import Accordion from '../Accordion'
+import { Roboto } from "next/font/google";
+
+//create roboto font for faq and subline headline
 
 const Faq = () => {
-  const [accordionOpen, setAccordionOpen] = useState(false);
+
   return (
-    // APP:
-    <section className="w-full py-[80px] flex justify-center  bg-gradient-to-b from-pt-primary via-black to-pt-primary">
-        
-    {/* FAQ */}
-        <div className="w-4/5 rounded-lg bg-white py-4 p-4 ">
-    
-    {/* ACCORDION */}
+    <div className="w-full h-screen bg-gradient-to-r from-indigo-500 to-blue-600">
+      <div className="p-4">
+      <p className=" p-3 text-lg text-center">FAQ</p>
+      <p className="text-center text-4xl py-5 md:text-5xl">Do you have a question?</p>
+      <p className="text-center text-lg py-5 md:text-5xl">Here are some common questions answered</p>
 
-        <div className="py-2">
+        {/* FAQ COMPONENT HERE*/}
 
-    {/* button: */}
-            <div 
-                onClick={() => setAccordionOpen(!accordionOpen)} 
-                className="flex text-black justify-between p-4">
-                    <span>This is the title</span>
-                    {accordionOpen ? <span>-</span> : <span>+</span>}
+            <div className="p-4 bg-gray-200 rounded-lg">
+                <Accordion
+                    title="Do you prefer Android or iOS"
+                    answer="I like to use iOS products"
+                />
+                <Accordion
+                    title="Do you prefer writing CSS or Tailwind?"
+                    answer="I like to use Tailwind"
+                />
+                <Accordion title="Firebase or Supabase?" answer="I am using Supabase!" />
             </div>
-            <div 
-                className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
-                    accordionOpen 
-                    ? "grid-rows{1fr} opacity-100" 
-                    : "grid-rows{0fr} opacity-0"
-                }`}
-                >
-                <div className="overflow-hidden">
-                    Parking Time is a free to download app that works as a digital parking disc, you just start parking through the app and parking attendants can view how long your session has lasted.
-                </div>
-            </div>
-        </div>
-        </div>
-
-
-
-    </section>
+        {/* FAQ */}
+        <p>I am below the accordion menu!</p>
+      </div>
+    </div>
   );
 
 }
