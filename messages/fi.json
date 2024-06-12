@@ -7,6 +7,12 @@
         "Links": "Linkit",
         "Contact": "Ottaa yhteyttä"
     },
+
+    "FooterInfo": {
+      "Address": "Osoite",
+      "Contact": "Yhteystiedot"
+    },  
+
     "WhyParkingTime": {
         "sectionTitle": "Miksi",
         "avoidFinesTitle": "Vältä sakkoja ja vähennä stressiä",
@@ -17,6 +23,19 @@
         "integrationDes": "Pysäköintivalvojien järjestelmämme integroituu saumattomasti olemassa olevaan kokoonpanoosi. Yhtenäinen järjestelmä hyödyttää sinua tehostamalla toimintaa ja parantamalla henkilöstön kokemusta poistamalla kahden eri järjestelmän ja laitteen tarpeen. Teemme tästä integraatiosta tehokkaan, intuitiivisen ja helpon!",
         "dataTitle": "Datavetoinen kaupunkisuunnittelu",
         "dataDes": "Digitaalinen pysäköintikiekko voi ajan myötä optimoida pysäköintiresurssit ja kaupunkisuunnittelun arvokkaiden käyttötietojen ja käyttäytymismallien avulla, mikä johtaa turvallisempaan yhteiskuntaan paremmalla pysäköintipaikkojen hallinnalla ja saatavuudella."
-      }
+      },
       
+    "homeHero": {
+      "headline1": "What time is it?",
+      "headline2": "Parking Time!",
+      "heroText1": "Digitaalinen pysäköintilevy - suoraan puhelimeesi.",
+      "heroText2": "Voittava konsepti uudessa, digitaalisessa muodossa."
+    },
+
+    "heroActions": {
+      "action1": "Helppo käyttää",
+      "action2": "Ilmainen lataus",
+      "action3": "Vältä sakot",
+      "action4": "Vähennä stressiä"
+    }
 }
