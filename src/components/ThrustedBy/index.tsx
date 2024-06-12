@@ -54,7 +54,7 @@ const ThrustedBy = () => {
       <div className='flex flex-row w-[100%] justify-center'>
         <p>
           <h2 className="relative line">
-            <span className='bg-white px-4 text-lg font-bold'>Thrusted By</span></h2>
+            <span className='bg-white px-4 text-lg font-bold'>Trusted by</span></h2>
         </p>
       </div>
       <div className="h-[216px] w-[100%] pt-4 relative overflow-hidden mask-gradient">
