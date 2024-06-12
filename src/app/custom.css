@@ -26,14 +26,9 @@
   @media screen and (min-width: 768px) {
 
     .line::before{
-    
       width: 45vw;
-     
     }
     .line::after{
       width: 45vw;
-     
     }
-  
-    
   }
