@@ -12,6 +12,7 @@
     top: 50%;
     z-index: -2;
   }
+
   .line::after{
     content: "";
     height: 1px;
@@ -30,7 +31,5 @@
     }
     .line::after{
       width: 45vw;
-    }
-  
-    
+    }  
   }
