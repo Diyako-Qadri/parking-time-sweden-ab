@@ -1,7 +1,18 @@
 'use client'
 import React, { useState } from "react";
+import { Roboto } from "next/font/google";
+import { Lato } from "next/font/google";
 
 //import Roboto and Lato bold
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+});
+
+const lato = Lato({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+});
 
 const Accordion = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
