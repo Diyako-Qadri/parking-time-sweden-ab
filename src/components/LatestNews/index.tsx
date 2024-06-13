@@ -47,7 +47,7 @@ const LatestNews = () => {
         className={`${lato.className} text-4xl font-bold leading-[57.6px] text-center text-[#0B051D] pt-4 pb-9`}>
         {t("Latest News")}
       </h3>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 max-w-screen-xl">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {newsItems.map((news, index) => (
             <NewsCard
