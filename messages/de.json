@@ -36,7 +36,14 @@
       "action2": "Kostenlos herunterladen",
       "action3": "Bußgelder vermeiden",
       "action4": "Stress reduzieren"
+      },
+
+      "Statistics": {
+        "downloads": "Herunterladen",
+        "parking-sessions": "Paarungssitzungen",
+        "parking-zone": "Parkzonen"
     },
+    
 
     "aboutHero": {
       "categoryText": "Über uns",

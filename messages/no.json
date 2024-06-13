@@ -55,5 +55,11 @@
         "categoryText": "Nyheter",
         "headline": "Vi transformerer parkerings- opplevelser.",
         "heroText": ""
-    }  
+    },
+    
+      "Statistics": {
+        "downloads": "Nedlastinger",
+        "parking-sessions": "Parkeringsøkter",
+        "parking-zone": "Parkeringssoner"
+    }
 }
