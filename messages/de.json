@@ -5,6 +5,11 @@
       "News": "Nachrichten",
       "FAQ": "FAQ"
     },
+
+    "FooterInfo": {
+      "Address": "Adresse",
+      "Contact": "Kontakt"
+    },
     
     "homeHero": {
       "headline1": "What time is it?",

@@ -3,7 +3,14 @@
     "Why parking Time?": "Varför Parking Time?",
     "About us": "Om oss",
     "News": "Nyheter",
-    "FAQ": "FAQ"
+    "FAQ": "FAQ",
+    "Links": "Länkar",
+    "Contact": "Kontakt"
+  },
+  
+  "FooterInfo": {
+    "Address": "Adress",
+    "Contact": "Kontakt"
   },
 
   "homeHero": {
@@ -31,4 +38,5 @@
     "dataTitle": "Datastyrd stadsplanering",
     "dataDes": "Den digitala parkeringsskivan kan på sikt optimera parkeringsresurser och stadsplanering genom värdefull användningsdata och beteendemönster, vilket leder till ett säkrare samhälle med bättre kontroll och tillgång till parkeringsplatser."
   }
+ 
 }

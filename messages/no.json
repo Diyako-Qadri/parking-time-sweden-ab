@@ -3,7 +3,14 @@
         "Why parking Time?": "Hvorfor Parking Time?",
         "About us": "Om oss",
         "News": "Nyheter",
-        "FAQ": "FAQ"
+        "FAQ": "FAQ",
+        "Links": "Lenker",
+        "Contact": "Kontakt"
+    },
+
+    "FooterInfo": {
+      "Address": "Adresse",
+      "Contact": "Kontakt"
     },
     
     "homeHero": {

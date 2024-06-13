@@ -3,7 +3,14 @@
         "Why parking Time?": "Miksi Parking Time?",
         "About us": "Tietoa meistä",
         "News": "Uutiset",
-        "FAQ": "FAQ"
+        "FAQ": "FAQ",
+        "Links": "Linkit",
+        "Contact": "Ottaa yhteyttä"
+    },
+
+    "FooterInfo": {
+      "Address": "Osoite",
+      "Contact": "Yhteystiedot"
     },
     
     "homeHero": {

@@ -1,8 +1,9 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import type { Metadata } from 'next';
-import Header from '@/components/Header';
 import { Lato } from 'next/font/google';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import '../../../src/app/globals.css';
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
   },
 };
 
-const lato = Lato({ subsets: ['latin'], weight: '400' });
+const lato = Lato({ subsets: ['latin'], weight: ['400', '700'] });
 
 export default async function RootLayout({
   children,
@@ -35,6 +36,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}
+        <Footer />  
         </NextIntlClientProvider>
       </body>
     </html>

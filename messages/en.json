@@ -3,7 +3,14 @@
     "Why parking Time?": "Why Parking Time?",
     "About us": "About us",
     "News": "News",
-    "FAQ": "FAQ"
+    "FAQ": "FAQ",
+    "Links": "Links",
+    "Contact": "Contact"
+  },
+  
+  "FooterInfo": {
+    "Address": "Address",
+    "Contact": "Contact"
   },
 
   "homeHero": {
