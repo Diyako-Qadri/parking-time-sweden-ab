@@ -3,7 +3,40 @@
     "Why parking Time?": "Why Parking Time?",
     "About us": "About us",
     "News": "News",
-    "FAQ": "FAQ"
+    "FAQ": "FAQ",
+    "Links": "Links",
+    "Contact": "Contact"
+  },
+  
+  "FooterInfo": {
+    "Address": "Address",
+    "Contact": "Contact"
+  },
+
+  "homeHero": {
+    "headline1": "What time is it?",
+    "headline2": "Parking Time!",
+    "heroText1": "Digital parking disc - directly on your mobile.",
+    "heroText2": "A winning concept in a new, digitalized format."
+  },
+
+  "heroActions": {
+    "action1": "Easy to use",
+    "action2": "Free to download",
+    "action3": "Avoid fined",
+    "action4": "Reduce stress"
+  },
+  
+  "WhyParkingTime": {
+    "sectionTitle": "Why",
+    "avoidFinesTitle": "Avoid fines & Reduce stress",
+    "avoidFinesDes": "Our digital solution attracts more visitors by eliminating physical discs and reducing fines. This simplifies parking, boosts foot traffic, economic activity and city vibrancy  while reducing stress.",
+    "simplifiedTitle": "Simplified parking for users",
+    "simplifiedDes": "Our app lets you effortlessly set, adjust, and monitor parking time. With a user-friendly interface, you can quickly find spots and manage parking. We continuously update based on customer feedback to ensure an efficient and hassle-free experience.",
+    "integrationTitle": "Integration with existing systems",
+    "integrationDes": "Our system for parking attendants integrates seamlessly with your existing setup. A unified system benefits you by streamlining operations and enhancing the experience for personnel by eliminating the need for two different systems and devices. We make this integration efficient, intuitive, and simple!",
+    "dataTitle": "Data-driven urban planning",
+    "dataDes": "The digital parking disc can eventually optimize parking resources and urban planning through valuable usage data and behavior patterns, leading to a safer society with better control and access to parking spaces."
   },
 
   "aboutHero": {
