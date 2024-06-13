@@ -28,13 +28,13 @@ const StatisticItem = ({
   return (
     <div
       ref={ref}
-      className="flex flex-row w-[190px] h-[61px] justify-start md:justify-center gap-5 items-center"
+      className="flex flex-row w-[190px] h-[61px] justify-start md:justify-center gap-4 items-center"
     >
       <div className="text-pt-red text-4xl">{icon}</div>
       <div className="leading-7">
         <h6 className="font-bold text-[22px]">
           {inView && (
-            <CountUp start={0} end={end} duration={duration} delay={0} separator="" />
+            <CountUp start={0} end={end} duration={duration} delay={0} separator=""/>
           )}
           +
         </h6>
