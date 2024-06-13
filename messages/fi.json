@@ -55,5 +55,12 @@
         "categoryText": "Uutiset",
         "headline": "Muutamme pysäköinti- kokemuksia.",
         "heroText": ""
+    },
+
+
+      "Statistics": {
+        "downloads": "Lataukset",
+        "parking-sessions": "Pysäköintikerrat",
+        "parking-zone": "Pysäköintialueet"
     }
 }

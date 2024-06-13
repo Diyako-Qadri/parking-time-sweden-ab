@@ -38,6 +38,11 @@
       "action3": "Undgå bøder",
       "action4": "Reducer stress"
       },
+      "Statistics": {
+        "downloads": "Downloads",
+        "parking-sessions": "Parkeringssessioner",
+        "parking-zone": "Parkeringszoner"
+    },
 
     "aboutHero": {
         "categoryText": "Om os",

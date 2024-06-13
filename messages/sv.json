@@ -39,6 +39,12 @@
     "action4": "Minska stress"
   },
 
+  "Statistics": {
+      "downloads": "Nedladdningar",
+      "parking-sessions": "Parkeringssessioner",
+      "parking-zone": "Parkeringszoner"
+  },
+    
   "aboutHero": {
     "categoryText": "Om oss",
     "headline": "Parking Time Sweden",

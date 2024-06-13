@@ -38,22 +38,9 @@
     "action3": "Avoid fined",
     "action4": "Reduce stress"
   },
-
-  "aboutHero": {
-    "categoryText": "About us",
-    "headline": "Parking Time Sweden",
-    "heroText": "We are a tech startup dedicated to transforming the parking experience for all stakeholders – parkers, parking attendants, municipalities, and property owners."
-  },
-
-  "contactHero": {
-    "categoryText": "Contact",
-    "headline": "We would love to hear from you!",
-    "heroText": ""
-  },
-
-  "newsHero": {
-    "categoryText": "News",
-    "headline": "We transform parking experiences!",
-    "heroText": ""
-  }
+  "Statistics": {
+    "downloads": "Downloads",
+    "parking-sessions": "Parking sessions",
+    "parking-zone": "Parking zones"
+}
 }
