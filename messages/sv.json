@@ -7,7 +7,7 @@
     "Links": "Länkar",
     "Contact": "Kontakt"
   },
-  
+
   "FooterInfo": {
     "Address": "Adress",
     "Contact": "Kontakt"
@@ -40,16 +40,16 @@
   },
 
   "Statistics": {
-      "downloads": "Nedladdningar",
-      "parking-sessions": "Parekingssessioner",
-      "parking-zone": "Parkeringszoner"
+    "downloads": "Nedladdningar",
+    "parking-sessions": "Parekingssessioner",
+    "parking-zone": "Parkeringszoner"
   },
 
   "aboutHero": {
     "categoryText": "Om oss",
     "headline": "Parking Time Sweden",
     "heroText": "Vi är en tech-startup dedikerad till att förvandla parkeringsupplevelsen för alla intressenter - parkerare, parkeringsvakter, kommuner och fastighetsägare."
-    },
+  },
 
   "contactHero": {
     "categoryText": "Kontakt",
@@ -80,6 +80,15 @@
     "answer5": "I FIGMA SAMMA SOM SVAR4",
     "headline2": "Har du fortfarande en fråga?",
     "subheadline2": "Tveka inte att kontakta oss om du har några frågor."
-  }
+  },
 
+  "LatestNews": {
+    "news": "Nyheter",
+    "Latest News": "Senaste nytt",
+    "View all": "Visa alla"
+  },
+
+  "NewsCard": {
+    "Read more": "Läs mer"
+  }
 }

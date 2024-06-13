@@ -1,3 +1,5 @@
+import { useTranslations } from "next-intl";
+
 import { Lato } from "next/font/google";
 
 const lato = Lato({
@@ -20,15 +22,13 @@ const NewsCard = ({
   date,
   readMoreLink,
 }: NewsCardProps) => {
+  const t = useTranslations("NewsCard");
+
   return (
     <div
-      className="max-w-sm rounded overflow-hidden shadow-lg"
+      className="w-full sm:max-w-sm rounded overflow-hidden shadow-lg text-left"
       style={{ boxShadow: "0 5px 50px rgba(0, 0, 0, 0.08)" }}>
-      <img
-        className="w-[405px] h-[300px] object-cover"
-        src={image}
-        alt={title}
-      />
+      <img className="w-full h-[300px] object-cover" src={image} alt={title} />
       <div className="px-4 py-6">
         <h6 className="text-2xl font-bold leading-[29px] mb-2">{title}</h6>
         <p className="text-base leading-6 mb-4">{description}</p>
@@ -39,7 +39,7 @@ const NewsCard = ({
         <a
           href={readMoreLink}
           className={`${lato.className} text-[#0B051D] font-medium text-base underline leading-6`}>
-          Läs mer
+          {t("Read more")}
         </a>
       </div>
     </div>

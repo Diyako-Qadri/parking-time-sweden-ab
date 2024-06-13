@@ -7,12 +7,12 @@
     "Links": "Links",
     "Contact": "Contact"
   },
-  
+
   "FooterInfo": {
     "Address": "Address",
     "Contact": "Contact"
   },
-  
+
   "WhyParkingTime": {
     "sectionTitle": "Why",
     "avoidFinesTitle": "Avoid fines & Reduce stress",
@@ -39,12 +39,11 @@
     "action4": "Reduce stress"
   },
 
-
   "Statistics": {
     "downloads": "Downloads",
     "parking-sessions": "Parking sessions",
     "parking-zone": "Parking zones"
-},
+  },
 
   "aboutHero": {
     "categoryText": "About us",
@@ -81,5 +80,15 @@
     "answer5": "IN FIGMA SAME AS ANSWER4",
     "headline2": "Still have a question?",
     "subheadline2": "Please feel free to contact us if you have any questions."
+  },
+
+  "LatestNews": {
+    "news": "News",
+    "Latest News": "Latest News",
+    "View all": "View all"
+  },
+
+  "NewsCard": {
+    "Read more": "Read more"
   }
 }
