@@ -24,7 +24,7 @@ const newsItems = [
   },
   {
     image: "/images/article-image-3.jpg",
-    title: "SKAPA Talent Award Winner",
+    title: "SKAPA TalentAward Winner",
     description:
       "Parking Time vann SKAPA Talent i Norrbotten för deras innovativa digitala parkeringslösning, som erkändes för att förstå marknadens behov.",
     date: "3 Februari 2024",
@@ -46,11 +46,11 @@ const LatestNews = () => {
         {t("Latest News")}
       </h3>
       <div className="relative container mx-auto max-w-screen-xl px-4">
-        <div className="-ml-4 pl-4 flex space-x-6 overflow-x-auto hide-scroll-bar snap-x snap-mandatory pb-10">
+        <div className="-ml-4 pl-4 flex space-x-6 overflow-x-auto hide-scroll-bar snap-x snap-mandatory pb-8">
           {newsItems.map((news, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-[90%] sm:w-auto snap-start first:pl-4 last:pr-4">
+              className="flex-shrink-0 w-[80%] sm:w-auto snap-start first:pl-4 last:pr-4">
               <NewsCard
                 image={news.image}
                 title={news.title}
