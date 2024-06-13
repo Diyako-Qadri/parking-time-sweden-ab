@@ -2,38 +2,60 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import Accordion from '../Accordion'
 
-type FaqProps = {
+type FaqItem = {
   question: string;
-  answer: string;
+  answer: string | JSX.Element;
 };
 
 
-const Faq = ({question, answer}: FaqProps) => {
+const Faq = () => {
     const t = useTranslations("FAQ");
 
+    const faqItems: FaqItem[] = [
+      {
+        question: t('q1'),
+        answer: t('answer1'),
+      },
+      {
+        question: t('q2'),
+        answer: 
+          <>
+            <a 
+              href="https://play.google.com/store/apps/details?id=se.parkingtime.app&hl=en_US&pli=1"
+              className="underline cursor-pointer"
+              >{t('answer2-1')}</a> 
+            {t('answer2-2')}
+          </>, 
+      },
+      {
+        question: t('q3'),
+        answer: t('answer3'),
+      },
+      {
+        question: t('q4'),
+        answer: t('answer4'),
+      },
+      {
+        question: t('q5'),
+        answer: t('answer5'),
+      },
+    ]
+
   return (
-    <div className="flex justify-center w-full h-screen bg-gradient-to-b from-pt-primary via-black to-pt-primary text-white ">
+    <div className="flex justify-center py-6 w-full bg-gradient-to-b from-pt-primary via-black to-pt-primary text-white ">
       <div className="p-6">
-      <p className=" p-3 text-lg text-center font-bold">{t('title')}</p>
-      <p className="text-center text-4xl px-8 py-5 font-bold in-range:md:text-5xl">{t('headline')}</p>
-      <p className="text-center text-lg py-5 font-bold">{t('subheadline')}</p>
-
-        {/* FAQ COMPONENT HERE*/}
-
-
-
-            <div className="py-4">
-                <Accordion
-                    title="What is Parking Time"
-                    answer="Parking Time is a free to download app that works as a digital parking disc, you just start parking through the app and parking attendants can view how long your session has lasted."
-                />
-                <Accordion
-                    title="Do you prefer writing CSS or Tailwind?"
-                    answer="I like to use Tailwind"
-                />
-                <Accordion title="Firebase or Supabase?" answer="I am using Supabase!" />
-            </div>
-        {/* FAQ */}
+        <p className=" p-3 text-lg text-center font-bold">{t('title')}</p>
+        <p className="text-center text-4xl px-8 py-5 font-bold in-range:md:text-5xl">{t('headline')}</p>
+        <p className="text-center text-lg py-5 font-bold">{t('subheadline')}</p>
+        <div className="py-4">
+          {faqItems.map((item, index) => (
+          < Accordion
+            key = {index}
+            question = {item.question}
+            answer={item.answer}
+          />
+          ))}
+        </div>
         <p className="text-center text-4xl px-8 py-5 font-bold md:text-5xl">{t('headline2')}</p>
         <p className="text-center text-lg py-2 px-20 font-bold">{t('subheadline2')}</p>
       </div>

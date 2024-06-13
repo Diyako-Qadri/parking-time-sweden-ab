@@ -35,6 +35,7 @@ const config: Config = {
       },
       screens: {
           's': {'max':'410px'},
+          'hover-hover': {'raw': '(hover: hover) and (pointer: fine)'},
       },
     },
   },

@@ -1,29 +1,16 @@
 'use client'
 import React, { useState } from "react";
-import { Roboto } from "next/font/google";
-import { Lato } from "next/font/google";
 
-//import Roboto and Lato bold
-const roboto = Roboto({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-});
-
-const lato = Lato({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-});
-
-const Accordion = ({ title, answer }) => {
+const Accordion = ({ question, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
     <div className="flex flex-col align-middle px-6 py-4 bg-white my-2 rounded-[25px] border-pt-lightgrayborder md:max-w-[768px]">
       <div
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between self-center w-full text-black text-start font-bold text-md md:text-lg"
+        className="flex justify-between self-center w-full text-black text-start font-bold text-md cursor-pointer md:text-lg"
         >
-        <span>{title}</span>
+        <span>{question}</span>
         <svg
           className="fill-black shrink-0 ml-8 mt-[5px]"
           width="16"
