@@ -30,5 +30,11 @@
         "integrationDes": "Vores system til parkeringsvagter integreres problemfrit med dit eksisterende setup. Et ensartet system giver dig fordele ved at effektivisere operationer og forbedre oplevelsen for personalet ved at eliminere behovet for to forskellige systemer og enheder. Vi gør denne integration effektiv, intuitiv og nem!",
         "dataTitle": "Datadrevet byplanlægning",
         "dataDes": "Den digitale parkeringsskive kan over tid optimere parkeringsressourcer og byplanlægning gennem værdifulde brugsdata og adfærdsmønstre, hvilket fører til et sikrere samfund med bedre kontrol og adgang til parkeringspladser."
-      }
+      },
+
+      "Statistics": {
+        "downloads": "Downloads",
+        "parking-sessions": "Parkeringssessioner",
+        "parking-zone": "Parkeringszoner"
+    }
 }

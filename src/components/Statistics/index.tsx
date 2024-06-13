@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { FiDownload } from 'react-icons/fi';
 import { LuParkingSquare } from 'react-icons/lu';
@@ -14,35 +15,14 @@ type StatisticData = {
   duration: number;
 };
 
-const statisticsData: StatisticData[] = [
-  {
-    icon: <FiDownload />,
-    end: 5000,
-    text: 'Nedladningar',
-    duration: 2,
-  },
-  {
-    icon: <LuParkingSquare />,
-    end: 4700,
-    text: 'Parkeringsessioner',
-    duration: 2,
-  },
-  {
-    icon: <FaRegMap />,
-    end: 30,
-    text: 'Parkeringplatser',
-    duration: 2.3,
-  },
-];
-
 type StatisticItemProps = StatisticData;
 
-const StatisticItem  = ({
+const StatisticItem = ({
   icon,
   end,
   text,
   duration,
-}:StatisticItemProps) => {
+}: StatisticItemProps) => {
   const [ref, inView] = useInView({ triggerOnce: false });
 
   return (
@@ -65,11 +45,32 @@ const StatisticItem  = ({
 };
 
 const Statistics = () => {
+  const t = useTranslations("Statistics");
+
+  const statisticsData: StatisticData[] = [
+    {
+      icon: <FiDownload />,
+      end: 5000,
+      text: t('downloads'),
+      duration: 2,
+    },
+    {
+      icon: <LuParkingSquare />,
+      end: 4700,
+      text: t('parking-sessions'),
+      duration: 2,
+    },
+    {
+      icon: <FaRegMap />,
+      end: 30,
+      text: t('parking-zone'),
+      duration: 2.3,
+    },
+  ];
+
   return (
-    <div
-      className=" h-[680px]  md:h-[393px] bg-pt-background flex flex-col justify-center items-center"
-    >
-      <div className=" h-[451px]  md:h-[160px] flex md:flex-col justify-center w-[80%] bg-white boxShadow rounded-[20px]">
+    <div className="h-[680px] md:h-[393px] bg-pt-background flex flex-col justify-center items-center">
+      <div className="h-[451px] md:h-[160px] flex md:flex-col justify-center w-[80%] bg-white boxShadow rounded-[20px]">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{
