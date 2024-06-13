@@ -46,11 +46,11 @@ const LatestNews = () => {
         {t("Latest News")}
       </h3>
       <div className="relative container mx-auto max-w-screen-xl px-4">
-        <div className="-ml-4 pl-4 flex space-x-6 overflow-x-auto hide-scroll-bar snap-x snap-mandatory pb-12">
+        <div className="-ml-4 pl-4 flex space-x-6 overflow-x-auto hide-scroll-bar snap-x snap-mandatory pb-10">
           {newsItems.map((news, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-[80%] sm:w-auto snap-start first:pl-4 last:pr-4">
+              className="flex-shrink-0 w-[90%] sm:w-auto snap-start first:pl-4 last:pr-4">
               <NewsCard
                 image={news.image}
                 title={news.title}
