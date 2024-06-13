@@ -1,13 +1,12 @@
 'use client'
 import React, { useState } from "react";
 
-const Accordion = ({ question, answer }) => {
-  const [accordionOpen, setAccordionOpen] = useState(false);
+const Accordion = ({ question, answer, accordionOpen, onToggle }) => {
 
   return (
     <div className="flex flex-col align-middle px-6 py-4 bg-white my-2 rounded-[25px] border-pt-lightgrayborder md:max-w-[768px]">
       <div
-        onClick={() => setAccordionOpen(!accordionOpen)}
+        onClick={onToggle}
         className="flex justify-between self-center w-full text-black text-start font-bold text-md cursor-pointer md:text-lg"
         >
         <span>{question}</span>

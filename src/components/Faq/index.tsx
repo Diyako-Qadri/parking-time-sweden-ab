@@ -1,4 +1,5 @@
-import React from "react";
+'use client'
+import React, { useState } from "react";
 import { useTranslations } from "next-intl";
 import Accordion from '../Accordion'
 
@@ -10,7 +11,8 @@ type FaqItem = {
 
 const Faq = () => {
     const t = useTranslations("FAQ");
-
+    const [openIndex, setOpenIndex] = useState<number | null>(null)
+ 
     const faqItems: FaqItem[] = [
       {
         question: t('q1'),
@@ -41,6 +43,10 @@ const Faq = () => {
       },
     ]
 
+    const handleToggle = (index: number) => {
+      setOpenIndex(openIndex === index ? null : index);
+    };
+
   return (
     <div id="faq" className="bg-pt-background">
       <div className="flex relative justify-center top-[79px] w-full bg-gradient-to-b from-pt-primary via-black to-pt-primary text-white">
@@ -54,6 +60,8 @@ const Faq = () => {
               key = {index}
               question = {item.question}
               answer={item.answer}
+              accordionOpen={openIndex === index}
+              onToggle={() => handleToggle(index)}
             />
             ))}
           </div>
