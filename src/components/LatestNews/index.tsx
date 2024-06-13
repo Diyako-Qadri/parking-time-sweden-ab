@@ -33,18 +33,19 @@ const newsItems = [
   },
 ];
 
-const t = useTranslations("LatestNews");
-
 const LatestNews = () => {
   const locale = useLocale();
+
+  const t = useTranslations("LatestNews");
+
   return (
     <section className="bg-pt-background text-center py-40">
       <h2 className={`${lato.className} text-lg font-bold leading-[21.6px]`}>
-        Nyheter
+        {t("news")}
       </h2>
       <h3
         className={`${lato.className} text-4xl font-bold leading-[57.6px] text-center text-[#0B051D] pt-4 pb-9`}>
-        Senaste nytt från Parking Time
+        {t("Latest News")}
       </h3>
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -65,7 +66,7 @@ const LatestNews = () => {
         <a
           href={`/${locale}/news`}
           className={`${lato.className} w-[160px] h-[48px] py-[15px] px-[32px] gap-[8px] rounded-[50px] bg-[#0B051D] text-white shadow-[1px_1px_30px_0px_rgba(0,0,0,0.1)] flex items-center justify-center text-base font-medium leading-[19.2px] text-center`}>
-          Visa alla
+          {t("View all")}
         </a>
       </div>
     </section>

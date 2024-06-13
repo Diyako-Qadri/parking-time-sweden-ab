@@ -4,5 +4,15 @@
     "About us": "About us",
     "News": "News",
     "FAQ": "FAQ"
+  },
+
+  "LatestNews": {
+    "news": "News",
+    "Latest News": "Latest News",
+    "View all": "View all"
+  },
+
+  "NewsCard": {
+    "Read more": "Read more"
   }
 }
