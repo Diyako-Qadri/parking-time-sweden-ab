@@ -33,6 +33,8 @@ const newsItems = [
   },
 ];
 
+const t = useTranslations("LatestNews");
+
 const LatestNews = () => {
   const locale = useLocale();
   return (
