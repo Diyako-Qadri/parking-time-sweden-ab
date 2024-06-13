@@ -10,7 +10,7 @@
     "FooterInfo": {
       "Address": "Adresse",
       "Contact": "Kontakt"
-  },  
+    },  
 
     "WhyParkingTime": {
       "sectionTitle": "Warum",
@@ -22,7 +22,7 @@
       "integrationDes": "Unser System für Parkwächter integriert sich nahtlos in Ihr bestehendes Setup. Ein einheitliches System bietet Ihnen Vorteile durch die Rationalisierung der Abläufe und die Verbesserung der Erfahrung für das Personal, indem es die Notwendigkeit für zwei verschiedene Systeme und Geräte eliminiert. Wir machen diese Integration effizient, intuitiv und einfach!",
       "dataTitle": "Datengetriebene Stadtplanung",
       "dataDes": "Die digitale Parkscheibe kann im Laufe der Zeit die Parkressourcen und die Stadtplanung durch wertvolle Nutzungsdaten und Verhaltensmuster optimieren, was zu einer sichereren Gemeinschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt."
-  },
+    },
         
     "homeHero": {
       "headline1": "What time is it?",

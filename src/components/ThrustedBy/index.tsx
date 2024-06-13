@@ -50,10 +50,10 @@ const ThrustedBy = () => {
   }, [xTranslation, width]);
 
   return (
-    <div className="py-8 ">
+    <div className="pb-8 pt-20">
       <div className='flex flex-row w-[100%] justify-center'>
         <div>
-          <h2 className="relative line">
+          <h2 className="relative line ">
             <span className='bg-white px-4 text-lg font-bold'>Trusted by</span></h2>
         </div>
       </div>

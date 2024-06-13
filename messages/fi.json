@@ -9,9 +9,9 @@
     },
 
     "FooterInfo": {
-        "Address": "Osoite",
-        "Contact": "Yhteystiedot"
-    },    
+      "Address": "Osoite",
+      "Contact": "Yhteystiedot"
+    },
     
     "homeHero": {
       "headline1": "What time is it?",
@@ -25,7 +25,7 @@
       "action2": "Ilmainen lataus",
       "action3": "Vältä sakot",
       "action4": "Vähennä stressiä"
-    },
+      },
 
     "WhyParkingTime": {
         "sectionTitle": "Miksi",

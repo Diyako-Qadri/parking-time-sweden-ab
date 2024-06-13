@@ -7,6 +7,11 @@
     "Links": "Länkar",
     "Contact": "Kontakt"
   },
+  
+  "FooterInfo": {
+    "Address": "Adress",
+    "Contact": "Kontakt"
+  },
 
   "homeHero": {
     "headline1": "What time is it?",
@@ -20,11 +25,6 @@
     "action2": "Gratis nedladdning",
     "action3": "Undvik böter",
     "action4": "Minska stress"
-  },
-
-  "FooterInfo": {
-    "Address": "Adress",
-    "Contact": "Kontakt"
   },
 
   "WhyParkingTime": {
