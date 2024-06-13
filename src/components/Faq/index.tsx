@@ -43,7 +43,7 @@ const Faq = () => {
 
   return (
     <div id="faq">
-      <div className="flex relative justify-center top-20 w-full bg-gradient-to-b from-pt-primary via-black to-pt-primary text-white">
+      <div className="flex relative justify-center top-[79px] w-full bg-gradient-to-b from-pt-primary via-black to-pt-primary text-white">
         <div className="p-6">
           <p className=" p-3 text-lg text-center font-bold">{t('title')}</p>
           <p className="text-center text-4xl px-8 py-5 font-bold in-range:md:text-5xl">{t('headline')}</p>
