@@ -1,7 +1,6 @@
 "use client";
 import { useTranslations, useLocale } from "next-intl";
 import NewsCard from "@/components/NewsCard";
-
 import { Lato } from "next/font/google";
 
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
@@ -35,7 +34,6 @@ const newsItems = [
 
 const LatestNews = () => {
   const locale = useLocale();
-
   const t = useTranslations("LatestNews");
 
   return (
@@ -47,21 +45,23 @@ const LatestNews = () => {
         className={`${lato.className} text-4xl font-bold leading-[57.6px] text-center text-[#0B051D] pt-4 pb-9`}>
         {t("Latest News")}
       </h3>
-      <div className="container mx-auto px-4 max-w-screen-xl">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="relative container mx-auto max-w-screen-xl px-4">
+        <div className="-ml-4 pl-4 flex space-x-6 overflow-x-auto hide-scroll-bar snap-x snap-mandatory pb-12">
           {newsItems.map((news, index) => (
-            <NewsCard
+            <div
               key={index}
-              image={news.image}
-              title={news.title}
-              description={news.description}
-              date={news.date}
-              readMoreLink={news.readMoreLink}
-            />
+              className="flex-shrink-0 w-[80%] sm:w-auto snap-start first:pl-4 last:pr-4">
+              <NewsCard
+                image={news.image}
+                title={news.title}
+                description={news.description}
+                date={news.date}
+                readMoreLink={news.readMoreLink}
+              />
+            </div>
           ))}
         </div>
       </div>
-
       <div className="mt-8 flex justify-center">
         <a
           href={`/${locale}/news`}

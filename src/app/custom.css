@@ -1,38 +1,60 @@
 .mask-gradient {
-    -webkit-mask: linear-gradient(90deg, transparent, rgb(255, 255, 255) 20%, white 80%, transparent);
-    mask: linear-gradient(90deg, transparent, rgb(255, 255, 255) 20%, white 80%, transparent);
-  }
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    rgb(255, 255, 255) 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(
+    90deg,
+    transparent,
+    rgb(255, 255, 255) 20%,
+    white 80%,
+    transparent
+  );
+}
 
-  .line::before{
-    content: "";
-    height: 1px;
-    width: 50vw;
-    background-color: rgba(0, 0, 0, 0.575);
-    position: absolute;
-    top: 50%;
-    z-index: -2;
-  }
+.line::before {
+  content: "";
+  height: 1px;
+  width: 50vw;
+  background-color: rgba(0, 0, 0, 0.575);
+  position: absolute;
+  top: 50%;
+  z-index: -2;
+}
 
-  .line::after{
-    content: "";
-    height: 1px;
-    width: 50vw;
-    background-color: rgba(0, 0, 0, 0.575);
-    position: absolute;
-    top: 50%;
-    right: 0;
-    z-index: -2;
-  }
-  .boxShadow{
-    box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.219)
-  }
+.line::after {
+  content: "";
+  height: 1px;
+  width: 50vw;
+  background-color: rgba(0, 0, 0, 0.575);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: -2;
+}
+.boxShadow {
+  box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.219);
+}
 
-  @media screen and (min-width: 768px) {
-
-    .line::before{
-      width: 45vw;
-    }
-    .line::after{
-      width: 45vw;
-    }  
+@media screen and (min-width: 768px) {
+  .line::before {
+    width: 45vw;
   }
+  .line::after {
+    width: 45vw;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scroll-bar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
