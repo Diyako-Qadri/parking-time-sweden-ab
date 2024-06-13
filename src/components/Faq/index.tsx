@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from "react";
+import React, { useState, useRef,useEffect } from "react";
 import { useTranslations } from "next-intl";
 import Accordion from '../Accordion'
 
@@ -12,6 +12,20 @@ type FaqItem = {
 const Faq = () => {
     const t = useTranslations("FAQ");
     const [openIndex, setOpenIndex] = useState<number | null>(null)
+    const accordionRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+      const handleClickOutside = (event: MouseEvent) => {
+        if (accordionRef.current && !accordionRef.current.contains(event.target as Node)) {
+          setOpenIndex(null);
+        }
+      };
+
+      document.addEventListener('mousedown', handleClickOutside);
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+      };
+    }, [accordionRef]);
  
     const faqItems: FaqItem[] = [
       {
@@ -54,7 +68,7 @@ const Faq = () => {
           <p className=" p-3 text-lg text-center font-bold">{t('title')}</p>
           <p className="text-center text-4xl px-8 py-5 font-bold in-range:md:text-5xl">{t('headline')}</p>
           <p className="text-center text-lg py-5 font-bold">{t('subheadline')}</p>
-          <div className="py-4">
+          <div className="py-4" ref={accordionRef}>
             {faqItems.map((item, index) => (
             < Accordion
               key = {index}
