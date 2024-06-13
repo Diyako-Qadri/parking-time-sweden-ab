@@ -28,6 +28,16 @@ const ThrustedBy = () => {
     Partner8,
     Partner9,
     Partner10,
+    Partner1,
+    Partner2,
+    Partner3,
+    Partner4,
+    Partner5,
+    Partner6,
+    Partner7,
+    Partner8,
+    Partner9,
+    Partner10,
   ];
 
   let [ref, { width }] = useMeasure();
@@ -40,7 +50,7 @@ const ThrustedBy = () => {
 
     controls = animate(xTranslation, [0, finalPosition], {
       ease: 'linear',
-      duration: 25,
+      duration: 33,
       repeat: Infinity,
       repeatType: 'loop',
       repeatDelay: 0,
