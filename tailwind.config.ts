@@ -29,10 +29,9 @@ const config: Config = {
         "newsHero-image": "linear-gradient(#00000075, #0000004d), url(/images/newsHero.png)",
         "aboutHero-image": "linear-gradient(#00000075, #0000004d), url(/images/aboutHero.png)",
         "contactHero-image": "linear-gradient(#00000075, #0000004d), url(/images/contactHero.png)",
-        },
+      },
       height: {
-        'custom-458': '28.625rem',
-        'custom-home': 'calc(100vh - 80px)'
+        'custom-home': 'calc(100vh - 80px)',
       },
       screens: {
           's': {'max':'410px'},
