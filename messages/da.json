@@ -3,8 +3,30 @@
         "Why parking Time?": "Hvorfor Parking Time?",
         "About us": "Om os",
         "News": "Nyheder",
-        "FAQ": "FAQ"
+        "FAQ": "FAQ",
+        "Links": "Links",
+        "Contact": "Kontakt"
     },
+    
+    "FooterInfo": {
+        "Address": "Adresse",
+        "Contact": "Contact"
+    },
+
+    "homeHero": {
+      "headline1": "What time is it?",
+      "headline2": "Parking Time!",
+      "heroText1": "Digital parkeringsskive - direkte på din mobiltelefon.",
+      "heroText2": "En vindende koncept i en ny, digitaliseret format."
+    },
+    
+    "heroActions": {
+      "action1": "Let at bruge",
+      "action2": "Gratis at downloade",
+      "action3": "Undgå bøder",
+      "action4": "Reducer stress"
+      },
+      
 
     "WhyParkingTime": {
         "sectionTitle": "Hvorfor",
@@ -17,6 +39,24 @@
         "dataTitle": "Datadrevet byplanlægning",
         "dataDes": "Den digitale parkeringsskive kan over tid optimere parkeringsressourcer og byplanlægning gennem værdifulde brugsdata og adfærdsmønstre, hvilket fører til et sikrere samfund med bedre kontrol og adgang til parkeringspladser."
     },
+
+    "aboutHero": {
+        "categoryText": "Om os",
+        "headline": "Parking Time Sweden",
+        "heroText": "Vi er en tech-startup dedikeret til at transformere parkeringsoplevelsen for alle interessenter - parkerende, parkeringsvagter, kommuner og ejendomsejere."
+    },
+
+    "contactHero": {
+        "categoryText": "Kontakt",
+        "headline": "Du er velkommen til at kontakte os!",
+        "heroText": ""
+    },
+
+    "newsHero": {
+        "categoryText": "Nyheder",
+        "headline": "Vi forvandler parkerings- oplevelser.",
+        "heroText": ""
+      },
 
     "FAQ": {
         "title": "FAQ",
