@@ -38,6 +38,18 @@
       "action3": "Vältä sakot",
       "action4": "Vähennä stressiä"
       },
+
+    "WhyParkingTime": {
+        "sectionTitle": "Miksi",
+        "avoidFinesTitle": "Vältä sakkoja ja vähennä stressiä",
+        "avoidFinesDes": "Digitaalinen ratkaisumme houkuttelee enemmän vierailijoita poistamalla fyysiset kiekot ja vähentämällä sakkoja. Tämä yksinkertaistaa pysäköintiä, lisää jalankulkua, taloudellista toimintaa ja kaupungin elinvoimaisuutta samalla kun vähentää stressiä.",
+        "simplifiedTitle": "Käyttäjäystävällinen pysäköinti",
+        "simplifiedDes": "Sovelluksemme avulla voit helposti asettaa, säätää ja seurata pysäköintiaikaa. Käyttäjäystävällisen käyttöliittymän ansiosta voit nopeasti löytää paikkoja ja hallita pysäköintiä. Päivitämme jatkuvasti asiakkaiden palautteen perusteella varmistaaksemme tehokkaan ja sujuvan kokemuksen.",
+        "integrationTitle": "Integraatio olemassa oleviin järjestelmiin",
+        "integrationDes": "Pysäköintivalvojien järjestelmämme integroituu saumattomasti olemassa olevaan kokoonpanoosi. Yhtenäinen järjestelmä hyödyttää sinua tehostamalla toimintaa ja parantamalla henkilöstön kokemusta poistamalla kahden eri järjestelmän ja laitteen tarpeen. Teemme tästä integraatiosta tehokkaan, intuitiivisen ja helpon!",
+        "dataTitle": "Datavetoinen kaupunkisuunnittelu",
+        "dataDes": "Digitaalinen pysäköintikiekko voi ajan myötä optimoida pysäköintiresurssit ja kaupunkisuunnittelun arvokkaiden käyttötietojen ja käyttäytymismallien avulla, mikä johtaa turvallisempaan yhteiskuntaan paremmalla pysäköintipaikkojen hallinnalla ja saatavuudella."
+      },
     
     "aboutHero": {
         "categoryText": "Tietoa meistä",
@@ -57,10 +69,28 @@
         "heroText": ""
     },
 
-
       "Statistics": {
         "downloads": "Lataukset",
         "parking-sessions": "Pysäköintikerrat",
         "parking-zone": "Pysäköintialueet"
+    },
+
+    "FAQ": {
+        "title": "FAQ",
+        "headline": "Onko sinulla kysyttävää?",
+        "subheadline": "Tässä on vastauksia yleisiin kysymyksiin",
+        "q1": "Mikä on Parking Time?",
+        "q2": "Miten käytän Parking Time?",
+        "q3": "Onko se ilmainen?",
+        "q4": "Miten saan sen kuntaani?",
+        "q5": "Tunnetut ongelmat sovelluksessa",
+        "answer1": "Parking Time on ilmainen ladattava sovellus, joka toimii digitaalisena pysäköintikiekona, käynnistät vain pysäköinnin sovelluksen kautta ja pysäköintivalvojat voivat nähdä kuinka kauan sessiosi on kestänyt.",
+        "answer2-1": "Lataa sovellus,",
+        "answer2-2": " avaa se ja rekisteröidy auton rekisterinumerolla. Käytä karttaa, hakutoimintoa tai vyöhykeluetteloa löytääksesi haluamasi pysäköintipaikan. Kun olet valinnut pysäköintivyöhykkeen, voit tarkistaa sovellettavat säännöt, aloittaa pysäköinnin ja sitten yksinkertaisesti sulkea sovelluksen.",
+        "answer3": "Parking Time on ilmainen ladata, mutta sitä voidaan käyttää vain kunnassa, joka on Parking Time Finlandin rekisteröity asiakas.",
+        "answer4": "Voit ottaa yhteyttä kuntaasi ja kysyä, voidaanko Parking Time ottaa käyttöön.",
+        "answer5": "FIGMASSA SAMA KUIN VASTAUS4",
+        "headline2": "Onko sinulla vielä kysyttävää?",
+        "subheadline2": "Ota meihin yhteyttä, jos sinulla on kysyttävää."
     }
 }

@@ -38,7 +38,8 @@
       "action3": "Undgå bøder",
       "action4": "Reducer stress"
       },
-      "Statistics": {
+  
+    "Statistics": {
         "downloads": "Downloads",
         "parking-sessions": "Parkeringssessioner",
         "parking-zone": "Parkeringszoner"
@@ -60,5 +61,24 @@
         "categoryText": "Nyheder",
         "headline": "Vi forvandler parkerings- oplevelser.",
         "heroText": ""
+      },
+
+    "FAQ": {
+        "title": "FAQ",
+        "headline": "Har du et spørgsmål?",
+        "subheadline": "Her er nogle almindelige spørgsmål besvaret",
+        "q1": "Hvad er Parking Time?",
+        "q2": "Hvordan bruger jeg Parking Time?",
+        "q3": "Er det gratis?",
+        "q4": "Hvordan får jeg det i min kommune?",
+        "q5": "Kendte problemer med appen",
+        "answer1": "Parking Time er en gratis app, der fungerer som en digital parkeringsskive. Du starter bare parkeringen gennem appen, og parkeringsvagter kan se, hvor længe din session har varet.",
+        "answer2-1": "Download appen,",
+        "answer2-2": " åbn den derefter og registrer dig med din bils registreringsnummer. Brug kortet, søgefunktionen eller zonelisten til at finde din ønskede parkeringsplacering. Når du har valgt din parkeringszone, kan du gennemgå eventuelle gældende regler, starte parkeringen og derefter blot lukke appen.",
+        "answer3": "Parking Time er gratis at downloade, men kan kun bruges i en kommune, der er registreret kunde hos Parking Time Denmark.",
+        "answer4": "Du kan kontakte din kommune og spørge, om Parking Time kan implementeres.",
+        "answer5": "I FIGMA SAMME SOM SVAR4",
+        "headline2": "Har du stadig et spørgsmål?",
+        "subheadline2": "Du er velkommen til at kontakte os, hvis du har spørgsmål."
     }
 }
