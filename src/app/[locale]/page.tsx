@@ -7,14 +7,9 @@ export default function index() {
   return (
     <main>
       <HomeHero />
-<<<<<<< HEAD
-      <WhyParkingTime/>
-      <ThrustedBy/>
-=======
       <WhyParkingTime />
       <ThrustedBy />
       <Statistics />
->>>>>>> feature/pts19-statistics
     </main>
   );
 }
