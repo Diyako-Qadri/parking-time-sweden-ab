@@ -1,8 +1,18 @@
 {
-    "NavItem": {
-        "Why parking Time?": "Hvorfor Parking Time?",
-        "About us": "Om oss",
-        "News": "Nyheter",
-        "FAQ": "FAQ"
-    }
+  "NavItem": {
+    "Why parking Time?": "Hvorfor Parking Time?",
+    "About us": "Om oss",
+    "News": "Nyheter",
+    "FAQ": "FAQ"
+  },
+
+  "LatestNews": {
+    "news": "Nyheter",
+    "Latest News": "Siste nytt",
+    "View all": "Se alt"
+  },
+
+  "NewsCard": {
+    "Read more": "Les mer"
+  }
 }

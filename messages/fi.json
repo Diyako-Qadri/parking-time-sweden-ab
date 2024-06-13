@@ -1,8 +1,18 @@
 {
-    "NavItem": {
-        "Why parking Time?": "Miksi Parking Time?",
-        "About us": "Tietoa meistä",
-        "News": "Uutiset",
-        "FAQ": "FAQ"
-    }
+  "NavItem": {
+    "Why parking Time?": "Miksi Parking Time?",
+    "About us": "Tietoa meistä",
+    "News": "Uutiset",
+    "FAQ": "FAQ"
+  },
+
+  "LatestNews": {
+    "news": "Uutiset",
+    "Latest News": "Uusimmat uutiset",
+    "View all": "Näytä kaikki"
+  },
+
+  "NewsCard": {
+    "Read more": "Lue lisää"
+  }
 }
