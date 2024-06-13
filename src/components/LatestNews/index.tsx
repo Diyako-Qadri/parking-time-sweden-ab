@@ -50,7 +50,7 @@ const LatestNews = () => {
           {newsItems.map((news, index) => (
             <div
               key={index}
-              className="flex-shrink-0 w-[80%] sm:w-auto snap-start first:pl-4 last:pr-4">
+              className="flex-shrink-0 w-[90%] sm:w-auto snap-start first:pl-4 last:pr-4">
               <NewsCard
                 image={news.image}
                 title={news.title}
