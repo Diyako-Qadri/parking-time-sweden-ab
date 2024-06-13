@@ -3,7 +3,14 @@
     "Why parking Time?": "Varför Parking Time?",
     "About us": "Om oss",
     "News": "Nyheter",
-    "FAQ": "FAQ"
+    "FAQ": "FAQ",
+    "Links": "Länkar",
+    "Contact": "Kontakt"
+  },
+  
+  "FooterInfo": {
+    "Address": "Adress",
+    "Contact": "Kontakt"
   },
 
   "homeHero": {
@@ -30,6 +37,45 @@
     "integrationDes": "Vårt system för parkeringsvakter integreras sömlöst med din befintliga setup. Ett enhetligt system gynnar dig genom att effektivisera operationer och förbättra upplevelsen för personalen genom att eliminera behovet av två olika system och enheter. Vi gör denna integration effektiv, intuitiv och enkel!",
     "dataTitle": "Datastyrd stadsplanering",
     "dataDes": "Den digitala parkeringsskivan kan på sikt optimera parkeringsresurser och stadsplanering genom värdefull användningsdata och beteendemönster, vilket leder till ett säkrare samhälle med bättre kontroll och tillgång till parkeringsplatser."
+  },
+
+  "aboutHero": {
+    "categoryText": "Om oss",
+    "headline": "Parking Time Sweden",
+    "heroText": "Vi är en tech-startup dedikerad till att förvandla parkeringsupplevelsen för alla intressenter - parkerare, parkeringsvakter, kommuner och fastighetsägare."
+    },
+
+  "contactHero": {
+    "categoryText": "Kontakt",
+    "headline": "Hör gärna av dig till oss!",
+    "heroText": ""
+  },
+
+  "newsHero": {
+    "categoryText": "Nyheter",
+    "headline": "Vi förvandlar parkerings- upplevelser.",
+    "heroText": ""
+  },
+
+  "FAQ": {
+    "title": "FAQ",
+    "headline": "Har du en fråga?",
+    "subheadline": "Här är några vanliga frågor besvarade",
+    "q1": "Vad är Parking Time?",
+    "q2": "Hur använder jag Parking Time?",
+    "q3": "Är det gratis?",
+    "q4": "Hur får jag det i min kommun?",
+    "q5": "Kända problem med appen",
+    "answer1": "Parking Time är en gratis nedladdningsbar app som fungerar som en digital parkeringsskiva. Du startar parkeringen genom appen och parkeringsvakter kan se hur länge din session har varat.",
+    "answer2-1": "Ladda ner appen,",
+    "answer2-2": " öppna den sedan och registrera dig med din bils registreringsnummer. Använd kartan, sökfunktionen eller zonlistan för att hitta din önskade parkeringsplats. När du har valt din parkeringszon kan du granska tillämpliga regler, starta parkeringen och sedan helt enkelt stänga appen.",
+    "answer3": "Parking Time är gratis att ladda ner, men kan bara användas i de kommuner som är registrerad kund hos Parking Time Sweden.",
+    "answer4": "Du kan kontakta din kommun och fråga om Parking Time kan implementeras.",
+    "answer5": "I FIGMA SAMMA SOM SVAR4",
+    "headline2": "Har du fortfarande en fråga?",
+    "subheadline2": "Tveka inte att kontakta oss om du har några frågor."
+  }
+
   },
 
   "Statistics": {
