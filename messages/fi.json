@@ -39,17 +39,6 @@
       "action4": "Vähennä stressiä"
       },
 
-    "WhyParkingTime": {
-        "sectionTitle": "Miksi",
-        "avoidFinesTitle": "Vältä sakkoja ja vähennä stressiä",
-        "avoidFinesDes": "Digitaalinen ratkaisumme houkuttelee enemmän vierailijoita poistamalla fyysiset kiekot ja vähentämällä sakkoja. Tämä yksinkertaistaa pysäköintiä, lisää jalankulkua, taloudellista toimintaa ja kaupungin elinvoimaisuutta samalla kun vähentää stressiä.",
-        "simplifiedTitle": "Käyttäjäystävällinen pysäköinti",
-        "simplifiedDes": "Sovelluksemme avulla voit helposti asettaa, säätää ja seurata pysäköintiaikaa. Käyttäjäystävällisen käyttöliittymän ansiosta voit nopeasti löytää paikkoja ja hallita pysäköintiä. Päivitämme jatkuvasti asiakkaiden palautteen perusteella varmistaaksemme tehokkaan ja sujuvan kokemuksen.",
-        "integrationTitle": "Integraatio olemassa oleviin järjestelmiin",
-        "integrationDes": "Pysäköintivalvojien järjestelmämme integroituu saumattomasti olemassa olevaan kokoonpanoosi. Yhtenäinen järjestelmä hyödyttää sinua tehostamalla toimintaa ja parantamalla henkilöstön kokemusta poistamalla kahden eri järjestelmän ja laitteen tarpeen. Teemme tästä integraatiosta tehokkaan, intuitiivisen ja helpon!",
-        "dataTitle": "Datavetoinen kaupunkisuunnittelu",
-        "dataDes": "Digitaalinen pysäköintikiekko voi ajan myötä optimoida pysäköintiresurssit ja kaupunkisuunnittelun arvokkaiden käyttötietojen ja käyttäytymismallien avulla, mikä johtaa turvallisempaan yhteiskuntaan paremmalla pysäköintipaikkojen hallinnalla ja saatavuudella."
-      },
     
     "aboutHero": {
         "categoryText": "Tietoa meistä",
@@ -93,4 +82,5 @@
         "headline2": "Onko sinulla vielä kysyttävää?",
         "subheadline2": "Ota meihin yhteyttä, jos sinulla on kysyttävää."
     }
+
 }

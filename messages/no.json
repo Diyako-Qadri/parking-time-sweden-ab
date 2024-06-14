@@ -13,17 +13,6 @@
       "Contact": "Kontakt"
     },  
 
-    "WhyParkingTime": {
-        "sectionTitle": "Hvorfor",
-        "avoidFinesTitle": "Unngå bøter og reduser stress",
-        "avoidFinesDes": "Vår digitale løsning tiltrekker flere besøkende ved å eliminere fysiske skiver og redusere bøter. Dette forenkler parkeringen, øker fottrafikken, økonomisk aktivitet og byens vitalitet samtidig som det reduserer stress.",
-        "simplifiedTitle": "Forenklet parkering for brukere",
-        "simplifiedDes": "Vår app lar deg enkelt sette, justere og overvåke parkeringstiden. Med et brukervennlig grensesnitt kan du raskt finne plasser og administrere parkering. Vi oppdaterer kontinuerlig basert på kundetilbakemeldinger for å sikre en effektiv og problemfri opplevelse.",
-        "integrationTitle": "Integrasjon med eksisterende systemer",
-        "integrationDes": "Vårt system for parkeringsvakter integreres sømløst med ditt eksisterende oppsett. Et enhetlig system gir deg fordeler ved å effektivisere operasjoner og forbedre opplevelsen for personalet ved å eliminere behovet for to forskjellige systemer og enheter. Vi gjør denne integrasjonen effektiv, intuitiv og enkel!",
-        "dataTitle": "Datadrevet byplanlegging",
-        "dataDes": "Den digitale parkeringsskiven kan over tid optimalisere parkeringsressurser og byplanlegging gjennom verdifulle bruksdata og atferdsmønstre, noe som fører til et sikrere samfunn med bedre kontroll og tilgang til parkeringsplasser."
-      },
     
     "homeHero": {
       "headline1": "What time is it?",
@@ -39,12 +28,25 @@
       "action4": "Redusere stress"
       },
 
+    "WhyParkingTime": {
+        "sectionTitle": "Hvorfor",
+        "avoidFinesTitle": "Unngå bøter og reduser stress",
+        "avoidFinesDes": "Vår digitale løsning tiltrekker flere besøkende ved å eliminere fysiske skiver og redusere bøter. Dette forenkler parkeringen, øker fottrafikken, økonomisk aktivitet og byens vitalitet samtidig som det reduserer stress.",
+        "simplifiedTitle": "Forenklet parkering for brukere",
+        "simplifiedDes": "Vår app lar deg enkelt sette, justere og overvåke parkeringstiden. Med et brukervennlig grensesnitt kan du raskt finne plasser og administrere parkering. Vi oppdaterer kontinuerlig basert på kundetilbakemeldinger for å sikre en effektiv og problemfri opplevelse.",
+        "integrationTitle": "Integrasjon med eksisterende systemer",
+        "integrationDes": "Vårt system for parkeringsvakter integreres sømløst med ditt eksisterende oppsett. Et enhetlig system gir deg fordeler ved å effektivisere operasjoner og forbedre opplevelsen for personalet ved å eliminere behovet for to forskjellige systemer og enheter. Vi gjør denne integrasjonen effektiv, intuitiv og enkel!",
+        "dataTitle": "Datadrevet byplanlegging",
+        "dataDes": "Den digitale parkeringsskiven kan over tid optimalisere parkeringsressurser og byplanlegging gjennom verdifulle bruksdata og atferdsmønstre, noe som fører til et sikrere samfunn med bedre kontroll og tilgang til parkeringsplasser."
+      },
+
     
       "Statistics": {
         "downloads": "Nedlastinger",
         "parking-sessions": "Parkeringsøkter",
         "parking-zone": "Parkeringssoner"
     },
+
     "aboutHero": {
         "categoryText": "Om oss",
         "headline": "Parking Time Sweden",
@@ -81,4 +83,3 @@
         "headline2": "Har du fortsatt et spørsmål?",
         "subheadline2": "Vennligst kontakt oss hvis du har noen spørsmål."
     }
-}

@@ -1,6 +1,6 @@
-import HomeHero from '@/components/HomeHero';
-import WhyParkingTime from '@/components/WhyParkingTime';
-import ThrustedBy from '@/components/ThrustedBy';
+import HomeHero from "@/components/HomeHero";
+import WhyParkingTime from "@/components/WhyParkingTime";
+import ThrustedBy from "@/components/ThrustedBy";
 import Statistics from '@/components/Statistics';
 import Faq from "@/components/Faq"
 
