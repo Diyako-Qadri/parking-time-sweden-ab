@@ -31,17 +31,17 @@ const navItem: NavItemDesk[] = [
 
 const DesktopMenu = () => {
   const path = usePathname();
-  const locale = useLocale(); // Get the current locale from next-intl
+  const locale = useLocale(); 
   const t = useTranslations('NavItem');
 
   return (
-    <div className='flex flex-row w-[567px] justify-between h-14 items-center'>
-    <div className="flex justify-around gap-[12px] text-base text-white w-[368px]">
+    <div className='flex flex-row w-[650px] justify-between h-14 items-center'>
+    <div className="flex justify-around gap-[30px] text-base text-white w-[430px]">
       {navItem.map((item, index) => (
         <Link
           className={`relative group ${path === item.link ? 'active' : ''}`}
           key={index}
-          href={`/${locale}${item.link}`} // Prepend the current locale to the link
+          href={`/${locale}${item.link}`} 
         >
           <span className="relative inline-block pb-px ">
             {t(item.name)}
