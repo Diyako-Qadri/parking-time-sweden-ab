@@ -73,11 +73,13 @@
     "q4": "How do I get it in my municipality?",
     "q5": "Known problems with the app",
     "answer1": "Parking Time is a free to download app that works as a digital parking disc, you just start parking through the app and parking attendants can view how long your session has lasted.",
-    "answer2-1": "Download the app,",
-    "answer2-2": " and then open it, register with your cars registration number. Use the map, search function, or zone list to find your desired parking location. Once you select your parking zone, you can review any applicable rules, start parking, and then simply close the app.",
+    "answer2-1": "Download the app on ",
+    "answer2-google": "Google Play",
+    "answer2-separator": " or ",
+    "answer2-appstore": "App Store",
+    "answer2-2": ", and then open it, register with your cars registration number. Use the map, search function, or zone list to find your desired parking location. Once you select your parking zone, you can review any applicable rules, start parking, and then simply close the app.",
     "answer3": "Parking Time is free to download, but can only be used in a municipality that is a registered customer of Parking Time Sweden.",
     "answer4": "You can contact your municipality and ask if Parking Time can be implemented.",
-    "answer5": "IN FIGMA SAME AS ANSWER4",
     "headline2": "Still have a question?",
     "subheadline2": "Please feel free to contact us if you have any questions."
   }

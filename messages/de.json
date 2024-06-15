@@ -73,11 +73,13 @@
         "q4": "Wie bekomme ich es in meiner Gemeinde?",
         "q5": "Bekannte Probleme mit der App",
         "answer1": "Parking Time ist eine kostenlose App, die wie eine digitale Parkscheibe funktioniert. Sie starten einfach das Parken über die App und die Parkwächter können sehen, wie lange Ihre Sitzung gedauert hat.",
-        "answer2-1": "Laden Sie die App herunter,",
-        "answer2-2": " öffnen Sie sie dann und registrieren Sie sich mit Ihrem Autokennzeichen. Verwenden Sie die Karte, die Suchfunktion oder die Zonenliste, um Ihren gewünschten Parkplatz zu finden. Sobald Sie Ihre Parkzone ausgewählt haben, können Sie die geltenden Regeln überprüfen, das Parken starten und dann einfach die App schließen.",
+        "answer2-1": "Laden Sie die App herunter auf ",
+        "answer2-google": "Google Play",
+        "answer2-separator": " oder ",
+        "answer2-appstore": "App Store",
+        "answer2-2": ", öffnen Sie sie dann und registrieren Sie sich mit Ihrem Autokennzeichen. Verwenden Sie die Karte, die Suchfunktion oder die Zonenliste, um Ihren gewünschten Parkplatz zu finden. Sobald Sie Ihre Parkzone ausgewählt haben, können Sie die geltenden Regeln überprüfen, das Parken starten und dann einfach die App schließen.",
         "answer3": "Parking Time ist kostenlos herunterzuladen, kann jedoch nur in einer Gemeinde verwendet werden, die registrierter Kunde von Parking Time Deutschland ist.",
         "answer4": "Sie können Ihre Gemeinde kontaktieren und fragen, ob Parking Time implementiert werden kann.",
-        "answer5": "IN FIGMA GLEICH WIE ANTWORT4",
         "headline2": "Haben Sie noch eine Frage?",
         "subheadline2": "Bitte kontaktieren Sie uns, wenn Sie Fragen haben."
     }

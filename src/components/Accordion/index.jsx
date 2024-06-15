@@ -4,14 +4,14 @@ import React, { useState } from "react";
 const Accordion = ({ question, answer, accordionOpen, onToggle }) => {
 
   return (
-    <div className="flex flex-col align-middle px-6 py-4 bg-white my-2 rounded-[25px] border-pt-lightgrayborder md:max-w-[768px]">
+    <div className="flex flex-col align-middle px-6 py-4 my-2 rounded-[25px] bg-white border-pt-lightgrayborder md:max-w-[768px]">
       <div
         onClick={onToggle}
-        className="flex justify-between self-center w-full text-black text-start font-bold text-md cursor-pointer md:text-lg"
+        className="flex justify-between self-center w-full text-pt-dark-text text-start border-pt-lightgrayborder font-bold text-md cursor-pointer md:text-lg"
         >
         <span>{question}</span>
         <svg
-          className="fill-black shrink-0 ml-8 mt-[5px]"
+          className="fill-pt-dark-text shrink-0 ml-8 mt-[5px]"
           width="16"
           height="16"
           xmlns="http://www.w3.org/2000/svg"
