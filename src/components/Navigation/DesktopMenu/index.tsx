@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
+import Button from '@/components/Buttons';
 
 type NavItemDesk = {
   name: string;
@@ -27,6 +28,10 @@ const navItem: NavItemDesk[] = [
     name: 'FAQ',
     link: '/#faq',
   },
+  {
+    name: 'Contact',
+    link: '/contact',
+ }
 ];
 
 const DesktopMenu = () => {
@@ -50,7 +55,8 @@ const DesktopMenu = () => {
         </Link>
       ))}
     </div>
-    <div>
+    <div className='flex justify-between items-center'>
+      <a  href={`/${locale}/contact`}><Button variant="desktopWhite" size="desktopPrimary" >{t("Contact")}</Button></a>
       <LocaleSwitcher />
     </div>
   </div>

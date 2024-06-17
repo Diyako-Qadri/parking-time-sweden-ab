@@ -17,6 +17,7 @@ const config: Config = {
         'pt-green': '#48937E',
         'pt-green-transparent':'#48937ECC',
         'pt-darkblue1': '#14243C',
+        'pt-dark-btn': '#0B051D', 
         'pt-darkblue2': '#2A394E',
         'pt-gray1': '#868686',
         'pt-lightgrayborder': '#E8E8E8',

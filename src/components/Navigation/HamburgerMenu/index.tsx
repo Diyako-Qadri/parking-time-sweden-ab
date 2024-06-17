@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
+import Button from '@/components/Buttons';
 
 type MenuItem = {
   name: string;
@@ -28,6 +29,10 @@ const menuItem: MenuItem[] = [
     name: 'FAQ',
     link: '/#faq',
   },
+  {
+    name: 'Contact',
+    link: '/contact',
+ }
 ];
 
 const HamburgerMenu = () => {
@@ -156,6 +161,13 @@ const HamburgerMenu = () => {
                 <LocaleSwitcher /> Change language
               </p>
             </div>
+          </div>
+          <div className="flex flex-col items-center mt-4">
+            <a href={`/${locale}/contact`}>
+              <Button variant="mobileWhite" size="mobilePrimary">
+              {t("Contact")}
+              </Button>
+            </a>
           </div>
         </div>
       )}
