@@ -84,6 +84,10 @@
     "subheadline2": "Tveka inte att kontakta oss om du har några frågor."
   },
 
+  "SingleNews": {
+    "notFound": "Inga nyheter hittades."
+  },
+
   "LatestNews": {
     "news": "Nyheter",
     "Latest News": "Senaste nytt",

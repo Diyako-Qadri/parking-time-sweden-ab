@@ -84,6 +84,10 @@
     "subheadline2": "Please feel free to contact us if you have any questions."
   },
 
+  "SingleNews": {
+    "notFound": "News not found"
+  },
+
   "LatestNews": {
     "news": "News",
     "Latest News": "Latest News",

@@ -4,16 +4,19 @@ import { newsItems } from "@/data/newsData";
 import Image from "next/image";
 import { Lato } from "next/font/google";
 import { Roboto } from "next/font/google";
+import { useLocale, useTranslations } from "next-intl";
 
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500"] });
 
 const SingleNews = () => {
   const { slug } = useParams();
+  const t = useTranslations("SingleNews");
+  const locale = useLocale();
   const newsItem = newsItems.find((item) => item.slug === slug);
 
   if (!newsItem) {
-    return <div>News item not found</div>;
+    return <div> {t("Not found")}</div>;
   }
 
   return (
