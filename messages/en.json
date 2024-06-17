@@ -26,7 +26,7 @@
     "action3": "Avoid fines",
     "action4": "Reduce stress"
   },
-  
+
   "WhyParkingTime": {
     "sectionTitle": "Why",
     "avoidFinesTitle": "Avoid fines & Reduce stress",
@@ -83,7 +83,7 @@
     "headline2": "Still have a question?",
     "subheadline2": "Please feel free to contact us if you have any questions."
   },
-  
+
   "LatestNews": {
     "news": "News",
     "Latest News": "Latest News",
@@ -93,7 +93,7 @@
   "NewsCard": {
     "Read more": "Read more"
   },
-  
+
   "howItWorks": {
     "registrationTitle": "Enter Your registration number",
     "locationTitle": "Find your desired parking location",

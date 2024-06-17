@@ -7,7 +7,7 @@
     "Links": "Links",
     "Contact": "Kontakt os"
   },
-  
+
   "FooterInfo": {
     "Address": "Adresse",
     "Contact": "Contact"
@@ -25,7 +25,7 @@
     "dataDes": "Den digitale parkeringsskive kan over tid optimere parkeringsressourcer og byplanlægning gennem værdifulde brugsdata og adfærdsmønstre, hvilket fører til et sikrere samfund med bedre kontrol og adgang til parkeringspladser.",
     "LearnMoreBtn": "Lær mere om os"
   },
-  
+
   "homeHero": {
     "headline1": "Parking Time",
     "headline2": "",
@@ -38,12 +38,6 @@
     "action2": "Gratis at downloade",
     "action3": "Undgå bøder",
     "action4": "Reducer stress"
-  },
-
-  "Statistics": {
-    "downloads": "Downloads",
-    "parking-sessions": "Parkeringssessioner",
-    "parking-zone": "Parkeringszoner"
   },
 
   "aboutHero": {
@@ -84,6 +78,12 @@
     "subheadline2": "Du er velkommen til at kontakte os, hvis du har spørgsmål."
   },
 
+  "Statistics": {
+    "downloads": "Downloads",
+    "parking-sessions": "Parkeringssessioner",
+    "parking-zone": "Parkeringszoner"
+  },
+
   "LatestNews": {
     "news": "Nyheder",
     "Latest News": "Seneste nyt",
@@ -117,6 +117,5 @@
     "secondArrow": "Vores digitale p-skive forenkler parkeringsprocessen.",
     "thirdArrow": "Ethvert parkeringsvagtsystem kan nemt integreres med vores system.",
     "secondParkingText": "Vi er spændte på at dele mere om vores løsning i et møde."
-}
-
+  }
 }

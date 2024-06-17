@@ -39,7 +39,7 @@
     "dataDes": "Digitaalinen pysäköintikiekko voi ajan myötä optimoida pysäköintiresurssit ja kaupunkisuunnittelun arvokkaiden käyttötietojen ja käyttäytymismallien avulla, mikä johtaa turvallisempaan yhteiskuntaan paremmalla pysäköintipaikkojen hallinnalla ja saatavuudella.",
     "LearnMoreBtn": "Opi lisää meistä"
   },
-    
+
   "aboutHero": {
     "categoryText": "Tietoa meistä",
     "headline": "Parking Time Sweden",
@@ -76,8 +76,8 @@
     "answer4": "Voit ottaa yhteyttä kuntaasi ja kysyä, voidaanko Parking Time ottaa käyttöön.",
     "headline2": "Onko sinulla vielä kysyttävää?",
     "subheadline2": "Ota meihin yhteyttä, jos sinulla on kysyttävää."
-  },  
-    
+  },
+
   "Statistics": {
     "downloads": "Lataukset",
     "parking-sessions": "Pysäköintikerrat",
@@ -117,6 +117,5 @@
     "secondArrow": "Digitaalinen pysäköintikiekkomme yksinkertaistaa pysäköintiprosessia.",
     "thirdArrow": "Mikä tahansa pysäköinninvalvontajärjestelmä voidaan helposti integroida järjestelmäämme.",
     "secondParkingText": "Olemme innoissamme voidessamme kertoa lisää ratkaisustamme tapaamisessa."
-}
-
+  }
 }
