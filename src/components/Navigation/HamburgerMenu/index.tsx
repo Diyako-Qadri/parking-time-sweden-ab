@@ -141,7 +141,7 @@ const HamburgerMenu = () => {
                   onClick={handleMenuItemClick}
                 >
                   <motion.p
-                    className="my-6 text-xl font-medium"
+                    className="my-6 text-lg font-medium"
                     custom={index}
                     initial="hidden"
                     animate="visible"
@@ -153,17 +153,17 @@ const HamburgerMenu = () => {
               ))}
             </div>
             <div className="ml-6">
-              <p className="flex flex-row text-lg mt-6 font-medium">
+              <p className="flex flex-row text-lg font-medium">
                 <LocaleSwitcher /> Change language
               </p>
             </div>
-          </div>
-          <div className="flex flex-col items-center mt-4">
-            <a href={`/${locale}/contact`}>
-              <Button variant="mobileWhite" size="mobilePrimary">
-              {t("Contact")}
-              </Button>
-            </a>
+            <div className="flex flex-col items-center mt-8">
+              <a href={`/${locale}/contact`}>
+                <Button variant="mobileWhite" size="mobilePrimary">
+                  {t("Contact")}
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       )}
