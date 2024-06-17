@@ -83,6 +83,10 @@
     "parking-zone": "Parkeringszoner"
   },
 
+  "SingleNews": {
+    "notFound": "Inga nyheter hittades."
+  },
+
   "LatestNews": {
     "news": "Nyheter",
     "Latest News": "Senaste nytt",
