@@ -81,5 +81,14 @@
         "downloads": "Lataukset",
         "parking-sessions": "Pysäköintikerrat",
         "parking-zone": "Pysäköintialueet"
-    }
+    },
+
+    "howItWorks": {
+      "registrationTitle": "Syötä rekisterinumero",
+      "locationTitle": "Löydä haluamasi pysäköintipaikka",
+      "digitalDiskTitle": "Käynnistä digitaalinen pysäköintikiekko",
+      "registrationText": "Avaa sovellus, rekisteröidy autosi rekisterinumerolla.",
+      "locationText": "Käytä karttaa, hakutoimintoa tai vyöhykeluetteloa löytääksesi haluamasi pysäköintipaikan.",
+      "digitalDiskText": "Kun olet valinnut pysäköintivyöhykkeen, voit tarkistaa mahdolliset säännöt, aloittaa pysäköinnin ja sitten sulkea sovelluksen."
+  }
 }
