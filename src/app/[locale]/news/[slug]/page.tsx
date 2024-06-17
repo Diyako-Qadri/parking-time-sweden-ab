@@ -31,7 +31,7 @@ const SingleNews = () => {
         />
         <div className="ml-2">
           <p
-            className={`${roboto.className} text-gray-600 text-base font-medium leading-8`}>
+            className={`${roboto.className} text-[#868686] text-base font-light leading-8`}>
             {newsItem.author}, {newsItem.date}
           </p>
         </div>
@@ -45,7 +45,7 @@ const SingleNews = () => {
         alt={newsItem.title}
         width={1000}
         height={650}
-        className="w-full h-[240px] md:h-[650px] object-cover mb-4 py-7"
+        className="w-full h-[240px] md:h-[650px] object-cover mb-4 py-6"
       />
       <div
         className={`${roboto.className} text-base leading-6 text-[#2A394E]`}
