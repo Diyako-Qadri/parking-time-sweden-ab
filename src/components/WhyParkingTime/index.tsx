@@ -1,13 +1,18 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import Image from 'next/image';
 
 import Diagram from '../../../public/images/whyone.svg';
 import Phone from '../../../public/images/why2.svg';
 import Integration from '../../../public/images/why3.svg';
 import Data from '../../../public/images/why4.svg';
+import Button from '../Buttons';
+
 
 const WhyParkingTime = () => {
+
   const t = useTranslations('WhyParkingTime');
+  const locale = useLocale();
+
   const sections = [
     {
       imgSrc: Diagram,
@@ -47,6 +52,10 @@ const WhyParkingTime = () => {
             <p>{t(descKey)}</p>
           </div>
         ))}
+      </div>
+      <div className='pb-[120px] pt-20'>
+      <a className='hidden md:block' href={`/${locale}/about`}><Button variant="desktopWhite" size="desktopOdd" >{t("LearnMoreBtn")}</Button></a>
+      <a className='block md:hidden' href={`/${locale}/about`}><Button variant="mobileWhite" size="mobileSecondary" >{t("LearnMoreBtn")}</Button></a>
       </div>
     </div>
   );
