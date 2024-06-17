@@ -2,9 +2,11 @@ import { PiPencilLineFill } from "react-icons/pi";
 import { TbParkingCircle } from "react-icons/tb";
 import { MdOutlineWatchLater } from "react-icons/md";
 import { IoIosArrowForward, IoIosArrowDown} from "react-icons/io";
+import { useTranslations, useLocale } from "next-intl";
 
 
 const HowItWorks = () => {
+    const t = useTranslations('howItWorks')
   return (
     <>
         <div className="flex h-[774px] justify-center items-center py-28 bg-pt-background">
@@ -19,8 +21,8 @@ const HowItWorks = () => {
                         <div className="flex items-end w-[133px] h-[102px] text-[100px] absolute right-[-20px] top-[-20px] font-extrabold text-slate-200">
                              01
                         </div>
-                        <h2 className="text-4xl">Enter your registration number</h2>
-                        <p className="text-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro qui repudiandae tenetur .</p>
+                        <h2 className="text-4xl">{t("registrationTitle")}</h2>
+                        <p className="text-[15px]">{t("registrationText")}</p>
                     </div>
                     <div className="flex justify-center items-center pb-7 pt-7">
                         <IoIosArrowForward className="text-4xl text-pt-red hidden md:inline-block"/>
@@ -33,8 +35,8 @@ const HowItWorks = () => {
                         <div className="flex items-end w-[133px] h-[102px] text-[100px] absolute right-[-20px] top-[-20px] font-extrabold text-slate-200">
                              02
                         </div>
-                        <h2 className="text-4xl">Find your desired parking location</h2>
-                        <p className="text-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro qui repudiandae tenetur .</p>
+                        <h2 className="text-4xl">{t("locationTitle")}</h2>
+                        <p className="text-[15px]">{t("locationText")}</p>
                     </div>
                     <div className="flex justify-center items-center pb-7 pt-7">
                         <IoIosArrowForward className="text-4xl text-pt-red hidden md:inline-block"/>
@@ -47,11 +49,11 @@ const HowItWorks = () => {
                         <div className="flex items-end w-[133px] h-[102px] text-[100px] absolute right-[-20px] top-[-20px] font-extrabold text-slate-200">
                              03
                         </div>
-                        <h2 className="text-4xl">Start your digital parking disc</h2>
-                        <p className="text-[15px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro qui repudiandae tenetur .</p>
+                        <h2 className="text-4xl">{t("digitalDiskTitle")}</h2>
+                        <p className="text-[15px]">{t("digitalDiskText")}</p>
                     </div>
                 </div>
-                <div className="flex justify-center md:p-8 md:flex items-center flex-col">button</div>
+                <div className="flex justify-center md:p-8 md:flex items-center flex-col">Button</div>
             </div>
         </div>
     </>

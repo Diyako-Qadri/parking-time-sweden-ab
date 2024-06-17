@@ -80,5 +80,14 @@
       "downloads": "Nedladdningar",
       "parking-sessions": "Parkeringssessioner",
       "parking-zone": "Parkeringszoner"
+  },
+
+  "howItWorks": {
+    "registrationTitle": "Ange ditt registreringsnummer",
+    "locationTitle": "Hitta din önskade parkeringsplats",
+    "digitalDiskTitle": "Starta din digitala parkeringsskiva",
+    "registrationText": "Öppna appen, registrera dig med din bils registreringsnummer.",
+    "locationText": "Använd kartan, sökfunktionen eller zonlistan för att hitta din önskade parkeringsplats.",
+    "digitalDiskText": "När du valt din parkeringszon kan du granska eventuella tillämpliga regler, starta parkeringen och sedan enkelt stänga appen"
   }
 }
