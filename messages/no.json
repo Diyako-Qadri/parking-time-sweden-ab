@@ -5,7 +5,7 @@
         "News": "Nyheter",
         "FAQ": "FAQ",
         "Links": "Lenker",
-        "Contact": "Kontakt"
+        "Contact": "Kontakt oss"
     },
 
     "FooterInfo": {
@@ -36,7 +36,8 @@
         "integrationTitle": "Integrasjon med eksisterende systemer",
         "integrationDes": "Vårt system for parkeringsvakter integreres sømløst med ditt eksisterende oppsett. Et enhetlig system gir deg fordeler ved å effektivisere operasjoner og forbedre opplevelsen for personalet ved å eliminere behovet for to forskjellige systemer og enheter. Vi gjør denne integrasjonen effektiv, intuitiv og enkel!",
         "dataTitle": "Datadrevet byplanlegging",
-        "dataDes": "Den digitale parkeringsskiven kan over tid optimalisere parkeringsressurser og byplanlegging gjennom verdifulle bruksdata og atferdsmønstre, noe som fører til et sikrere samfunn med bedre kontroll og tilgang til parkeringsplasser."
+        "dataDes": "Den digitale parkeringsskiven kan over tid optimalisere parkeringsressurser og byplanlegging gjennom verdifulle bruksdata og atferdsmønstre, noe som fører til et sikrere samfunn med bedre kontroll og tilgang til parkeringsplasser.",
+        "LearnMoreBtn": "Lær mer om oss"
       },
 
     "aboutHero": {

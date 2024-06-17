@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
+import Button from '@/components/Buttons';
 
 type MenuItem = {
   name: string;
@@ -28,6 +29,10 @@ const menuItem: MenuItem[] = [
     name: 'FAQ',
     link: '/#faq',
   },
+  {
+    name: 'Contact',
+    link: '/contact',
+ }
 ];
 
 const HamburgerMenu = () => {
@@ -130,7 +135,7 @@ const HamburgerMenu = () => {
               <Link
                 className={path === item.link ? 'active' : ''}
                 key={index}
-                href={`/${locale}${item.link}`} // Prepend the current locale to the link
+                href={`/${locale}${item.link}`} 
                 onClick={handleMenuItemClick}
               >
                 <motion.p
@@ -145,10 +150,17 @@ const HamburgerMenu = () => {
               </Link>
             ))}
           </div>
-          <div className="ml-6">
+          <div className="ml-6 ">
             <p className="flex flex-row text-lg font-medium">
               <LocaleSwitcher /> Change language
             </p>
+          </div>
+          <div className="flex flex-col items-center mt-8">
+            <a href={`/${locale}/contact`}>
+              <Button variant="mobileWhite" size="mobilePrimary">
+              {t("Contact")}
+              </Button>
+            </a>
           </div>
         </div>
       )}

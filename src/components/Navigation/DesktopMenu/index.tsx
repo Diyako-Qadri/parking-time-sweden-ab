@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
+import Button from '@/components/Buttons';
 
 type NavItemDesk = {
   name: string;
@@ -27,21 +28,25 @@ const navItem: NavItemDesk[] = [
     name: 'FAQ',
     link: '/#faq',
   },
+  {
+    name: 'Contact',
+    link: '/contact',
+ }
 ];
 
 const DesktopMenu = () => {
   const path = usePathname();
-  const locale = useLocale(); // Get the current locale from next-intl
+  const locale = useLocale(); 
   const t = useTranslations('NavItem');
 
   return (
-    <div className='flex flex-row w-[567px] justify-between h-14 items-center'>
+    <div className='flex flex-row w-[567px] justify-between h-14 gap-6 items-center'>
     <div className="flex justify-around gap-[12px] text-base text-white w-[368px]">
       {navItem.map((item, index) => (
         <Link
           className={`relative group ${path === item.link ? 'active' : ''}`}
           key={index}
-          href={`/${locale}${item.link}`} // Prepend the current locale to the link
+          href={`/${locale}${item.link}`} 
         >
           <span className="relative inline-block pb-px ">
             {t(item.name)}
@@ -50,7 +55,9 @@ const DesktopMenu = () => {
         </Link>
       ))}
     </div>
-    <div>
+    <div className='flex justify-between items-center'>
+      <a  href={`/${locale}/contact`}><Button variant="desktopWhite" size="desktopPrimary" >{t("Contact")}</Button></a>
+      
       <LocaleSwitcher />
     </div>
   </div>
