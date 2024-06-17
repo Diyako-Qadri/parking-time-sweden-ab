@@ -1,84 +1,85 @@
 {
-    "NavItem": {
-      "Why parking Time?": "Warum Parking Time?",
-      "About us": "Über uns",
-      "News": "Nachrichten",
-      "FAQ": "FAQ",
-      "Links": "Links",
-      "Contact": "Kontakt"
-    },
+  "NavItem": {
+    "Why parking Time?": "Warum Parking Time?",
+    "About us": "Über uns",
+    "News": "Nachrichten",
+    "FAQ": "FAQ",
+    "Links": "Links",
+    "Contact": "Kontakt"
+  },
 
-    "FooterInfo": {
-      "Address": "Adresse",
-      "Contact": "Kontakt"
-    },
-    
-    "homeHero": {
-      "headline1": "What time is it?",
-      "headline2": "Parking Time!",
-      "heroText1": "Digitaler Parkscheibe - direkt auf Ihrem Handy.",
-      "heroText2": "Ein erfolgreiches Konzept in einem neuen, digitalisierten Format."
-    },
+  "FooterInfo": {
+    "Address": "Adresse",
+    "Contact": "Kontakt"
+  },
+  
+  "homeHero": {
+    "headline1": "What time is it?",
+    "headline2": "Parking Time!",
+    "heroText1": "Digitaler Parkscheibe - direkt auf Ihrem Handy.",
+    "heroText2": "Ein erfolgreiches Konzept in einem neuen, digitalisierten Format."
+  },
 
-    "heroActions": {
-      "action1": "Einfach zu benutzen",
-      "action2": "Kostenlos herunterladen",
-      "action3": "Bußgelder vermeiden",
-      "action4": "Stress reduzieren"
-      },
+  "heroActions": {
+    "action1": "Einfach zu benutzen",
+    "action2": "Kostenlos herunterladen",
+    "action3": "Bußgelder vermeiden",
+    "action4": "Stress reduzieren"
+  },
 
-      "Statistics": {
-        "downloads": "Herunterladen",
-        "parking-sessions": "Parksitzungen",
-        "parking-zone": "Parkzonen"
-    },
+    "Statistics": {
+    "downloads": "Herunterladen",
+    "parking-sessions": "Parksitzungen",
+    "parking-zone": "Parkzonen"
+  },
 
-    "WhyParkingTime": {
-      "sectionTitle": "Warum",
-      "avoidFinesTitle": "Bußgelder vermeiden & Stress reduzieren",
-      "avoidFinesDes": "Unsere digitale Lösung zieht mehr Besucher an, indem sie physische Parkscheiben eliminiert und Bußgelder reduziert. Dies vereinfacht das Parken, erhöht die Besucherzahlen, die wirtschaftliche Aktivität und die Lebendigkeit der Stadt und reduziert gleichzeitig den Stress.",
-      "simplifiedTitle": "Vereinfachtes Parken für Nutzer",
-      "simplifiedDes": "Mit unserer App können Sie mühelos die Parkzeit einstellen, anpassen und überwachen. Mit einer benutzerfreundlichen Oberfläche finden Sie schnell Parkplätze und verwalten das Parken. Wir aktualisieren kontinuierlich basierend auf Kundenfeedback, um ein effizientes und stressfreies Erlebnis zu gewährleisten.",
-      "integrationTitle": "Integration mit bestehenden Systemen",
-      "integrationDes": "Unser System für Parkwächter integriert sich nahtlos in Ihr bestehendes Setup. Ein einheitliches System vereinfacht die Abläufe und verbessert die Erfahrung für das Personal, indem es die Notwendigkeit für zwei verschiedene Systeme und Geräte eliminiert. Wir machen diese Integration effizient, intuitiv und einfach!",
-      "dataTitle": "Datengetriebene Stadtplanung",
-      "dataDes": "Die digitale Parkscheibe kann letztendlich durch wertvolle Nutzungsdaten und Verhaltensmuster die Parkressourcen und die Stadtplanung optimieren, was zu einer sichereren Gesellschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt."
-    },
+  "WhyParkingTime": {
+    "sectionTitle": "Warum",
+    "avoidFinesTitle": "Bußgelder vermeiden & Stress reduzieren",
+    "avoidFinesDes": "Unsere digitale Lösung zieht mehr Besucher an, indem sie physische Parkscheiben eliminiert und Bußgelder reduziert. Dies vereinfacht das Parken, erhöht die Besucherzahlen, die wirtschaftliche Aktivität und die Lebendigkeit der Stadt und reduziert gleichzeitig den Stress.",
+    "simplifiedTitle": "Vereinfachtes Parken für Nutzer",
+    "simplifiedDes": "Mit unserer App können Sie mühelos die Parkzeit einstellen, anpassen und überwachen. Mit einer benutzerfreundlichen Oberfläche finden Sie schnell Parkplätze und verwalten das Parken. Wir aktualisieren kontinuierlich basierend auf Kundenfeedback, um ein effizientes und stressfreies Erlebnis zu gewährleisten.",
+    "integrationTitle": "Integration mit bestehenden Systemen",
+    "integrationDes": "Unser System für Parkwächter integriert sich nahtlos in Ihr bestehendes Setup. Ein einheitliches System vereinfacht die Abläufe und verbessert die Erfahrung für das Personal, indem es die Notwendigkeit für zwei verschiedene Systeme und Geräte eliminiert. Wir machen diese Integration effizient, intuitiv und einfach!",
+    "dataTitle": "Datengetriebene Stadtplanung",
+    "dataDes": "Die digitale Parkscheibe kann letztendlich durch wertvolle Nutzungsdaten und Verhaltensmuster die Parkressourcen und die Stadtplanung optimieren, was zu einer sichereren Gesellschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt."
+  },
 
-    "aboutHero": {
-      "categoryText": "Über uns",
-      "headline": "Parking Time Sweden",
-      "heroText": "Wir sind ein Technologie-Startup, das sich der Transformation des Parkerlebnisses für alle Beteiligten widmet - Parkende, Parkplatzwächter, Gemeinden und Immobilienbesitzer."
-    },
+  "aboutHero": {
+    "categoryText": "Über uns",
+    "headline": "Parking Time Sweden",
+    "heroText": "Wir sind ein Technologie-Startup, das sich der Transformation des Parkerlebnisses für alle Beteiligten widmet - Parkende, Parkplatzwächter, Gemeinden und Immobilienbesitzer."
+  },
 
-    "contactHero": {
-      "categoryText": "Kontakt",
-      "headline": "Kontaktieren Sie uns gerne!",
-      "heroText": ""
-    },
+  "contactHero": {
+    "categoryText": "Kontakt",
+    "headline": "Kontaktieren Sie uns gerne!",
+    "heroText": ""
+  },
 
-    "newsHero": {
-      "categoryText": "Nachrichten",
-      "headline": "Wir verwandeln Parkerlebnisse.",
-      "heroText": ""
-    },
+  "newsHero": {
+    "categoryText": "Nachrichten",
+    "headline": "Wir verwandeln Parkerlebnisse.",
+    "heroText": ""
+  },
   
   "FAQ": {
-        "title": "FAQ",
-        "headline": "Haben Sie eine Frage?",
-        "subheadline": "Hier sind einige häufig gestellte Fragen beantwortet",
-        "q1": "Was ist Parking Time?",
-        "q2": "Wie benutze ich Parking Time?",
-        "q3": "Ist es kostenlos?",
-        "q4": "Wie bekomme ich es in meiner Gemeinde?",
-        "q5": "Bekannte Probleme mit der App",
-        "answer1": "Parking Time ist eine kostenlose App, die wie eine digitale Parkscheibe funktioniert. Sie starten einfach das Parken über die App und die Parkwächter können sehen, wie lange Ihre Sitzung gedauert hat.",
-        "answer2-1": "Laden Sie die App herunter,",
-        "answer2-2": " öffnen Sie sie dann und registrieren Sie sich mit Ihrem Autokennzeichen. Verwenden Sie die Karte, die Suchfunktion oder die Zonenliste, um Ihren gewünschten Parkplatz zu finden. Sobald Sie Ihre Parkzone ausgewählt haben, können Sie die geltenden Regeln überprüfen, das Parken starten und dann einfach die App schließen.",
-        "answer3": "Parking Time ist kostenlos herunterzuladen, kann jedoch nur in einer Gemeinde verwendet werden, die registrierter Kunde von Parking Time Deutschland ist.",
-        "answer4": "Sie können Ihre Gemeinde kontaktieren und fragen, ob Parking Time implementiert werden kann.",
-        "answer5": "IN FIGMA GLEICH WIE ANTWORT4",
-        "headline2": "Haben Sie noch eine Frage?",
-        "subheadline2": "Bitte kontaktieren Sie uns, wenn Sie Fragen haben."
+    "title": "FAQ",
+    "headline": "Haben Sie eine Frage?",
+    "subheadline": "Hier sind einige häufig gestellte Fragen beantwortet",
+    "q1": "Was ist Parking Time?",
+    "q2": "Wie benutze ich Parking Time?",
+    "q3": "Ist es kostenlos?",
+    "q4": "Wie bekomme ich es in meiner Gemeinde?",
+    "answer1": "Parking Time ist eine kostenlose App, die wie eine digitale Parkscheibe funktioniert. Sie starten einfach das Parken über die App und die Parkwächter können sehen, wie lange Ihre Sitzung gedauert hat.",
+    "answer2-1": "Laden Sie die App herunter auf ",
+    "answer2-google": "Google Play",
+    "answer2-separator": " oder ",
+    "answer2-appstore": "App Store",
+    "answer2-2": ", öffnen Sie sie dann und registrieren Sie sich mit Ihrem Autokennzeichen. Verwenden Sie die Karte, die Suchfunktion oder die Zonenliste, um Ihren gewünschten Parkplatz zu finden. Sobald Sie Ihre Parkzone ausgewählt haben, können Sie die geltenden Regeln überprüfen, das Parken starten und dann einfach die App schließen.",
+    "answer3": "Parking Time ist kostenlos herunterzuladen, kann jedoch nur in einer Gemeinde verwendet werden, die registrierter Kunde von Parking Time Deutschland ist.",
+    "answer4": "Sie können Ihre Gemeinde kontaktieren und fragen, ob Parking Time implementiert werden kann.",
+    "headline2": "Haben Sie noch eine Frage?",
+    "subheadline2": "Bitte kontaktieren Sie uns, wenn Sie Fragen haben."
     }
 }

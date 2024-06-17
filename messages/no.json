@@ -1,83 +1,85 @@
 {
-    "NavItem": {
-        "Why parking Time?": "Hvorfor Parking Time?",
-        "About us": "Om oss",
-        "News": "Nyheter",
-        "FAQ": "FAQ",
-        "Links": "Lenker",
-        "Contact": "Kontakt"
+  "NavItem": {
+    "Why parking Time?": "Hvorfor Parking Time?",
+    "About us": "Om oss",
+    "News": "Nyheter",
+    "FAQ": "FAQ",
+    "Links": "Lenker",
+    "Contact": "Kontakt"
+  },
+
+  "FooterInfo": {
+    "Address": "Adresse",
+    "Contact": "Kontakt"
+  },
+  
+  "homeHero": {
+    "headline1": "What time is it?",
+    "headline2": "Parking Time!",
+    "heroText1": "Digital parkeringsskive - direkte på din mobil.",
+    "heroText2": "En vinnende konsept i et nytt, digitalisert format."
+  },
+
+  "heroActions": {
+    "action1": "Enkel å bruke",
+    "action2": "Gratis å laste ned",
+    "action3": "Unngå bøter",
+    "action4": "Redusere stress"
+  },
+
+  "WhyParkingTime": {
+    "sectionTitle": "Hvorfor",
+    "avoidFinesTitle": "Unngå bøter og reduser stress",
+    "avoidFinesDes": "Vår digitale løsning tiltrekker flere besøkende ved å eliminere fysiske skiver og redusere bøter. Dette forenkler parkeringen, øker fottrafikken, økonomisk aktivitet og byens vitalitet samtidig som det reduserer stress.",
+    "simplifiedTitle": "Forenklet parkering for brukere",
+    "simplifiedDes": "Vår app lar deg enkelt sette, justere og overvåke parkeringstiden. Med et brukervennlig grensesnitt kan du raskt finne plasser og administrere parkering. Vi oppdaterer kontinuerlig basert på kundetilbakemeldinger for å sikre en effektiv og problemfri opplevelse.",
+    "integrationTitle": "Integrasjon med eksisterende systemer",
+    "integrationDes": "Vårt system for parkeringsvakter integreres sømløst med ditt eksisterende oppsett. Et enhetlig system gir deg fordeler ved å effektivisere operasjoner og forbedre opplevelsen for personalet ved å eliminere behovet for to forskjellige systemer og enheter. Vi gjør denne integrasjonen effektiv, intuitiv og enkel!",
+    "dataTitle": "Datadrevet byplanlegging",
+    "dataDes": "Den digitale parkeringsskiven kan over tid optimalisere parkeringsressurser og byplanlegging gjennom verdifulle bruksdata og atferdsmønstre, noe som fører til et sikrere samfunn med bedre kontroll og tilgang til parkeringsplasser."
     },
 
-    "FooterInfo": {
-      "Address": "Adresse",
-      "Contact": "Kontakt"
-    },
-    
-    "homeHero": {
-      "headline1": "What time is it?",
-      "headline2": "Parking Time!",
-      "heroText1": "Digital parkeringsskive - direkte på din mobil.",
-      "heroText2": "En vinnende konsept i et nytt, digitalisert format."
-    },
+  "aboutHero": {
+    "categoryText": "Om oss",
+    "headline": "Parking Time Sweden",
+    "heroText": "Vi er en teknologibedrift dedikert til å transformere parkeringsopplevelsen for alle interessenter - parkerende, parkeringsvakter, kommuner og eiendomseiere."
+  },
 
-    "heroActions": {
-      "action1": "Enkel å bruke",
-      "action2": "Gratis å laste ned",
-      "action3": "Unngå bøter",
-      "action4": "Redusere stress"
-      },
+  "contactHero": {
+    "categoryText": "Kontakt",
+    "headline": "Ta gjerne kontakt med oss!",
+    "heroText": ""
+  },
 
-    "WhyParkingTime": {
-        "sectionTitle": "Hvorfor",
-        "avoidFinesTitle": "Unngå bøter og reduser stress",
-        "avoidFinesDes": "Vår digitale løsning tiltrekker flere besøkende ved å eliminere fysiske skiver og redusere bøter. Dette forenkler parkeringen, øker fottrafikken, økonomisk aktivitet og byens vitalitet samtidig som det reduserer stress.",
-        "simplifiedTitle": "Forenklet parkering for brukere",
-        "simplifiedDes": "Vår app lar deg enkelt sette, justere og overvåke parkeringstiden. Med et brukervennlig grensesnitt kan du raskt finne plasser og administrere parkering. Vi oppdaterer kontinuerlig basert på kundetilbakemeldinger for å sikre en effektiv og problemfri opplevelse.",
-        "integrationTitle": "Integrasjon med eksisterende systemer",
-        "integrationDes": "Vårt system for parkeringsvakter integreres sømløst med ditt eksisterende oppsett. Et enhetlig system gir deg fordeler ved å effektivisere operasjoner og forbedre opplevelsen for personalet ved å eliminere behovet for to forskjellige systemer og enheter. Vi gjør denne integrasjonen effektiv, intuitiv og enkel!",
-        "dataTitle": "Datadrevet byplanlegging",
-        "dataDes": "Den digitale parkeringsskiven kan over tid optimalisere parkeringsressurser og byplanlegging gjennom verdifulle bruksdata og atferdsmønstre, noe som fører til et sikrere samfunn med bedre kontroll og tilgang til parkeringsplasser."
-      },
+  "newsHero": {
+    "categoryText": "Nyheter",
+    "headline": "Vi transformerer parkerings- opplevelser.",
+    "heroText": ""
+  },
 
-    "aboutHero": {
-        "categoryText": "Om oss",
-        "headline": "Parking Time Sweden",
-        "heroText": "Vi er en teknologibedrift dedikert til å transformere parkeringsopplevelsen for alle interessenter - parkerende, parkeringsvakter, kommuner og eiendomseiere."
-    },
+  "FAQ": {
+    "title": "FAQ",
+    "headline": "Har du et spørsmål?",
+    "subheadline": "Her er noen vanlige spørsmål besvart",
+    "q1": "Hva er Parking Time?",
+    "q2": "Hvordan bruker jeg Parking Time?",
+    "q3": "Er det gratis?",
+    "q4": "Hvordan får jeg det i min kommune?",
+    "answer1": "Parking Time er en gratis nedlastbar app som fungerer som en digital parkeringsskive, du starter bare parkeringen gjennom appen og parkeringsvakter kan se hvor lenge din økt har vart.",
+    "answer2-1": "Last ned appen på ",
+    "answer2-google": "Google Play",
+    "answer2-separator": " eller ",
+    "answer2-appstore": "App Store",
+    "answer2-2": ", åpne den deretter og registrer deg med bilens registreringsnummer. Bruk kartet, søkefunksjonen eller sonelisten for å finne din ønskede parkeringsplass. Når du har valgt din parkeringssone, kan du se over eventuelle gjeldende regler, starte parkeringen og deretter bare lukke appen.",
+    "answer3": "Parking Time er gratis å laste ned, men kan bare brukes i en kommune som er en registrert kunde hos Parking Time Norway.",
+    "answer4": "Du kan kontakte din kommune og spørre om Parking Time kan implementeres.",
+    "headline2": "Har du fortsatt et spørsmål?",
+    "subheadline2": "Vennligst kontakt oss hvis du har noen spørsmål."
+  },
 
-    "contactHero": {
-        "categoryText": "Kontakt",
-        "headline": "Ta gjerne kontakt med oss!",
-        "heroText": ""
-    },
-
-    "newsHero": {
-        "categoryText": "Nyheter",
-        "headline": "Vi transformerer parkerings- opplevelser.",
-        "heroText": ""
-    },
-
-    "FAQ": {
-        "title": "FAQ",
-        "headline": "Har du et spørsmål?",
-        "subheadline": "Her er noen vanlige spørsmål besvart",
-        "q1": "Hva er Parking Time?",
-        "q2": "Hvordan bruker jeg Parking Time?",
-        "q3": "Er det gratis?",
-        "q4": "Hvordan får jeg det i min kommune?",
-        "q5": "Kjente problemer med appen",
-        "answer1": "Parking Time er en gratis nedlastbar app som fungerer som en digital parkeringsskive, du starter bare parkeringen gjennom appen og parkeringsvakter kan se hvor lenge din økt har vart.",
-        "answer2-1": "Last ned appen,",
-        "answer2-2": " åpne den deretter og registrer deg med bilens registreringsnummer. Bruk kartet, søkefunksjonen eller sonelisten for å finne din ønskede parkeringsplass. Når du har valgt din parkeringssone, kan du se over eventuelle gjeldende regler, starte parkeringen og deretter bare lukke appen.",
-        "answer3": "Parking Time er gratis å laste ned, men kan bare brukes i en kommune som er en registrert kunde hos Parking Time Norway.",
-        "answer4": "Du kan kontakte din kommune og spørre om Parking Time kan implementeres.",
-        "answer5": "I FIGMA SAMME SOM SVAR4",
-        "headline2": "Har du fortsatt et spørsmål?",
-        "subheadline2": "Vennligst kontakt oss hvis du har noen spørsmål."
-    },
-      "Statistics": {
-        "downloads": "Nedlastinger",
-        "parking-sessions": "Parkeringsøkter",
-        "parking-zone": "Parkeringssoner"
-    }
+  "Statistics": {
+    "downloads": "Nedlastinger",
+    "parking-sessions": "Parkeringsøkter",
+    "parking-zone": "Parkeringssoner"
+  }
 }
