@@ -36,8 +36,8 @@ const DesktopMenu = () => {
   const t = useTranslations('NavItem');
 
   return (
-    <div className='flex flex-row w-[567px] justify-between h-14 gap-6 items-center'>
-    <div className="flex justify-around gap-[12px] text-base text-white w-[368px]">
+    <div className='flex flex-row w-[680px] justify-between h-14 gap-6 items-center'>
+    <div className="flex justify-around gap-[12px] text-base text-white w-[430px]">
       {navItem.map((item, index) => (
         <Link
           className={`relative group ${path === item.link ? 'active' : ''}`}
@@ -51,7 +51,7 @@ const DesktopMenu = () => {
         </Link>
       ))}
     </div>
-    <div className='flex justify-between items-center'>
+    <div className='flex justify-between items-center w-[230px]'>
       <a  href={`/${locale}/contact`}><Button variant="desktopWhite" size="desktopPrimary" >{t("Contact")}</Button></a>
       
       <LocaleSwitcher />
