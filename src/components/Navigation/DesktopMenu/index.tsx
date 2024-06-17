@@ -36,7 +36,7 @@ const DesktopMenu = () => {
   const t = useTranslations('NavItem');
 
   return (
-    <div className='flex flex-row w-[680px] justify-between h-14 gap-6 items-center'>
+    <div className='flex flex-row w-[650px] justify-between h-14 gap-6 items-center'>
     <div className="flex justify-around gap-[12px] text-base text-white w-[430px]">
       {navItem.map((item, index) => (
         <Link
