@@ -59,10 +59,6 @@ const Faq = () => {
         question: t('q4'),
         answer: t('answer4'),
       },
-      {
-        question: t('q5'),
-        answer: t('answer5'),
-      },
     ]
 
     const handleToggle = (index: number) => {
