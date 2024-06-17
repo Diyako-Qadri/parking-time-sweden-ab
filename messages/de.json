@@ -5,7 +5,7 @@
       "News": "Nachrichten",
       "FAQ": "FAQ",
       "Links": "Links",
-      "Contact": "Kontaktieren Sie uns"
+      "Contact": "Kontakt"
     },
 
   "FooterInfo": {
@@ -43,7 +43,7 @@
       "integrationDes": "Unser System für Parkwächter integriert sich nahtlos in Ihr bestehendes Setup. Ein einheitliches System vereinfacht die Abläufe und verbessert die Erfahrung für das Personal, indem es die Notwendigkeit für zwei verschiedene Systeme und Geräte eliminiert. Wir machen diese Integration effizient, intuitiv und einfach!",
       "dataTitle": "Datengetriebene Stadtplanung",
       "dataDes": "Die digitale Parkscheibe kann letztendlich durch wertvolle Nutzungsdaten und Verhaltensmuster die Parkressourcen und die Stadtplanung optimieren, was zu einer sichereren Gesellschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt.",
-      "LearnMoreBtn": "Erfahren Sie mehr über uns"
+      "LearnMoreBtn": "Mehr über uns"
     },
 
   "aboutHero": {
