@@ -91,5 +91,13 @@
 
   "NewsCard": {
     "Read more": "Read more"
+  },
+    "howItWorks": {
+      "registrationTitle": "Enter Your registration number",
+      "locationTitle": "Find your desired parking location",
+      "digitalDiskTitle": "Start your digital parking disc",
+      "registrationText": "Open the app, register with your car's registration number.",
+      "locationText": "Use the map, search function, or zone list to find your desired parking location.",
+      "digitalDiskText": "Once you select your parking zone, you can review any applicable rules, start parkin, and then simply close the app"
   }
 }
