@@ -66,7 +66,7 @@ const Faq = () => {
     };
 
   return (
-    <div id="faq bg-pt-primary">
+    <div id="faq" className="bg-pt-primary">
       <div className="flex relative justify-center top-[79px] w-full text-pt-dark-text bg-pt-light-gray">
         <div className="p-6 bg-pt-light-gray">
           <p className=" p-3 text-lg text-center font-bold text-pt-darkblue2">{t('title')}</p>
