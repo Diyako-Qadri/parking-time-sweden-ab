@@ -1,36 +1,31 @@
 {
-    "NavItem": {
-        "Why parking Time?": "Hvorfor Parking Time?",
-        "About us": "Om os",
-        "News": "Nyheder",
-        "FAQ": "FAQ",
-        "Links": "Links",
-        "Contact": "Kontakt os"
-    },
-    
-    "FooterInfo": {
-        "Address": "Adresse",
-        "Contact": "Contact"
-    },
-
+  "NavItem": {
+    "Why parking Time?": "Hvorfor Parking Time?",
+    "About us": "Om os",
+    "News": "Nyheder",
+    "FAQ": "FAQ",
+    "Links": "Links",
+    "Contact": "Kontakt os"
+  },
+  
   "FooterInfo": {
     "Address": "Adresse",
     "Contact": "Contact"
   },
-      
 
-    "WhyParkingTime": {
-        "sectionTitle": "Hvorfor",
-        "avoidFinesTitle": "Undgå bøder og reducér stress",
-        "avoidFinesDes": "Vores digitale løsning tiltrækker flere besøgende ved at eliminere fysiske skiver og reducere bøder. Dette forenkler parkeringen, øger fodtrafikken, økonomisk aktivitet og byens vitalitet samtidig med at det reducerer stress.",
-        "simplifiedTitle": "Forenklet parkering for brugere",
-        "simplifiedDes": "Vores app lader dig nemt sætte, justere og overvåge parkeringstiden. Med en brugervenlig grænseflade kan du hurtigt finde pladser og håndtere parkering. Vi opdaterer løbende baseret på kunde-feedback for at sikre en effektiv og problemfri oplevelse.",
-        "integrationTitle": "Integration med eksisterende systemer",
-        "integrationDes": "Vores system til parkeringsvagter integreres problemfrit med dit eksisterende setup. Et ensartet system giver dig fordele ved at effektivisere operationer og forbedre oplevelsen for personalet ved at eliminere behovet for to forskellige systemer og enheder. Vi gør denne integration effektiv, intuitiv og nem!",
-        "dataTitle": "Datadrevet byplanlægning",
-        "dataDes": "Den digitale parkeringsskive kan over tid optimere parkeringsressourcer og byplanlægning gennem værdifulde brugsdata og adfærdsmønstre, hvilket fører til et sikrere samfund med bedre kontrol og adgang til parkeringspladser.",
-        "LearnMoreBtn": "Lær mere om os"
-    },
+  "WhyParkingTime": {
+    "sectionTitle": "Hvorfor",
+    "avoidFinesTitle": "Undgå bøder og reducér stress",
+    "avoidFinesDes": "Vores digitale løsning tiltrækker flere besøgende ved at eliminere fysiske skiver og reducere bøder. Dette forenkler parkeringen, øger fodtrafikken, økonomisk aktivitet og byens vitalitet samtidig med at det reducerer stress.",
+    "simplifiedTitle": "Forenklet parkering for brugere",
+    "simplifiedDes": "Vores app lader dig nemt sætte, justere og overvåge parkeringstiden. Med en brugervenlig grænseflade kan du hurtigt finde pladser og håndtere parkering. Vi opdaterer løbende baseret på kunde-feedback for at sikre en effektiv og problemfri oplevelse.",
+    "integrationTitle": "Integration med eksisterende systemer",
+    "integrationDes": "Vores system til parkeringsvagter integreres problemfrit med dit eksisterende setup. Et ensartet system giver dig fordele ved at effektivisere operationer og forbedre oplevelsen for personalet ved at eliminere behovet for to forskellige systemer og enheder. Vi gør denne integration effektiv, intuitiv og nem!",
+    "dataTitle": "Datadrevet byplanlægning",
+    "dataDes": "Den digitale parkeringsskive kan over tid optimere parkeringsressourcer og byplanlægning gennem værdifulde brugsdata og adfærdsmønstre, hvilket fører til et sikrere samfund med bedre kontrol og adgang til parkeringspladser.",
+    "LearnMoreBtn": "Lær mere om os"
+  },
+  
   "homeHero": {
     "headline1": "Parking Time",
     "headline2": "",
