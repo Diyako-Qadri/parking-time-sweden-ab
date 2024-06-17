@@ -20,9 +20,7 @@ const NewsCard = ({ image, title, description, date, slug }: NewsCardProps) => {
   const locale = useLocale();
 
   return (
-    <div
-      className="w-full min-h-full sm:max-w-sm rounded overflow-hidden shadow-lg bg-white text-left flex flex-col"
-      style={{ boxShadow: "0 5px 50px rgba(0, 0, 0, 0.08)" }}>
+    <div className="w-full min-h-full sm:max-w-sm rounded overflow-hidden shadow-lg bg-white text-left flex flex-col">
       <img className="w-full h-[300px] object-cover" src={image} alt={title} />
       <div className="flex flex-col justify-between flex-1 p-4">
         <div>
