@@ -33,7 +33,7 @@ const NewsCard = ({ image, title, description, date, slug }: NewsCardProps) => {
         <div className="mt-auto">
           <Link
             href={`/${locale}/news/${slug}`}
-            locale={false} // Disable automatic locale handling to avoid duplication
+            locale={false}
             className={`${lato.className} text-[#0B051D] font-medium text-base underline leading-6`}>
             {t("Read more")}
           </Link>
