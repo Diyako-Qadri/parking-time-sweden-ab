@@ -81,5 +81,12 @@
     "downloads": "Nedladdningar",
     "parking-sessions": "Parkeringssessioner",
     "parking-zone": "Parkeringszoner"
+  },
+
+  "knowMore": {
+    "name-title": "Matilda Öhman, VD",
+    "mail": "info@parkingtime.se",
+    "question": "Vill du veta mer?",
+    "description": "Kontakta oss för att ta reda på mer om vår lösning och hur vi kan implementera den i din kommun."
   }
 }

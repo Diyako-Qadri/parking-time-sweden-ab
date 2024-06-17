@@ -81,5 +81,12 @@
     "answer4": "You can contact your municipality and ask if Parking Time can be implemented.",
     "headline2": "Still have a question?",
     "subheadline2": "Please feel free to contact us if you have any questions."
+  },
+
+  "knowMore": {
+    "name-title": "Matilda Öhman, CEO",
+    "mail": "info@parkingtime.se",
+    "question": "Want to know more?",
+    "description": "Contact us to find out more about our solution and how we can implement it in your municipality."
   }
 }

@@ -81,5 +81,12 @@
     "downloads": "Nedlastinger",
     "parking-sessions": "Parkeringsøkter",
     "parking-zone": "Parkeringssoner"
+  },
+
+  "knowMore": {
+    "name-title": "Matilda Öhman, AD",
+    "mail": "info@parkingtime.se",
+    "question": "Vil du vite mer?",
+    "description": "Kontakt oss for å finne ut mer om vår løsning og hvordan vi kan implementere den i din kommune."
   }
 }
