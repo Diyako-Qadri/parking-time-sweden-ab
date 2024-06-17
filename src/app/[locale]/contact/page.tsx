@@ -5,7 +5,9 @@ const contact = () => {
     const t = useTranslations('contactHero');
 
     return (
-        <PageHero bgImage={'bg-contactHero-image'} categoryText={t('categoryText')} headline={t('headline')} heroText={t('heroText')} />
+        <div className="hidden md:block">
+            <PageHero bgImage={'bg-contactHero-image'} categoryText={t('categoryText')} headline={t('headline')} heroText={t('heroText')} />
+        </div>
     )
 };
 
