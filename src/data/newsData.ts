@@ -6,9 +6,9 @@ export const newsItems = [
     description:
       "Efter ett år av användning av Parking Time-appen för alla centrala parkeringsområden rapporterar Nässjö kommun positiva resultat från digitaliseringen av parkeringsskivan.",
     content:
-      "Här är en lång beskrivning av nyheten med mer detaljer och information.",
+      "Parking Time är en del av Founders Loft inkubator<br><br>Parking Time, det innovativa techbolaget som fokuserar på att förbättra parkeringsupplevelsen och trafikmiljön i samhället, har under våren drivit ett projekt i samarbete med studenter från Changemaker Educations. Projektet, som nu framgångsrikt avslutats, har syftat till att utvärdera och undersöka användarvänlighet kopplat till den tekniska lösningen - och har genererat nya värdefulla insikter för företagets fortsatta utveckling.<br><br>Att underlätta och förbättra parkeringsupplevelser leder inte bara till en bättre personlig vardag, utan även till ett samhälle som blir mer trafiksäkert genom bättre kontroll och översikt av användning av och åtkomst till parkeringsplatser.<br><br>För att ytterligare få insikt i och förbättra användarupplevelsen för innovationen fick studenterna i uppgift att utvärdera åtgärder för att få fler bilister att använda Parking Time framför den traditionella pappersskivan. Samarbetet resulterade i flera kreativa och innovativa förslag som ger möjlighet för Parking Time att bli marknadsledande vad gäller smart parkering.",
     author: "Melisha Linell",
-    authorImage: "/images/author-image.jpg",
+    authorImage: "/images/profile-melisha-linell.jpeg",
     date: "19 April 2024",
     slug: "positivt-inflytande-i-nassjo",
   },
@@ -21,7 +21,7 @@ export const newsItems = [
     content:
       "Här är en lång beskrivning av nyheten med mer detaljer och information.",
     author: "Melisha Linell",
-    authorImage: "/images/author-image.jpg",
+    authorImage: "/images/profile-melisha-linell.jpeg",
     date: "11 Mars 2024",
     slug: "parking-time-changemaker",
   },
@@ -34,7 +34,7 @@ export const newsItems = [
     content:
       "Här är en lång beskrivning av nyheten med mer detaljer och information.",
     author: "Melisha Linell",
-    authorImage: "/images/author-image.jpg",
+    authorImage: "/images/profile-melisha-linell.jpeg",
     date: "3 Februari 2024",
     slug: "skapa-talent-award-winner",
   },

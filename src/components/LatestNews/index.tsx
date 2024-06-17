@@ -1,6 +1,5 @@
 import { useLocale, useTranslations } from "next-intl";
 import NewsCard from "../NewsCard";
-
 import { Lato } from "next/font/google";
 
 const lato = Lato({
