@@ -78,8 +78,8 @@
   },
 
   "Statistics": {
-      "downloads": "Nedladdningar",
-      "parking-sessions": "Parkeringssessioner",
-      "parking-zone": "Parkeringszoner"
+    "downloads": "Nedladdningar",
+    "parking-sessions": "Parkeringssessioner",
+    "parking-zone": "Parkeringszoner"
   }
 }
