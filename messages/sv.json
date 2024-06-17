@@ -81,5 +81,15 @@
     "downloads": "Nedladdningar",
     "parking-sessions": "Parkeringssessioner",
     "parking-zone": "Parkeringszoner"
+  },
+
+  "LatestNews": {
+    "news": "Nyheter",
+    "Latest News": "Senaste nytt",
+    "View all": "Visa alla"
+  },
+
+  "NewsCard": {
+    "Read more": "Läs mer"
   }
 }

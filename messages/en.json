@@ -7,7 +7,7 @@
     "Links": "Links",
     "Contact": "Contact"
   },
-  
+
   "FooterInfo": {
     "Address": "Address",
     "Contact": "Contact"
@@ -26,7 +26,7 @@
     "action3": "Avoid fined",
     "action4": "Reduce stress"
   },
-  
+
   "WhyParkingTime": {
     "sectionTitle": "Why",
     "avoidFinesTitle": "Avoid fines & Reduce stress",
@@ -81,5 +81,15 @@
     "answer4": "You can contact your municipality and ask if Parking Time can be implemented.",
     "headline2": "Still have a question?",
     "subheadline2": "Please feel free to contact us if you have any questions."
+  },
+
+  "LatestNews": {
+    "news": "News",
+    "Latest News": "Latest News",
+    "View all": "View all"
+  },
+
+  "NewsCard": {
+    "Read more": "Read more"
   }
 }

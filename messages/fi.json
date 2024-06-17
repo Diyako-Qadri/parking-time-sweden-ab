@@ -12,7 +12,7 @@
     "Address": "Osoite",
     "Contact": "Yhteystiedot"
   },
-  
+
   "homeHero": {
     "headline1": "What time is it?",
     "headline2": "Parking Time!",
@@ -27,7 +27,6 @@
     "action4": "Vähennä stressiä"
   },
 
-
   "WhyParkingTime": {
     "sectionTitle": "Miksi",
     "avoidFinesTitle": "Vältä sakkoja ja vähennä stressiä",
@@ -38,8 +37,8 @@
     "integrationDes": "Pysäköintivalvojien järjestelmämme integroituu saumattomasti olemassa olevaan kokoonpanoosi. Yhtenäinen järjestelmä hyödyttää sinua tehostamalla toimintaa ja parantamalla henkilöstön kokemusta poistamalla kahden eri järjestelmän ja laitteen tarpeen. Teemme tästä integraatiosta tehokkaan, intuitiivisen ja helpon!",
     "dataTitle": "Datavetoinen kaupunkisuunnittelu",
     "dataDes": "Digitaalinen pysäköintikiekko voi ajan myötä optimoida pysäköintiresurssit ja kaupunkisuunnittelun arvokkaiden käyttötietojen ja käyttäytymismallien avulla, mikä johtaa turvallisempaan yhteiskuntaan paremmalla pysäköintipaikkojen hallinnalla ja saatavuudella."
-    },
-  
+  },
+
   "aboutHero": {
     "categoryText": "Tietoa meistä",
     "headline": "Parking Time Sweden",
@@ -76,11 +75,21 @@
     "answer4": "Voit ottaa yhteyttä kuntaasi ja kysyä, voidaanko Parking Time ottaa käyttöön.",
     "headline2": "Onko sinulla vielä kysyttävää?",
     "subheadline2": "Ota meihin yhteyttä, jos sinulla on kysyttävää."
-  },  
-    
+  },
+
   "Statistics": {
     "downloads": "Lataukset",
     "parking-sessions": "Pysäköintikerrat",
     "parking-zone": "Pysäköintialueet"
+  },
+
+  "LatestNews": {
+    "news": "Uutiset",
+    "Latest News": "Uusimmat uutiset",
+    "View all": "Näytä kaikki"
+  },
+
+  "NewsCard": {
+    "Read more": "Lue lisää"
   }
 }
