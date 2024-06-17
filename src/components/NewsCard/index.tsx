@@ -1,6 +1,5 @@
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
-
 import { Lato } from "next/font/google";
 
 const lato = Lato({
@@ -18,6 +17,7 @@ type NewsCardProps = {
 
 const NewsCard = ({ image, title, description, date, slug }: NewsCardProps) => {
   const t = useTranslations("NewsCard");
+  const locale = useLocale();
 
   return (
     <div
@@ -34,7 +34,8 @@ const NewsCard = ({ image, title, description, date, slug }: NewsCardProps) => {
         </div>
         <div className="mt-auto">
           <Link
-            href={`/news/${slug}`}
+            href={`/${locale}/news/${slug}`}
+            locale={false} // Disable automatic locale handling to avoid duplication
             className={`${lato.className} text-[#0B051D] font-medium text-base underline leading-6`}>
             {t("Read more")}
           </Link>
