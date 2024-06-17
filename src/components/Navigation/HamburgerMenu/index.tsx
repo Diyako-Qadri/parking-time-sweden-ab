@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, MotionConfig, Variants } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
@@ -33,11 +33,9 @@ const menuItem: MenuItem[] = [
 
 const HamburgerMenu = () => {
   const [active, setActive] = useState<boolean>(false);
-  const [openMenu, setOpenMenu] = useState<boolean>(false);
 
   const handleClick = () => {
     setActive(prevActive => !prevActive);
-    setOpenMenu(prev => !prev);
   };
 
   const path = usePathname();
@@ -46,8 +44,15 @@ const HamburgerMenu = () => {
 
   const handleMenuItemClick = () => {
     setActive(false);
-    setOpenMenu(false);
   };
+
+  useEffect(() => {
+    if (active) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+  }, [active]);
 
   const itemVariants: Variants = {
     hidden: { opacity: 0, x: -80 },
@@ -124,39 +129,41 @@ const HamburgerMenu = () => {
           />
         </motion.button>
       </MotionConfig>
-      {openMenu && (
-        <div className="absolute  top-0 left-0 w-full h-screen bg-pt-primary text-white overflow-y-auto">
-          <div className="mx-10 my-10 z-0 pt-[35px]">
-            {menuItem.map((item, index) => (
-              <Link
-                className={path === item.link ? 'active' : ''}
-                key={index}
-                href={`/${locale}${item.link}`} 
-                onClick={handleMenuItemClick}
-              >
-                <motion.p
-                  className="my-6 text-lg font-medium"
-                  custom={index}
-                  initial="hidden"
-                  animate="visible"
-                  variants={itemVariants}
+      {active && (
+        <div className="absolute top-0 left-0 w-full h-screen bg-pt-primary text-white overflow-y-auto">
+          <div className="relative h-full overflow-auto">
+            <div className="mx-10 flex flex-col mt-14 z-0 pt-[75px] sm:pt-[35px]">
+              {menuItem.map((item, index) => (
+                <Link
+                  className={path === item.link ? 'active' : ''}
+                  key={index}
+                  href={`/${locale}${item.link}`} 
+                  onClick={handleMenuItemClick}
                 >
-                  {t(item.name)}
-                </motion.p>
-              </Link>
-            ))}
-          </div>
-          <div className="ml-6 ">
-            <p className="flex flex-row text-lg font-medium">
-              <LocaleSwitcher /> Change language
-            </p>
-          </div>
-          <div className="flex flex-col items-center mt-8">
-            <a href={`/${locale}/contact`}>
-              <Button variant="mobileWhite" size="mobilePrimary">
-              {t("Contact")}
-              </Button>
-            </a>
+                  <motion.p
+                    className="my-6 text-lg font-medium"
+                    custom={index}
+                    initial="hidden"
+                    animate="visible"
+                    variants={itemVariants}
+                  >
+                    {t(item.name)}
+                  </motion.p>
+                </Link>
+              ))}
+            </div>
+            <div className="ml-6">
+              <p className="flex flex-row text-lg font-medium">
+                <LocaleSwitcher /> Change language
+              </p>
+            </div>
+            <div className="flex flex-col items-center mt-8">
+              <a href={`/${locale}/contact`}>
+                <Button variant="mobileWhite" size="mobilePrimary">
+                  {t("Contact")}
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       )}
