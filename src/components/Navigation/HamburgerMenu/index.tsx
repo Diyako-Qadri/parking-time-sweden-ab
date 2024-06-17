@@ -28,11 +28,7 @@ const menuItem: MenuItem[] = [
   {
     name: 'FAQ',
     link: '/#faq',
-  },
-  {
-    name: 'Contact',
-    link: '/contact',
- }
+  }
 ];
 
 const HamburgerMenu = () => {

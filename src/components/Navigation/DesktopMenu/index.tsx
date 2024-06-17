@@ -27,11 +27,7 @@ const navItem: NavItemDesk[] = [
   {
     name: 'FAQ',
     link: '/#faq',
-  },
-  {
-    name: 'Contact',
-    link: '/contact',
- }
+  }
 ];
 
 const DesktopMenu = () => {
