@@ -12,7 +12,7 @@
     "Address": "Adresse",
     "Contact": "Kontakt"
   },
-  
+
   "homeHero": {
     "headline1": "Parking Time",
     "headline2": "",
@@ -27,24 +27,24 @@
     "action4": "Stress reduzieren"
   },
 
-    "Statistics": {
+  "Statistics": {
     "downloads": "Herunterladen",
     "parking-sessions": "Parksitzungen",
     "parking-zone": "Parkzonen"
   },
 
-    "WhyParkingTime": {
-      "sectionTitle": "Warum",
-      "avoidFinesTitle": "Bußgelder vermeiden & Stress reduzieren",
-      "avoidFinesDes": "Unsere digitale Lösung zieht mehr Besucher an, indem sie physische Parkscheiben eliminiert und Bußgelder reduziert. Dies vereinfacht das Parken, erhöht die Besucherzahlen, die wirtschaftliche Aktivität und die Lebendigkeit der Stadt und reduziert gleichzeitig den Stress.",
-      "simplifiedTitle": "Vereinfachtes Parken für Nutzer",
-      "simplifiedDes": "Mit unserer App können Sie mühelos die Parkzeit einstellen, anpassen und überwachen. Mit einer benutzerfreundlichen Oberfläche finden Sie schnell Parkplätze und verwalten das Parken. Wir aktualisieren kontinuierlich basierend auf Kundenfeedback, um ein effizientes und stressfreies Erlebnis zu gewährleisten.",
-      "integrationTitle": "Integration mit bestehenden Systemen",
-      "integrationDes": "Unser System für Parkwächter integriert sich nahtlos in Ihr bestehendes Setup. Ein einheitliches System vereinfacht die Abläufe und verbessert die Erfahrung für das Personal, indem es die Notwendigkeit für zwei verschiedene Systeme und Geräte eliminiert. Wir machen diese Integration effizient, intuitiv und einfach!",
-      "dataTitle": "Datengetriebene Stadtplanung",
-      "dataDes": "Die digitale Parkscheibe kann letztendlich durch wertvolle Nutzungsdaten und Verhaltensmuster die Parkressourcen und die Stadtplanung optimieren, was zu einer sichereren Gesellschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt.",
-      "LearnMoreBtn": "Mehr über uns"
-    },
+  "WhyParkingTime": {
+    "sectionTitle": "Warum",
+    "avoidFinesTitle": "Bußgelder vermeiden & Stress reduzieren",
+    "avoidFinesDes": "Unsere digitale Lösung zieht mehr Besucher an, indem sie physische Parkscheiben eliminiert und Bußgelder reduziert. Dies vereinfacht das Parken, erhöht die Besucherzahlen, die wirtschaftliche Aktivität und die Lebendigkeit der Stadt und reduziert gleichzeitig den Stress.",
+    "simplifiedTitle": "Vereinfachtes Parken für Nutzer",
+    "simplifiedDes": "Mit unserer App können Sie mühelos die Parkzeit einstellen, anpassen und überwachen. Mit einer benutzerfreundlichen Oberfläche finden Sie schnell Parkplätze und verwalten das Parken. Wir aktualisieren kontinuierlich basierend auf Kundenfeedback, um ein effizientes und stressfreies Erlebnis zu gewährleisten.",
+    "integrationTitle": "Integration mit bestehenden Systemen",
+    "integrationDes": "Unser System für Parkwächter integriert sich nahtlos in Ihr bestehendes Setup. Ein einheitliches System vereinfacht die Abläufe und verbessert die Erfahrung für das Personal, indem es die Notwendigkeit für zwei verschiedene Systeme und Geräte eliminiert. Wir machen diese Integration effizient, intuitiv und einfach!",
+    "dataTitle": "Datengetriebene Stadtplanung",
+    "dataDes": "Die digitale Parkscheibe kann letztendlich durch wertvolle Nutzungsdaten und Verhaltensmuster die Parkressourcen und die Stadtplanung optimieren, was zu einer sichereren Gesellschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt.",
+    "LearnMoreBtn": "Mehr über uns"
+  },
 
   "aboutHero": {
     "categoryText": "Über uns",
@@ -61,9 +61,12 @@
   "newsHero": {
     "categoryText": "Nachrichten",
     "headline": "Wir verwandeln Parkerlebnisse.",
-    "heroText": ""
+    "heroText": "",
+    "news": "Nachrichten",
+    "Latest News": "Neueste Nachrichten",
+    "View All": "Alle ansehen"
   },
-  
+
   "FAQ": {
     "title": "FAQ",
     "headline": "Haben Sie eine Frage?",
@@ -82,27 +85,40 @@
     "answer4": "Sie können Ihre Gemeinde kontaktieren und fragen, ob Parking Time implementiert werden kann.",
     "headline2": "Haben Sie noch eine Frage?",
     "subheadline2": "Bitte kontaktieren Sie uns, wenn Sie Fragen haben."
-    },
+  },
 
-    "knowMore": {
-      "name-title": "Matilda Öhman, GF",
-      "mail": "info@parkingtime.se",
-      "question": "Möchten Sie mehr wissen?",
-      "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir sie in Ihrer Gemeinde implementieren können."
-    },
+  "knowMore": {
+    "name-title": "Matilda Öhman, GF",
+    "mail": "info@parkingtime.se",
+    "question": "Möchten Sie mehr wissen?",
+    "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir sie in Ihrer Gemeinde implementieren können."
+  },
 
-    "button": {
-      "contact": "Kontaktiere uns",
-      "download": "App herunterladen",
-      "learnMore": "Erfahre mehr über uns",
-      "subscribe": "Abonnieren",
-      "viewAllDesktop": "Alle anzeigen",
-      "ViewAllMobile": "Alle Nachrichten anzeigen",
-      "message": "Nachricht senden",
-      "meeting": "Ein Treffen buchen"
-    },
+  "button": {
+    "contact": "Kontaktiere uns",
+    "download": "App herunterladen",
+    "learnMore": "Erfahre mehr über uns",
+    "subscribe": "Abonnieren",
+    "viewAllDesktop": "Alle anzeigen",
+    "ViewAllMobile": "Alle Nachrichten anzeigen",
+    "message": "Nachricht senden",
+    "meeting": "Ein Treffen buchen"
+  },
 
-    "SmartParkingSolution": {
+  "SingleNews": {
+    "notFound": "Nachricht nicht gefunden"
+  },
+
+  "LatestNews": {
+    "news": "Nachrichten",
+    "Latest News": "Neueste Nachrichten",
+    "View all": "Alle ansehen"
+  },
+
+  "NewsCard": {
+    "Read more": "Mehr lesen"
+  },
+  "SmartParkingSolution": {
       "title": "Smart Parking Solution",
       "parkingText": "Die Parkscheibe ist seit langem ein Werkzeug, um die Zirkulation und Aktivität im Stadtzentrum zu fördern. Es ist eine fantastische Erfindung, die sowohl Bewohnern, Besuchern als auch lokalen Unternehmen zugutekommt. Wir möchten Teil dieser Entwicklung sein, indem wir eine kostenlose digitale Parkscheibe erstellen.",
       "firstArrow": "Wir streben danach, das Wachstum und die Effizienz von städtischen Gebieten zu unterstützen.",
@@ -110,5 +126,4 @@
       "thirdArrow": "Jedes Parkwächter-System kann leicht in unser System integriert werden.",
       "secondParkingText": "Wir freuen uns darauf, mehr über unsere Lösung in einem Meeting zu teilen."
   }
-  
 }
