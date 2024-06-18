@@ -8,7 +8,7 @@ const SolutionSection = () => {
     const t = useTranslations("SmartParkingSolution")
     return (
         <>
-         <div className=" flex py-28 px-20">
+         <div className=" flex py-28 px-4 md:px-20">
             <div className='flex md:flex-row flex-col gap-16'>
             <div className='mb-5 px-1 md:w-1/2'>
                <Image 
@@ -18,7 +18,7 @@ const SolutionSection = () => {
                 alt="How to use parkingTime"
                 /> 
             </div>
-            <div className='flex flex-col gap-y-5 p-4'>
+            <div className='flex flex-col gap-y-5 p-4 '>
                 <div className='max-w-xl'>
                     <h2 className='font-extrabold text-3xl mb-5'>{t("title")}</h2>
                     <p>{t("parkingText")}</p>
