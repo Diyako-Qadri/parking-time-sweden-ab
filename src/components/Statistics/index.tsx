@@ -23,7 +23,7 @@ const StatisticItem = ({
   text,
   duration,
 }: StatisticItemProps) => {
-  const [ref, inView] = useInView({ triggerOnce: false });
+  const [ref, inView] = useInView({ triggerOnce: true });
 
   return (
     <div
