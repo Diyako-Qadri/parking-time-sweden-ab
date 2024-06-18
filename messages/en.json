@@ -7,7 +7,7 @@
     "Links": "Links",
     "Contact": "Contact us"
   },
-  
+
   "FooterInfo": {
     "Address": "Address",
     "Contact": "Contact"
@@ -26,7 +26,7 @@
     "action3": "Avoid fines",
     "action4": "Reduce stress"
   },
-  
+
   "WhyParkingTime": {
     "sectionTitle": "Why",
     "avoidFinesTitle": "Avoid fines & Reduce stress",
@@ -61,7 +61,10 @@
   "newsHero": {
     "categoryText": "News",
     "headline": "We transform parking experiences!",
-    "heroText": ""
+    "heroText": "",
+    "news": "News",
+    "Latest News": "Latest News",
+    "View All": "View all"
   },
 
   "FAQ": {
@@ -93,12 +96,26 @@
 
   "button": {
     "contact": "Contact us",
-    "download": "Download app", 
+    "download": "Download app",
     "learnMore": "Learn more about us",
     "subscribe": "Subscribe",
     "viewAllDesktop": "View all",
     "ViewAllMobile": "View all news",
     "message": "Send message",
     "meeting": "Book a meeting"
+  },
+
+  "SingleNews": {
+    "notFound": "News not found"
+  },
+
+  "LatestNews": {
+    "news": "News",
+    "Latest News": "Latest News",
+    "View all": "View all"
+  },
+
+  "NewsCard": {
+    "Read more": "Read more"
   }
 }

@@ -42,7 +42,10 @@
   "newsHero": {
     "categoryText": "Uutiset",
     "headline": "Muutamme pysäköinti- kokemuksia.",
-    "heroText": ""
+    "heroText": "",
+    "news": "Uutiset",
+    "Latest News": "Uusimmat uutiset",
+    "View All": "Näytä kaikki"
   },
 
   "WhyParkingTime": {
@@ -98,5 +101,19 @@
     "ViewAllMobile": "Näytä kaikki uutiset",
     "message": "Lähetä viesti",
     "meeting": "Varaa tapaaminen"
+  },
+
+  "SingleNews": {
+    "notFound": "Sivua ei löytynyt"
+  },
+
+  "LatestNews": {
+    "news": "Uutiset",
+    "Latest News": "Uusimmat uutiset",
+    "View all": "Näytä kaikki"
+  },
+
+  "NewsCard": {
+    "Read more": "Lue lisää"
   }
 }

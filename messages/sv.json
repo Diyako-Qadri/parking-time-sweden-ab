@@ -7,7 +7,7 @@
     "Links": "Länkar",
     "Contact": "Kontakta oss"
   },
-  
+
   "FooterInfo": {
     "Address": "Adress",
     "Contact": "Kontakt"
@@ -44,7 +44,7 @@
     "categoryText": "Om oss",
     "headline": "Parking Time Sweden",
     "heroText": "Vi är en tech-startup dedikerad till att förvandla parkeringsupplevelsen för alla intressenter - parkerare, parkeringsvakter, kommuner och fastighetsägare."
-    },
+  },
 
   "contactHero": {
     "categoryText": "Kontakt",
@@ -55,7 +55,10 @@
   "newsHero": {
     "categoryText": "Nyheter",
     "headline": "Vi förvandlar parkerings- upplevelser.",
-    "heroText": ""
+    "heroText": "",
+    "news": "Nyheter",
+    "Latest News": "Senaste nytt",
+    "View all": "Visa alla"
   },
 
   "FAQ": {
@@ -93,12 +96,26 @@
 
   "button": {
     "contact": "Kontakta oss",
-    "download": "Ladda ned appen", 
+    "download": "Ladda ned appen",
     "learnMore": "Lär dig mer om oss",
     "subscribe": "Prenumerera",
     "viewAllDesktop": "Visa alla",
     "ViewAllMobile": "Visa alla nyheter",
     "message": "Skicka meddelande",
     "meeting": "Boka möte"
+  },
+
+  "SingleNews": {
+    "notFound": "Inga nyheter hittades."
+  },
+
+  "LatestNews": {
+    "news": "Nyheter",
+    "Latest News": "Senaste nytt",
+    "View all": "Visa alla"
+  },
+
+  "NewsCard": {
+    "Read more": "Läs mer"
   }
 }
