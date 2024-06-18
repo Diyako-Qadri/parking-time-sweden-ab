@@ -55,7 +55,10 @@
   "newsHero": {
     "categoryText": "Uutiset",
     "headline": "Muutamme pysäköinti- kokemuksia.",
-    "heroText": ""
+    "heroText": "",
+    "news": "Uutiset",
+    "latestNews": "Uusimmat uutiset",
+    "viewAll": "Näytä kaikki"
   },
 
   "FAQ": {

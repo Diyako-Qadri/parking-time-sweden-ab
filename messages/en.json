@@ -61,7 +61,10 @@
   "newsHero": {
     "categoryText": "News",
     "headline": "We transform parking experiences!",
-    "heroText": ""
+    "heroText": "",
+    "news": "News",
+    "latestNews": "Latest News",
+    "viewAll": "View all"
   },
 
   "FAQ": {

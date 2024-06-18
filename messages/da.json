@@ -55,7 +55,10 @@
   "newsHero": {
     "categoryText": "Nyheder",
     "headline": "Vi forvandler parkerings- oplevelser.",
-    "heroText": ""
+    "heroText": "",
+    "news": "Nyheder",
+    "viewAll": "Se alt",
+    "latestNews": "Seneste nyt"
   },
 
   "FAQ": {
