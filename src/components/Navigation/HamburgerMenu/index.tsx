@@ -157,13 +157,13 @@ const HamburgerMenu = () => {
                 <LocaleSwitcher /> <p className='absolute left-[80px] z-10'>Change language</p>
               </p>
             </div>
-          </div>
-          <div className="flex flex-col items-center mt-8">
-            <a href={`/${locale}/contact`}>
-              <Button variant="mobileWhite" size="mobilePrimary">
-              {t("Contact")}
-              </Button>
-            </a>
+            <div className="flex flex-col items-center mt-8">
+              <a href={`/${locale}/contact`}>
+                <Button variant="mobileWhite" size="mobilePrimary">
+                  {t("Contact")}
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       )}
