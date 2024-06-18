@@ -92,7 +92,12 @@ const Footer = () => {
             <div className="flex  ml-10 md:ml-0  md:flex-col h-14 md:justify-end md:px-12">
                 <div className="flex flex-col-reverse h-[90px] md:h-[90px] md:flex-row justify-between">
                     <p className="text-sm">&copy; {currentYear} Parking Time AB</p>
-                    <Link href="#" className="hover:underline">Privacy Policy</Link>
+                    <Link 
+                    className={`hover:underline ${path === `/${locale}/privacypolicy`}`}
+                    href={`/${locale}/privacypolicy`}
+                    >
+                        Privacy Policy
+                    </Link>
                 </div>
             </div>
         </footer>
