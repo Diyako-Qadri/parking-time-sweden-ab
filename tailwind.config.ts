@@ -21,6 +21,8 @@ const config: Config = {
         'pt-gray1': '#868686',
         'pt-lightgrayborder': '#E8E8E8',
         'pt-gray2': '#F0F0F0',
+        'pt-light-gray': '#F9F9F9',
+        'pt-dark-text': '#0B051D',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -35,8 +37,12 @@ const config: Config = {
         'custom-home': 'calc(100vh - 80px)',
       },
       screens: {
+        'NavbarScrren': '856px',   
           's': {'max':'410px'},
           'hover-hover': {'raw': '(hover: hover) and (pointer: fine)'},
+      },
+      padding: {
+        '1/5': '20%',
       },
     },
   },
