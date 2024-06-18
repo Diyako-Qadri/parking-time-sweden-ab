@@ -1,5 +1,4 @@
 'use client';
-
 import { motion, AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { usePathname, useSearchParams } from 'next/navigation';
@@ -10,13 +9,24 @@ import English from '../../../public/images/circle.png';
 import Denmark from '../../../public/images/denmark.png';
 import Norway from '../../../public/images/norway.png';
 import Finland from '../../../public/images/finland.png';
+// import Germany from '../../../public/images/germany.png';
 import Sweden1 from '../../../public/images/sweden1.png';
 import Denmark1 from '../../../public/images/denmark1.png';
 import Norway1 from '../../../public/images/norway1.png';
 import Finland1 from '../../../public/images/finland1.png';
+// import Germany1 from '../../../public/images/germany1.png';
 import England1 from '../../../public/images/unoitedKingdom.png';
 
 const defaultLanguage = 'sv';
+
+const locales = [
+  { code: 'sv', name: 'Swedish', img: Sweden1, flag: Sweden },
+  { code: 'da', name: 'Danish', img: Denmark1, flag: Denmark },
+  { code: 'no', name: 'Norwegian', img: Norway1, flag: Norway },
+  { code: 'fi', name: 'Finnish', img: Finland1, flag: Finland },
+  { code: 'en', name: 'English', img: England1, flag: English },
+  // { code: 'de', name: 'German', img: Germany1, flag: Germany },
+];
 
 const LocaleSwitcher = () => {
   const [isPending, startTransition] = useTransition();
@@ -29,10 +39,7 @@ const LocaleSwitcher = () => {
 
   useEffect(() => {
     const localeFromUrl = pathname.split('/')[1];
-    if (
-      localeFromUrl &&
-      ['sv', 'da', 'no', 'fi', 'en'].includes(localeFromUrl)
-    ) {
+    if (locales.some(locale => locale.code === localeFromUrl)) {
       setSelectedLocale(localeFromUrl);
     } else {
       setSelectedLocale(defaultLanguage);
@@ -41,10 +48,7 @@ const LocaleSwitcher = () => {
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (
-        dropdownRef.current &&
-        !dropdownRef.current.contains(event.target as Node)
-      ) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
         setDropdownOpen(false);
       }
     };
@@ -60,9 +64,7 @@ const LocaleSwitcher = () => {
 
     const newPathname = `/${nextLocale}${pathname.replace(/^\/[a-z]{2}/, '')}`;
     const newSearchParams = searchParams.toString();
-    const newUrl = `${newPathname}${
-      newSearchParams ? '?' + newSearchParams : ''
-    }`;
+    const newUrl = `${newPathname}${newSearchParams ? '?' + newSearchParams : ''}`;
 
     startTransition(() => {
       router.replace(newUrl);
@@ -75,30 +77,14 @@ const LocaleSwitcher = () => {
     setDropdownOpen(!dropdownOpen);
   };
 
-  const getFlagImage = (locale: string) => {
-    if (locale === 'sv') {
-      return Sweden;
-    } else if (locale === 'da') {
-      return Denmark;
-    } else if (locale === 'no') {
-      return Norway;
-    } else if (locale === 'fi') {
-      return Finland;
-    } else if (locale === 'en') {
-      return English;
-    } else {
-      return Sweden;
-    }
-  };
-
   return (
-    <div className="relative left-[-5px]" ref={dropdownRef}>
+    <div className="relative" ref={dropdownRef}>
       <button
         onClick={toggleDropdown}
         className="rounded bg-transparent text-white px-4 py-1 flex items-center"
       >
         <Image
-          src={getFlagImage(selectedLocale)}
+          src={locales.find(locale => locale.code === selectedLocale)?.flag || Sweden}
           alt={selectedLocale}
           width={25}
           height={25}
@@ -106,100 +92,34 @@ const LocaleSwitcher = () => {
       </button>
       <AnimatePresence>
         {dropdownOpen && (
-         <motion.ul
-         initial={{ opacity: 0, y: -10 }}
-         animate={{ opacity: 1, y: 0 }}
-         exit={{ opacity: 0, y: -10 }}
-         transition={{ duration: 0.4 }}
-         className="rounded mt-[12px] bg-pt-green w-[90vw] ml-1 z-20 items-center md:text-white md:absolute md:mt-[28px] md:block md:bg-pt-green-transparent md:w-[73px] grid grid-cols-2 gap-2"
-       >
-         <motion.li
-           initial={{ opacity: 0, y: -10 }}
-           animate={{ opacity: 1, y: 0 }}
-           exit={{ opacity: 0, y: -10 }}
-           transition={{ duration: 0.4 }}
-           onClick={() => onSelectChange('sv')}
-           className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
-         >
-           <Image
-             src={Sweden1}
-             alt="Swedish"
-             width={20}
-             height={20}
-             className="mr-2"
-           />{' '}
-           Sv
-         </motion.li>
-         <motion.li
-           initial={{ opacity: 0, y: -10 }}
-           animate={{ opacity: 1, y: 0 }}
-           exit={{ opacity: 0, y: -10 }}
-           transition={{ duration: 0.4 }}
-           onClick={() => onSelectChange('da')}
-           className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
-         >
-           <Image
-             src={Denmark1}
-             alt="Danish"
-             width={20}
-             height={20}
-             className="mr-2"
-           />{' '}
-           Da
-         </motion.li>
-         <motion.li
-           initial={{ opacity: 0, y: -10 }}
-           animate={{ opacity: 1, y: 0 }}
-           exit={{ opacity: 0, y: -10 }}
-           transition={{ duration: 0.4 }}
-           onClick={() => onSelectChange('no')}
-           className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
-         >
-           <Image
-             src={Norway1}
-             alt="Norwegian"
-             width={20}
-             height={20}
-             className="mr-2"
-           />{' '}
-           No
-         </motion.li>
-         <motion.li
-           initial={{ opacity: 0, y: -10 }}
-           animate={{ opacity: 1, y: 0 }}
-           exit={{ opacity: 0, y: -10 }}
-           transition={{ duration: 0.4 }}
-           onClick={() => onSelectChange('fi')}
-           className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
-         >
-           <Image
-             src={Finland1}
-             alt="Finnish"
-             width={20}
-             height={20}
-             className="mr-2"
-           />{' '}
-           Fi
-         </motion.li>
-         <motion.li
-           initial={{ opacity: 0, y: -10 }}
-           animate={{ opacity: 1, y: 0 }}
-           exit={{ opacity: 0, y: -10 }}
-           transition={{ duration: 0.4 }}
-           onClick={() => onSelectChange('en')}
-           className="flex items-center p-2 cursor-pointer  hover:bg-pt-green hover:border-b-[.5px] border-current"
-         >
-           <Image
-             src={England1}
-             alt="English"
-             width={20}
-             height={20}
-             className="mr-2"
-           />{' '}
-           En
-         </motion.li>
-       </motion.ul>
-       
+          <motion.ul
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.4 }}
+            className="md:absolute rounded mt-7 z-20 flex flex-wrap ml-6 gap-5 md:gap-0 items-center w-[85vw] text-white md:bg-pt-green-transparent md:w-[146px] md:right-[-58px]"
+          >
+            {locales.map(locale => (
+              <motion.li
+                key={locale.code}
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                transition={{ duration: 0.4 }}
+                onClick={() => onSelectChange(locale.code)}
+                className="flex items-center p-2 cursor-pointer w-1/4 rounded border-white-100 border-[1px] md:border-0  md:rounded-none hover:bg-pt-green hover:border-b-[.5px] border-current md:w-1/2"
+              >
+                <Image
+                  src={locale.img}
+                  alt={locale.name}
+                  width={20}
+                  height={20}
+                  className="mr-2"
+                />
+                {locale.code.toUpperCase()}
+              </motion.li>
+            ))}
+          </motion.ul>
         )}
       </AnimatePresence>
     </div>
