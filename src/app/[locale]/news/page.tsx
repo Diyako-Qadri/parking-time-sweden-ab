@@ -1,11 +1,30 @@
 import NewsCard from "@/components/NewsCard";
 import PageHero from "@/components/PageHero";
-import { newsItems } from "@/data/newsData";
+import { getNewsItems } from "@/data/newsData";
 import { useLocale, useTranslations } from "next-intl";
+import { useEffect, useState } from "react";
 
 const News = () => {
   const t = useTranslations("newsHero");
   const locale = useLocale();
+  const [newsItems, setNewsItems] = useState<
+    {
+      image: string;
+      title: string;
+      description: string;
+      date: string;
+      slug: string;
+    }[]
+  >([]);
+
+  useEffect(() => {
+    const fetchNews = async () => {
+      const items = await getNewsItems();
+      setNewsItems(items);
+    };
+
+    fetchNews();
+  }, []);
 
   return (
     <>

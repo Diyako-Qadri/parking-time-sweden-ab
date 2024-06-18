@@ -1,17 +1,32 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { newsItems } from "@/data/newsData";
+import { getNewsItems } from "@/data/newsData";
 
 const SingleNews = () => {
   const router = useRouter();
   const { id } = router.query;
-  const [newsItem, setNewsItem] = useState<(typeof newsItems)[0] | null>(null);
+  const [newsItem, setNewsItem] = useState<{
+    id: string;
+    authorImage: string;
+    author: string;
+    date: string;
+    title: string;
+    image: string;
+    content: string;
+  } | null>(null);
 
   useEffect(() => {
-    if (id) {
-      const foundNewsItem = newsItems.find((item) => item.id === id);
-      setNewsItem(foundNewsItem || null);
-    }
+    const fetchData = async () => {
+      if (id) {
+        const newsItems = await getNewsItems();
+        const foundNewsItem = newsItems.find(
+          (item: { id: string | string[] }) => item.id === id
+        );
+        setNewsItem(foundNewsItem || null);
+      }
+    };
+
+    fetchData();
   }, [id]);
 
   if (!newsItem) {
