@@ -1,4 +1,3 @@
-import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 import { Lato } from "next/font/google";
 
@@ -16,11 +15,10 @@ type NewsCardProps = {
 };
 
 const NewsCard = ({ image, title, description, date, slug }: NewsCardProps) => {
-  const t = useTranslations("NewsCard");
-  const locale = useLocale();
-
   return (
-    <div className="w-full min-h-full sm:max-w-sm rounded overflow-hidden shadow-lg bg-white text-left flex flex-col">
+    <div
+      className="w-full min-h-full sm:max-w-sm rounded overflow-hidden shadow-lg bg-white text-left flex flex-col"
+      style={{ boxShadow: "0 5px 50px rgba(0, 0, 0, 0.08)" }}>
       <img className="w-full h-[300px] object-cover" src={image} alt={title} />
       <div className="flex flex-col justify-between flex-1 p-4">
         <div>
@@ -32,10 +30,9 @@ const NewsCard = ({ image, title, description, date, slug }: NewsCardProps) => {
         </div>
         <div className="mt-auto">
           <Link
-            href={`/${locale}/news/${slug}`}
-            locale={false}
+            href={`/news/${slug}`}
             className={`${lato.className} text-[#0B051D] font-medium text-base underline leading-6`}>
-            {t("Read more")}
+            Read more
           </Link>
         </div>
       </div>

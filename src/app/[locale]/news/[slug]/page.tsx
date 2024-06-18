@@ -5,38 +5,45 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Lato } from "next/font/google";
 import { Roboto } from "next/font/google";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500"] });
 
 const SingleNews = () => {
   const { slug } = useParams();
-  const slugString = Array.isArray(slug) ? slug[0] : slug;
+  const locale = useLocale();
   const t = useTranslations("SingleNews");
-  const [newsItem, setNewsItem] = useState<null | {
+  const [newsItem, setNewsItem] = useState<{
     id: any;
+    image: any;
     title: any;
-    slug: any;
     description: any;
     content: any;
     author: any;
     authorImage: any;
-    date: any;
-    image: any;
-  }>(null);
+    date: string;
+    slug: any;
+  } | null>(null);
 
   useEffect(() => {
     const fetchNewsItem = async () => {
-      const item = await getSingleNewsItem(slugString);
-      setNewsItem(item);
+      if (typeof slug === "string") {
+        const item = await getSingleNewsItem(slug, locale);
+        setNewsItem(item);
+      } else if (Array.isArray(slug)) {
+        const item = await getSingleNewsItem(slug[0], locale);
+        setNewsItem(item);
+      } else {
+        console.error("Invalid slug:", slug);
+      }
     };
 
     fetchNewsItem();
-  }, [slug]);
+  }, [slug, locale]);
 
   if (!newsItem) {
-    return <div> {t("Not found")}</div>;
+    return <div>{t("Not found")}</div>;
   }
 
   return (
