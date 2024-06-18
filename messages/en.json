@@ -5,7 +5,7 @@
     "News": "News",
     "FAQ": "FAQ",
     "Links": "Links",
-    "Contact": "Contact"
+    "Contact": "Contact us"
   },
   
   "FooterInfo": {
@@ -36,7 +36,8 @@
     "integrationTitle": "Integration with existing systems",
     "integrationDes": "Our system for parking attendants integrates seamlessly with your existing setup. A unified system benefits you by streamlining operations and enhancing the experience for personnel by eliminating the need for two different systems and devices. We make this integration efficient, intuitive, and simple!",
     "dataTitle": "Data-driven urban planning",
-    "dataDes": "The digital parking disc can eventually optimize parking resources and urban planning through valuable usage data and behavior patterns, leading to a safer society with better control and access to parking spaces."
+    "dataDes": "The digital parking disc can eventually optimize parking resources and urban planning through valuable usage data and behavior patterns, leading to a safer society with better control and access to parking spaces.",
+    "LearnMoreBtn": "Learn more about us"
   },
 
   "Statistics": {
@@ -88,6 +89,17 @@
     "mail": "info@parkingtime.se",
     "question": "Want to know more?",
     "description": "Contact us to find out more about our solution and how we can implement it in your municipality."
+  },
+
+  "button": {
+    "contact": "Contact us",
+    "download": "Download app", 
+    "learnMore": "Learn more about us",
+    "subscribe": "Subscribe",
+    "viewAllDesktop": "View all",
+    "ViewAllMobile": "View all news",
+    "message": "Send message",
+    "meeting": "Book a meeting"
   },
   "SmartParkingSolution": {
     "title": "Smart Parking Solution",

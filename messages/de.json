@@ -33,17 +33,18 @@
     "parking-zone": "Parkzonen"
   },
 
-  "WhyParkingTime": {
-    "sectionTitle": "Warum",
-    "avoidFinesTitle": "Bußgelder vermeiden & Stress reduzieren",
-    "avoidFinesDes": "Unsere digitale Lösung zieht mehr Besucher an, indem sie physische Parkscheiben eliminiert und Bußgelder reduziert. Dies vereinfacht das Parken, erhöht die Besucherzahlen, die wirtschaftliche Aktivität und die Lebendigkeit der Stadt und reduziert gleichzeitig den Stress.",
-    "simplifiedTitle": "Vereinfachtes Parken für Nutzer",
-    "simplifiedDes": "Mit unserer App können Sie mühelos die Parkzeit einstellen, anpassen und überwachen. Mit einer benutzerfreundlichen Oberfläche finden Sie schnell Parkplätze und verwalten das Parken. Wir aktualisieren kontinuierlich basierend auf Kundenfeedback, um ein effizientes und stressfreies Erlebnis zu gewährleisten.",
-    "integrationTitle": "Integration mit bestehenden Systemen",
-    "integrationDes": "Unser System für Parkwächter integriert sich nahtlos in Ihr bestehendes Setup. Ein einheitliches System vereinfacht die Abläufe und verbessert die Erfahrung für das Personal, indem es die Notwendigkeit für zwei verschiedene Systeme und Geräte eliminiert. Wir machen diese Integration effizient, intuitiv und einfach!",
-    "dataTitle": "Datengetriebene Stadtplanung",
-    "dataDes": "Die digitale Parkscheibe kann letztendlich durch wertvolle Nutzungsdaten und Verhaltensmuster die Parkressourcen und die Stadtplanung optimieren, was zu einer sichereren Gesellschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt."
-  },
+    "WhyParkingTime": {
+      "sectionTitle": "Warum",
+      "avoidFinesTitle": "Bußgelder vermeiden & Stress reduzieren",
+      "avoidFinesDes": "Unsere digitale Lösung zieht mehr Besucher an, indem sie physische Parkscheiben eliminiert und Bußgelder reduziert. Dies vereinfacht das Parken, erhöht die Besucherzahlen, die wirtschaftliche Aktivität und die Lebendigkeit der Stadt und reduziert gleichzeitig den Stress.",
+      "simplifiedTitle": "Vereinfachtes Parken für Nutzer",
+      "simplifiedDes": "Mit unserer App können Sie mühelos die Parkzeit einstellen, anpassen und überwachen. Mit einer benutzerfreundlichen Oberfläche finden Sie schnell Parkplätze und verwalten das Parken. Wir aktualisieren kontinuierlich basierend auf Kundenfeedback, um ein effizientes und stressfreies Erlebnis zu gewährleisten.",
+      "integrationTitle": "Integration mit bestehenden Systemen",
+      "integrationDes": "Unser System für Parkwächter integriert sich nahtlos in Ihr bestehendes Setup. Ein einheitliches System vereinfacht die Abläufe und verbessert die Erfahrung für das Personal, indem es die Notwendigkeit für zwei verschiedene Systeme und Geräte eliminiert. Wir machen diese Integration effizient, intuitiv und einfach!",
+      "dataTitle": "Datengetriebene Stadtplanung",
+      "dataDes": "Die digitale Parkscheibe kann letztendlich durch wertvolle Nutzungsdaten und Verhaltensmuster die Parkressourcen und die Stadtplanung optimieren, was zu einer sichereren Gesellschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt.",
+      "LearnMoreBtn": "Mehr über uns"
+    },
 
   "aboutHero": {
     "categoryText": "Über uns",
@@ -88,6 +89,17 @@
       "mail": "info@parkingtime.se",
       "question": "Möchten Sie mehr wissen?",
       "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir sie in Ihrer Gemeinde implementieren können."
+    },
+
+    "button": {
+      "contact": "Kontaktiere uns",
+      "download": "App herunterladen",
+      "learnMore": "Erfahre mehr über uns",
+      "subscribe": "Abonnieren",
+      "viewAllDesktop": "Alle anzeigen",
+      "ViewAllMobile": "Alle Nachrichten anzeigen",
+      "message": "Nachricht senden",
+      "meeting": "Ein Treffen buchen"
     },
 
     "SmartParkingSolution": {

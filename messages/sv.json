@@ -5,7 +5,7 @@
     "News": "Nyheter",
     "FAQ": "FAQ",
     "Links": "Länkar",
-    "Contact": "Kontakt"
+    "Contact": "Kontakta oss"
   },
   
   "FooterInfo": {
@@ -36,7 +36,8 @@
     "integrationTitle": "Integration med befintliga system",
     "integrationDes": "Vårt system för parkeringsvakter integreras sömlöst med din befintliga setup. Ett enhetligt system gynnar dig genom att effektivisera operationer och förbättra upplevelsen för personalen genom att eliminera behovet av två olika system och enheter. Vi gör denna integration effektiv, intuitiv och enkel!",
     "dataTitle": "Datastyrd stadsplanering",
-    "dataDes": "Den digitala parkeringsskivan kan på sikt optimera parkeringsresurser och stadsplanering genom värdefull användningsdata och beteendemönster, vilket leder till ett säkrare samhälle med bättre kontroll och tillgång till parkeringsplatser."
+    "dataDes": "Den digitala parkeringsskivan kan på sikt optimera parkeringsresurser och stadsplanering genom värdefull användningsdata och beteendemönster, vilket leder till ett säkrare samhälle med bättre kontroll och tillgång till parkeringsplatser.",
+    "LearnMoreBtn": "Lär dig mer om oss"
   },
 
   "aboutHero": {
@@ -88,6 +89,17 @@
     "mail": "info@parkingtime.se",
     "question": "Vill du veta mer?",
     "description": "Kontakta oss för att ta reda på mer om vår lösning och hur vi kan implementera den i din kommun."
+  },
+
+  "button": {
+    "contact": "Kontakta oss",
+    "download": "Ladda ned appen", 
+    "learnMore": "Lär dig mer om oss",
+    "subscribe": "Prenumerera",
+    "viewAllDesktop": "Visa alla",
+    "ViewAllMobile": "Visa alla nyheter",
+    "message": "Skicka meddelande",
+    "meeting": "Boka möte"
   },
 
   "SmartParkingSolution": {

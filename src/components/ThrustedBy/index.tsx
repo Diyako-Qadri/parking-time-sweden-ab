@@ -28,16 +28,6 @@ const ThrustedBy = () => {
     Partner8,
     Partner9,
     Partner10,
-    Partner1,
-    Partner2,
-    Partner3,
-    Partner4,
-    Partner5,
-    Partner6,
-    Partner7,
-    Partner8,
-    Partner9,
-    Partner10,
   ];
 
   let [ref, { width }] = useMeasure();
@@ -50,7 +40,7 @@ const ThrustedBy = () => {
 
     controls = animate(xTranslation, [0, finalPosition], {
       ease: 'linear',
-      duration: 33,
+      duration: 53,
       repeat: Infinity,
       repeatType: 'loop',
       repeatDelay: 0,
@@ -73,7 +63,7 @@ const ThrustedBy = () => {
           style={{ x: xTranslation }}
           className="absolute h-[200px] items-center left-0 flex gap-4"
         >
-          {[...images, ...images].map((item, index) => (
+          {[...images, ...images, ...images, ...images].map((item, index) => (
             <motion.div
               key={index}
               className="relative overflow-hidden h-[100px] mx-4 w-[100px] bg-white rounded-xl flex justify-center items-center"
