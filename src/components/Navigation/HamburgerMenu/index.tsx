@@ -141,7 +141,7 @@ const HamburgerMenu = () => {
                   onClick={handleMenuItemClick}
                 >
                   <motion.p
-                    className="my-6 text-xl font-medium"
+                    className="my-6 text-lg font-medium"
                     custom={index}
                     initial="hidden"
                     animate="visible"
@@ -152,9 +152,9 @@ const HamburgerMenu = () => {
                 </Link>
               ))}
             </div>
-            <div className="ml-6">
-              <p className="flex flex-row text-lg mt-6 font-medium">
-                <LocaleSwitcher /> Change language
+            <div className="ml-6 mt-5">
+              <p className="flex flex-row text-lg font-medium">
+                <LocaleSwitcher /> <p className='absolute left-[80px] z-10'>Change language</p>
               </p>
             </div>
           </div>
