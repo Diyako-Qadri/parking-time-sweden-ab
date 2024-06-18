@@ -14,8 +14,8 @@
   },
   
   "homeHero": {
-    "headline1": "What time is it?",
-    "headline2": "Parking Time!",
+    "headline1": "Parking Time",
+    "headline2": "",
     "heroText1": "Digitaler Parkscheibe - direkt auf Ihrem Handy.",
     "heroText2": "Ein erfolgreiches Konzept in einem neuen, digitalisierten Format."
   },
@@ -81,6 +81,13 @@
     "answer4": "Sie können Ihre Gemeinde kontaktieren und fragen, ob Parking Time implementiert werden kann.",
     "headline2": "Haben Sie noch eine Frage?",
     "subheadline2": "Bitte kontaktieren Sie uns, wenn Sie Fragen haben."
+    },
+
+    "knowMore": {
+      "name-title": "Matilda Öhman, GF",
+      "mail": "info@parkingtime.se",
+      "question": "Möchten Sie mehr wissen?",
+      "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir sie in Ihrer Gemeinde implementieren können."
     },
 
     "SmartParkingSolution": {

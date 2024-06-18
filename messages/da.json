@@ -14,8 +14,8 @@
   },
 
   "homeHero": {
-    "headline1": "What time is it?",
-    "headline2": "Parking Time!",
+    "headline1": "Parking Time",
+    "headline2": "",
     "heroText1": "Digital parkeringsskive - direkte på din mobiltelefon.",
     "heroText2": "En vindende koncept i en ny, digitaliseret format."
   },
@@ -82,6 +82,13 @@
       "downloads": "Downloads",
       "parking-sessions": "Parkeringssessioner",
       "parking-zone": "Parkeringszoner"
+  },
+
+  "knowMore": {
+    "name-title": "Matilda Öhman, AD",
+    "mail": "info@parkingtime.se",
+    "question": "Vil du vide mere?",
+    "description": "Kontakt os for at finde ud af mere om vores løsning, og hvordan vi kan implementere den i din kommune."
   },
 
   "SmartParkingSolution": {
