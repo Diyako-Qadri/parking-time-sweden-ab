@@ -83,5 +83,16 @@
     "mail": "info@parkingtime.se",
     "question": "Vil du vite mer?",
     "description": "Kontakt oss for å finne ut mer om vår løsning og hvordan vi kan implementere den i din kommune."
+  },
+
+  "button": {
+    "contact": "Kontakt oss",
+    "download": "Last ned app",
+    "learnMore": "Lær mer om oss",
+    "subscribe": "Abonner",
+    "viewAllDesktop": "Se alle",
+    "ViewAllMobile": "Se alle nyheter",
+    "message": "Send melding",
+    "meeting": "Bestill et møte"
   }
 }
