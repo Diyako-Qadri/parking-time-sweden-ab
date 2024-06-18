@@ -40,6 +40,7 @@ const config: Config = {
         'NavbarScrren': '856px',   
           's': {'max':'410px'},
           'hover-hover': {'raw': '(hover: hover) and (pointer: fine)'},
+            'tablet': '850px'
       },
       padding: {
         '1/5': '20%',
