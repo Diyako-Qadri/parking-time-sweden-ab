@@ -4,10 +4,10 @@ import DesktopMenu from './DesktopMenu';
 const Navigation = () => {
   return (
     <>
-      <div className="md:hidden">
+      <div className="NavbarScrren:hidden">
         <HamburgerMenu />
       </div>
-      <div className="hidden md:flex">
+      <div className="hidden NavbarScrren:flex">
         <DesktopMenu />
       </div>
     </>
