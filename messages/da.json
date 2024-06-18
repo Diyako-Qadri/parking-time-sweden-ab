@@ -82,5 +82,15 @@
       "downloads": "Downloads",
       "parking-sessions": "Parkeringssessioner",
       "parking-zone": "Parkeringszoner"
-  }
+  },
+
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "P-skiven har længe været et værktøj til at fremme cirkulation og aktivitet i din bys centrum. Det er en fantastisk opfindelse, der gavner beboere, besøgende og lokale virksomheder. Vi ønsker at være en del af denne udvikling ved at skabe en gratis digital p-skive.",
+    "firstArrow": "Vi sigter mod at støtte vækst og effektivitet i byområder.",
+    "secondArrow": "Vores digitale p-skive forenkler parkeringsprocessen.",
+    "thirdArrow": "Ethvert parkeringsvagtsystem kan nemt integreres med vores system.",
+    "secondParkingText": "Vi er spændte på at dele mere om vores løsning i et møde."
+}
+
 }

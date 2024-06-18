@@ -82,5 +82,15 @@
     "downloads": "Lataukset",
     "parking-sessions": "Pysäköintikerrat",
     "parking-zone": "Pysäköintialueet"
-  }
+  },
+
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "Pysäköintikiekko on pitkään ollut työkalu, joka edistää kiertoa ja toimintaa kaupunkisi keskustassa. Se on mahtava keksintö, joka hyödyttää asukkaita, vierailijoita ja paikallisia yrityksiä. Haluamme olla osa tätä kehitystä luomalla ilmaisen digitaalisen pysäköintikiekon.",
+    "firstArrow": "Tavoitteenamme on tukea kaupunkialueiden kasvua ja tehokkuutta.",
+    "secondArrow": "Digitaalinen pysäköintikiekkomme yksinkertaistaa pysäköintiprosessia.",
+    "thirdArrow": "Mikä tahansa pysäköinninvalvontajärjestelmä voidaan helposti integroida järjestelmäämme.",
+    "secondParkingText": "Olemme innoissamme voidessamme kertoa lisää ratkaisustamme tapaamisessa."
+}
+
 }
