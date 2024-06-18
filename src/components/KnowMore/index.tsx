@@ -10,7 +10,7 @@ const KnowMore = () => {
     const t = useTranslations('knowMore');
 
     return(
-        <div className="flex flex-col justify-center items-center text-center bg-pt-primary pt-[79px] text-white md:flex-row md:place-content-evenly xl:px-1/5">
+        <div className="flex flex-col justify-center items-center text-center bg-pt-primary pt-[79px] text-white mb-[-1px] md:flex-row md:place-content-evenly xl:px-1/5">
             <div className={`flex flex-col items-center ${roboto.className} md:mx-6`}>
                 <img
                     src="/images/ceo.png"
