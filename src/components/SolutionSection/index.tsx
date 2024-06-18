@@ -2,9 +2,10 @@
 import Image from 'next/image';
 import ParkingSolution from "../../../public/images/parkingSolution.svg"
 import { IoIosArrowForward } from "react-icons/io";
-
+import { useTranslations } from "next-intl";
 
 const SolutionSection = () => {
+    const t = useTranslations("SmartParkingSolution")
     return (
         <>
          <div className=" flex py-28 px-20">
@@ -19,22 +20,22 @@ const SolutionSection = () => {
             </div>
             <div className='flex flex-col gap-y-5 p-4'>
                 <div className='max-w-xl'>
-                    <h2 className='font-extrabold text-3xl mb-5'>Smart Parking Solution </h2>
-                    <p>The parking disc Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur architecto rem molestiae tenetur vitae. Soluta obcaecati deleniti veniam asperiores quaerat maxime quo, amet, dicta, natus nihil necessitatibus consequuntur totam temporibus.</p>
+                    <h2 className='font-extrabold text-3xl mb-5'>{t("title")}</h2>
+                    <p>{t("parkingText")}</p>
                 </div>
                 <div className='font-bold text-lg mb-2 flex items-center'>
                     <IoIosArrowForward className='text-4xl text-pt-red'/>
-                    <p className='font-bold'>text and more text</p>
+                    <p className='font-bold'>{t("firstArrow")}</p>
                 </div>
                 <div className='font-bold text-lg mb-2 flex items-center'>
                     <IoIosArrowForward className='text-4xl text-pt-red'/>
-                    <p className='font-bold'>text and more text</p>
+                    <p className='font-bold'>{t("secondArrow")}</p>
                 </div>
                 <div className='font-bold text-lg mb-2 flex items-center'>
                     <IoIosArrowForward className='text-4xl text-pt-red'/>
-                    <p className='font-bold'>text and more text</p>
+                    <p className='font-bold'>{t("thirdArrow")}</p>
                 </div>
-                <div className='mt-4'>some more text for the button</div>
+                <div className='mt-4'>{t("secondParkingText")}</div>
             </div>
             </div>
         </div>
