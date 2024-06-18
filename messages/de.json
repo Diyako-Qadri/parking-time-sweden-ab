@@ -12,7 +12,7 @@
     "Address": "Adresse",
     "Contact": "Kontakt"
   },
-  
+
   "homeHero": {
     "headline1": "What time is it?",
     "headline2": "Parking Time!",
@@ -27,7 +27,7 @@
     "action4": "Stress reduzieren"
   },
 
-    "Statistics": {
+  "Statistics": {
     "downloads": "Herunterladen",
     "parking-sessions": "Parksitzungen",
     "parking-zone": "Parkzonen"
@@ -60,9 +60,12 @@
   "newsHero": {
     "categoryText": "Nachrichten",
     "headline": "Wir verwandeln Parkerlebnisse.",
-    "heroText": ""
+    "heroText": "",
+    "news": "Nachrichten",
+    "Latest News": "Neueste Nachrichten",
+    "View All": "Alle ansehen"
   },
-  
+
   "FAQ": {
     "title": "FAQ",
     "headline": "Haben Sie eine Frage?",
@@ -81,5 +84,19 @@
     "answer4": "Sie können Ihre Gemeinde kontaktieren und fragen, ob Parking Time implementiert werden kann.",
     "headline2": "Haben Sie noch eine Frage?",
     "subheadline2": "Bitte kontaktieren Sie uns, wenn Sie Fragen haben."
-    }
+  },
+
+  "SingleNews": {
+    "notFound": "Nachricht nicht gefunden"
+  },
+
+  "LatestNews": {
+    "news": "Nachrichten",
+    "Latest News": "Neueste Nachrichten",
+    "View all": "Alle ansehen"
+  },
+
+  "NewsCard": {
+    "Read more": "Mehr lesen"
+  }
 }

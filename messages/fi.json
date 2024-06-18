@@ -54,7 +54,10 @@
   "newsHero": {
     "categoryText": "Uutiset",
     "headline": "Muutamme pysäköinti- kokemuksia.",
-    "heroText": ""
+    "heroText": "",
+    "news": "Uutiset",
+    "Latest News": "Uusimmat uutiset",
+    "View All": "Näytä kaikki"
   },
 
   "FAQ": {
@@ -81,6 +84,10 @@
     "downloads": "Lataukset",
     "parking-sessions": "Pysäköintikerrat",
     "parking-zone": "Pysäköintialueet"
+  },
+
+  "SingleNews": {
+    "notFound": "Sivua ei löytynyt"
   },
 
   "LatestNews": {

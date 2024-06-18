@@ -54,7 +54,10 @@
   "newsHero": {
     "categoryText": "Nyheter",
     "headline": "Vi transformerer parkerings- opplevelser.",
-    "heroText": ""
+    "heroText": "",
+    "news": "Nyheter",
+    "Latest News": "Siste nytt",
+    "View all": "Vis alt"
   },
 
   "FAQ": {
@@ -81,6 +84,10 @@
     "downloads": "Nedlastinger",
     "parking-sessions": "Parkeringsøkter",
     "parking-zone": "Parkeringssoner"
+  },
+
+  "SingleNews": {
+    "notFound": "Nyheten ble ikke funnet"
   },
 
   "LatestNews": {
