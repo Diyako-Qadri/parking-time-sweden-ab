@@ -109,5 +109,15 @@
     "mail": "info@parkingtime.se",
     "question": "Vil du vite mer?",
     "description": "Kontakt oss for å finne ut mer om vår løsning og hvordan vi kan implementere den i din kommune."
+  },
+
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "Parkeringsskiven har lenge vært et verktøy for å fremme sirkulasjon og aktivitet i byens sentrum. Det er en fantastisk oppfinnelse som gagner innbyggere, besøkende og lokale bedrifter. Vi ønsker å være en del av denne utviklingen ved å lage en gratis digital parkeringsskive.",
+    "firstArrow": "Vi har som mål å støtte vekst og effektivitet i urbane områder.",
+    "secondArrow": "Vår digitale parkeringsskive forenkler parkeringsprosessen.",
+    "thirdArrow": "Ethvert parkeringsvakt-system kan enkelt integreres med vårt system.",
+    "secondParkingText": "Vi er spente på å dele mer om vår løsning i et møte."
   }
+
 }
