@@ -10,11 +10,11 @@ const KnowMore = () => {
     const t = useTranslations('knowMore');
 
     return(
-        <div className="flex flex-col justify-center items-center text-center bg-pt-primary pt-[79px] text-white md:flex-row md:place-content-evenly md:px-28">
+        <div className="flex flex-col justify-center items-center text-center bg-pt-primary pt-[79px] text-white md:flex-row md:place-content-evenly xl:px-1/5">
             <div className={`flex flex-col items-center ${roboto.className} md:mx-6`}>
                 <img
                     src="/images/ceo.png"
-                    className="h-[187px] w-[187px] rounded-full my-6"
+                    className="max-h-[187px] max-w-[187px] rounded-full my-6"
                     alt="image of CEO">
                 </img>
                 <p className="text-2xl pb-2">{t('name-title')}</p>
@@ -23,7 +23,7 @@ const KnowMore = () => {
                         {t('mail')}
                 </p>
             </div>
-            <div className="text-center md:text-left w-[300px] md:mx-6">
+            <div className="text-center md:text-left max-w-[440px] md:ml-8">
                 <p className="text-4xl py-6">{t('question')}</p>
                 <p className={`text-lg pb-6 ${roboto.className} font-thin`}>{t('description')}</p>
             </div>
