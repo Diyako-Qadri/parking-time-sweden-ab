@@ -6,7 +6,7 @@ import Navigation from '../Navigation';
 
 const Header = () => {
   return (
-    <header className="bg-pt-primary items-center fixed flex justify-between z-40 w-full h-20 px-7 md:px-16 headerBoxShadow ">
+    <header className="bg-pt-primary items-center fixed flex justify-between z-40 w-full h-20 px-7 NavbarScrren:px-16 headerBoxShadow ">
       <div   className='z-40'>
         <a href="/">
           <Image

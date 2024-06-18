@@ -9,12 +9,12 @@ import English from '../../../public/images/circle.png';
 import Denmark from '../../../public/images/denmark.png';
 import Norway from '../../../public/images/norway.png';
 import Finland from '../../../public/images/finland.png';
-// import Germany from '../../../public/images/germany.png';
+import Germany from '../../../public/images/germany.png';
 import Sweden1 from '../../../public/images/sweden1.png';
 import Denmark1 from '../../../public/images/denmark1.png';
 import Norway1 from '../../../public/images/norway1.png';
 import Finland1 from '../../../public/images/finland1.png';
-// import Germany1 from '../../../public/images/germany1.png';
+import Germany1 from '../../../public/images/germany1.png';
 import England1 from '../../../public/images/unoitedKingdom.png';
 
 const defaultLanguage = 'sv';
@@ -25,7 +25,7 @@ const locales = [
   { code: 'no', name: 'Norwegian', img: Norway1, flag: Norway },
   { code: 'fi', name: 'Finnish', img: Finland1, flag: Finland },
   { code: 'en', name: 'English', img: England1, flag: English },
-  // { code: 'de', name: 'German', img: Germany1, flag: Germany },
+  { code: 'de', name: 'German', img: Germany1, flag: Germany },
 ];
 
 const LocaleSwitcher = () => {

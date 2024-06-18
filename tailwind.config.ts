@@ -7,6 +7,7 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+   
     extend: {
       colors: {
         'pt-primary': 'rgb(6, 67, 62)',
@@ -35,6 +36,7 @@ const config: Config = {
         'custom-home': 'calc(100vh - 80px)',
       },
       screens: {
+        'NavbarScrren': '856px',   
           's': {'max':'410px'},
           'hover-hover': {'raw': '(hover: hover) and (pointer: fine)'},
       },
