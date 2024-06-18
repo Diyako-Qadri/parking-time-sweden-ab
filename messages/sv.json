@@ -12,7 +12,7 @@
     "Address": "Adress",
     "Contact": "Kontakt"
   },
-  
+
   "homeHero": {
     "headline1": "Parking Time",
     "headline2": "",
@@ -41,11 +41,11 @@
   },
 
   "Statistics": {
-      "downloads": "Nedladdningar",
-      "parking-sessions": "Parkeringssessioner",
-      "parking-zone": "Parkeringszoner"
+    "downloads": "Nedladdningar",
+    "parking-sessions": "Parkeringssessioner",
+    "parking-zone": "Parkeringszoner"
   },
-    
+
   "aboutHero": {
     "categoryText": "Om oss",
     "headline": "Parking Time Sweden",
@@ -61,7 +61,10 @@
   "newsHero": {
     "categoryText": "Nyheter",
     "headline": "Vi förvandlar parkerings- upplevelser.",
-    "heroText": ""
+    "heroText": "",
+    "news": "Nyheter",
+    "Latest News": "Senaste nytt",
+    "View all": "Visa alla"
   },
 
   "FAQ": {
@@ -89,5 +92,19 @@
     "mail": "info@parkingtime.se",
     "question": "Vill du veta mer?",
     "description": "Kontakta oss för att ta reda på mer om vår lösning och hur vi kan implementera den i din kommun."
+  },
+
+  "SingleNews": {
+    "notFound": "Inga nyheter hittades."
+  },
+
+  "LatestNews": {
+    "news": "Nyheter",
+    "Latest News": "Senaste nytt",
+    "View all": "Visa alla"
+  },
+
+  "NewsCard": {
+    "Read more": "Läs mer"
   }
 }
