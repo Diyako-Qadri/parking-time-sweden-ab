@@ -101,5 +101,12 @@
     "registrationText": "Öppna appen, registrera dig med din bils registreringsnummer.",
     "locationText": "Använd kartan, sökfunktionen eller zonlistan för att hitta din önskade parkeringsplats.",
     "digitalDiskText": "När du valt din parkeringszon kan du granska eventuella tillämpliga regler, starta parkeringen och sedan enkelt stänga appen."
+  },
+
+  "knowMore": {
+    "name-title": "Matilda Öhman, VD",
+    "mail": "info@parkingtime.se",
+    "question": "Vill du veta mer?",
+    "description": "Kontakta oss för att ta reda på mer om vår lösning och hur vi kan implementera den i din kommun."
   }
 }

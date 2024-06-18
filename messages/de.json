@@ -91,5 +91,22 @@
     "registrationText": "Öffnen Sie die App, registrieren Sie sich mit dem Kennzeichen Ihres Autos.",
     "locationText": "Verwenden Sie die Karte, die Suchfunktion oder die Zonenliste, um Ihren gewünschten Parkplatz zu finden.",
     "digitalDiskText": "Nachdem Sie Ihre Parkzone ausgewählt haben, können Sie die geltenden Regeln überprüfen, das Parken starten und die App einfach schließen."
+  },
+
+  "LatestNews": {
+    "news": "Nachrichten",
+    "Latest News": "Neueste Nachrichten",
+    "View all": "Alle ansehen"
+  },
+
+  "NewsCard": {
+    "Read more": "Mehr lesen"
+  },
+
+  "knowMore": {
+    "name-title": "Matilda Öhman, GF",
+    "mail": "info@parkingtime.se",
+    "question": "Möchten Sie mehr wissen?",
+    "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir sie in Ihrer Gemeinde implementieren können."
   }
 }

@@ -101,5 +101,12 @@
     "registrationText": "Avaa sovellus, rekisteröidy autosi rekisterinumerolla.",
     "locationText": "Käytä karttaa, hakutoimintoa tai vyöhykeluetteloa löytääksesi haluamasi pysäköintipaikan.",
     "digitalDiskText": "Kun olet valinnut pysäköintivyöhykkeen, voit tarkistaa mahdolliset säännöt, aloittaa pysäköinnin ja sitten sulkea sovelluksen."
+  },
+
+  "knowMore": {
+    "name-title": "Matilda Öhman, TJ",
+    "mail": "info@parkingtime.se",
+    "question": "Haluatko tietää lisää?",
+    "description": "Ota yhteyttä saadaksesi lisätietoja ratkaisustamme ja siitä, kuinka voimme toteuttaa sen kunnassasi."
   }
 }
