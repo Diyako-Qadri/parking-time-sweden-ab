@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
+import Button from '@/components/Buttons';
 
 type NavItemDesk = {
   name: string;
@@ -26,7 +27,7 @@ const navItem: NavItemDesk[] = [
   {
     name: 'FAQ',
     link: '/#faq',
-  },
+  }
 ];
 
 const DesktopMenu = () => {
@@ -35,8 +36,8 @@ const DesktopMenu = () => {
   const t = useTranslations('NavItem');
 
   return (
-    <div className='flex flex-row w-[650px] justify-between h-14 items-center'>
-    <div className="flex justify-around gap-[30px] text-base text-white w-[430px]">
+    <div className='flex flex-row w-[650px] justify-between h-14 gap-6 items-center'>
+    <div className="flex justify-around gap-[12px] text-base text-white w-[430px]">
       {navItem.map((item, index) => (
         <Link
           className={`relative group ${path === item.link ? 'active' : ''}`}
@@ -50,7 +51,9 @@ const DesktopMenu = () => {
         </Link>
       ))}
     </div>
-    <div>
+    <div className='flex justify-between items-center w-[230px]'>
+      <a  href={`/${locale}/contact`}><Button variant="desktopWhite" size="desktopPrimary" >{t("Contact")}</Button></a>
+      
       <LocaleSwitcher />
     </div>
   </div>
