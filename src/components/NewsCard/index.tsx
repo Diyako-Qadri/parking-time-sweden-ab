@@ -1,4 +1,6 @@
 import { useTranslations } from "next-intl";
+import Link from "next/link";
+
 import { Lato } from "next/font/google";
 
 const lato = Lato({
@@ -11,16 +13,10 @@ type NewsCardProps = {
   title: string;
   description: string;
   date: string;
-  readMoreLink: string;
+  slug: string;
 };
 
-const NewsCard = ({
-  image,
-  title,
-  description,
-  date,
-  readMoreLink,
-}: NewsCardProps) => {
+const NewsCard = ({ image, title, description, date, slug }: NewsCardProps) => {
   const t = useTranslations("NewsCard");
 
   return (
@@ -37,11 +33,11 @@ const NewsCard = ({
           </span>
         </div>
         <div className="mt-auto">
-          <a
-            href={readMoreLink}
+          <Link
+            href={`/news/${slug}`}
             className={`${lato.className} text-[#0B051D] font-medium text-base underline leading-6`}>
             {t("Read more")}
-          </a>
+          </Link>
         </div>
       </div>
     </div>
