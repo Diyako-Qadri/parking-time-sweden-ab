@@ -81,5 +81,12 @@
     "answer4": "Sie können Ihre Gemeinde kontaktieren und fragen, ob Parking Time implementiert werden kann.",
     "headline2": "Haben Sie noch eine Frage?",
     "subheadline2": "Bitte kontaktieren Sie uns, wenn Sie Fragen haben."
+    },
+
+    "knowMore": {
+      "name-title": "Matilda Öhman, GF",
+      "mail": "info@parkingtime.se",
+      "question": "Möchten Sie mehr wissen?",
+      "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir sie in Ihrer Gemeinde implementieren können."
     }
 }

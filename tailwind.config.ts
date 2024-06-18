@@ -7,7 +7,6 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-   
     extend: {
       colors: {
         'pt-primary': 'rgb(6, 67, 62)',
@@ -40,6 +39,9 @@ const config: Config = {
         'NavbarScrren': '856px',   
           's': {'max':'410px'},
           'hover-hover': {'raw': '(hover: hover) and (pointer: fine)'},
+      },
+      padding: {
+        '1/5': '20%',
       },
     },
   },

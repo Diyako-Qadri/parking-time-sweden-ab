@@ -82,5 +82,12 @@
     "downloads": "Lataukset",
     "parking-sessions": "Pysäköintikerrat",
     "parking-zone": "Pysäköintialueet"
+  },
+
+  "knowMore": {
+    "name-title": "Matilda Öhman, TJ",
+    "mail": "info@parkingtime.se",
+    "question": "Haluatko tietää lisää?",
+    "description": "Ota yhteyttä saadaksesi lisätietoja ratkaisustamme ja siitä, kuinka voimme toteuttaa sen kunnassasi."
   }
 }
