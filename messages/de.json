@@ -13,10 +13,9 @@
     "Contact": "Kontakt"
   },
 
-
   "homeHero": {
     "headline1": "Parking Time",
-    "headline2": "",
+    "headline2": "Wir machen das Parken einfach",
     "heroText1": "Digitaler Parkscheibe - direkt auf Ihrem Handy.",
     "heroText2": "Ein erfolgreiches Konzept in einem neuen, digitalisierten Format."
   },
@@ -44,8 +43,6 @@
     "integrationDes": "Unser System für Parkwächter integriert sich nahtlos in Ihr bestehendes Setup. Ein einheitliches System vereinfacht die Abläufe und verbessert die Erfahrung für das Personal, indem es die Notwendigkeit für zwei verschiedene Systeme und Geräte eliminiert. Wir machen diese Integration effizient, intuitiv und einfach!",
     "dataTitle": "Datengetriebene Stadtplanung",
     "dataDes": "Die digitale Parkscheibe kann letztendlich durch wertvolle Nutzungsdaten und Verhaltensmuster die Parkressourcen und die Stadtplanung optimieren, was zu einer sichereren Gesellschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt.",
-    "LearnMoreBtn": "Mehr über uns",
-    "dataDes": "Die digitale Parkscheibe kann letztendlich durch wertvolle Nutzungsdaten und Verhaltensmuster die Parkressourcen und die Stadtplanung optimieren, was zu einer sichereren Gesellschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt.",
     "LearnMoreBtn": "Mehr über uns"
   },
 
@@ -67,13 +64,8 @@
     "heroText": "",
     "news": "Nachrichten",
     "Latest News": "Neueste Nachrichten",
-    "View All": "Alle ansehen",
-    "heroText": "",
-    "news": "Nachrichten",
-    "Latest News": "Neueste Nachrichten",
     "View All": "Alle ansehen"
   },
-
 
   "FAQ": {
     "title": "FAQ",
@@ -127,5 +119,27 @@
     "terms1": "Ich akzeptiere die",
     "terms2": "Bedingungen",
     "message2": "Vielen Dank für Ihre Nachricht!"
+  },
+
+  "SingleNews": {
+    "notFound": "Nachricht nicht gefunden"
+  },
+
+  "knowMore": {
+    "name-title": "Matilda Öhman, GF",
+    "mail": "Matilda@parkingtime.se",
+    "question": "Möchten Sie mehr wissen?",
+    "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir Ihnen helfen können."
+  },
+
+  "button": {
+    "contact": "Kontaktiere uns",
+    "download": "App herunterladen",
+    "learnMore": "Erfahre mehr über uns",
+    "subscribe": "Abonnieren",
+    "viewAllDesktop": "Alle anzeigen",
+    "ViewAllMobile": "Alle Nachrichten anzeigen",
+    "message": "Nachricht senden",
+    "meeting": "Ein Treffen buchen"
   }
 }
