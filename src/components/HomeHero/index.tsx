@@ -19,7 +19,7 @@ const HomeHero = () => {
                 ) : (
                     <>
                         <h1 className="text-5xl font-bold md:text-6xl">{t('headline1')}</h1>
-                        <h2 className="text-4xl font-bold md:text-6xl">{t('headline2')}</h2>
+                        <h2 className="text-4xl md:text-6xl">{t('headline2')}</h2>
                     </>
                 )}
                 <p className="text-base pt-6 md:text-xl">{t('heroText1')}<br/>{t('heroText2')}</p>
