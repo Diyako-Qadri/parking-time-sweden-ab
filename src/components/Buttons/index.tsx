@@ -22,7 +22,7 @@ const Button: React.FC<ButtonProps> = ({ variant = 'desktopWhite', size = 'mobil
   const sizeStyles: { [key: string]: string } = {
     mobilePrimary: 'w-[315px] h-[40px]',
     mobileSecondary: 'w-[300px] h-[48px]',
-    desktopPrimary: 'w-[160px] h-[48px]',
+    desktopPrimary: 'w-[166px] h-[48px]',
     desktopOdd: 'w-[200px] h-[48px]',
   };
 

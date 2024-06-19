@@ -18,7 +18,6 @@ const HomeHero = () => {
         const parser = new UAParser();
         const ua = parser.getResult();
         setIsAppleDevice(ua.os.name === 'Mac OS' || ua.os.name === 'iOS');
-        console.log(ua)
         setUaChecked(true);
     }, []);
 
@@ -29,12 +28,11 @@ const HomeHero = () => {
     return (
         <section className='relative items-center flex flex-col bg-top h-custom-home bg-homeHero-image justify-center bg-no-repeat top-[80px] bg-cover text-white mb-[80px] custom-small:items-start'>
             <div className="flex flex-col p-5  max-w-min md:px-16">
-                <div className='flex flex-col w-[315px] md:w-[400px]'>
+                <div className='flex flex-col w-[315px] md:w-[415px]'>
                     <h1 className="self-start text-5xl font-bold md:text-6xl">{t('headline1')}<br/>{t('headline2')}</h1>
                     <p className="text-base pt-6 md:text-xl">{t('heroText1')}<br/>{t('heroText2')}</p>
                 </div>
                 <div className="flex flex-col items-center pt-8 md:flex-row">
-                    {/* CONTACT BUTTONS */}
                     <div className='md:hidden'>
                         <a href={`/${locale}/contact`}>
                             <Button variant="mobileWhite" size="mobilePrimary">{tButton("contact")}</Button>
@@ -45,8 +43,6 @@ const HomeHero = () => {
                             <Button variant="desktopWhite" size="desktopPrimary">{tButton("contact")}</Button>
                         </a>
                     </div>
-
-                    {/* DOWNLOAD BUTTONS */}
 
                     {isAppleDevice ? (
                         <>
@@ -64,18 +60,17 @@ const HomeHero = () => {
                         </>
                     ) : (
                         <>
-                        <div className='pt-2 md:hidden'>
-                            <a href='https://play.google.com/store/apps/details?id=se.parkingtime.app&hl=en_US&pli=1' target="_blank" >
-                                <Button variant='mobileBlack' size='mobilePrimary'>{tButton("download")}</Button>
-                            </a>
-                        </div>
-                        <div className='hidden md:block'>
-                            <a
-                            href='https://play.google.com/store/apps/details?id=se.parkingtime.app&hl=en_US&pli=1' target="_blank">
-                                <Button variant="desktopBlack" size="desktopPrimary">{tButton("download")}</Button>
-                            </a>
-                        </div>
-                    </>
+                            <div className='pt-2 md:hidden'>
+                                <a href='https://play.google.com/store/apps/details?id=se.parkingtime.app&hl=en_US&pli=1' target="_blank" >
+                                    <Button variant='mobileBlack' size='mobilePrimary'>{tButton("download")}</Button>
+                                </a>
+                            </div>
+                            <div className='hidden md:block'>
+                                <a href='https://play.google.com/store/apps/details?id=se.parkingtime.app&hl=en_US&pli=1' target="_blank">
+                                    <Button variant="desktopBlack" size="desktopPrimary">{tButton("download")}</Button>
+                                </a>
+                            </div>
+                        </>
                     )}
                 </div>
             </div>
