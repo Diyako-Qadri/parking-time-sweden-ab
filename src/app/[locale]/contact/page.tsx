@@ -17,7 +17,7 @@ const contact = () => {
             heroText={t('heroText')}
           />
         </div>
-        <div className="p-4 pt-[100px]">
+        <div className="p-4 pt-[100px] md:pt-4">
             <ContactUs />
         </div>
     </>
