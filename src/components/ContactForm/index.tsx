@@ -160,7 +160,7 @@ export const ContactUs: React.FC = () => {
         {showPopup && (
           <div className="fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-black bg-opacity-50">
             <div className="bg-pt-primary text-white p-8 rounded-lg shadow-lg">
-              <p className="text-lg font-semibold">Tack för ditt meddelande!</p>
+              <p className="text-lg font-semibold">{b("message2")}</p>
             </div>
           </div>
         )}

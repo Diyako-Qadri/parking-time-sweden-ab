@@ -129,6 +129,7 @@
     "form": "Choose option",
     "message": "Write your message",
     "terms1": "I accept the",
-    "terms2": "terms and conditions"
+    "terms2": "terms and conditions",
+    "message2": "Thank you for your message!"
   }
 }
