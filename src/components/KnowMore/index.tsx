@@ -24,8 +24,8 @@ const KnowMore = () => {
                 </p>
             </div>
             <div className="text-center md:text-left max-w-[440px] px-6 md:ml-8">
-                <p className="text-4xl py-6">{t('question')}</p>
-                <p className={`text-lg pb-6 ${roboto.className} font-thin`}>{t('description')}</p>
+                <p className="text-4xl py-6 font-bold">{t('question')}</p>
+                <p className={`text-lg pb-6 ${roboto.className} font-thin md:font-bold`}>{t('description')}</p>
             </div>
         </div>
     )
