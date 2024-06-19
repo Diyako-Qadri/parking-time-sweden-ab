@@ -20,30 +20,12 @@
     "heroText2": "Voittava konsepti uudessa, digitaalisessa muodossa."
   },
 
-  "Statistics": {
-    "downloads": "Lataukset",
-    "parking-sessions": "Pysäköintikerrat",
-    "parking-zone": "Pysäköintialueet"
-  },
 
   "heroActions": {
     "action1": "Helppo käyttää",
     "action2": "Ilmainen lataus",
     "action3": "Vältä sakot",
     "action4": "Vähennä stressiä"
-  },
-
-  "WhyParkingTime": {
-    "sectionTitle": "Miksi",
-    "avoidFinesTitle": "Vältä sakkoja ja vähennä stressiä",
-    "avoidFinesDes": "Digitaalinen ratkaisumme houkuttelee enemmän vierailijoita poistamalla fyysiset kiekot ja vähentämällä sakkoja. Tämä yksinkertaistaa pysäköintiä, lisää jalankulkua, taloudellista toimintaa ja kaupungin elinvoimaisuutta samalla kun vähentää stressiä.",
-    "simplifiedTitle": "Käyttäjäystävällinen pysäköinti",
-    "simplifiedDes": "Sovelluksemme avulla voit helposti asettaa, säätää ja seurata pysäköintiaikaa. Käyttäjäystävällisen käyttöliittymän ansiosta voit nopeasti löytää paikkoja ja hallita pysäköintiä. Päivitämme jatkuvasti asiakkaiden palautteen perusteella varmistaaksemme tehokkaan ja sujuvan kokemuksen.",
-    "integrationTitle": "Integraatio olemassa oleviin järjestelmiin",
-    "integrationDes": "Pysäköintivalvojien järjestelmämme integroituu saumattomasti olemassa olevaan kokoonpanoosi. Yhtenäinen järjestelmä hyödyttää sinua tehostamalla toimintaa ja parantamalla henkilöstön kokemusta poistamalla kahden eri järjestelmän ja laitteen tarpeen. Teemme tästä integraatiosta tehokkaan, intuitiivisen ja helpon!",
-    "dataTitle": "Datavetoinen kaupunkisuunnittelu",
-    "dataDes": "Digitaalinen pysäköintikiekko voi ajan myötä optimoida pysäköintiresurssit ja kaupunkisuunnittelun arvokkaiden käyttötietojen ja käyttäytymismallien avulla, mikä johtaa turvallisempaan yhteiskuntaan paremmalla pysäköintipaikkojen hallinnalla ja saatavuudella.",
-    "LearnMoreBtn": "Opi lisää meistä"
   },
 
   "aboutHero": {
@@ -67,8 +49,17 @@
     "View All": "Näytä kaikki"
   },
 
-  "SingleNews": {
-    "notFound": "Sivua ei löytynyt"
+  "WhyParkingTime": {
+    "sectionTitle": "Miksi",
+    "avoidFinesTitle": "Vältä sakkoja ja vähennä stressiä",
+    "avoidFinesDes": "Digitaalinen ratkaisumme houkuttelee enemmän vierailijoita poistamalla fyysiset kiekot ja vähentämällä sakkoja. Tämä yksinkertaistaa pysäköintiä, lisää jalankulkua, taloudellista toimintaa ja kaupungin elinvoimaisuutta samalla kun vähentää stressiä.",
+    "simplifiedTitle": "Käyttäjäystävällinen pysäköinti",
+    "simplifiedDes": "Sovelluksemme avulla voit helposti asettaa, säätää ja seurata pysäköintiaikaa. Käyttäjäystävällisen käyttöliittymän ansiosta voit nopeasti löytää paikkoja ja hallita pysäköintiä. Päivitämme jatkuvasti asiakkaiden palautteen perusteella varmistaaksemme tehokkaan ja sujuvan kokemuksen.",
+    "integrationTitle": "Integraatio olemassa oleviin järjestelmiin",
+    "integrationDes": "Pysäköintivalvojien järjestelmämme integroituu saumattomasti olemassa olevaan kokoonpanoosi. Yhtenäinen järjestelmä hyödyttää sinua tehostamalla toimintaa ja parantamalla henkilöstön kokemusta poistamalla kahden eri järjestelmän ja laitteen tarpeen. Teemme tästä integraatiosta tehokkaan, intuitiivisen ja helpon!",
+    "dataTitle": "Datavetoinen kaupunkisuunnittelu",
+    "dataDes": "Digitaalinen pysäköintikiekko voi ajan myötä optimoida pysäköintiresurssit ja kaupunkisuunnittelun arvokkaiden käyttötietojen ja käyttäytymismallien avulla, mikä johtaa turvallisempaan yhteiskuntaan paremmalla pysäköintipaikkojen hallinnalla ja saatavuudella.",
+    "LearnMoreBtn": "Opi lisää meistä"
   },
 
   "FAQ": {
@@ -90,6 +81,33 @@
     "subheadline2": "Ota meihin yhteyttä, jos sinulla on kysyttävää."
   },
 
+  "Statistics": {
+    "downloads": "Lataukset",
+    "parking-sessions": "Pysäköintikerrat",
+    "parking-zone": "Pysäköintialueet"
+  },
+  "knowMore": {
+    "name-title": "Matilda Öhman, TJ",
+    "mail": "info@parkingtime.se",
+    "question": "Haluatko tietää lisää?",
+    "description": "Ota yhteyttä saadaksesi lisätietoja ratkaisustamme ja siitä, kuinka voimme toteuttaa sen kunnassasi."
+  },
+
+  "button": {
+    "contact": "Ota yhteyttä",
+    "download": "Lataa sovellus",
+    "learnMore": "Lue lisää meistä",
+    "subscribe": "Tilaa",
+    "viewAllDesktop": "Näytä kaikki",
+    "ViewAllMobile": "Näytä kaikki uutiset",
+    "message": "Lähetä viesti",
+    "meeting": "Varaa tapaaminen"
+  },
+
+  "SingleNews": {
+    "notFound": "Sivua ei löytynyt"
+  },
+
   "LatestNews": {
     "news": "Uutiset",
     "Latest News": "Uusimmat uutiset",
@@ -98,5 +116,20 @@
 
   "NewsCard": {
     "Read more": "Lue lisää"
+  },
+
+  "contact_us": {
+    "page-title": "Ota yhteyttä",
+    "page-message": "Onko sinulla kysyttävää, palautetta tai tarvitsetko apua? Täytä alla oleva lomake, niin tiimimme ottaa sinuun yhteyttä mahdollisimman pian.",
+    "first&lastName": "Etunimi ja Sukunimi",
+    "Job": "Työnimike",
+    "Email": "Sähköposti",
+    "Phone": "Puhelinnumero",
+    "Reason": "Mitä asiasi koskee?",
+    "form": "Valitse vaihtoehto",
+    "message": "Kirjoita viestisi",
+    "terms1": "Hyväksyn",
+    "terms2": "ehdot",
+    "message2": "Kiitos viestistäsi!"
   }
 }

@@ -5,7 +5,7 @@
     "News": "Nyheder",
     "FAQ": "FAQ",
     "Links": "Links",
-    "Contact": "Kontakt"
+    "Contact": "Kontakt os"
   },
 
   "FooterInfo": {
@@ -81,10 +81,17 @@
     "subheadline2": "Du er velkommen til at kontakte os, hvis du har spørgsmål."
   },
 
-  "Statistics": {
-    "downloads": "Downloads",
-    "parking-sessions": "Parkeringssessioner",
-    "parking-zone": "Parkeringszoner"
+
+
+  "button": {
+    "contact": "Kontakt os",
+    "download": "Download app",
+    "learnMore": "Lær mere om os",
+    "subscribe": "Abonner",
+    "viewAllDesktop": "Se alle",
+    "ViewAllMobile": "Se alle nyheder",
+    "message": "Send besked",
+    "meeting": "Book et møde"
   },
 
   "knowMore": {
@@ -106,5 +113,20 @@
 
   "NewsCard": {
     "Read more": "Læs mere"
+  },
+
+  "contact_us": {
+    "page-title": "Kontakt os",
+    "page-message": "Uanset om du har et spørgsmål, feedback eller har brug for hjælp, skal du udfylde formularen nedenfor, og vores team vender tilbage til dig så hurtigt som muligt.",
+    "first&lastName": "Fornavn og Efternavn",
+    "Job": "Jobtitel",
+    "Email": "Email",
+    "Phone": "Telefonnummer",
+    "Reason": "Hvad drejer din henvendelse sig om?",
+    "form": "Vælg mulighed",
+    "message": "Skriv din besked",
+    "terms1": "Jeg accepterer",
+    "terms2": "betingelser",
+    "message2": "Tak for din besked!"
   }
 }

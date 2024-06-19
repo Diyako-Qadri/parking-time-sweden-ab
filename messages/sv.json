@@ -94,6 +94,19 @@
     "description": "Kontakta oss för att ta reda på mer om vår lösning och hur vi kan implementera den i din kommun."
   },
 
+ 
+
+  "button": {
+    "contact": "Kontakta oss",
+    "download": "Ladda ned appen",
+    "learnMore": "Lär dig mer om oss",
+    "subscribe": "Prenumerera",
+    "viewAllDesktop": "Visa alla",
+    "ViewAllMobile": "Visa alla nyheter",
+    "message": "Skicka meddelande",
+    "meeting": "Boka möte"
+  },
+
   "SingleNews": {
     "notFound": "Inga nyheter hittades."
   },
@@ -106,5 +119,20 @@
 
   "NewsCard": {
     "Read more": "Läs mer"
+  },
+
+  "contact_us": {
+    "page-title": "Kontakta oss",
+    "page-message": "Oavsett om du har en fråga, feedback eller behöver hjälp, fyll i formuläret nedan så återkommer vårt team till dig så snart som möjligt.",
+    "first&lastName": "För- och efternamn",
+    "Job": "Jobbtitel",
+    "Email": "Email",
+    "Phone": "Telefonnummer",
+    "Reason": "Vad gäller ditt ärende?",
+    "form": "Välj alternativ",
+    "message": "Skriv ditt meddelande",
+    "terms1": "Jag accepterar",
+    "terms2": "villkoren",
+    "message2": "Tack för ditt meddelande!"
   }
 }

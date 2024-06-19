@@ -94,6 +94,17 @@
     "description": "Contact us to find out more about our solution and how we can implement it in your municipality."
   },
 
+  "button": {
+    "contact": "Contact us",
+    "download": "Download app",
+    "learnMore": "Learn more about us",
+    "subscribe": "Subscribe",
+    "viewAllDesktop": "View all",
+    "ViewAllMobile": "View all news",
+    "message": "Send message",
+    "meeting": "Book a meeting"
+  },
+
   "SingleNews": {
     "notFound": "News not found"
   },
@@ -106,5 +117,20 @@
 
   "NewsCard": {
     "Read more": "Read more"
+  },
+
+  "contact_us": {
+    "page-title": "Contact Us",
+    "page-message": "Whether you have a question, feedback, or need assistance, fill out the form below and our team will get back to you as soon as possible.",
+    "first&lastName": "First and Last Name",
+    "Job": "Job Title",
+    "Email": "Email",
+    "Phone": "Phone Number",
+    "Reason": "What is your inquiry about?",
+    "form": "Choose option",
+    "message": "Write your message",
+    "terms1": "I accept the",
+    "terms2": "terms and conditions",
+    "message2": "Thank you for your message!"
   }
 }
