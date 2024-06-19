@@ -9,8 +9,8 @@ const SolutionSection = () => {
     return (
         <>
          <div className="flex py-28 px-4 md:px-20 ">
-            <div className='flex tablet:flex-row flex-col gap-16'>
-            <div className='mb-5 px-1 tablet:w-1/2'>
+            <div className='flex lg:flex-row flex-col gap-16'>
+            <div className='mb-5 px-1 lg:w-1/2'>
                <Image 
                 src={ParkingSolution}
                 width={900}
