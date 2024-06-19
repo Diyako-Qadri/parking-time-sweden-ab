@@ -15,7 +15,7 @@
 
   "homeHero": {
     "headline1": "Parking Time",
-    "headline2": "",
+    "headline2": "Wir machen das Parken einfach",
     "heroText1": "Digitaler Parkscheibe - direkt auf Ihrem Handy.",
     "heroText2": "Ein erfolgreiches Konzept in einem neuen, digitalisierten Format."
   },
@@ -89,9 +89,9 @@
 
   "knowMore": {
     "name-title": "Matilda Öhman, GF",
-    "mail": "info@parkingtime.se",
+    "mail": "Matilda@parkingtime.se",
     "question": "Möchten Sie mehr wissen?",
-    "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir sie in Ihrer Gemeinde implementieren können."
+    "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir Ihnen helfen können."
   },
 
   "button": {

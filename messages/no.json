@@ -15,7 +15,7 @@
 
   "homeHero": {
     "headline1": "Parking Time",
-    "headline2": "",
+    "headline2": "Vi gjør parkering enkelt",
     "heroText1": "Digital parkeringsskive - direkte på din mobil.",
     "heroText2": "En vinnende konsept i et nytt, digitalisert format."
   },
@@ -90,9 +90,9 @@
 
   "knowMore": {
     "name-title": "Matilda Öhman, AD",
-    "mail": "info@parkingtime.se",
+    "mail": "Matilda@parkingtime.se",
     "question": "Vil du vite mer?",
-    "description": "Kontakt oss for å finne ut mer om vår løsning og hvordan vi kan implementere den i din kommune."
+    "description": "Kontakt oss for å finne ut mer om vår løsning og hvordan vi kan hjelpe dere."
   },
 
   "button": {

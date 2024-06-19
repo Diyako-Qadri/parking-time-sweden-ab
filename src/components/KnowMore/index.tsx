@@ -19,13 +19,13 @@ const KnowMore = () => {
                 </img>
                 <p className="text-2xl pb-2">{t('name-title')}</p>
                 <p className="underline cursor-pointer text-lg md:text-[16px] font-thin">
-                    <a href="mailto:info@parkingtime.se"></a>
+                    <a href="mailto:matilda@parkingtime.se"></a>
                         {t('mail')}
                 </p>
             </div>
             <div className="text-center md:text-left max-w-[440px] px-6 md:ml-8">
-                <p className="text-4xl py-6">{t('question')}</p>
-                <p className={`text-lg pb-6 ${roboto.className} font-thin`}>{t('description')}</p>
+                <p className="text-4xl py-6 font-bold">{t('question')}</p>
+                <p className={`text-lg pb-6 ${roboto.className} font-thin md:font-bold`}>{t('description')}</p>
             </div>
         </div>
     )

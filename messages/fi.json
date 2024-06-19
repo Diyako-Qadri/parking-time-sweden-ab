@@ -15,7 +15,7 @@
 
   "homeHero": {
     "headline1": "Parking Time",
-    "headline2": "",
+    "headline2": "Teemme pysäköinnistä helppoa",
     "heroText1": "Digitaalinen pysäköintilevy - suoraan puhelimeesi.",
     "heroText2": "Voittava konsepti uudessa, digitaalisessa muodossa."
   },
@@ -86,11 +86,12 @@
     "parking-sessions": "Pysäköintikerrat",
     "parking-zone": "Pysäköintialueet"
   },
+
   "knowMore": {
     "name-title": "Matilda Öhman, TJ",
-    "mail": "info@parkingtime.se",
+    "mail": "Matilda@parkingtime.se",
     "question": "Haluatko tietää lisää?",
-    "description": "Ota yhteyttä saadaksesi lisätietoja ratkaisustamme ja siitä, kuinka voimme toteuttaa sen kunnassasi."
+    "description": "Ota yhteyttä saadaksesi lisätietoja ratkaisustamme ja kuinka voimme auttaa teitä."
   },
 
   "button": {
