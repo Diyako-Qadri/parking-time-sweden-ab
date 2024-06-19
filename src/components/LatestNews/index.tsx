@@ -1,20 +1,9 @@
-<<<<<<< HEAD
 "use client";
 import { useTranslations, useLocale } from "next-intl";
 import NewsCard from "@/components/NewsCard";
 import { Lato } from "next/font/google";
 
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
-=======
-import { useLocale, useTranslations } from "next-intl";
-import NewsCard from "../NewsCard";
-import { Lato } from "next/font/google";
-
-const lato = Lato({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
->>>>>>> feature/PTS-14smartParkingSolution
 
 const newsItems = [
   {
