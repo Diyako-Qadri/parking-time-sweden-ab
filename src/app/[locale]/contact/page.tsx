@@ -1,12 +1,14 @@
 import { useTranslations } from 'next-intl';
 import PageHero from '@/components/PageHero';
 import { ContactUs } from '@/components/ContactForm';
+
+
+
 const contact = () => {
   const t = useTranslations('contactHero');
 
   return (
     <>
-      
         <div className="hidden md:block">
           <PageHero
             bgImage={'bg-contactHero-image'}
@@ -15,11 +17,8 @@ const contact = () => {
             heroText={t('heroText')}
           />
         </div>
-        <div className="p-4">
-          <div>
+        <div className="p-4 pt-[100px]">
             <ContactUs />
-          </div>
-          <div></div>
         </div>
     </>
   );

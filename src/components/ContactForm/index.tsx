@@ -21,7 +21,7 @@ export const ContactUs: React.FC = () => {
     e.preventDefault();
 
     if (!isChecked) {
-      alert('Please check the box to proceed');
+      alert("Please confirm terms & conditions to proceed");
       return;
     }
 
@@ -74,7 +74,7 @@ export const ContactUs: React.FC = () => {
       </div>
       <div className="relative flex w-full md:w-1/2 p-5">
         <form className="flex flex-col self-center p w-full" ref={form} onSubmit={sendEmail}>
-          <label className="m-1 text-base">{b("First&lastName")}</label>
+          <label className="m-1 text-base">{b("first&lastName")}</label>
           <input
             type="text"
             name="user_name&lastname"

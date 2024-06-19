@@ -116,10 +116,11 @@
   "NewsCard": {
     "Read more": "Lue lisää"
   },
+
   "contact_us": {
     "page-title": "Ota yhteyttä",
     "page-message": "Onko sinulla kysyttävää, palautetta tai tarvitsetko apua? Täytä alla oleva lomake, niin tiimimme ottaa sinuun yhteyttä mahdollisimman pian.",
-    "First&lastName": "Etunimi ja Sukunimi",
+    "first&lastName": "Etunimi ja Sukunimi",
     "Job": "Työnimike",
     "Email": "Sähköposti",
     "Phone": "Puhelinnumero",

@@ -122,7 +122,7 @@
   "contact_us": {
     "page-title": "Kontakta oss",
     "page-message": "Oavsett om du har en fråga, feedback eller behöver hjälp, fyll i formuläret nedan så återkommer vårt team till dig så snart som möjligt.",
-    "First&lastName": "För- och efternamn",
+    "first&lastName": "För- och efternamn",
     "Job": "Jobbtitel",
     "Email": "Email",
     "Phone": "Telefonnummer",
@@ -130,7 +130,7 @@
     "form": "Välj alternativ",
     "message": "Skriv ditt meddelande",
     "terms1": "Jag accepterar",
-    "terms2": "villkor",
+    "terms2": "villkoren",
     "message2": "Tack för ditt meddelande!"
   }
 }
