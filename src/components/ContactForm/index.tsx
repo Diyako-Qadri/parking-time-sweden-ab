@@ -25,14 +25,14 @@ export const ContactUs: React.FC = () => {
       return;
     }
 
-    if (form.current) {
+    if (form.current?.value) { 
       emailjs
         .sendForm('service_epr51x4', 'template_ltnn4l5', form.current, 'Csuym5gx5aHov0nLK')
         .then(
           () => {
             setShowPopup(true);
             setTimeout(() => setShowPopup(false), 3000);
-            form.current.reset();
+            form.current?.reset();
             setIsChecked(false);
             setSelectedOption('');
           },
@@ -40,6 +40,8 @@ export const ContactUs: React.FC = () => {
             console.log('FAILED...', error.text);
           }
         );
+    } else {
+      console.error('Form reference is null');
     }
   };
 
