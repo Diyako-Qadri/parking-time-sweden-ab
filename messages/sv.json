@@ -136,6 +136,36 @@
     "secondArrow": "Vår digitala p-skiva förenklar parkeringsprocessen.",
     "thirdArrow": "Alla parkeringsvaktsystem kan enkelt integreras med vårt system.",
     "secondParkingText": "Vi är glada att dela mer om vår lösning i ett möte."
+
+  }, 
+  
+  "SingleNews": {
+    "notFound": "Inga nyheter hittades."
+  },
+
+  "LatestNews": {
+    "news": "Nyheter",
+    "Latest News": "Senaste nytt",
+    "View all": "Visa alla"
+  },
+
+  "NewsCard": {
+    "Read more": "Läs mer"
+  },
+
+  "contact_us": {
+    "page-title": "Kontakta oss",
+    "page-message": "Oavsett om du har en fråga, feedback eller behöver hjälp, fyll i formuläret nedan så återkommer vårt team till dig så snart som möjligt.",
+    "first&lastName": "För- och efternamn",
+    "Job": "Jobbtitel",
+    "Email": "Email",
+    "Phone": "Telefonnummer",
+    "Reason": "Vad gäller ditt ärende?",
+    "form": "Välj alternativ",
+    "message": "Skriv ditt meddelande",
+    "terms1": "Jag accepterar",
+    "terms2": "villkoren",
+    "message2": "Tack för ditt meddelande!"
   }
 }
 

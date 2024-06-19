@@ -135,5 +135,34 @@
     "secondArrow": "Our digital parking disc simplifies the parking process.",
     "thirdArrow": "Any parking attendant system can easily be integrated with our system.",
     "secondParkingText": "We're exited to share more about our solution in a meeting."
+ 
+  }, 
+  
+  "SingleNews": {
+    "notFound": "News not found"},
+
+  "LatestNews": {
+    "news": "News",
+    "Latest News": "Latest News",
+    "View all": "View all"
+  },
+
+  "NewsCard": {
+    "Read more": "Read more"
+  },
+
+  "contact_us": {
+    "page-title": "Contact Us",
+    "page-message": "Whether you have a question, feedback, or need assistance, fill out the form below and our team will get back to you as soon as possible.",
+    "first&lastName": "First and Last Name",
+    "Job": "Job Title",
+    "Email": "Email",
+    "Phone": "Phone Number",
+    "Reason": "What is your inquiry about?",
+    "form": "Choose option",
+    "message": "Write your message",
+    "terms1": "I accept the",
+    "terms2": "terms and conditions",
+    "message2": "Thank you for your message!"
   }
 }
