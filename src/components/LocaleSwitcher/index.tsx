@@ -1,5 +1,4 @@
 'use client';
-
 import { motion, AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import { usePathname, useSearchParams } from 'next/navigation';
@@ -98,7 +97,7 @@ const LocaleSwitcher = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.4 }}
-            className="absolute rounded mt-7 z-20 items-center text-white NavbarScrren:bg-pt-green-transparent w-[73px]"
+            className="md:absolute rounded mt-7 z-20 flex flex-wrap ml-6 gap-5 md:gap-0 items-center w-[85vw] text-white md:bg-pt-green-transparent md:w-[146px] md:right-[-58px]"
           >
             {locales.map(locale => (
               <motion.li
@@ -108,7 +107,7 @@ const LocaleSwitcher = () => {
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.4 }}
                 onClick={() => onSelectChange(locale.code)}
-                className="flex items-center p-2 cursor-pointer hover:bg-pt-green hover:border-b-[.5px] border-current"
+                className="flex items-center p-2 cursor-pointer w-1/4 rounded border-white-100 border-[1px] md:border-0  md:rounded-none hover:bg-pt-green hover:border-b-[.5px] border-current md:w-1/2"
               >
                 <Image
                   src={locale.img}

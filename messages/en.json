@@ -116,6 +116,18 @@
     "question": "Want to know more?",
     "description": "Contact us to find out more about our solution and how we can implement it in your municipality."
   },
+
+  "button": {
+    "contact": "Contact us",
+    "download": "Download app",
+    "learnMore": "Learn more about us",
+    "subscribe": "Subscribe",
+    "viewAllDesktop": "View all",
+    "ViewAllMobile": "View all news",
+    "message": "Send message",
+    "meeting": "Book a meeting"
+  },
+
   "SmartParkingSolution": {
     "title": "Smart Parking Solution",
     "parkingText": "The parking disc has long been a tool to promote circulation and activity in your city´s center. It's a fantastic invention that benefits residents, visitors, and local businesses alike. We want to be part of this evolution by creating a free digital parking disc.",

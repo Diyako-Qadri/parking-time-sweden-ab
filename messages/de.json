@@ -13,6 +13,7 @@
     "Contact": "Kontakt"
   },
 
+
   "homeHero": {
     "headline1": "Parking Time",
     "headline2": "",
@@ -28,6 +29,7 @@
   },
 
   "Statistics": {
+  "Statistics": {
     "downloads": "Herunterladen",
     "parking-sessions": "Parksitzungen",
     "parking-zone": "Parkzonen"
@@ -42,6 +44,8 @@
     "integrationTitle": "Integration mit bestehenden Systemen",
     "integrationDes": "Unser System für Parkwächter integriert sich nahtlos in Ihr bestehendes Setup. Ein einheitliches System vereinfacht die Abläufe und verbessert die Erfahrung für das Personal, indem es die Notwendigkeit für zwei verschiedene Systeme und Geräte eliminiert. Wir machen diese Integration effizient, intuitiv und einfach!",
     "dataTitle": "Datengetriebene Stadtplanung",
+    "dataDes": "Die digitale Parkscheibe kann letztendlich durch wertvolle Nutzungsdaten und Verhaltensmuster die Parkressourcen und die Stadtplanung optimieren, was zu einer sichereren Gesellschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt.",
+    "LearnMoreBtn": "Mehr über uns"
     "dataDes": "Die digitale Parkscheibe kann letztendlich durch wertvolle Nutzungsdaten und Verhaltensmuster die Parkressourcen und die Stadtplanung optimieren, was zu einer sichereren Gesellschaft mit besserer Kontrolle und Zugang zu Parkplätzen führt.",
     "LearnMoreBtn": "Mehr über uns"
   },
@@ -65,7 +69,12 @@
     "news": "Nachrichten",
     "Latest News": "Neueste Nachrichten",
     "View All": "Alle ansehen"
+    "heroText": "",
+    "news": "Nachrichten",
+    "Latest News": "Neueste Nachrichten",
+    "View All": "Alle ansehen"
   },
+
 
   "FAQ": {
     "title": "FAQ",
@@ -112,6 +121,12 @@
     "question": "Möchten Sie mehr wissen?",
     "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir sie in Ihrer Gemeinde implementieren können."
   },
+  "knowMore": {
+    "name-title": "Matilda Öhman, GF",
+    "mail": "info@parkingtime.se",
+    "question": "Möchten Sie mehr wissen?",
+    "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir sie in Ihrer Gemeinde implementieren können."
+  },
 
   "SmartParkingSolution": {
     "title": "Smart Parking Solution",
@@ -122,3 +137,4 @@
     "secondParkingText": "Wir freuen uns darauf, mehr über unsere Lösung in einem Meeting zu teilen."
   }
 }
+

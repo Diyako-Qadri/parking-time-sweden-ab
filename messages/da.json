@@ -8,6 +8,7 @@
     "Contact": "Kontakt os"
   },
 
+
   "FooterInfo": {
     "Address": "Adresse",
     "Contact": "Contact"
@@ -32,6 +33,7 @@
     "heroText1": "Digital parkeringsskive - direkte på din mobiltelefon.",
     "heroText2": "En vindende koncept i en ny, digitaliseret format."
   },
+
 
   "heroActions": {
     "action1": "Let at bruge",
@@ -113,6 +115,21 @@
     "description": "Kontakt os for at finde ud af mere om vores løsning, og hvordan vi kan implementere den i din kommune."
   },
 
+  "button": {
+    "contact": "Kontakt os",
+    "download": "Download app",
+    "learnMore": "Lær mere om os",
+    "subscribe": "Abonner",
+    "viewAllDesktop": "Se alle",
+    "ViewAllMobile": "Se alle nyheder",
+    "message": "Send besked",
+    "meeting": "Book et møde"
+  },
+
+  "SingleNews": {
+    "notFound": "Nyheden blev ikke fundet"
+  },
+
   "SmartParkingSolution": {
     "title": "Smart Parking Solution",
     "parkingText": "P-skiven har længe været et værktøj til at fremme cirkulation og aktivitet i din bys centrum. Det er en fantastisk opfindelse, der gavner beboere, besøgende og lokale virksomheder. Vi ønsker at være en del af denne udvikling ved at skabe en gratis digital p-skive.",
@@ -122,3 +139,4 @@
     "secondParkingText": "Vi er spændte på at dele mere om vores løsning i et møde."
   }
 }
+

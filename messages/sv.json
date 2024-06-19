@@ -8,6 +8,7 @@
     "Contact": "Kontakta oss"
   },
 
+
   "FooterInfo": {
     "Address": "Adress",
     "Contact": "Kontakt"
@@ -117,6 +118,17 @@
     "description": "Kontakta oss för att ta reda på mer om vår lösning och hur vi kan implementera den i din kommun."
   },
 
+  "button": {
+    "contact": "Kontakta oss",
+    "download": "Ladda ned appen",
+    "learnMore": "Lär dig mer om oss",
+    "subscribe": "Prenumerera",
+    "viewAllDesktop": "Visa alla",
+    "ViewAllMobile": "Visa alla nyheter",
+    "message": "Skicka meddelande",
+    "meeting": "Boka möte"
+  },
+
   "SmartParkingSolution": {
     "title": "Smart Parking Solution",
     "parkingText": "P-skivan har länge varit ett verktyg för att främja cirkulation och aktivitet i din stads centrum. Det är en fantastisk uppfinning som gynnar invånare, besökare och lokala företag. Vi vill vara en del av denna utveckling genom att skapa en gratis digital p-skiva.",
@@ -126,3 +138,4 @@
     "secondParkingText": "Vi är glada att dela mer om vår lösning i ett möte."
   }
 }
+
