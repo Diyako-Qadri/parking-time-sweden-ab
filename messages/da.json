@@ -91,5 +91,18 @@
 
   "NewsCard": {
     "Read more": "Læs mere"
+  },
+  "contact_us": {
+    "page-title": "Kontakt os",
+    "page-message": "Uanset om du har et spørgsmål, feedback eller har brug for hjælp, skal du udfylde formularen nedenfor, og vores team vender tilbage til dig så hurtigt som muligt.",
+    "First&lastName": "Fornavn og Efternavn",
+    "Job": "Jobtitel",
+    "Email": "Email",
+    "Phone": "Telefonnummer",
+    "Reason": "Hvad drejer din henvendelse sig om?",
+    "form": "Vælg mulighed",
+    "message": "Skriv din besked",
+    "terms1": "Jeg accepterer",
+    "terms2": "vilkår"
   }
 }
