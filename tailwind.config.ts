@@ -39,6 +39,7 @@ const config: Config = {
       screens: {
         'NavbarScrren': '856px',   
           's': {'max':'410px'},
+          'custom-small': {'min':'450px'},
           'hover-hover': {'raw': '(hover: hover) and (pointer: fine)'},
             'tablet': '850px',
       },

@@ -132,14 +132,14 @@
     "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir Ihnen helfen können."
   },
 
-  "button": {
-    "contact": "Kontaktiere uns",
-    "download": "App herunterladen",
-    "learnMore": "Erfahre mehr über uns",
-    "subscribe": "Abonnieren",
-    "viewAllDesktop": "Alle anzeigen",
-    "ViewAllMobile": "Alle Nachrichten anzeigen",
-    "message": "Nachricht senden",
-    "meeting": "Ein Treffen buchen"
-  }
+    "button": {
+      "contact": "Kontaktiere uns",
+      "download": "App downloaden",
+      "learnMore": "Erfahre mehr über uns",
+      "subscribe": "Abonnieren",
+      "viewAllDesktop": "Alle anzeigen",
+      "ViewAllMobile": "Alle Nachrichten anzeigen",
+      "message": "Nachricht senden",
+      "meeting": "Ein Treffen buchen"
+    }
 }
