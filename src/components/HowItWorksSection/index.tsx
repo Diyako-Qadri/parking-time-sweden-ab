@@ -9,20 +9,6 @@ const HowItWorks = () => {
     const t = useTranslations('howItWorks')
   return (
     <>
-        {/* <section className="flex justify-center  bg-pt-background">
-            <div className="max-w-[1350px]">
-                <h2>This is the heading</h2>
-                <div>
-                    <div className="card">here will be text</div>
-                        <div className="arrow">arrow</div>
-                    <div className="card">some text</div>
-                        <div className="arrow">arrow</div>
-                    <div className="card">more text</div>
-                </div>
-            </div>
-        </section> */}
-
-       
         <div className="flex min-h-screen justify-center items-center py-28 bg-pt-background">
             <div className="flex flex-wrap justify-center">
                 <div className="flex flex-col md:flex-row">
