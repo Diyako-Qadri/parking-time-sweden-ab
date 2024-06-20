@@ -132,5 +132,14 @@
     "terms1": "Ich akzeptiere die",
     "terms2": "Bedingungen",
     "message2": "Vielen Dank für Ihre Nachricht!"
-  }
+  },
+   
+  "howItWorks": {
+    "registrationTitle": "Geben Sie Ihre Registrierungsnummer ein",
+    "locationTitle": "Finden Sie Ihren gewünschten Parkplatz",
+    "digitalDiskTitle": "Starten Sie Ihre digitale Parkscheibe",
+    "registrationText": "Öffnen Sie die App, registrieren Sie sich mit dem Kennzeichen Ihres Autos.",
+    "locationText": "Verwenden Sie die Karte, die Suchfunktion oder die Zonenliste, um Ihren gewünschten Parkplatz zu finden.",
+    "digitalDiskText": "Nachdem Sie Ihre Parkzone ausgewählt haben, können Sie die geltenden Regeln überprüfen, das Parken starten und die App einfach schließen."
+}
 }
