@@ -17,18 +17,19 @@ const HomeHero = () => {
   useEffect(() => {
     const parser = new UAParser();
     const ua = parser.getResult();
+
     setIsAppleDevice(ua.os.name === 'Mac OS' || ua.os.name === 'iOS');
     setUaChecked(true);
   }, []);
 
   if (!uaChecked) {
-    return null; 
+    return null
   }
 
   return (
     <section className='relative items-center flex flex-col bg-top h-custom-home bg-homeHero-image justify-center bg-no-repeat top-[80px] bg-cover text-white mb-[80px] custom-small:items-start'>
-      <div className="flex flex-col p-5  max-w-fit md:px-16">
-        <div className='w-[315px] md:w-[415px]'>
+      <div className="flex flex-col p-2 max-w-fit md:px-16 custom-small:p-5">
+        <div className='w-[325px] custom-small:w-fit'>
           {locale === 'en' ? (
             <>
               <h2 className="text-5xl md:text-6xl">{t('headline1')}</h2>
@@ -60,7 +61,7 @@ const HomeHero = () => {
                   <Button variant='mobileBlack' size='mobilePrimary'>{tButton("download")}</Button>
                 </a>
               </div>
-              <div className='hidden custom-small:block'>
+              <div className='hidden custom-small:block custom-small:pl-2'>
                 <a
                 href='https://apps.apple.com/se/app/parking-time/id1611019108' target="_blank">
                   <Button variant="desktopBlack" size="desktopPrimary">{tButton("download")}</Button>
@@ -74,7 +75,7 @@ const HomeHero = () => {
                   <Button variant='mobileBlack' size='mobilePrimary'>{tButton("download")}</Button>
                 </a>
               </div>
-              <div className='hidden custom-small:pl-2 custom-small:block'>
+              <div className='hidden custom-small:block custom-small:pl-2'>
                 <a href='https://play.google.com/store/apps/details?id=se.parkingtime.app&hl=en_US&pli=1' target="_blank">
                   <Button variant="desktopBlack" size="desktopPrimary">{tButton("download")}</Button>
                 </a>
