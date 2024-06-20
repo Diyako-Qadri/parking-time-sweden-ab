@@ -140,5 +140,13 @@
       "registrationText": "Open the app, register with your car's registration number.",
       "locationText": "Use the map, search function, or zone list to find your desired parking location.",
       "digitalDiskText": "Once you select your parking zone, you can review any applicable rules, start parkin, and then simply close the app"
+  },
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "The parking disc has long been a tool to promote circulation and activity in your city´s center. It's a fantastic invention that benefits residents, visitors, and local businesses alike. We want to be part of this evolution by creating a free digital parking disc.",
+    "firstArrow": "We aim to support the growth and efficient of urban areas.",
+    "secondArrow": "Our digital parking disc simplifies the parking process.",
+    "thirdArrow": "Any parking attendant system can easily be integrated with our system.",
+    "secondParkingText": "We're exited to share more about our solution in a meeting."
   }
 }

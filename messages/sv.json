@@ -143,5 +143,16 @@
     "registrationText": "Öppna appen, registrera dig med din bils registreringsnummer.",
     "locationText": "Använd kartan, sökfunktionen eller zonlistan för att hitta din önskade parkeringsplats.",
     "digitalDiskText": "När du valt din parkeringszon kan du granska eventuella tillämpliga regler, starta parkeringen och sedan enkelt stänga appen."
-  }
+  },
+
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "P-skivan har länge varit ett verktyg för att främja cirkulation och aktivitet i din stads centrum. Det är en fantastisk uppfinning som gynnar invånare, besökare och lokala företag. Vi vill vara en del av denna utveckling genom att skapa en gratis digital p-skiva.",
+    "firstArrow": "Vi strävar efter att stödja tillväxt och effektivitet i stadsområden.",
+    "secondArrow": "Vår digitala p-skiva förenklar parkeringsprocessen.",
+    "thirdArrow": "Alla parkeringsvaktsystem kan enkelt integreras med vårt system.",
+    "secondParkingText": "Vi är glada att dela mer om vår lösning i ett möte."
+}
+
+  
 }

@@ -142,5 +142,15 @@
       "registrationText": "Åpne appen, registrer deg med bilens registreringsnummer.",
       "locationText": "Bruk kartet, søkefunksjonen eller sonelisten for å finne ønsket parkeringssted.",
       "digitalDiskText": "Når du har valgt din parkeringssone, kan du se gjennom gjeldende regler, starte parkeringen og deretter bare lukke appen."
+  },
+
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "Parkeringsskiven har lenge vært et verktøy for å fremme sirkulasjon og aktivitet i byens sentrum. Det er en fantastisk oppfinnelse som gagner innbyggere, besøkende og lokale bedrifter. Vi ønsker å være en del av denne utviklingen ved å lage en gratis digital parkeringsskive.",
+    "firstArrow": "Vi har som mål å støtte vekst og effektivitet i urbane områder.",
+    "secondArrow": "Vår digitale parkeringsskive forenkler parkeringsprosessen.",
+    "thirdArrow": "Ethvert parkeringsvakt-system kan enkelt integreres med vårt system.",
+    "secondParkingText": "Vi er spente på å dele mer om vår løsning i et møte."
   }
+
 }

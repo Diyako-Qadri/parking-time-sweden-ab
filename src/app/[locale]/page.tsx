@@ -6,11 +6,13 @@ import Statistics from "@/components/Statistics";
 import Faq from "@/components/Faq";
 import LatestNews from "@/components/LatestNews";
 import HowItWorks from "@/components/HowItWorksSection";
+import SolutionSection from "@/components/SolutionSection";
 
 export default function index() {
   return (
     <main>
       <HomeHero />
+      <SolutionSection />
       <HowItWorks/>
       <WhyParkingTime />
       <ThrustedBy />
