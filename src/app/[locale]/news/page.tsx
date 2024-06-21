@@ -9,26 +9,17 @@ import { useLocale, useTranslations } from "next-intl";
 interface NewsItem {
   id: number;
   attributes: {
-    image: {
+    Image: {
       data: {
         attributes: {
           url: string;
         };
       };
     } | null;
-    title: string;
-    description: string;
-    content: string;
-    author: string;
-    authorImage: {
-      data: {
-        attributes: {
-          url: string;
-        };
-      };
-    } | null;
-    date: string;
-    slug: string;
+    Title: string;
+    Description: { type: string; children: { text: string }[] }[];
+    Date: string;
+    Slug: string;
   };
 }
 
@@ -46,6 +37,8 @@ const News = () => {
     fetchData();
   }, [locale]);
 
+  const baseUrl = "http://localhost:1337";
+
   return (
     <>
       <PageHero
@@ -61,19 +54,28 @@ const News = () => {
         </h3>
         <div className="relative container mx-auto max-w-screen-xl pl-4">
           <div className="-ml-4 pl-4 flex space-x-6 overflow-x-auto hide-scroll-bar snap-x snap-mandatory pb-8">
-            {newsItems.map((news) => (
-              <div
-                key={news.id}
-                className="flex-shrink-0 w-[80%] sm:w-auto snap-start first:pl-4 last:pr-4">
-                <NewsCard
-                  image={news.attributes.image?.data?.attributes.url || ""}
-                  title={news.attributes.title}
-                  description={news.attributes.description}
-                  date={new Date(news.attributes.date).toLocaleDateString()}
-                  slug={news.attributes.slug}
-                />
-              </div>
-            ))}
+            {newsItems.map((news) => {
+              const imageUrl = news.attributes.Image?.data?.attributes.url
+                ? baseUrl + news.attributes.Image.data.attributes.url
+                : "/path/to/default/image.jpg";
+              const description = news.attributes.Description.map((desc) =>
+                desc.children.map((child) => child.text).join(" ")
+              ).join(" ");
+
+              return (
+                <div
+                  key={news.id}
+                  className="flex-shrink-0 w-[80%] sm:w-auto snap-start first:pl-4 last:pr-4">
+                  <NewsCard
+                    image={imageUrl}
+                    title={news.attributes.Title}
+                    description={description}
+                    date={new Date(news.attributes.Date).toLocaleDateString()}
+                    slug={news.attributes.Slug}
+                  />
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>

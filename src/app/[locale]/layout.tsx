@@ -1,21 +1,21 @@
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
-import type { Metadata } from 'next';
-import { Lato } from 'next/font/google';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import '../../../src/app/globals.css';
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+import type { Metadata } from "next";
+import { Lato } from "next/font/google";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import "../../../src/app/globals.css";
 
 export const metadata: Metadata = {
-  title: 'Parking Time Sweden',
+  title: "Parking Time Sweden",
   description:
-    'Parking made easy with the digital parking disk of Parking Time',
+    "Parking made easy with the digital parking disk of Parking Time",
   icons: {
-    icon: '/images/parking-time-logo.png',
+    icon: "/images/parking-time-logo.png",
   },
 };
 
-const lato = Lato({ subsets: ['latin'], weight: ['400', '700'] });
+const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
 export default async function RootLayout({
   children,
@@ -29,14 +29,13 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      style={{ scrollBehavior: 'smooth' }}
-      suppressHydrationWarning={true}
-    >
+      style={{ scrollBehavior: "smooth" }}
+      suppressHydrationWarning={true}>
       <body className={lato.className}>
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}
-        <Footer />  
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

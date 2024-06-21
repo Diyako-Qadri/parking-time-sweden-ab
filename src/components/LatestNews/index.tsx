@@ -1,5 +1,9 @@
+"use client";
+
 import { useLocale, useTranslations } from "next-intl";
 import NewsCard from "../NewsCard";
+import { useEffect, useState } from "react";
+import { fetchNews } from "@/api";
 import { Lato } from "next/font/google";
 
 const lato = Lato({
@@ -7,36 +11,46 @@ const lato = Lato({
   weight: ["400", "700"],
 });
 
-const newsItems = [
-  {
-    image: "/images/article-image-1.jpg",
-    title: "Positivt inflytande i Nässjö",
-    description:
-      "Efter ett år av användning av Parking Time-appen för alla centrala parkeringsområden rapporterar Nässjö kommun positiva resultat från digitaliseringen av parkeringsskivan.",
-    date: "19 April 2024",
-    slug: "positivt-inflytande-i-nassjo",
-  },
-  {
-    image: "/images/article-image-2.jpg",
-    title: "Parking time & Changemaker",
-    description:
-      "Den här våren samarbetade Parking Time med studenter vid Changemaker Educations, vilket resulterade i innovativa och kreativa lösningar.",
-    date: "11 Mars 2024",
-    slug: "parking-time-changemaker",
-  },
-  {
-    image: "/images/article-image-3.jpg",
-    title: "SKAPA Talent Award Winner",
-    description:
-      "Parking Time vann SKAPA Talent i Norrbotten för deras innovativa digitala parkeringslösning, som erkändes för att förstå marknadens behov.",
-    date: "3 Februari 2024",
-    slug: "skapa-talent-award-winner",
-  },
-];
+interface NewsItem {
+  id: number;
+  attributes: {
+    Image: {
+      data: {
+        attributes: {
+          url: string;
+        };
+      };
+    } | null;
+    Title: string;
+    Description: { type: string; children: { text: string }[] }[];
+    Date: string;
+    Slug: string;
+  };
+}
 
 const LatestNews = () => {
   const locale = useLocale();
   const t = useTranslations("LatestNews");
+  const [newsItems, setNewsItems] = useState<NewsItem[]>([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const items = await fetchNews(locale);
+      // Sortera nyheterna efter datum i fallande ordning
+      const sortedItems = items.sort(
+        (a: NewsItem, b: NewsItem) =>
+          new Date(b.attributes.Date).getTime() -
+          new Date(a.attributes.Date).getTime()
+      );
+      // Hämta de tre senaste nyheterna
+      const latestThreeItems = sortedItems.slice(0, 3);
+      setNewsItems(latestThreeItems);
+    };
+
+    fetchData();
+  }, [locale]);
+
+  const baseUrl = "http://localhost:1337";
 
   return (
     <section className="bg-pt-background text-center py-40">
@@ -49,19 +63,28 @@ const LatestNews = () => {
       </h3>
       <div className="relative container mx-auto max-w-screen-xl pl-4">
         <div className="-ml-4 pl-4 flex space-x-6 overflow-x-auto hide-scroll-bar snap-x snap-mandatory pb-8">
-          {newsItems.map((news, index) => (
-            <div
-              key={index}
-              className="flex-shrink-0 w-[80%] sm:w-auto snap-start first:pl-4 last:pr-4">
-              <NewsCard
-                image={news.image}
-                title={news.title}
-                description={news.description}
-                date={news.date}
-                slug={news.slug}
-              />
-            </div>
-          ))}
+          {newsItems.map((news) => {
+            const imageUrl = news.attributes.Image?.data?.attributes.url
+              ? baseUrl + news.attributes.Image.data.attributes.url
+              : "/path/to/default/image.jpg";
+            const description = news.attributes.Description.map((desc) =>
+              desc.children.map((child) => child.text).join(" ")
+            ).join(" ");
+
+            return (
+              <div
+                key={news.id}
+                className="flex-shrink-0 w-[80%] sm:w-auto snap-start first:pl-4 last:pr-4">
+                <NewsCard
+                  image={imageUrl}
+                  title={news.attributes.Title}
+                  description={description}
+                  date={new Date(news.attributes.Date).toLocaleDateString()}
+                  slug={news.attributes.Slug}
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
       <div className="mt-8 flex justify-center">

@@ -106,7 +106,8 @@
   },
 
   "SingleNews": {
-    "notFound": "News not found"
+    "notFound": "News not found",
+    "Not found": "Not found"
   },
 
   "LatestNews": {

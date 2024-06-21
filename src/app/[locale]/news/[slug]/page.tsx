@@ -1,29 +1,32 @@
 "use client";
-import { useParams } from "next/navigation";
-import { getSingleNewsItem } from "@/data/newsData";
+
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Lato } from "next/font/google";
 import { Roboto } from "next/font/google";
 import { useTranslations, useLocale } from "next-intl";
+import { useRouter } from "next/navigation";
+import { getSingleNewsItem } from "@/data/newsData";
 
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500"] });
 
-const SingleNews = () => {
-  const { slug } = useParams();
+const SingleNews = ({ params }: { params: { slug: string | string[] } }) => {
+  const { slug } = params;
   const locale = useLocale();
+  const router = useRouter();
   const t = useTranslations("SingleNews");
   const [newsItem, setNewsItem] = useState<{
     id: any;
-    image: any;
-    title: any;
-    description: any;
-    content: any;
-    author: any;
-    authorImage: any;
+    image: string;
+    title: string;
+    description: string;
+    content: string;
+    author: string;
+    authorImage: string;
     date: string;
-    slug: any;
+    slug: string;
+    locale: string;
   } | null>(null);
 
   useEffect(() => {
@@ -42,6 +45,13 @@ const SingleNews = () => {
     fetchNewsItem();
   }, [slug, locale]);
 
+  useEffect(() => {
+    if (newsItem && newsItem.locale !== locale) {
+      const localizedSlug = newsItem.slug;
+      router.replace(`/${locale}/news/${localizedSlug}`);
+    }
+  }, [locale, newsItem, router]);
+
   if (!newsItem) {
     return <div>{t("Not found")}</div>;
   }
@@ -49,7 +59,7 @@ const SingleNews = () => {
   return (
     <div className="max-w-[1000px] mx-auto px-4 pt-32">
       <div className="flex items-center mb-4 pb-6">
-        <Image
+        <img
           src={newsItem.authorImage}
           alt={newsItem.author}
           width={40}
@@ -67,11 +77,9 @@ const SingleNews = () => {
         className={`${lato.className} text-4xl font-bold leading-[43.2px] text-[#0B051D] mb-4`}>
         {newsItem.title}
       </h1>
-      <Image
+      <img
         src={newsItem.image}
         alt={newsItem.title}
-        width={1000}
-        height={650}
         className="w-full h-[240px] md:h-[650px] object-cover mb-4 py-6"
       />
       <div
