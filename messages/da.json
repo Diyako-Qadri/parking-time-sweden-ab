@@ -5,7 +5,8 @@
     "News": "Nyheder",
     "FAQ": "FAQ",
     "Links": "Links",
-    "Contact": "Kontakt os"
+    "Contact": "Kontakt os",
+    "language-btn": "Skift sprog"
   },
 
 
@@ -142,7 +143,7 @@
   "contact_us": {
     "page-title": "Kontakt os",
     "page-message": "Uanset om du har et spørgsmål, feedback eller har brug for hjælp, skal du udfylde formularen nedenfor, og vores team vender tilbage til dig så hurtigt som muligt.",
-    "first&lastName": "Fornavn og Efternavn",
+    "first&lastName": "Navn",
     "Job": "Jobtitel",
     "Email": "Email",
     "Phone": "Telefonnummer",
@@ -151,7 +152,8 @@
     "message": "Skriv din besked",
     "terms1": "Jeg accepterer",
     "terms2": "betingelser",
-    "message2": "Tak for din besked!"
+    "message2": "Tak for din besked!",
+    "message3": "Dette felt er påkrævet"
   }
 }
 

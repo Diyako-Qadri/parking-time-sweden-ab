@@ -5,7 +5,8 @@
     "News": "Nyheter",
     "FAQ": "FAQ",
     "Links": "Lenker",
-    "Contact": "Kontakt oss"
+    "Contact": "Kontakt oss",
+    "language-btn": "Bytt språk"
   },
 
   "FooterInfo": {
@@ -141,7 +142,7 @@
   "contact_us": {
     "page-title": "Kontakt oss",
     "page-message": "Enten du har et spørsmål, tilbakemelding eller trenger hjelp, fyll ut skjemaet nedenfor, og vårt team vil kontakte deg så snart som mulig.",
-    "first&lastName": "For- og etternavn",
+    "first&lastName": "Navn",
     "Job": "Jobbtittel",
     "Email": "E-post",
     "Phone": "Telefonnummer",
@@ -150,7 +151,8 @@
     "message": "Skriv din melding",
     "terms1": "Jeg aksepterer",
     "terms2": "betingelser",
-    "message2": "Takk for meldingen din!"
+    "message2": "Takk for meldingen din!",
+    "message3": "Dette feltet er obligatorisk"
   }
 }
 

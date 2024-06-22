@@ -5,7 +5,8 @@
     "News": "Uutiset",
     "FAQ": "FAQ",
     "Links": "Linkit",
-    "Contact": "Ota yhteyttä"
+    "Contact": "Ota yhteyttä",
+    "language-btn": "Vaihda kieltä"
   },
 
   "FooterInfo": {
@@ -105,7 +106,7 @@
   "contact_us": {
     "page-title": "Ota yhteyttä",
     "page-message": "Onko sinulla kysyttävää, palautetta tai tarvitsetko apua? Täytä alla oleva lomake, niin tiimimme ottaa sinuun yhteyttä mahdollisimman pian.",
-    "first&lastName": "Etunimi ja Sukunimi",
+    "first&lastName": "Nimi",
     "Job": "Työnimike",
     "Email": "Sähköposti",
     "Phone": "Puhelinnumero",
@@ -114,7 +115,8 @@
     "message": "Kirjoita viestisi",
     "terms1": "Hyväksyn",
     "terms2": "ehdot",
-    "message2": "Kiitos viestistäsi!"
+    "message2": "Kiitos viestistäsi!",
+    "message3": "Tämä kenttä on pakollinen"
   },
 
   "howItWorks": {

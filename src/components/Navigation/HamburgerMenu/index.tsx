@@ -154,7 +154,7 @@ const HamburgerMenu = () => {
             </div>
             <div className="ml-6 mt-5">
               <p className="flex flex-row text-lg font-medium">
-                <LocaleSwitcher /> <p className='absolute left-[80px] z-10'>Change language</p>
+                <LocaleSwitcher /> <p className='absolute left-[80px] z-10'>{t("language-btn")}</p>
               </p>
             </div>
             <div className="flex flex-col items-center mt-8">

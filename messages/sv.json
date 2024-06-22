@@ -5,7 +5,8 @@
     "News": "Nyheter",
     "FAQ": "FAQ",
     "Links": "Länkar",
-    "Contact": "Kontakta oss"
+    "Contact": "Kontakta oss",
+    "language-btn": "Byt språk"
   },
 
 
@@ -142,7 +143,7 @@
   "contact_us": {
     "page-title": "Kontakta oss",
     "page-message": "Oavsett om du har en fråga, feedback eller behöver hjälp, fyll i formuläret nedan så återkommer vårt team till dig så snart som möjligt.",
-    "first&lastName": "För- och efternamn",
+    "first&lastName": "Namn",
     "Job": "Jobbtitel",
     "Email": "Email",
     "Phone": "Telefonnummer",
@@ -151,7 +152,8 @@
     "message": "Skriv ditt meddelande",
     "terms1": "Jag accepterar",
     "terms2": "villkoren",
-    "message2": "Tack för ditt meddelande!"
+    "message2": "Tack för ditt meddelande!",
+    "message3": " Detta fält är obligatoriskt"
   }
 }
 

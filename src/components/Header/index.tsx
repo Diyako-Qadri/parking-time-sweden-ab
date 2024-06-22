@@ -22,12 +22,11 @@ const Header = () => {
         </a>
       </div>
       <div className='flex justify-between '>
-       
           <Navigation />
-      
       </div>
     </header>
   );
 };
 
 export default Header;
+ 
