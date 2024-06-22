@@ -20,7 +20,6 @@
     "heroText2": "Voittava konsepti uudessa, digitaalisessa muodossa."
   },
 
-
   "heroActions": {
     "action1": "Helppo käyttää",
     "action2": "Ilmainen lataus",
@@ -122,7 +121,7 @@
   "contact_us": {
     "page-title": "Ota yhteyttä",
     "page-message": "Onko sinulla kysyttävää, palautetta tai tarvitsetko apua? Täytä alla oleva lomake, niin tiimimme ottaa sinuun yhteyttä mahdollisimman pian.",
-    "first&lastName": "Etunimi ja Sukunimi",
+    "first&lastName": "Nimi",
     "Job": "Työnimike",
     "Email": "Sähköposti",
     "Phone": "Puhelinnumero",
@@ -131,7 +130,8 @@
     "message": "Kirjoita viestisi",
     "terms1": "Hyväksyn",
     "terms2": "ehdot",
-    "message2": "Kiitos viestistäsi!"
+    "message2": "Kiitos viestistäsi!",
+    "message3": "Tämä kenttä on pakollinen"
   },
 
   "howItWorks": {
@@ -141,14 +141,14 @@
     "registrationText": "Avaa sovellus, rekisteröidy autosi rekisterinumerolla.",
     "locationText": "Käytä karttaa, hakutoimintoa tai vyöhykeluetteloa löytääksesi haluamasi pysäköintipaikan.",
     "digitalDiskText": "Kun olet valinnut pysäköintivyöhykkeen, voit tarkistaa mahdolliset säännöt, aloittaa pysäköinnin ja sitten sulkea sovelluksen."
-},
+  },
 
-"SmartParkingSolution": {
-  "title": "Smart Parking Solution",
-  "parkingText": "Pysäköintikiekko on pitkään ollut työkalu, joka edistää kiertoa ja toimintaa kaupunkisi keskustassa. Se on mahtava keksintö, joka hyödyttää asukkaita, vierailijoita ja paikallisia yrityksiä. Haluamme olla osa tätä kehitystä luomalla ilmaisen digitaalisen pysäköintikiekon.",
-  "firstArrow": "Tavoitteenamme on tukea kaupunkialueiden kasvua ja tehokkuutta.",
-  "secondArrow": "Digitaalinen pysäköintikiekkomme yksinkertaistaa pysäköintiprosessia.",
-  "thirdArrow": "Mikä tahansa pysäköinninvalvontajärjestelmä voidaan helposti integroida järjestelmäämme.",
-  "secondParkingText": "Olemme innoissamme voidessamme kertoa lisää ratkaisustamme tapaamisessa."
-}
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "Pysäköintikiekko on pitkään ollut työkalu, joka edistää kiertoa ja toimintaa kaupunkisi keskustassa. Se on mahtava keksintö, joka hyödyttää asukkaita, vierailijoita ja paikallisia yrityksiä. Haluamme olla osa tätä kehitystä luomalla ilmaisen digitaalisen pysäköintikiekon.",
+    "firstArrow": "Tavoitteenamme on tukea kaupunkialueiden kasvua ja tehokkuutta.",
+    "secondArrow": "Digitaalinen pysäköintikiekkomme yksinkertaistaa pysäköintiprosessia.",
+    "thirdArrow": "Mikä tahansa pysäköinninvalvontajärjestelmä voidaan helposti integroida järjestelmäämme.",
+    "secondParkingText": "Olemme innoissamme voidessamme kertoa lisää ratkaisustamme tapaamisessa."
+  }
 }

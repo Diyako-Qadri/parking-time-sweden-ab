@@ -122,7 +122,7 @@
   "contact_us": {
     "page-title": "Contact Us",
     "page-message": "Whether you have a question, feedback, or need assistance, fill out the form below and our team will get back to you as soon as possible.",
-    "first&lastName": "First and Last Name",
+    "first&lastName": "Name",
     "Job": "Job Title",
     "Email": "Email",
     "Phone": "Phone Number",
@@ -131,15 +131,16 @@
     "message": "Write your message",
     "terms1": "I accept the",
     "terms2": "terms and conditions",
-    "message2": "Thank you for your message!"
+    "message2": "Thank you for your message!",
+    "message3": "This field is required."
   },
-    "howItWorks": {
-      "registrationTitle": "Enter Your registration number",
-      "locationTitle": "Find your desired parking location",
-      "digitalDiskTitle": "Start your digital parking disc",
-      "registrationText": "Open the app, register with your car's registration number.",
-      "locationText": "Use the map, search function, or zone list to find your desired parking location.",
-      "digitalDiskText": "Once you select your parking zone, you can review any applicable rules, start parkin, and then simply close the app"
+  "howItWorks": {
+    "registrationTitle": "Enter Your registration number",
+    "locationTitle": "Find your desired parking location",
+    "digitalDiskTitle": "Start your digital parking disc",
+    "registrationText": "Open the app, register with your car's registration number.",
+    "locationText": "Use the map, search function, or zone list to find your desired parking location.",
+    "digitalDiskText": "Once you select your parking zone, you can review any applicable rules, start parkin, and then simply close the app"
   },
   "SmartParkingSolution": {
     "title": "Smart Parking Solution",

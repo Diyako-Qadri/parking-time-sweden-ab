@@ -99,12 +99,12 @@
     "description": "Kontakt os for at finde ud af mere om vores løsning, og hvordan vi kan implementere den i din kommune."
   },
   "howItWorks": {
-      "registrationTitle": "Indtast dit registreringsnummer",
-      "locationTitle": "Find din ønskede parkeringsplads",
-      "digitalDiskTitle": "Start din digitale parkeringsskive",
-      "registrationText": "Åbn appen, registrer dig med din bils registreringsnummer.",
-      "locationText": "Brug kortet, søgefunktionen eller zonelisten til at finde din ønskede parkeringsplads.",
-      "digitalDiskText": "Når du har valgt din parkeringszone, kan du gennemgå eventuelle gældende regler, starte parkeringen og derefter blot lukke appen."
+    "registrationTitle": "Indtast dit registreringsnummer",
+    "locationTitle": "Find din ønskede parkeringsplads",
+    "digitalDiskTitle": "Start din digitale parkeringsskive",
+    "registrationText": "Åbn appen, registrer dig med din bils registreringsnummer.",
+    "locationText": "Brug kortet, søgefunktionen eller zonelisten til at finde din ønskede parkeringsplads.",
+    "digitalDiskText": "Når du har valgt din parkeringszone, kan du gennemgå eventuelle gældende regler, starte parkeringen og derefter blot lukke appen."
   },
 
   "SingleNews": {
@@ -124,7 +124,7 @@
   "contact_us": {
     "page-title": "Kontakt os",
     "page-message": "Uanset om du har et spørgsmål, feedback eller har brug for hjælp, skal du udfylde formularen nedenfor, og vores team vender tilbage til dig så hurtigt som muligt.",
-    "first&lastName": "Fornavn og Efternavn",
+    "first&lastName": "Navn",
     "Job": "Jobtitel",
     "Email": "Email",
     "Phone": "Telefonnummer",
@@ -133,7 +133,8 @@
     "message": "Skriv din besked",
     "terms1": "Jeg accepterer",
     "terms2": "betingelser",
-    "message2": "Tak for din besked!"
+    "message2": "Tak for din besked!",
+    "message3": "Dette felt er påkrævet"
   },
 
   "SmartParkingSolution": {
@@ -143,6 +144,5 @@
     "secondArrow": "Vores digitale p-skive forenkler parkeringsprocessen.",
     "thirdArrow": "Ethvert parkeringsvagtsystem kan nemt integreres med vores system.",
     "secondParkingText": "Vi er spændte på at dele mere om vores løsning i et møde."
-}
-
+  }
 }
