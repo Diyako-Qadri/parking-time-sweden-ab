@@ -124,5 +124,10 @@
     "terms2": "betingelser",
     "message2": "Takk for meldingen din!",
     "message3": "Dette feltet er obligatorisk"
+  },
+
+  "ceoQuote": {
+    "quote": "Av alle tingene du trenger å tenke på i løpet av dagen, bør parkering være en av de minste. Parkering skal være så sømløs at du knapt trenger å tenke på det; det skal bare fungere. Vi kaller dette Smart Parkering.",
+    "title": "og grunnlegger."
   }
 }
