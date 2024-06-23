@@ -124,5 +124,14 @@
     "terms2": "betingelser",
     "message2": "Takk for meldingen din!",
     "message3": "Dette feltet er obligatorisk"
+  },
+
+  "CustomerTestimonials": {
+    "pageTitle": "Kundereferanser",
+    "pageSubTitle": "Hør fra noen av våre kunder.",
+    "client1": "Implementeringen av Parking Time har vært en revolusjon for våre byplanleggingsinnsatser. De detaljerte bruksdataene og atferdsmønstrene som appen gir, har gitt oss verdifulle innsikter i parkeringsmønstre og hjulpet oss med å optimalisere våre parkeringsressurser. Parking Time har virkelig revolusjonert måten vi nærmer oss parkering og byutvikling på.",
+    "cliet1title": "Kommunesjef, Nässjö Kommune",
+    "client2": "Parking Time har betydelig forbedret vår parkeringshåndtering og brukertilfredshet i byens sentrum. Den enkle bruken og det intuitive grensesnittet har gjort det enkelt for innbyggere og besøkende å finne og administrere parkering. Vi anbefaler på det sterkeste Parking Time til andre kommuner som søker en moderne og effektiv parkeringsløsning.",
+    "cliet2title": "Byarkitekt, Falköping Kommune"
   }
 }

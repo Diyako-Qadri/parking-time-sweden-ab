@@ -133,5 +133,14 @@
     "terms2": "Bedingungen",
     "message2": "Vielen Dank für Ihre Nachricht!",
     "message3": "Dieses Feld ist erforderlich"
+  },
+
+  "CustomerTestimonials": {
+    "pageTitle": "Kundenreferenzen",
+    "pageSubTitle": "Hören Sie von einigen unserer Kunden.",
+    "client1": "Die Implementierung von Parking Time war ein Wendepunkt für unsere Stadtplanungsbemühungen. Die detaillierten Nutzungsdaten und Verhaltensmuster, die die App liefert, haben uns wertvolle Einblicke in Parktrends gegeben und uns geholfen, unsere Parkressourcen zu optimieren. Parking Time hat unsere Herangehensweise an Parken und Stadtentwicklung wirklich revolutioniert.",
+    "cliet1title": "Gemeindeverwalter, Nässjö Gemeinde",
+    "client2": "Parking Time hat unser Parkmanagement und die Zufriedenheit der Nutzer im Stadtzentrum erheblich verbessert. Die Benutzerfreundlichkeit und das intuitive Interface haben es den Bewohnern und Besuchern leicht gemacht, Parkplätze zu finden und zu verwalten. Wir empfehlen Parking Time anderen Gemeinden, die eine moderne und effiziente Parklösung suchen, sehr.",
+    "cliet2title": "Stadtarchitekt, Falköping Gemeinde"
   }
 }
