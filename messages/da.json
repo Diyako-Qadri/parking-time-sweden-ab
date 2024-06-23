@@ -107,5 +107,10 @@
     "terms2": "betingelser",
     "message2": "Tak for din besked!",
     "message3": "Dette felt er påkrævet"
+  },
+
+  "ourTeam": {
+    "pageTitle": "Mød vores team!",
+    "pageSubtitle": "Hvert medlem bidrager med en unik blanding af ekspertise og en fremadskuende tankegang."
   }
 }

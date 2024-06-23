@@ -133,5 +133,10 @@
     "terms2": "Bedingungen",
     "message2": "Vielen Dank für Ihre Nachricht!",
     "message3": "Dieses Feld ist erforderlich"
+  },
+
+  "ourTeam": {
+    "pageTitle": "Treffen Sie unser Team!",
+    "pageSubtitle": "Jedes Mitglied bringt eine einzigartige Mischung aus Fachwissen und zukunftsorientierter Denkweise mit."
   }
 }

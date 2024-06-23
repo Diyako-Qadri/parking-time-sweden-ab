@@ -133,5 +133,10 @@
     "terms2": "villkoren",
     "message2": "Tack för ditt meddelande!",
     "message3": " Detta fält är obligatoriskt"
+  },
+
+  "ourTeam": {
+    "pageTitle": "Träffa vårt team! ",
+    "pageSubtitle": "Varje medlem bidrar med en unik blandning av expertis och ett framåttänkande synsätt."
   }
 }

@@ -131,5 +131,10 @@
     "terms2": "ehdot",
     "message2": "Kiitos viestistäsi!",
     "message3": "Tämä kenttä on pakollinen"
+  },
+
+  "ourTeam": {
+    "pageTitle": "Tutustu tiimiimme!",
+    "pageSubtitle": "Jokainen jäsen tuo mukanaan ainutlaatuisen yhdistelmän asiantuntemusta ja edistyksellistä ajattelutapaa."
   }
 }

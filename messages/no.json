@@ -124,5 +124,10 @@
     "terms2": "betingelser",
     "message2": "Takk for meldingen din!",
     "message3": "Dette feltet er obligatorisk"
+  },
+
+  "ourTeam": {
+    "pageTitle": "Møt vårt team!",
+    "pageSubtitle": "Hvert medlem bringer en unik blanding av ekspertise og en fremtidsrettet tankegang."
   }
 }

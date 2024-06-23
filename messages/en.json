@@ -133,5 +133,10 @@
     "terms2": "terms and conditions",
     "message2": "Thank you for your message!",
     "message3": "This field is required."
+  },
+
+  "ourTeam": {
+    "pageTitle": "Meet Our Team!",
+    "pageSubtitle": "Each member brings a unige blend of expertise, and forward-thinking mindset."
   }
 }
