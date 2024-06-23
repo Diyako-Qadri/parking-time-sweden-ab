@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 
 type ButtonProps = {
-  variant?: 'desktopWhite' | 'mobileWhite' | 'desktopBlack' | ' mobileBlack' | 'desktopOdd';
+  variant?: 'desktopWhite' | 'mobileWhite' | 'desktopBlack' | 'mobileBlack' | 'desktopOdd';
   size?:  'mobilePrimary'|  'mobileSecondary' | 'desktopPrimary' | 'desktopOdd';
   disabled?: boolean;
   children: React.ReactNode;
