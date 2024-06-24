@@ -45,7 +45,8 @@
     "heroText": "",
     "news": "Uutiset",
     "Latest News": "Uusimmat uutiset",
-    "View All": "Näytä kaikki"
+    "View All": "Näytä kaikki",
+    "Load More": "Lataa lisää"
   },
 
   "WhyParkingTime": {
@@ -110,8 +111,7 @@
   "LatestNews": {
     "news": "Uutiset",
     "Latest News": "Uusimmat uutiset",
-    "View all": "Näytä kaikki",
-    "Load More": "Lataa lisää"
+    "View all": "Näytä kaikki"
   },
 
   "NewsCard": {

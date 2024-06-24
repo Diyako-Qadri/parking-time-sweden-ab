@@ -45,7 +45,8 @@
     "heroText": "",
     "news": "Nyheder",
     "View All": "Se alt",
-    "Latest News": "Seneste nyt"
+    "Latest News": "Seneste nyt",
+    "Load More": "Indlæs flere"
   },
 
   "WhyParkingTime": {
@@ -86,8 +87,7 @@
   "LatestNews": {
     "news": "Nyheder",
     "Latest News": "Seneste nyt",
-    "View all": "Se alt",
-    "Load More": "Indlæs flere"
+    "View all": "Se alt"
   },
 
   "NewsCard": {

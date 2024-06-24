@@ -39,6 +39,16 @@
     "heroText": ""
   },
 
+  "newsHero": {
+    "categoryText": "Nyheter",
+    "headline": "Siste nytt",
+    "heroText": "",
+    "news": "Nyheter",
+    "Latest News": "Siste nytt",
+    "View All": "Se alt",
+    "Load More": "Last inn mer"
+  },
+
   "WhyParkingTime": {
     "sectionTitle": "Hvorfor",
     "avoidFinesTitle": "Unngå bøter og reduser stress",
@@ -103,8 +113,7 @@
   "LatestNews": {
     "news": "Nyheter",
     "Latest News": "Siste nytt",
-    "View all": "Se alt",
-    "Load More": "Last inn mer"
+    "View all": "Se alt"
   },
 
   "NewsCard": {

@@ -64,7 +64,8 @@
     "heroText": "",
     "news": "News",
     "Latest News": "Latest News",
-    "View All": "View all"
+    "View All": "View all",
+    "Load More": "Load more"
   },
 
   "FAQ": {
@@ -113,8 +114,7 @@
   "LatestNews": {
     "news": "News",
     "Latest News": "Latest News",
-    "View all": "View all",
-    "Load More": "Load more"
+    "View all": "View all"
   },
 
   "NewsCard": {
