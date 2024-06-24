@@ -87,7 +87,7 @@ const PrivacyPolicy = () => {
           <p className="pt-1 ">{d('title16Description4')}</p>
           <div>
             <p className="pt-6">1. {d('title16Description5-1')}</p>
-            <li className="pl-8 pt-4">- {d('title16Description5-1-1')}</li>
+            <li className="pl-8 pt-4">{d('title16Description5-1-1')}</li>
             <p className="pt-2">2. {d('title16Description5-2')}</p>
             <li className="pl-8 pt-4">{d('title16Description5-2-1')}</li>
             <li className="pl-8 pt-1">{d('title16Description5-2-2')}</li>
