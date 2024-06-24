@@ -219,5 +219,10 @@
     "title16Description5-5-1": "Käytä tapahtumiasi kirjanpito- ja raportointitarkoituksiimme.",
     "title16Description5-5-2": "Oikeusperuste: Lainmukaisten velvoitteiden täyttäminen.",
     "title16Description5-5-3": "Jokaiselle tarkoitukselle on määritetty erityinen oikeusperuste, joka varmistaa, että noudatamme sovellettavia lakivaatimuksia. Nämä tarkoitukset on selvästi rajattu helpottamaan läpinäkyvyyttä ja vastuullisuutta Parking Timen henkilötietojen käsittelyssä."
+  },
+  
+  "ourTeam": {
+    "pageTitle": "Tutustu tiimiimme!",
+    "pageSubtitle": "Jokainen jäsen tuo mukanaan ainutlaatuisen yhdistelmän asiantuntemusta ja edistyksellistä ajattelutapaa."
   }
 }
