@@ -108,5 +108,21 @@
 
   "NewsCard": {
     "Read more": "Les mer"
+  },
+
+  "contact_us": {
+    "page-title": "Kontakt oss",
+    "page-message": "Enten du har et spørsmål, tilbakemelding eller trenger hjelp, fyll ut skjemaet nedenfor, og vårt team vil kontakte deg så snart som mulig.",
+    "first&lastName": "Navn",
+    "Job": "Jobbtittel",
+    "Email": "E-post",
+    "Phone": "Telefonnummer",
+    "Reason": "Hva gjelder din henvendelse?",
+    "form": "Velg alternativ",
+    "message": "Skriv din melding",
+    "terms1": "Jeg aksepterer",
+    "terms2": "betingelser",
+    "message2": "Takk for meldingen din!",
+    "message3": "Dette feltet er obligatorisk"
   }
 }
