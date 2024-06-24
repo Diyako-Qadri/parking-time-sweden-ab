@@ -198,13 +198,18 @@
     "title16Description5-5-2": "Oikeusperuste: Lainmukaisten velvoitteiden täyttäminen.",
     "title16Description5-5-3": "Jokaiselle tarkoitukselle on määritetty erityinen oikeusperuste, joka varmistaa, että noudatamme sovellettavia lakivaatimuksia. Nämä tarkoitukset on selvästi rajattu helpottamaan läpinäkyvyyttä ja vastuullisuutta Parking Timen henkilötietojen käsittelyssä."
   },
-  
-    "CustomerTestimonials": {
+
+  "CustomerTestimonials": {
     "pageTitle": "Asiakaspalautteet",
     "pageSubTitle": "Kuule asiakkailtamme.",
     "client1": "Parking Timen käyttöönotto on ollut käänteentekevä muutos kaupunkisuunnittelutoimissamme. Sovelluksen tarjoamat yksityiskohtaiset käyttötiedot ja käyttäytymismallit ovat antaneet meille arvokkaita oivalluksia pysäköintitrendeistä ja auttaneet meitä optimoimaan pysäköintiresurssimme. Parking Time on todella mullistanut tapamme lähestyä pysäköintiä ja kaupunkikehitystä.",
     "cliet1title": "Kunnanjohtaja, Nässjö Kunta",
     "client2": "Parking Time on merkittävästi parantanut pysäköinnin hallintaamme ja käyttäjätyytyväisyyttä kaupungin keskustassa. Helppokäyttöisyys ja intuitiivinen käyttöliittymä ovat tehneet pysäköinnin löytämisestä ja hallinnasta yksinkertaista asukkaille ja vierailijoille. Suosittelemme lämpimästi Parking Timea muille kunnille, jotka etsivät modernia ja tehokasta pysäköintiratkaisua.",
     "cliet2title": "Kaupunginarkkitehti, Falköping Kunta"
+  },
+
+  "ourTeam": {
+    "pageTitle": "Tutustu tiimiimme!",
+    "pageSubtitle": "Jokainen jäsen tuo mukanaan ainutlaatuisen yhdistelmän asiantuntemusta ja edistyksellistä ajattelutapaa."
   }
 }

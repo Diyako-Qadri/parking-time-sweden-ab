@@ -152,7 +152,7 @@
     "thirdArrow": "Alla parkeringsvaktsystem kan enkelt integreras med vårt system.",
     "secondParkingText": "Vi är glada att dela mer om vår lösning i ett möte."
   },
-  
+
   "privacyPolicy": {
     "date": "Giltighetsdatum: 3 april 2023",
     "privacyTitle": "Integritetspolicy",
@@ -217,13 +217,18 @@
     "title16Description5-5-2": "Laglig grund: Uppfyllande av rättsliga skyldigheter.",
     "title16Description5-5-3": "För varje syfte identifieras en särskild laglig grund för att säkerställa att relevanta rättsliga krav efterlevs. Dessa syften är tydligt avgränsade för att underlätta transparens och ansvarighet i behandlingen av personuppgifter av Parking Time Sweden AB."
   },
-  
-    "CustomerTestimonials": {
+
+  "CustomerTestimonials": {
     "pageTitle": "Kudreferenser",
     "pageSubTitle": " Hör några av våra kunder.",
     "client1": "Att implementera Parking Time har varit en omvälvande förändring för våra stadsplaneringsinsatser. De detaljerade användningsdata och beteendemönster som appen tillhandahåller har gett oss värdefulla insikter i parkeringsmönster och hjälpt oss att optimera våra parkeringsresurser. Parking Time har verkligen revolutionerat vårt sätt att närma oss parkering och stadsutveckling.",
     "cliet1title": "Kommunchef, Nässjö Kommun",
     "client2": "Parking Time har avsevärt förbättrat vår parkeringshantering och användarnöjdhet i stadens centrum. Den enkla användningen och intuitiva gränssnittet har gjort det lätt för invånare och besökare att hitta och hantera parkering. Vi rekommenderar starkt Parking Time till andra kommuner som söker en modern och effektiv parkeringslösning.",
     "cliet2title": "Stadsarkitekt, Falköping Kommun"
+  },
+
+  "ourTeam": {
+    "pageTitle": "Träffa vårt team! ",
+    "pageSubtitle": "Varje medlem bidrar med en unik blandning av expertis och ett framåttänkande synsätt."
   }
 }
