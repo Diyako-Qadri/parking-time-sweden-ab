@@ -5,7 +5,8 @@
     "News": "Nyheter",
     "FAQ": "FAQ",
     "Links": "Lenker",
-    "Contact": "Kontakt oss"
+    "Contact": "Kontakt oss",
+    "language-btn": "Bytt språk"
   },
 
   "FooterInfo": {
@@ -15,7 +16,7 @@
 
   "homeHero": {
     "headline1": "Parking Time",
-    "headline2": "",
+    "headline2": "Vi gjør parkering enkelt",
     "heroText1": "Digital parkeringsskive - direkte på din mobil.",
     "heroText2": "En vinnende konsept i et nytt, digitalisert format."
   },
@@ -124,5 +125,89 @@
     "terms2": "betingelser",
     "message2": "Takk for meldingen din!",
     "message3": "Dette feltet er obligatorisk"
+  },
+
+  "ceoQuote": {
+    "quote": "Av alle tingene du trenger å tenke på i løpet av dagen, bør parkering være en av de minste. Parkering skal være så sømløs at du knapt trenger å tenke på det; det skal bare fungere. Vi kaller dette Smart Parkering.",
+    "title": "og grunnlegger."
+  },
+  
+  "privacyPolicy": {
+    "date": "Ikrafttredelsesdato: 3. april 2023",
+    "privacyTitle": "Personvernerklæring",
+    "privacyDescription": "Denne policyen gjelder for alle nettsider til Parking Time Sweden AB. Personvernreglene gjelder for Parking Time i forbindelse med tjenester og produkter relatert til kjøp, kundeservice saker, annen kontakt med Parking Time, og besøk på nettsiden. Dine personopplysninger er viktige for oss.",
+    "title2": "Dine personopplysninger er viktige for oss",
+    "title2Description": "Parking Time samler inn og behandler personopplysninger om deg når du besøker eller gjør et kjøp på noen av våre nettsider eller kontakter Parking Time via e-post eller sosiale medier. Parking Time er forpliktet til å beskytte ditt personvern og streber etter et høyt nivå av databeskyttelse. Denne personvernerklæringen forklarer hvorfor og hvordan vi samler inn og bruker dine personopplysninger. Den beskriver også dine rettigheter og hvordan du kan utøve dem. For oss er det viktig at de personopplysningene du betror oss som kunde og leser, håndteres på en nøye, ansvarlig, transparent og lovlig måte.",
+    "title3": "Hvem er ansvarlig for dataene vi samler inn?",
+    "title3Description": "Parking Time Sweden AB er ansvarlig for behandlingen av dine personopplysninger av Parking Time og er ansvarlig for å sikre at slik behandling utføres i samsvar med gjeldende lovgivning.",
+    "title4": "Hva er personopplysninger?",
+    "title4Description": "Personopplysninger er enhver type informasjon som direkte eller indirekte kan tilskrives en levende person. Eksempler på personopplysninger inkluderer navn, e-postadresse, telefonnummer og personnummer. Bilder og lydopptak anses også som personopplysninger selv om navn ikke nevnes. Krypterte data og ulike elektroniske identiteter (som IP-adresser) anses også som personopplysninger hvis de kan knyttes til fysiske personer.",
+    "title5": "Hvor kommer dine personopplysninger fra?",
+    "title5Description": "Den primære kilden til personopplysninger om deg er deg selv, for eksempel informasjonen du gir når du registrerer deg for et abonnement, kontakter oss via e-post og mottar/svarer på en e-postkommunikasjon. Personopplysninger opprettes også som et resultat av at du leser informasjon på vår nettside, bruker tjenester og kommuniserer med oss. For eksempel kan vi lagre besøks-, trafikk- og annen kommunikasjonsdata. Eksempler på slike personopplysninger inkluderer din IP-adresse. Disse dataene samles inn via informasjonskapsler og brukes til å forstå deg bedre slik at vi kan målrette relevant informasjon til deg. For å gjøre dette trenger vi ditt samtykke. Du gir dette ved å akseptere informasjonskapsler når du besøker vår nettside.",
+    "title7": "Hvor får Parking Time informasjon om parkeringssonene?",
+    "title7Description": "Parking Time Sweden AB presenterer parkeringssoner i appen. Informasjon om parkeringssonene kommer fra kommunene som bruker appen. Informasjonen importeres fra kommunenes egne parkeringskart, slik som Katrineholm kommunes parkeringssoner her. Parking Time Sweden AB er et uavhengig aksjeselskap og representerer ingen offentlig myndighet.",
+    "title8": "Personopplysninger vi samler inn om deg hvis vi trenger dem",
+    "title8Description1": "Fornavn og etternavn.",
+    "title8Description2": "Brukerens kjøretøyets registreringsnummer.",
+    "title8Description3": "Brukerens GPS-plassering på parkeringstidspunktet.",
+    "title8Description4": "Kontaktinformasjon (adresse, e-post og telefonnummer).",
+    "title9": "Informasjonskapsler",
+    "title9Description": "I en informasjonskapsel er det mulig å spore en brukers nettleseraktivitet. Informasjonskapsler brukes for å gi deg som besøkende tilgang til ulike funksjoner og for å tilpasse innhold i nyhetsbrev. Vi bruker informasjonskapsler for å tilpasse innhold i vår annonsering. Vi bruker også informasjonskapsler på vår nettside for å samle statistikk om hvor mye nettet brukes. En informasjonskapsel er en tekstfil som lagres på enheten din slik at nettsiden kan gjenkjenne enheten din. Denne informasjonskapselen inneholder ingen personopplysninger. Det finnes to typer informasjonskapsler: permanente og midlertidige (såkalte sesjonskapsler). Permanente informasjonskapsler lagres som en fil på enheten din i en lengre periode, mens sesjonskapsler midlertidig plasseres på enheten din og bare brukes mens du surfer på nettstedet. De slettes etterpå. Hvis du vil vite når enheten din mottar en informasjonskapsel, kan du sette nettleseren til å varsle deg. På denne måten har du muligheten til å godta eller avvise en informasjonskapsel. Enheten din kan også settes til å avvise alle informasjonskapsler. Vær oppmerksom på at hvis du velger å ikke godta informasjonskapsler, kan noen funksjoner i våre nettjenester ikke lenger fungere som tiltenkt.",
+    "title10": "Spesielle hensyn for samtykke til direkte markedsføring",
+    "title10Description": "Forutsatt at du har gitt oss ditt eksplisitte samtykke, vil vi kontinuerlig sende og publisere informasjon og markedsføring via ulike digitale kanaler basert på din profil. Du kan når som helst velge å ikke motta markedsføringskommunikasjon fra oss ved å klikke på 'avslutte abonnementet' i e-posten eller SMS-kommunikasjonen vi sender deg. Du kan også kontakte Parking Time via matildaohman@parkingtime.se for hjelp med å avslå vår kommunikasjon.",
+    "title11": "Hvor lenge lagrer vi informasjonen din?",
+    "title11Description": "Dine personopplysninger lagres bare så lenge det er behov for å beholde dem for å oppfylle formålene som dataene ble samlet inn for. Parking Time kan beholde dataene lenger hvis det er nødvendig for å overholde juridiske krav eller for å beskytte Parking Times juridiske interesser, for eksempel under en rettsprosess.",
+    "title12": "Hvem kan vi dele dine personopplysninger med?",
+    "title12Description1": "Dine personopplysninger kan deles med andre selskaper. Dette er Parking Times databehandlere. En databehandler er et selskap som behandler informasjon på våre vegne og i henhold til våre instruksjoner. Parking Times databehandlere utfører tjenester på våre vegne, for eksempel å sende nyhetsbrev eller levere bestilte varer. Alle utleveringer vil bli gjort i samsvar med loven, og dine personopplysninger vil ikke bli brukt til andre formål enn de vi har informert deg om. Vi har skriftlige avtaler med alle databehandlere gjennom hvilke de garanterer sikkerheten til de personopplysningene som behandles og forplikter seg til å overholde våre sikkerhetskrav samt begrensninger og krav angående internasjonal overføring av personopplysninger. Når dine personopplysninger deles med et selskap som er en uavhengig behandlingsansvarlig, gjelder motpartens personvernpolicy og databehandling. Vi deler dine personopplysninger med visse selskaper som er uavhengige behandlingsansvarlige. Eksempler på uavhengige behandlingsansvarlige som vi deler dine personopplysninger med inkluderer:",
+    "title12Description2": "Offentlige myndigheter i tilfelle mistanke om kriminalitet.",
+    "title13": "Hvor behandler vi dine personopplysninger?",
+    "title13Description": "Vi streber alltid etter å sikre at dine personopplysninger behandles innenfor EU/EØS, og alle våre egne IT-systemer er lokalisert innenfor EU/EØS.",
+    "title14": "Dine rettigheter",
+    "title14Description1": "I henhold til EU-lovgivningen om databeskyttelse har du visse lovfestede rettigheter som individ i forhold til de personopplysningene vi behandler om deg. Hvis du møter informasjon om deg selv eller relaterte individer som du av en eller annen grunn ikke ønsker å bli publisert på Parking Times nettside, setter vi pris på om du kontakter oss via matildaohman@parkingtime.se.",
+    "title14Description2": "Du har også rett til å klage til nasjonal tilsynsmyndighet, Datatilsynet, hvis du mener at vår behandling av dine personopplysninger ikke oppfyller kravene i EU-lovgivningen om databeskyttelse.",
+    "title14Description3": "Tilgang til dine personopplysninger: Du har rett til å få tilgang til dine personopplysninger og hvordan de behandles. Rettelse, sletting eller begrensning: Du har rett til å rette data som du mener er unøyaktige. I noen tilfeller har du også rett til å få dine personopplysninger slettet. Dette gjelder imidlertid ikke hvis dine personopplysninger fortsatt må beholdes, for eksempel hvis loven krever at vi lagrer dataene eller hvis dataene er nødvendige for å oppfylle en avtale vi har med deg. Du har også rett til å be om at behandlingen av personopplysninger begrenses i en kortere periode mens vi undersøker eventuelle unøyaktigheter. Tilbaketrekking av samtykke: Hvis du har gitt samtykke til visse behandlinger, har du alltid rett til å trekke tilbake ditt samtykke.",
+    "title14Description4": "Innvendinger mot interesseavveining: Når behandling er basert på såkalt interesseavveining, har du rett til å motsette deg behandlingen når som helst. Innvending mot direkte markedsføring: Du har rett til å motsette deg behandling av personopplysninger om deg for direkte markedsføringsformål. I så fall skal personopplysningene ikke lenger behandles for slike formål.",
+    "title14Description5": "Dataportabilitet: Du har rett til dataportabilitet, som betyr at du under visse omstendigheter har rett til å motta de personopplysningene om deg som du har gitt oss, for å overføre dataene til en annen behandlingsansvarlig.",
+    "title15": "Kontaktinformasjon",
+    "title15Description": "Hvis du ønsker å utøve noen av dine lovfestede rettigheter, ber vi deg sende en skriftlig og personlig signert forespørsel til adressen oppgitt nedenfor. Du kan også alltid kontakte Parking Time via vår nettside hvis du har spørsmål om behandlingen av dine personopplysninger. Vi vil svare skriftlig til din registrerte adresse. Du kan også kontakte Parking Time for eventuelle kommentarer eller klager om hvordan vi håndterer dine personopplysninger via matildaohman@parkingtime.se.",
+    "title15DescriptionAdress": "Postadresse:",
+    "title16": "Formål og rettslig grunnlag for behandling av dine personopplysninger",
+    "title16Description1": "Formål og rettslig grunnlag for behandling av dine personopplysninger",
+    "title16Description2": "Behandlingen av dine personopplysninger tjener spesifikke formål, basert på rettslige grunnlag som beskrevet nedenfor. I tillegg forklarer vi hvordan dine personopplysninger behandles for markedsføringsformål.",
+    "title16Description3": "Formål",
+    "title16Description4": "Rettslig grunnlag",
+    "title16Description5-1": "Oppfyllelse av bestillinger for tjenester og abonnementer",
+    "title16Description5-1-1": "Rettslig grunnlag: Oppfyllelse av en kontrakt som du er part i.",
+    "title16Description5-2": "Målrettet markedsføring",
+    "title16Description5-2-1": "Ved ditt samtykke sender vi nyhetsbrev.",
+    "title16Description5-2-2": "Rettslig grunnlag:",
+    "title16Description5-2-2-1": "Samtykke gitt av deg for denne typen behandling.",
+    "title16Description5-2-2-2": "Interesseavveining.",
+    "title16Description5-3": "Korrespondanse vedrørende henvendelser",
+    "title16Description5-3-1": "Håndtering av henvendelser rettet til Parking Time via matildaohman@parkingtime.se eller til andre ansvarlige personer hos Parking Time, mottatt gjennom e-post, telefon eller digitale kanaler, inkludert alle sosiale plattformer.",
+    "title16Description5-3-2": "Rettslig grunnlag: Interesseavveining.",
+    "title16Description5-4": "Undersøkelse av klager",
+    "title16Description5-4-1": "Håndtering av klager mottatt gjennom e-post, telefon eller andre digitale kanaler, inkludert sosiale medier",
+    "title16Description5-4-2": "Rettslig grunnlag:",
+    "title16Description5-4-2-1": "Oppfyllelse av en kontrakt som du er part i.",
+    "title16Description5-4-2-2": "Interesseavveining.",
+    "title16Description5-5": "Finansstyring, regnskap og rapportering",
+    "title16Description5-5-1": "Bruk av dine transaksjoner for våre regnskaps- og rapporteringsformål.",
+    "title16Description5-5-2": "Rettslig grunnlag: Oppfyllelse av juridiske forpliktelser.",
+    "title16Description5-5-3": "For hvert formål er et distinkt rettslig grunnlag identifisert, som sikrer samsvar med relevante lovkrav. Disse formålene er tydelig avgrenset for å lette gjennomsiktighet og ansvarlighet i behandlingen av personopplysninger av Parking Time Sweden AB."
+ },
+ 
+ "ourTeam": {
+    "pageTitle": "Møt vårt team!",
+    "pageSubtitle": "Hvert medlem bringer en unik blanding av ekspertise og en fremtidsrettet tankegang."
+  },
+  
+    "CustomerTestimonials": {
+    "pageTitle": "Kundereferanser",
+    "pageSubTitle": "Hør fra noen av våre kunder.",
+    "client1": "Implementeringen av Parking Time har vært en revolusjon for våre byplanleggingsinnsatser. De detaljerte bruksdataene og atferdsmønstrene som appen gir, har gitt oss verdifulle innsikter i parkeringsmønstre og hjulpet oss med å optimalisere våre parkeringsressurser. Parking Time har virkelig revolusjonert måten vi nærmer oss parkering og byutvikling på.",
+    "cliet1title": "Kommunesjef, Nässjö Kommune",
+    "client2": "Parking Time har betydelig forbedret vår parkeringshåndtering og brukertilfredshet i byens sentrum. Den enkle bruken og det intuitive grensesnittet har gjort det enkelt for innbyggere og besøkende å finne og administrere parkering. Vi anbefaler på det sterkeste Parking Time til andre kommuner som søker en moderne og effektiv parkeringsløsning.",
+    "cliet2title": "Byarkitekt, Falköping Kommune"
   }
 }
