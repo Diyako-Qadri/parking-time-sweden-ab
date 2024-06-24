@@ -97,7 +97,7 @@ const LocaleSwitcher = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.4 }}
-            className="md:absolute rounded mt-7 z-20 flex flex-wrap ml-6 gap-5 md:gap-0 items-center w-[85vw] text-white md:bg-pt-green-transparent md:w-[146px] md:right-[-58px]"
+            className="NavbarScrren:absolute rounded mt-7 z-20 flex flex-wrap justify-center gap-5 NavbarScrren:gap-0  w-[85vw] text-white NavbarScrren:bg-pt-green-transparent NavbarScrren:w-[70px] NavbarScrren:right-[-10px]"
           >
             {locales.map(locale => (
               <motion.li
@@ -107,7 +107,7 @@ const LocaleSwitcher = () => {
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.4 }}
                 onClick={() => onSelectChange(locale.code)}
-                className="flex items-center p-2 cursor-pointer w-1/4 rounded border-white-100 border-[1px] md:border-0  md:rounded-none hover:bg-pt-green hover:border-b-[.5px] border-current md:w-1/2"
+                className="flex items-center p-2 justify-center NavbarScrren:justify-start cursor-pointer w-1/4 rounded border-pt-background border-opacity-1 border-[.5px] NavbarScrren:border-0  NavbarScrren:rounded-none hover:bg-pt-green hover:border-b-[.5px] border-current NavbarScrren:w-full"
               >
                 <Image
                   src={locale.img}
