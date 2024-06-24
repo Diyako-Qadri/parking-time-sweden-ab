@@ -224,5 +224,10 @@
   "ourTeam": {
     "pageTitle": "Tutustu tiimiimme!",
     "pageSubtitle": "Jokainen jäsen tuo mukanaan ainutlaatuisen yhdistelmän asiantuntemusta ja edistyksellistä ajattelutapaa."
+  },
+  
+  "ceoQuote": {
+    "quote": "Kaikista asioista, joita sinun on mietittävä päivän aikana, pysäköinnin tulisi olla yksi vähäisimmistä. Pysäköinnin tulisi olla niin saumaton, että sinun tuskin tarvitsee ajatella sitä; sen tulisi vain toimia. Kutsumme tätä älypysäköinniksi.",
+    "title": "ja perustaja."
   }
 }
