@@ -46,7 +46,7 @@ const HomeHero = () => {
         <div className="flex flex-col items-center pt-8 custom-small:flex-row">
           <div className='custom-small:hidden'>
             <a href={`/${locale}/contact`}>
-              <Button variant="mobileWhite" size="mobilePrimary">{tButton("contact")}</Button>
+              <Button variant="mobileWhite" size="mobileSecondary">{tButton("contact")}</Button>
             </a>
           </div>
           <div className='hidden custom-small:block'>
@@ -58,7 +58,7 @@ const HomeHero = () => {
             <>
               <div className='pt-2 custom-small:hidden'>
                 <a href='https://apps.apple.com/se/app/parking-time/id1611019108' target="_blank" >
-                  <Button variant='mobileBlack' size='mobilePrimary'>{tButton("download")}</Button>
+                  <Button variant='mobileBlack' size='mobileSecondary'>{tButton("download")}</Button>
                 </a>
               </div>
               <div className='hidden custom-small:block custom-small:pl-2'>
@@ -72,7 +72,7 @@ const HomeHero = () => {
             <>
               <div className='pt-2 custom-small:hidden'>
                 <a href='https://play.google.com/store/apps/details?id=se.parkingtime.app&hl=en_US&pli=1' target="_blank" >
-                  <Button variant='mobileBlack' size='mobilePrimary'>{tButton("download")}</Button>
+                  <Button variant='mobileBlack' size='mobileSecondary'>{tButton("download")}</Button>
                 </a>
               </div>
               <div className='hidden custom-small:block custom-small:pl-2'>
