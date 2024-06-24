@@ -15,7 +15,7 @@
 
   "homeHero": {
     "headline1": "Parking Time",
-    "headline2": "",
+    "headline2": "Wir machen das Parken einfach",
     "heroText1": "Digitaler Parkscheibe - direkt auf Ihrem Handy.",
     "heroText2": "Ein erfolgreiches Konzept in einem neuen, digitalisierten Format."
   },
@@ -96,7 +96,7 @@
 
   "button": {
     "contact": "Kontaktiere uns",
-    "download": "App herunterladen",
+    "download": "App downloaden",
     "learnMore": "Erfahre mehr über uns",
     "subscribe": "Abonnieren",
     "viewAllDesktop": "Alle anzeigen",
@@ -198,5 +198,19 @@
     "title16Description5-5-1": "Verwendung Ihrer Transaktionen für unsere Buchhaltungs- und Berichterstattungszwecke.",
     "title16Description5-5-2": "Rechtliche Grundlage: Erfüllung rechtlicher Verpflichtungen.",
     "title16Description5-5-3": "Für jeden Zweck wird eine eindeutige rechtliche Grundlage identifiziert, um die Einhaltung der relevanten rechtlichen Anforderungen sicherzustellen. Diese Zwecke sind klar abgegrenzt, um Transparenz und Verantwortlichkeit bei der Verarbeitung personenbezogener Daten durch Parking Time Sweden AB zu erleichtern."
+  },
+  
+  "ourTeam": {
+    "pageTitle": "Treffen Sie unser Team!",
+    "pageSubtitle": "Jedes Mitglied bringt eine einzigartige Mischung aus Fachwissen und zukunftsorientierter Denkweise mit."
+  },
+  
+    "CustomerTestimonials": {
+    "pageTitle": "Kundenreferenzen",
+    "pageSubTitle": "Hören Sie von einigen unserer Kunden.",
+    "client1": "Die Implementierung von Parking Time war ein Wendepunkt für unsere Stadtplanungsbemühungen. Die detaillierten Nutzungsdaten und Verhaltensmuster, die die App liefert, haben uns wertvolle Einblicke in Parktrends gegeben und uns geholfen, unsere Parkressourcen zu optimieren. Parking Time hat unsere Herangehensweise an Parken und Stadtentwicklung wirklich revolutioniert.",
+    "cliet1title": "Gemeindeverwalter, Nässjö Gemeinde",
+    "client2": "Parking Time hat unser Parkmanagement und die Zufriedenheit der Nutzer im Stadtzentrum erheblich verbessert. Die Benutzerfreundlichkeit und das intuitive Interface haben es den Bewohnern und Besuchern leicht gemacht, Parkplätze zu finden und zu verwalten. Wir empfehlen Parking Time anderen Gemeinden, die eine moderne und effiziente Parklösung suchen, sehr.",
+    "cliet2title": "Stadtarchitekt, Falköping Gemeinde"
   }
 }

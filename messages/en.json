@@ -198,5 +198,19 @@
     "title16Description5-5-1": "Utilization of your transactions for our accounting and reporting purposes.",
     "title16Description5-5-2": "Legal Basis: Fulfillment of legal obligations.",
     "title16Description5-5-3": "For each purpose, a distinct legal basis is identified, ensuring compliance with relevant legal requirements. These purposes are clearly delineated to facilitate transparency and accountability in the processing of personal data by Parking Time Sweden AB."
+  },
+  
+  "ourTeam": {
+    "pageTitle": "Meet Our Team!",
+    "pageSubtitle": "Each member brings a unige blend of expertise, and forward-thinking mindset."
+  },
+  
+    "CustomerTestimonials": {
+    "pageTitle": "Customer Testimonials",
+    "pageSubTitle": "Hear from some of our clients.",
+    "client1": "Implementing Parking Time has been a game-changer for our urban planning efforts. The detailed usage data and behavior patterns provided by the app have given us valuable insights into parking trends and helped us optimize our parking resources. Parking Time has truly revolutionized the way we approach parking and urban development.",
+    "cliet1title": "Municipal Manager, Nässjö Municipality",
+    "client2": "Parking Time has significantly improved our parking management and user satisfaction in the city center. The ease of use and intuitive interface have made it simple for residents and visitors to find and manage parking. We highly recommend Parking Time to other municipalities looking for a modern and efficient parking solution.",
+    "cliet2title": "City Architect, Falköping Municipality"
   }
 }
