@@ -117,6 +117,22 @@
     "Read more": "Lue lisää"
   },
 
+  "contact_us": {
+    "page-title": "Ota yhteyttä",
+    "page-message": "Onko sinulla kysyttävää, palautetta tai tarvitsetko apua? Täytä alla oleva lomake, niin tiimimme ottaa sinuun yhteyttä mahdollisimman pian.",
+    "first&lastName": "Nimi",
+    "Job": "Työnimike",
+    "Email": "Sähköposti",
+    "Phone": "Puhelinnumero",
+    "Reason": "Mitä asiasi koskee?",
+    "form": "Valitse vaihtoehto",
+    "message": "Kirjoita viestisi",
+    "terms1": "Hyväksyn",
+    "terms2": "ehdot",
+    "message2": "Kiitos viestistäsi!",
+    "message3": "Tämä kenttä on pakollinen"
+  },
+
   "SmartParkingSolution": {
     "title": "Smart Parking Solution",
     "parkingText": "Pysäköintikiekko on pitkään ollut työkalu, joka edistää kiertoa ja toimintaa kaupunkisi keskustassa. Se on mahtava keksintö, joka hyödyttää asukkaita, vierailijoita ja paikallisia yrityksiä. Haluamme olla osa tätä kehitystä luomalla ilmaisen digitaalisen pysäköintikiekon.",

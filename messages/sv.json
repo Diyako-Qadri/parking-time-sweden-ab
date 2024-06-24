@@ -119,6 +119,22 @@
     "Read more": "Läs mer"
   },
 
+  "contact_us": {
+    "page-title": "Kontakta oss",
+    "page-message": "Oavsett om du har en fråga, feedback eller behöver hjälp, fyll i formuläret nedan så återkommer vårt team till dig så snart som möjligt.",
+    "first&lastName": "Namn",
+    "Job": "Jobbtitel",
+    "Email": "Email",
+    "Phone": "Telefonnummer",
+    "Reason": "Vad gäller ditt ärende?",
+    "form": "Välj alternativ",
+    "message": "Skriv ditt meddelande",
+    "terms1": "Jag accepterar",
+    "terms2": "villkoren",
+    "message2": "Tack för ditt meddelande!",
+    "message3": " Detta fält är obligatoriskt"
+  },
+
   "SmartParkingSolution": {
     "title": "Smart Parking Solution",
     "parkingText": "P-skivan har länge varit ett verktyg för att främja cirkulation och aktivitet i din stads centrum. Det är en fantastisk uppfinning som gynnar invånare, besökare och lokala företag. Vi vill vara en del av denna utveckling genom att skapa en gratis digital p-skiva.",
