@@ -63,9 +63,9 @@ const CustomerTestimonials = () => {
           {customer.map((item, index) => (
             <SwiperSlide
               key={index}
-              className="bg-pt-background flex justify-center"
+              className="bg-pt-background flex max-w-[1440px]"
             >
-              <div className="bg-white h-[540px]  lg:h-[450px] md:h-[625px] w-[100%] NavbarScrren:w-[90%] flex flex-col  rounded-[30px]   ">
+              <div className="bg-white h-[540px]  lg:h-[450px] md:h-[625px] w-[100%] max-w-[600px] NavbarScrren:w-[90%] flex flex-col  rounded-[30px]   ">
                 <div className="h-1/6 p-8 flex flex-col justify-center w-full pb-3">
                   <Image
                     src={item.image}
