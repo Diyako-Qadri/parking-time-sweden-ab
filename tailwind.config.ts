@@ -19,6 +19,7 @@ const config: Config = {
         'pt-dark-btn': '#0B051D', 
         'pt-darkblue2': '#2A394E',
         'pt-gray1': '#868686',
+        'pt-desktopBlackHover': "rgba(9, 44, 76, 1)",
         'pt-lightgrayborder': '#E8E8E8',
         'pt-gray2': '#F0F0F0',
         'pt-light-gray': '#F9F9F9',
