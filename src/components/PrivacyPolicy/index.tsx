@@ -4,7 +4,7 @@ const PrivacyPolicy = () => {
   const d = useTranslations('privacyPolicy');
 
   return (
-    <div className="flex flex-col w-full items-center justify-center pt-24">
+    <div className="flex flex-col w-full items-center justify-center pb-20 pt-24">
       <div className='flex w-full pb-12 p-8 flex-col justify-start'>
       <h3 className="font-bold py-6 text-4xl">{d('privacyTitle')}</h3>
       <p>{d('date')}</p>
