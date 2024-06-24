@@ -103,7 +103,8 @@
   "LatestNews": {
     "news": "Nyheter",
     "Latest News": "Siste nytt",
-    "View all": "Se alt"
+    "View all": "Se alt",
+    "Load More": "Last inn mer"
   },
 
   "NewsCard": {

@@ -112,7 +112,8 @@
   "LatestNews": {
     "news": "Nachrichten",
     "Latest News": "Neueste Nachrichten",
-    "View all": "Alle ansehen"
+    "View all": "Alle ansehen",
+    "Load More": "Mehr laden"
   },
 
   "NewsCard": {

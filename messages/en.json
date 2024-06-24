@@ -113,7 +113,8 @@
   "LatestNews": {
     "news": "News",
     "Latest News": "Latest News",
-    "View all": "View all"
+    "View all": "View all",
+    "Load More": "Load more"
   },
 
   "NewsCard": {

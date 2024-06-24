@@ -112,7 +112,8 @@
   "LatestNews": {
     "news": "Nyheter",
     "Latest News": "Senaste nytt",
-    "View all": "Visa alla"
+    "View all": "Visa alla",
+    "Load More": "Ladda mer"
   },
 
   "NewsCard": {

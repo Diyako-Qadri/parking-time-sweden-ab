@@ -110,7 +110,8 @@
   "LatestNews": {
     "news": "Uutiset",
     "Latest News": "Uusimmat uutiset",
-    "View all": "Näytä kaikki"
+    "View all": "Näytä kaikki",
+    "Load More": "Lataa lisää"
   },
 
   "NewsCard": {
