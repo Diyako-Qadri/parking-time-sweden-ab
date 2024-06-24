@@ -5,6 +5,7 @@ import KnowMore from "@/components/KnowMore";
 import Faq from "@/components/Faq";
 import Statistics from "@/components/Statistics";
 import LatestNews from "@/components/LatestNews";
+import DownloadNow from "@/components/DownloadNow";
 
 export default function index() {
   return (
@@ -14,6 +15,7 @@ export default function index() {
       <ThrustedBy />
       <LatestNews />
       <Statistics />
+      <DownloadNow />
       <KnowMore />
       <Faq />
     </main>
