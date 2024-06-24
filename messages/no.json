@@ -40,6 +40,15 @@
     "heroText": ""
   },
 
+  "newsHero": {
+    "categoryText": "Nyheter",
+    "headline": "Vi forvandler parkerings- opplevelser.",
+    "heroText": "",
+    "news": "Nyheter",
+    "Latest News": "Siste nytt",
+    "View all": "Se alle"
+  },
+
   "WhyParkingTime": {
     "sectionTitle": "Hvorfor",
     "avoidFinesTitle": "Unngå bøter og reduser stress",
