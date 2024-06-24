@@ -29,9 +29,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "homeHero-image": "linear-gradient(#00000075, #0000004d), url(/images/homeHero.jpeg)",
-        "newsHero-image": "linear-gradient(#00000075, #0000004d), url(/images/newsHero.png)",
-        "aboutHero-image": "linear-gradient(#00000075, #0000004d), url(/images/aboutHero.jpg)",
-        "contactHero-image": "linear-gradient(#00000075, #0000004d), url(/images/contactHero.png)",
+        "newsHero-image": "url(/images/newsHero.png)",
+        "aboutHero-image": "url(/images/aboutHero.jpg)",
+        "contactHero-image": "url(/images/contactHero.png)",
+      },
+      backgroundPosition: {
+        'left-200': '-200px',
       },
       height: {
         'custom-home': 'calc(100vh - 80px)',
