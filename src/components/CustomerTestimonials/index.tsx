@@ -44,7 +44,7 @@ const CustomerTestimonials = () => {
         </p>
       </div>
 
-      <div className=" flex flex-col md:flex-row w-[100vw] h-[735px] justify-center items-center gap-16 pb-12">
+      <div className=" flex flex-col md:flex-row w-full h-[735px] justify-center items-center gap-16 pb-12">
         <Swiper
           slidesPerView={1}
           spaceBetween={20}
