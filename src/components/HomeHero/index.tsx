@@ -28,7 +28,7 @@ const HomeHero = () => {
 
   return (
     <section className='relative items-center flex flex-col bg-top h-custom-home bg-homeHero-image justify-center bg-no-repeat top-[80px] bg-cover text-white mb-[80px] custom-small:items-start'>
-      <div className="flex flex-col p-2 max-w-fit md:px-16 custom-small:p-5">
+      <div className="flex flex-col p-2 max-w-fit sm:px-5 md:px-16 ">
         <div className='w-[325px] custom-small:w-fit'>
           {locale === 'en' ? (
             <>
