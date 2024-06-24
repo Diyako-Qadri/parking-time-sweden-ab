@@ -9,7 +9,6 @@
     "language-btn": "Skift sprog"
   },
 
-
   "FooterInfo": {
     "Address": "Adresse",
     "Contact": "Contact"
@@ -34,6 +33,7 @@
     "heroText1": "Digital parkeringsskive - direkte på din mobiltelefon.",
     "heroText2": "En vindende koncept i en ny, digitaliseret format."
   },
+
 
 
   "heroActions": {
@@ -108,7 +108,7 @@
     "locationText": "Brug kortet, søgefunktionen eller zonelisten til at finde din ønskede parkeringsplads.",
     "digitalDiskText": "Når du har valgt din parkeringszone, kan du gennemgå eventuelle gældende regler, starte parkeringen og derefter blot lukke appen."
   },
-
+  
   "knowMore": {
     "name-title": "Matilda Öhman, AD",
     "mail": "Matilda@parkingtime.se",
@@ -155,6 +155,7 @@
     "message2": "Tak for din besked!",
     "message3": "Dette felt er påkrævet"
   },
+
 
   "privacyPolicy": {
     "date": "Gyldighedsdato: 3. april 2023",
@@ -239,5 +240,4 @@
     "client2": "Parking Time har markant forbedret vores parkeringsadministration og brugertilfredshed i byens centrum. Den enkle brug og det intuitive interface har gjort det let for beboere og besøgende at finde og administrere parkering. Vi anbefaler stærkt Parking Time til andre kommuner, der søger en moderne og effektiv parkeringsløsning.",
     "cliet2title": "Byarkitekt, Falköping Kommune"
   }
-
 }
