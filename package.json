@@ -21,7 +21,8 @@
     "react-icons": "^5.2.1",
     "react-intersection-observer": "^9.10.3",
     "react-use-measure": "^2.1.1",
-    "ua-parser-js": "^1.0.38"
+    "ua-parser-js": "^1.0.38",
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
     "@types/node": "^20",

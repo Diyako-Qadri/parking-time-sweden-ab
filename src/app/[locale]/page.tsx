@@ -7,7 +7,7 @@ import Statistics from "@/components/Statistics";
 import SolutionSection from "@/components/SolutionSection";
 import HowItWorks from "@/components/HowItWorksSection";
 import LatestNews from "@/components/LatestNews";
-import { useTranslations } from "next-intl";
+import CustomerTestimonials from '@/components/CustomerTestimonials';
 
 export default function index() {
   return (
@@ -16,6 +16,7 @@ export default function index() {
       <SolutionSection />
       <HowItWorks />
       <WhyParkingTime />
+      <CustomerTestimonials />
       <ThrustedBy />
       <Statistics />
       <LatestNews />

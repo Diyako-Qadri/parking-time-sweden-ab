@@ -229,6 +229,15 @@
   "ceoQuote": {
     "quote": "Av alla saker du behöver tänka på under dagen, bör parkering vara en av de minsta. Parkering ska vara så smidig att du knappt behöver tänka på det; det ska bara fungera. Vi kallar detta för Smart Parkering.",
     "title": "och grundare."
+  },
+  
+  "CustomerTestimonials": {
+    "pageTitle": "Kudreferenser",
+    "pageSubTitle": " Hör några av våra kunder.",
+    "client1": "Att implementera Parking Time har varit en omvälvande förändring för våra stadsplaneringsinsatser. De detaljerade användningsdata och beteendemönster som appen tillhandahåller har gett oss värdefulla insikter i parkeringsmönster och hjälpt oss att optimera våra parkeringsresurser. Parking Time har verkligen revolutionerat vårt sätt att närma oss parkering och stadsutveckling.",
+    "cliet1title": "Kommunchef, Nässjö Kommun",
+    "client2": "Parking Time har avsevärt förbättrat vår parkeringshantering och användarnöjdhet i stadens centrum. Den enkla användningen och intuitiva gränssnittet har gjort det lätt för invånare och besökare att hitta och hantera parkering. Vi rekommenderar starkt Parking Time till andra kommuner som söker en modern och effektiv parkeringslösning.",
+    "cliet2title": "Stadsarkitekt, Falköping Kommun"
   }
 }
 
