@@ -216,5 +216,13 @@
     "cliet1title": "Kunnanjohtaja, Nässjö Kunta",
     "client2": "Parking Time on merkittävästi parantanut pysäköinnin hallintaamme ja käyttäjätyytyväisyyttä kaupungin keskustassa. Helppokäyttöisyys ja intuitiivinen käyttöliittymä ovat tehneet pysäköinnin löytämisestä ja hallinnasta yksinkertaista asukkaille ja vierailijoille. Suosittelemme lämpimästi Parking Timea muille kunnille, jotka etsivät modernia ja tehokasta pysäköintiratkaisua.",
     "cliet2title": "Kaupunginarkkitehti, Falköping Kunta"
+  },
+
+  "ourVision": {
+    "title1": "Visiomme",
+    "description1": "Parking Time Sweden on teknologiastartup, joka pyrkii mullistamaan pysäköintikokemuksen kaikille osapuolille – pysäköijille, pysäköinninvalvojille, kunnille ja kiinteistönomistajille.",
+    "description2": "Tarjoamme tällä hetkellä ilmaisen digitaalisen pysäköintikiekon sovelluksen kautta täydentämään olemassa olevaa pysäköintisovellusten valikoimaa.",
+    "title2": "Historiamme",
+    "description3": "Parking Time Sweden perustettiin vuonna 2021 Luulajassa. Nykyään toimimme koko Ruotsissa tavoitteenamme laajentua maailmanlaajuisesti tulevina vuosina, ja toivomme, että haluat seurata meitä matkallamme!"
   }
 }

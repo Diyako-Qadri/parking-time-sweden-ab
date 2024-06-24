@@ -218,5 +218,14 @@
     "cliet1title": "Gemeindeverwalter, Nässjö Gemeinde",
     "client2": "Parking Time hat unser Parkmanagement und die Zufriedenheit der Nutzer im Stadtzentrum erheblich verbessert. Die Benutzerfreundlichkeit und das intuitive Interface haben es den Bewohnern und Besuchern leicht gemacht, Parkplätze zu finden und zu verwalten. Wir empfehlen Parking Time anderen Gemeinden, die eine moderne und effiziente Parklösung suchen, sehr.",
     "cliet2title": "Stadtarchitekt, Falköping Gemeinde"
+  },
+
+  "ourVision": {
+    "title1": "Unsere Vision",
+    "description1": "Parking Time Sweden ist ein Technologie-Startup, das darauf abzielt, das Parkerlebnis für alle Beteiligten zu revolutionieren – Parker, Parkplatzwächter, Gemeinden und Immobilieneigentümer.",
+    "description2": "Wir bieten derzeit eine kostenlose digitale Parkscheibe in einer App an, um das bestehende Angebot an Park-Apps zu ergänzen.",
+    "title2": "Unsere Geschichte",
+    "description3": "Parking Time Sweden wurde 2021 in Luleå gegründet. Heute sind wir in ganz Schweden tätig und haben die Ambition, in den kommenden Jahren global zu expandieren. Wir hoffen, dass Sie uns auf unserer Reise begleiten werden!"
   }
+
 }
