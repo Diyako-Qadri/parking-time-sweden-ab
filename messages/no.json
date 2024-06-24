@@ -209,5 +209,10 @@
     "cliet1title": "Kommunesjef, Nässjö Kommune",
     "client2": "Parking Time har betydelig forbedret vår parkeringshåndtering og brukertilfredshet i byens sentrum. Den enkle bruken og det intuitive grensesnittet har gjort det enkelt for innbyggere og besøkende å finne og administrere parkering. Vi anbefaler på det sterkeste Parking Time til andre kommuner som søker en moderne og effektiv parkeringsløsning.",
     "cliet2title": "Byarkitekt, Falköping Kommune"
+  },
+
+  "downloadNow": {
+    "title": "Last ned nå",
+    "description": "Appen er gratis å laste ned for deg som bruker. Men din kommune må være registrert som kunde hos oss for at vår app skal være gyldig i ditt område. Hvis vår app ikke er tilgjengelig i din kommune, er du velkommen til å kontakte oss eller foreslå oss til din kommune!"
   }
 }

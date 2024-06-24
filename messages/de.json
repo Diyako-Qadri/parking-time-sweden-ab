@@ -140,7 +140,7 @@
     "quote": "Von all den Dingen, über die Sie im Laufe des Tages nachdenken müssen, sollte das Parken eines der geringsten sein. Das Parken sollte so nahtlos sein, dass Sie kaum darüber nachdenken müssen; es sollte einfach funktionieren.Wir nennen das Smart Parking.",
     "title": "und Gründer."
   },
-  
+
   "privacyPolicy": {
     "date": "Inkrafttreten: 3. April 2023",
     "privacyTitle": "Datenschutzrichtlinie",
@@ -205,18 +205,23 @@
     "title16Description5-5-2": "Rechtliche Grundlage: Erfüllung rechtlicher Verpflichtungen.",
     "title16Description5-5-3": "Für jeden Zweck wird eine eindeutige rechtliche Grundlage identifiziert, um die Einhaltung der relevanten rechtlichen Anforderungen sicherzustellen. Diese Zwecke sind klar abgegrenzt, um Transparenz und Verantwortlichkeit bei der Verarbeitung personenbezogener Daten durch Parking Time Sweden AB zu erleichtern."
   },
-  
+
   "ourTeam": {
     "pageTitle": "Treffen Sie unser Team!",
     "pageSubtitle": "Jedes Mitglied bringt eine einzigartige Mischung aus Fachwissen und zukunftsorientierter Denkweise mit."
   },
-  
-    "CustomerTestimonials": {
+
+  "CustomerTestimonials": {
     "pageTitle": "Kundenreferenzen",
     "pageSubTitle": "Hören Sie von einigen unserer Kunden.",
     "client1": "Die Implementierung von Parking Time war ein Wendepunkt für unsere Stadtplanungsbemühungen. Die detaillierten Nutzungsdaten und Verhaltensmuster, die die App liefert, haben uns wertvolle Einblicke in Parktrends gegeben und uns geholfen, unsere Parkressourcen zu optimieren. Parking Time hat unsere Herangehensweise an Parken und Stadtentwicklung wirklich revolutioniert.",
     "cliet1title": "Gemeindeverwalter, Nässjö Gemeinde",
     "client2": "Parking Time hat unser Parkmanagement und die Zufriedenheit der Nutzer im Stadtzentrum erheblich verbessert. Die Benutzerfreundlichkeit und das intuitive Interface haben es den Bewohnern und Besuchern leicht gemacht, Parkplätze zu finden und zu verwalten. Wir empfehlen Parking Time anderen Gemeinden, die eine moderne und effiziente Parklösung suchen, sehr.",
     "cliet2title": "Stadtarchitekt, Falköping Gemeinde"
+  },
+
+  "downloadNow": {
+    "title": "Jetzt herunterladen",
+    "description": "Die App ist für Sie als Benutzer kostenlos herunterzuladen. Ihre Gemeinde muss jedoch als Kunde bei uns registriert sein, damit unsere App in Ihrem Gebiet gültig ist. Wenn unsere App in Ihrer Gemeinde nicht verfügbar ist, können Sie uns gerne kontaktieren oder uns Ihrer Gemeinde vorschlagen!"
   }
 }

@@ -216,5 +216,10 @@
     "cliet1title": "Kunnanjohtaja, Nässjö Kunta",
     "client2": "Parking Time on merkittävästi parantanut pysäköinnin hallintaamme ja käyttäjätyytyväisyyttä kaupungin keskustassa. Helppokäyttöisyys ja intuitiivinen käyttöliittymä ovat tehneet pysäköinnin löytämisestä ja hallinnasta yksinkertaista asukkaille ja vierailijoille. Suosittelemme lämpimästi Parking Timea muille kunnille, jotka etsivät modernia ja tehokasta pysäköintiratkaisua.",
     "cliet2title": "Kaupunginarkkitehti, Falköping Kunta"
+  },
+
+  "downloadNow": {
+    "title": "Lataa nyt",
+    "description": "Sovellus on sinulle käyttäjänä ilmainen ladata. Kuntasi on kuitenkin oltava rekisteröitynyt asiakkaaksemme, jotta sovelluksemme olisi voimassa alueellasi. Jos sovelluksemme ei ole saatavilla kunnassasi, voit ottaa meihin yhteyttä tai ehdottaa meitä kunnallesi!"
   }
 }

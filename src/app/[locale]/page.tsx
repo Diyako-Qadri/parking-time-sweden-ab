@@ -15,9 +15,9 @@ export default function index() {
       <WhyParkingTime />
       <CustomerTestimonials />
       <ThrustedBy />
-      <LatestNews />
       <Statistics />
       <DownloadNow />
+      <LatestNews />
       <KnowMore />
       <Faq />
     </main>
