@@ -7,7 +7,7 @@ import Faq from "@/components/Faq";
 import LatestNews from "@/components/LatestNews";
 import HowItWorks from "@/components/HowItWorksSection";
 import SolutionSection from "@/components/SolutionSection";
-
+import CustomerTestimonials from '@/components/CustomerTestimonials';
 export default function index() {
   return (
     <main>
@@ -15,6 +15,7 @@ export default function index() {
       <SolutionSection />
       <HowItWorks/>
       <WhyParkingTime />
+      <CustomerTestimonials />
       <ThrustedBy />
       <Statistics />
       <LatestNews />
