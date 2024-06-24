@@ -45,17 +45,17 @@ const OurTeam = () => {
         <h3 className="text-3xl font-bold pb-6">{d('pageTitle')}</h3>
         <p className="text-base font-normal">{d('pageSubtitle')}</p>
       </div>
-      <div className=" relative h-full w-full md:w-[70%] xl:w-full flex self-center flex-col md:flex-row pt-8 pb-20 gap-20 items-center justify-center flex-wrap ">
+      <div className=" relative h-full w-full px-3 md:w-[70%] xl:w-full flex self-center flex-col md:flex-row pt-8 pb-20 gap-8 items-center justify-center flex-wrap ">
         {ourteam.map((item, index) => (
-          <div className="h-[430px] w-[296px] md:w-[256px] bg-white rounded-[20px] boxShadow">
+          <div className="h-[430px] w-[286px]  bg-white rounded-[20px] boxShadow">
             <div
-              className="relative flex justify-center h-4/5 w-[296px] md:w-[256px] "
+              className="relative flex justify-center h-4/5 w-[286px]  "
               key={index}
             >
               <Image
                 src={item.image}
                 style={{ objectFit: 'cover' }}
-                className="h-[340px] w-[296px]  md:w-[256px] rounded-t-[20px]"
+                className="h-[340px] w-[286px]   rounded-t-[20px]"
                 alt="teammember"
               ></Image>
             </div>
