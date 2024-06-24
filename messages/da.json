@@ -223,5 +223,10 @@
   "ourTeam": {
     "pageTitle": "Mød vores team!",
     "pageSubtitle": "Hvert medlem bidrager med en unik blanding af ekspertise og en fremadskuende tankegang."
+  },
+  
+    "ceoQuote": {
+    "quote": "Af alle de ting, du skal tænke på i løbet af dagen, bør parkering være en af de mindste. Parkering skal være så problemfrit, at du næppe behøver at tænke på det; det skal bare fungere. Vi kalder dette Smart Parkering.",
+    "title": "og grundlægger."
   }
 }

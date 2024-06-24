@@ -230,5 +230,10 @@
   "ourTeam": {
     "pageTitle": "Treffen Sie unser Team!",
     "pageSubtitle": "Jedes Mitglied bringt eine einzigartige Mischung aus Fachwissen und zukunftsorientierter Denkweise mit."
+  },
+  
+    "ceoQuote": {
+    "quote": "Von all den Dingen, über die Sie im Laufe des Tages nachdenken müssen, sollte das Parken eines der geringsten sein. Das Parken sollte so nahtlos sein, dass Sie kaum darüber nachdenken müssen; es sollte einfach funktionieren.Wir nennen das Smart Parking.",
+    "title": "und Gründer."
   }
 }
