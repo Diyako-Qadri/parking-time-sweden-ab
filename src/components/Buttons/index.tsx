@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 
 type ButtonProps = {
-  variant?: 'desktopWhite' | 'mobileWhite' | 'desktopBlack' | ' mobileBlack' | 'desktopOdd';
+  variant?: 'desktopWhite' | 'mobileWhite' | 'desktopBlack' | 'mobileBlack' | 'desktopOdd';
   size?:  'mobilePrimary'|  'mobileSecondary' | 'desktopPrimary' | 'desktopOdd';
   disabled?: boolean;
   children: React.ReactNode;
@@ -22,7 +22,7 @@ const Button: React.FC<ButtonProps> = ({ variant = 'desktopWhite', size = 'mobil
   const sizeStyles: { [key: string]: string } = {
     mobilePrimary: 'w-[315px] h-[40px]',
     mobileSecondary: 'w-[300px] h-[48px]',
-    desktopPrimary: 'w-[160px] h-[48px]',
+    desktopPrimary: 'w-[166px] h-[48px]',
     desktopOdd: 'w-[200px] h-[48px]',
   };
 
