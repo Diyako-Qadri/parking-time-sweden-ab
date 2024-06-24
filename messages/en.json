@@ -135,6 +135,11 @@
     "message3": "This field is required."
   },
 
+  "ceoQuote": {
+    "quote": "Of all the things you need to think about during the day, parking should be one of the least. Parking should be so seamless that you hardly need to think about it; it should just work. We call this Smart Parking.",
+    "title": "and founder"
+  },
+  
   "privacyPolicy": {
     "date": "Effective date: April 3, 2023",
     "privacyTitle": "Privacy Policy",

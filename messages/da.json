@@ -109,6 +109,11 @@
     "message3": "Dette felt er påkrævet"
   },
 
+  "ceoQuote": {
+    "quote": "Af alle de ting, du skal tænke på i løbet af dagen, bør parkering være en af de mindste. Parkering skal være så problemfrit, at du næppe behøver at tænke på det; det skal bare fungere. Vi kalder dette Smart Parkering.",
+    "title": "og grundlægger."
+  },
+  
   "privacyPolicy": {
     "date": "Gyldighedsdato: 3. april 2023",
     "privacyTitle": "Privatlivspolitik",

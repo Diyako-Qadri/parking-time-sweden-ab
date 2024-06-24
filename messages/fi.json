@@ -133,6 +133,11 @@
     "message3": "Tämä kenttä on pakollinen"
   },
 
+  "ceoQuote": {
+    "quote": "Kaikista asioista, joita sinun on mietittävä päivän aikana, pysäköinnin tulisi olla yksi vähäisimmistä. Pysäköinnin tulisi olla niin saumaton, että sinun tuskin tarvitsee ajatella sitä; sen tulisi vain toimia. Kutsumme tätä älypysäköinniksi.",
+    "title": "ja perustaja."
+  },
+  
   "privacyPolicy": {
     "date": "Voimaantulopäivä: 3. huhtikuuta 2023",
     "privacyTitle": "Tietosuojakäytäntö",
