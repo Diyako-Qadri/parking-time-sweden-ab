@@ -26,7 +26,7 @@ const ourteam: TeamMember[] = [
   {
     image: MemberImage,
     name: 'Ingemar Öhman',
-    title: 'Accountent',
+    title: 'Accountant',
   },
 
   {

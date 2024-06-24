@@ -72,7 +72,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-52 flex mt-10 md:mt-0 flex-col justify-start">
+                <div className="w-[250px] flex mt-10 md:mt-0 pb-12 flex-col justify-start">
                     <div>
                         <p className="font-bold">{b("Links")}</p>
                     </div>
@@ -92,7 +92,7 @@ const Footer = () => {
             <div className="flex  ml-10 md:ml-0  md:flex-col h-14 md:justify-end md:px-12">
                 <div className="flex flex-col-reverse h-[90px] md:h-[90px] md:flex-row justify-between">
                     <p className="text-sm">&copy; {currentYear} Parking Time AB</p>
-                    <Link href="#" className="hover:underline">Privacy Policy</Link>
+                    <Link href={`/${locale}/policy`} className="hover:underline">Privacy Policy</Link>
                 </div>
             </div>
         </footer>

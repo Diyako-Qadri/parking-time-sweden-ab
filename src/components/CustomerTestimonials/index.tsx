@@ -36,7 +36,7 @@ const CustomerTestimonials = () => {
   return (
     <div className="h-full flex flex-col justify-center items-center w-full bg-pt-background">
       <div className="flex flex-col justify-center  h-[205px] text-center  items-center pt-8 px-8">
-        <h3 className="h-[60px] text-[48px]   mb-10 font-bold">
+        <h3 className="h-[60px] text-[38px] md:text-[48px]   mb-10 font-bold">
           {b('pageTitle')}
         </h3>
         <p className="text-[16px] pt-12 md:pt-2 font-normal">
@@ -65,7 +65,7 @@ const CustomerTestimonials = () => {
               key={index}
               className="bg-pt-background flex max-w-[1440px]"
             >
-              <div className="bg-white h-[540px]  lg:h-[450px] md:h-[625px] w-[100%] max-w-[600px] NavbarScrren:w-[90%] flex flex-col  rounded-[30px]   ">
+              <div className="bg-white h-[590px]  lg:h-[450px] md:h-[625px] w-[100%] max-w-[600px] NavbarScrren:w-[90%] flex flex-col  rounded-[30px]   ">
                 <div className="h-1/6 p-8 flex flex-col justify-center w-full pb-3">
                   <Image
                     src={item.image}

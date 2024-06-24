@@ -2,6 +2,7 @@
 import React, { useState, useRef,useEffect } from "react";
 import { useTranslations } from "next-intl";
 import Accordion from '../Accordion'
+import Button from "../Buttons";
 
 type FaqItem = {
   question: string;
@@ -11,6 +12,7 @@ type FaqItem = {
 
 const Faq = () => {
     const t = useTranslations("FAQ");
+    const b = useTranslations("button");
     const [openIndex, setOpenIndex] = useState<number | null>(null)
     const accordionRef = useRef<HTMLDivElement>(null);
 
@@ -26,7 +28,7 @@ const Faq = () => {
         document.removeEventListener('mousedown', handleClickOutside);
       };
     }, [accordionRef]);
- 
+
     const faqItems: FaqItem[] = [
       {
         question: t('q1'),
@@ -86,6 +88,12 @@ const Faq = () => {
           <p className="text-center text-[32px] py-5 font-bold">{t('headline2')}</p>
           <p className="text-center text-pt-darkblue2 text-lg py-2 font-bold">{t('subheadline2')}</p>
         </div>
+      </div>
+      <div className="flex relative justify-center bg-pt-light-gray top-[-10px] pb-20 mt-20 md:hidden">
+        <Button variant="mobileBlack" size="mobileSecondary">{b('contact')}</Button>
+      </div>
+      <div className="hidden md:flex md:relative justify-center bg-pt-light-gray top-[-10px] pb-20 mt-20">
+        <Button variant="desktopBlack" size="desktopPrimary">{b('contact')}</Button>
       </div>
     </div>
   );

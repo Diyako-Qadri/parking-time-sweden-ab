@@ -13,7 +13,7 @@ const Button: React.FC<ButtonProps> = ({ variant = 'desktopWhite', size = 'mobil
 
   const variantStyles: { [key: string]: string } = {
     desktopWhite: 'bg-white text-black leading-3 rounded-[40px] font-medium hover:bg-gray-300',
-    desktopBlack:"bg-pt-dark-btn text-white rounded-[40px]",
+    desktopBlack:"bg-pt-dark-btn text-white rounded-[40px] hover:bg-pt-desktopBlackHover",
     mobileWhite: 'bg-white text-black  rounded-[50px] font-medium',
     mobileBlack: 'bg-pt-dark-btn text-white  rounded-[50px] font-medium tracking-wide',
     danger: 'bg-red-500 text-white hover:bg-red-700',

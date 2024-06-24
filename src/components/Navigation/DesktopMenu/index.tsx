@@ -46,7 +46,7 @@ const DesktopMenu = () => {
         >
           <span className="relative inline-block pb-px ">
             {t(item.name)}
-            <span className="absolute left-0 bottom-0 h-0.5 w-full bg-pt-green transform scale-x-0 origin-bottom-right transition-transform duration-300 ease-out group-hover:scale-x-100 group-hover:origin-bottom-left"></span>
+            <span className="absolute left-0 bottom-0 h-[1px] w-full bg-white bg-opacity-[100%] transform scale-x-0 origin-bottom-right transition-transform duration-300 ease-out group-hover:scale-x-100 group-hover:origin-bottom-left"></span>
           </span>
         </Link>
       ))}
