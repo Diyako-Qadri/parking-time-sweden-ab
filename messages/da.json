@@ -15,7 +15,7 @@
 
   "homeHero": {
     "headline1": "Parking Time",
-    "headline2": "",
+    "headline2": "Vi gør parkering nemt",
     "heroText1": "Digital parkeringsskive - direkte på din mobiltelefon.",
     "heroText2": "En vindende koncept i en ny, digitaliseret format."
   },
@@ -112,5 +112,14 @@
   "ourTeam": {
     "pageTitle": "Mød vores team!",
     "pageSubtitle": "Hvert medlem bidrager med en unik blanding af ekspertise og en fremadskuende tankegang."
+  },
+  
+    "CustomerTestimonials": {
+    "pageTitle": "Kundereferencer",
+    "pageSubTitle": "Hør fra nogle af vores kunder.",
+    "client1": "Implementeringen af Parking Time har været en game-changer for vores byplanlægningsindsats. De detaljerede brugsdata og adfærdsmønstre, som appen giver, har givet os værdifuld indsigt i parkeringsmønstre og hjulpet os med at optimere vores parkeringsressourcer. Parking Time har virkelig revolutioneret vores tilgang til parkering og byudvikling.",
+    "cliet1title": "Kommunaldirektør, Nässjö Kommune",
+    "client2": "Parking Time har markant forbedret vores parkeringsadministration og brugertilfredshed i byens centrum. Den enkle brug og det intuitive interface har gjort det let for beboere og besøgende at finde og administrere parkering. Vi anbefaler stærkt Parking Time til andre kommuner, der søger en moderne og effektiv parkeringsløsning.",
+    "cliet2title": "Byarkitekt, Falköping Kommune"
   }
 }
