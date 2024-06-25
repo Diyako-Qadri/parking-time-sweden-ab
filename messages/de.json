@@ -235,11 +235,11 @@
     "cliet2title": "Stadtarchitekt, Falköping Gemeinde"
   },
 
-  "ceoQuote": {
-    "quote": "Von all den Dingen, über die Sie im Laufe des Tages nachdenken müssen, sollte das Parken eines der geringsten sein. Das Parken sollte so nahtlos sein, dass Sie kaum darüber nachdenken müssen; es sollte einfach funktionieren.Wir nennen das Smart Parking.",
-    "title": "und Gründer."
+  "downloadNow": {
+    "title": "Jetzt herunterladen",
+    "description": "Die App ist für Sie als Benutzer kostenlos herunterzuladen. Ihre Gemeinde muss jedoch als Kunde bei uns registriert sein, damit unsere App in Ihrem Gebiet gültig ist. Wenn unsere App in Ihrer Gemeinde nicht verfügbar ist, können Sie uns gerne kontaktieren oder uns Ihrer Gemeinde vorschlagen!"
   },
-
+  
   "ourVision": {
     "title1": "Unsere Vision",
     "description1": "Parking Time Sweden ist ein Technologie-Startup, das darauf abzielt, das Parkerlebnis für alle Beteiligten zu revolutionieren – Parker, Parkplatzwächter, Gemeinden und Immobilieneigentümer.",
@@ -254,10 +254,9 @@
   },
   
   "placeholder": {
-    "name": "Vor- und Nachname",
+    "name": "Name",
     "job": "Berufsbezeichnung",
     "mobile": "+49 171 1234567",
     "message": "Geben Sie Ihre Nachricht ein..."
   }
-
 }

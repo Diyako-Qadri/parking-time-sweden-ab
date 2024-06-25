@@ -254,7 +254,7 @@
  },
  
  "placeholder": {
-    "name": "For- og efternavn",
+    "name": "Navn",
     "job": "Jobtitel",
     "mobile": "+45 21 123456",
     "message": "Skriv din besked..."
