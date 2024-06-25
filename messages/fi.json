@@ -14,7 +14,6 @@
     "Contact": "Yhteystiedot"
   },
 
-
   "homeHero": {
     "headline1": "Parking Time",
     "headline2": "Teemme pysäköinnistä helppoa",
@@ -155,26 +154,13 @@
     "thirdArrow": "Mikä tahansa pysäköinninvalvontajärjestelmä voidaan helposti integroida järjestelmäämme.",
     "secondParkingText": "Olemme innoissamme voidessamme kertoa lisää ratkaisustamme tapaamisessa."
   },
-
-  "knowMore": {
-    "name-title": "Matilda Öhman, TJ",
-    "mail": "info@parkingtime.se",
-    "question": "Haluatko tietää lisää?",
-    "description": "Ota yhteyttä saadaksesi lisätietoja ratkaisustamme ja siitä, kuinka voimme toteuttaa sen kunnassasi."
+ 
+  "ceoQuote": {
+    "quote": "Kaikista asioista, joita sinun on mietittävä päivän aikana, pysäköinnin tulisi olla yksi vähäisimmistä. Pysäköinnin tulisi olla niin saumaton, että sinun tuskin tarvitsee ajatella sitä; sen tulisi vain toimia. Kutsumme tätä älypysäköinniksi.",
+    "title": "ja perustaja."
   },
 
-  "button": {
-    "contact": "Ota yhteyttä",
-    "download": "Lataa sovellus",
-    "learnMore": "Lue lisää meistä",
-    "subscribe": "Tilaa",
-    "viewAllDesktop": "Näytä kaikki",
-    "ViewAllMobile": "Näytä kaikki uutiset",
-    "message": "Lähetä viesti",
-    "meeting": "Varaa tapaaminen"
-  },
 
-  
   "privacyPolicy": {
     "date": "Voimaantulopäivä: 3. huhtikuuta 2023",
     "privacyTitle": "Tietosuojakäytäntö",
@@ -239,17 +225,13 @@
     "title16Description5-5-2": "Oikeusperuste: Lainmukaisten velvoitteiden täyttäminen.",
     "title16Description5-5-3": "Jokaiselle tarkoitukselle on määritetty erityinen oikeusperuste, joka varmistaa, että noudatamme sovellettavia lakivaatimuksia. Nämä tarkoitukset on selvästi rajattu helpottamaan läpinäkyvyyttä ja vastuullisuutta Parking Timen henkilötietojen käsittelyssä."
   },
-  
+
   "ourTeam": {
     "pageTitle": "Tutustu tiimiimme!",
     "pageSubtitle": "Jokainen jäsen tuo mukanaan ainutlaatuisen yhdistelmän asiantuntemusta ja edistyksellistä ajattelutapaa."
   },
-  
-  "ceoQuote": {
-    "quote": "Kaikista asioista, joita sinun on mietittävä päivän aikana, pysäköinnin tulisi olla yksi vähäisimmistä. Pysäköinnin tulisi olla niin saumaton, että sinun tuskin tarvitsee ajatella sitä; sen tulisi vain toimia. Kutsumme tätä älypysäköinniksi.",
-    "title": "ja perustaja."
-  },
-  
+
+
   "CustomerTestimonials": {
     "pageTitle": "Asiakaspalautteet",
     "pageSubTitle": "Kuule asiakkailtamme.",
@@ -263,7 +245,7 @@
     "title": "Lataa nyt",
     "description": "Sovellus on sinulle käyttäjänä ilmainen ladata. Kuntasi on kuitenkin oltava rekisteröitynyt asiakkaaksemme, jotta sovelluksemme olisi voimassa alueellasi. Jos sovelluksemme ei ole saatavilla kunnassasi, voit ottaa meihin yhteyttä tai ehdottaa meitä kunnallesi!"
   },
-  
+
   "ourVision": {
     "title1": "Visiomme",
     "description1": "Parking Time Sweden on teknologiastartup, joka pyrkii mullistamaan pysäköintikokemuksen kaikille osapuolille – pysäköijille, pysäköinninvalvojille, kunnille ja kiinteistönomistajille.",
@@ -271,4 +253,6 @@
     "title2": "Historiamme",
     "description3": "Parking Time Sweden perustettiin vuonna 2021 Luulajassa. Nykyään toimimme koko Ruotsissa tavoitteenamme laajentua maailmanlaajuisesti tulevina vuosina, ja toivomme, että haluat seurata meitä matkallamme!"
   }
+
+
 }

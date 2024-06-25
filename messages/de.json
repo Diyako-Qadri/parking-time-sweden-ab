@@ -156,27 +156,6 @@
     "message3": "Dieses Feld ist erforderlich"
   },
 
-  "SingleNews": {
-    "notFound": "Nachricht nicht gefunden"
-  },
-
-  "knowMore": {
-    "name-title": "Matilda Öhman, GF",
-    "mail": "Matilda@parkingtime.se",
-    "question": "Möchten Sie mehr wissen?",
-    "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir Ihnen helfen können."
-  },
-
-  "button": {
-    "contact": "Kontaktiere uns",
-    "download": "App downloaden",
-    "learnMore": "Erfahre mehr über uns",
-    "subscribe": "Abonnieren",
-    "viewAllDesktop": "Alle anzeigen",
-    "ViewAllMobile": "Alle Nachrichten anzeigen",
-    "message": "Nachricht senden",
-    "meeting": "Ein Treffen buchen"
-  },
 
   "privacyPolicy": {
     "date": "Inkrafttreten: 3. April 2023",
