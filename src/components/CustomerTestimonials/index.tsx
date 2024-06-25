@@ -36,7 +36,7 @@ const CustomerTestimonials = () => {
   return (
     <div className="h-full flex flex-col justify-center items-center w-full bg-pt-background">
       <div className="flex flex-col justify-center  h-[205px] text-center  items-center pt-8 px-8">
-        <h3 className="h-[60px] text-[38px] md:text-[48px]   mb-10 font-bold">
+        <h3 className="h-[60px] text-[38px] md:text-[48px] hyphens-auto break-words  mb-10 font-bold">
           {b('pageTitle')}
         </h3>
         <p className="text-[16px] pt-12 md:pt-2 font-normal">
