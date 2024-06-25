@@ -91,6 +91,8 @@
   "knowMore": {
     "name-title": "Matilda Öhman, AD",
     "mail": "Matilda@parkingtime.se",
+    "copyMail": "E-post kopiert",
+    "copyError": "Kunne ikke kopiere",
     "question": "Vil du vite mer?",
     "description": "Kontakt oss for å finne ut mer om vår løsning og hvordan vi kan implementere den i din kommune."
   },
