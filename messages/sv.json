@@ -90,7 +90,7 @@
 
   "knowMore": {
     "name-title": "Matilda Öhman, VD",
-    "mail": "info@parkingtime.se",
+    "mail": "Matilda@parkingtime.se",
     "question": "Vill du veta mer?",
     "description": "Kontakta oss för att ta reda på mer om vår lösning och hur vi kan implementera den i din kommun."
   },
@@ -140,7 +140,7 @@
     "quote": "Av alla saker du behöver tänka på under dagen, bör parkering vara en av de minsta. Parkering ska vara så smidig att du knappt behöver tänka på det; det ska bara fungera. Vi kallar detta för Smart Parkering.",
     "title": "och grundare."
   },
-  
+
   "privacyPolicy": {
     "date": "Ikraftträdandedatum: 3 april 2023",
     "privacyTitle": "Integritetspolicy",
@@ -204,14 +204,13 @@
     "title16Description5-5-1": "Användning av dina transaktioner för våra bokförings- och rapporteringsändamål.",
     "title16Description5-5-2": "Laglig grund: Uppfyllande av rättsliga skyldigheter.",
     "title16Description5-5-3": "För varje syfte identifieras en särskild laglig grund för att säkerställa att relevanta rättsliga krav efterlevs. Dessa syften är tydligt avgränsade för att underlätta transparens och ansvarighet i behandlingen av personuppgifter av Parking Time Sweden AB."
- },
- 
- 
- "ourTeam": {
+  },
+
+  "ourTeam": {
     "pageTitle": "Träffa vårt team! ",
     "pageSubtitle": "Varje medlem bidrar med en unik blandning av expertis och ett framåttänkande synsätt."
   },
-  
+
   "CustomerTestimonials": {
     "pageTitle": "Kundreferenser",
     "pageSubTitle": " Hör några av våra kunder.",
@@ -219,5 +218,22 @@
     "cliet1title": "Kommunchef, Nässjö Kommun",
     "client2": "Parking Time har avsevärt förbättrat vår parkeringshantering och användarnöjdhet i stadens centrum. Den enkla användningen och intuitiva gränssnittet har gjort det lätt för invånare och besökare att hitta och hantera parkering. Vi rekommenderar starkt Parking Time till andra kommuner som söker en modern och effektiv parkeringslösning.",
     "cliet2title": "Stadsarkitekt, Falköping Kommun"
+  },
+
+  "ourVision": {
+    "title1": "Vår vision",
+    "description1": "Parking Time Sweden är en teknikstartup som syftar till att revolutionera parkeringsupplevelsen för alla parter – parkerare, parkeringsvakter, kommuner och fastighetsägare.",
+    "description2": "Vi erbjuder för närvarande en gratis digital parkeringsskiva inom en app för att komplettera det befintliga utbudet av parkeringsappar.",
+    "title2": "Vår historia",
+    "description3": "Parking Time Sweden grundades 2021 i Luleå. Idag verkar vi i hela Sverige med ambitionen att expandera globalt inom de kommande åren, och vi hoppas att du vill följa med oss på vår resa!"
+  },
+
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "P-skivan har länge varit ett verktyg för att främja cirkulation och aktivitet i din stads centrum. Det är en fantastisk uppfinning som gynnar invånare, besökare och lokala företag. Vi vill vara en del av denna utveckling genom att skapa en gratis digital p-skiva.",
+    "firstArrow": "Vi strävar efter att stödja tillväxt och effektivitet i stadsområden.",
+    "secondArrow": "Vår digitala p-skiva förenklar parkeringsprocessen.",
+    "thirdArrow": "Alla parkeringsvaktsystem kan enkelt integreras med vårt system.",
+    "secondParkingText": "Vi är glada att dela mer om vår lösning i ett möte."
   }
 }
