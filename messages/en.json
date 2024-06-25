@@ -5,7 +5,8 @@
     "News": "News",
     "FAQ": "FAQ",
     "Links": "Links",
-    "Contact": "Contact us"
+    "Contact": "Contact us",
+    "language-btn": "Change language"
   },
 
   "FooterInfo": {
@@ -89,7 +90,7 @@
 
   "knowMore": {
     "name-title": "Matilda Öhman, CEO",
-    "mail": "info@parkingtime.se",
+    "mail": "Matilda@parkingtime.se",
     "question": "Want to know more?",
     "description": "Contact us to find out more about our solution and how we can implement it in your municipality."
   },
@@ -141,5 +142,89 @@
     "terms2": "terms and conditions",
     "message2": "Thank you for your message!",
     "message3": "This field is required."
+  },
+
+  "ceoQuote": {
+    "quote": "Of all the things you need to think about during the day, parking should be one of the least. Parking should be so seamless that you hardly need to think about it; it should just work. We call this Smart Parking.",
+    "title": "and founder"
+  },
+  
+  "privacyPolicy": {
+    "date": "Effective date: April 3, 2023",
+    "privacyTitle": "Privacy Policy",
+    "privacyDescription": "This policy applies to all websites of Parking Time Sweden AB. The personal data policy applies to Parking Time in connection with services and products related to purchases, customer service matters, other contact with Parking Time, and visits to the website. Your personal data is important to us.",
+    "title2": "Your personal data is significant to us",
+    "title2Description": "Parking Time collects and processes personal data about you when you visit or make a purchase on any of our websites or contact Parking Time via email or social media. Parking Time is committed to protecting your privacy and strives for a high level of data protection. This privacy policy explains why and how we collect and use your personal information. It also describes your rights and how you can exercise them. For us, it is significant that the personal data you entrust to us as a customer and reader is handled in a careful, responsible, transparent, and lawful manner.",
+    "title3": "Who is responsible for the data we collect?",
+    "title3Description": "Parking Time Sweden AB is responsible for the processing of your personal data by Parking Time and is responsible for ensuring that such processing is carried out in accordance with applicable legislation.",
+    "title4": "What is personal data?",
+    "title4Description": "Personal data is any type of information that can directly or indirectly be attributed to a living individual. Examples of personal data include name, email address, phone number, and personal identification number. Images and audio recordings are also considered personal data even if no names are mentioned. Encrypted data and various electronic identities (such as IP addresses) are also considered personal data if they can be linked to physical individuals.",
+    "title5": "Where do your personal data come from?",
+    "title5Description": "The primary source of personal data about you is you, such as the information you provide when you sign up for a subscription, contact us via email, and receive/respond to an email communication. Personal data is also created as a result of you reading information on our website, using services, and communicating with us. For example, we may save visit, traffic, and other communication data. Examples of such personal data include your IP address. This data is collected via cookies and used to understand you better so that we can target relevant information to you. To do this, we need your consent. You give this by accepting cookies when you visit our website.",
+    "title7": "Where does Parking Time get information for the parking zones?",
+    "title7Description": "Parking Time Sweden AB presents parking zones in the app. Information regarding the parking zones comes from the municipalities that use the app. The information is imported from the municipalities' own parking maps, such as Katrineholm municipality's parking zones here. Parking Time Sweden AB is an independent limited company and does not represent any government authority.",
+    "title8": "Personal data we collect about you if we require them",
+    "title8Description1": "First and last name.",
+    "title8Description2": "User's vehicle registration number.",
+    "title8Description3": "User's GPS location at the time of parking.",
+    "title8Description4": "Contact information (address, email, and phone number).",
+    "title9": "Cookies",
+    "title9Description": "In a cookie, it is possible to track a user's browsing activity. Cookies are used to provide you as a visitor with access to various features and to customize content in newsletters. We use cookies to tailor content in our advertising. We also use cookies on our website to gather statistics on how much the web is used. A cookie is a text file that is saved to your device so that the website can recognize your device. This cookie does not contain any personal information. There are two types of cookies: permanent and temporary (so-called session cookies). Permanent cookies are stored as a file on your device for a longer period, while session cookies are temporarily placed on your device and only used while you browse the site. They are deleted afterwards. If you want to know when your device receives a cookie, you can set your browser to notify you. This way, you have the opportunity to accept or reject a cookie. Your device can also be set to reject all cookies. Please note that if you choose not to accept cookies, some features of our online services may no longer function as intended.",
+    "title10": "Special Considerations for Consent to Direct Marketing",
+    "title10Description": "Provided that you have given us your explicit consent, we will continuously send and publish information and marketing via various digital channels based on your profile. You may opt out of receiving marketing communications from us at any time by clicking 'unsubscribe' in the email or SMS communication that we send you. You can also contact Parking Time via matildaohman@parkingtime.se for assistance in declining our communication.",
+    "title11": "How long do we keep your information?",
+    "title11Description": "Your personal data is only stored for as long as there is a need to keep it to fulfill the purposes for which the data was collected. Parking Time may retain the data longer if necessary to comply with legal requirements or to protect Parking Time's legal interests, such as during a legal process.",
+    "title12": "Who can we share your personal information with?",
+    "title12Description1": "Your personal data may be shared with other companies. These are Parking Time's data processors. A data processor is a company that processes information on our behalf and according to our instructions. Parking Time's data processors perform services on our behalf, such as sending newsletters or delivering ordered goods. All disclosures will be made in accordance with the law, and your personal data will not be used for purposes other than those we have informed you about. We have written agreements with all data processors through which they guarantee the security of the personal data processed and undertake to comply with our security requirements as well as limitations and requirements regarding the international transfer of personal data. When your personal data is shared with a company that is an independent data controller, the counterparty's privacy policy and data processing apply. We share your personal data with certain companies that are independent data controllers. Examples of independent data controllers with whom we share your personal data include:",
+    "title12Description2": "Government agencies in case of suspected crime.",
+    "title13": "Where do we process your personal data?",
+    "title13Description": "We always strive to ensure that your personal data is processed within the EU/EEA, and all our own IT systems are located within the EU/EEA.",
+    "title14": "Your rights",
+    "title14Description1": "According to EU data protection legislation, you have certain statutory rights as an individual in relation to the personal data we process about you. If you encounter information about yourself or related individuals that you for any reason do not want to be published on Parking Time's website, we appreciate it if you contact us via matildaohman@parkingtime.se.",
+    "title14Description2": "You also have the right to lodge a complaint with the national data protection authority, the Swedish Data Protection Authority (Integritetsskyddsmyndigheten), if you believe that our processing of your personal data does not comply with the requirements of EU data protection legislation.",
+    "title14Description3": "Access to your personal data: You have the right to access your personal data and how it is processed. Correction, deletion, or restriction: You have the right to correct data that you believe is inaccurate. In some cases, you also have the right to have your personal data deleted. However, this does not apply if your personal data still needs to be retained, for example, if the law requires us to store the data or if the data is needed to fulfill an agreement we have with you. You also have the right to request that the processing of personal data be restricted for a shorter period while we investigate any inaccuracies. Withdrawal of consent: If you have given consent to certain processing, you always have the right to withdraw your consent.",
+    "title14Description4": "Objection regarding balancing of interests: When processing is based on a so-called balancing of interests, you have the right to object to the processing at any time. Objection to direct marketing: You have the right to object at any time to the processing of personal data concerning you for direct marketing purposes. In that case, the personal data should no longer be processed for such purposes.",
+    "title14Description5": "Data portability: You have the right to data portability, which means that under certain circumstances, you have the right to receive the personal data about you that you have provided to us, in order to transfer the data to another data controller.",
+    "title15": "Contact Information",
+    "title15Description": "If you wish to exercise any of your statutory rights, we ask you to send a written and personally signed request to the address provided below. You can also always contact Parking Time via our website if you have any questions regarding the processing of your personal data. We will respond in writing to your registered address. You can also contact Parking Time for any comments or complaints about how we handle your personal data via matildaohman@parkingtime.se.",
+    "title15DescriptionAdress": "Postal Address:",
+    "title16": "Purpose and legal basis for processing your personal data",
+    "title16Description1": "Purpose and Legal Basis for Processing Your Personal Data ",
+    "title16Description2": "The processing of your personal data serves specific purposes, grounded in legal bases as outlined below. Additionally, we elucidate how your personal data is processed for marketing purposes.",
+    "title16Description3": "Purpose",
+    "title16Description4": "Legal Basis",
+    "title16Description5-1": "Fulfillment of Orders for Services and Subscriptions",
+    "title16Description5-1-1": "Legal Basis: Performance of a contract of which you are a party.",
+    "title16Description5-2": "Targeted Marketing",
+    "title16Description5-2-1": "Upon your consent, we send newsletters.",
+    "title16Description5-2-2": "Legal Basis:",
+    "title16Description5-2-2-1": "Consent provided by you for this type of processing.",
+    "title16Description5-2-2-2": "Balancing of interests.",
+    "title16Description5-3": "Correspondence Regarding Inquiries",
+    "title16Description5-3-1": "Handling queries directed to Parking Time via matildaohman@parkingtime.se or to other responsible persons at Parking Time, received through email, telephone, or digital channels, including all social platforms.",
+    "title16Description5-3-2": "Legal Basis: Balancing of interests.",
+    "title16Description5-4": "Investigation of Complaints",
+    "title16Description5-4-1": "Handling complaints received through email, telephone, or other digital channels, including social media",
+    "title16Description5-4-2": "Legal Basis:",
+    "title16Description5-4-2-1": "Performance of a contract of which you are a party.",
+    "title16Description5-4-2-2": "Balancing of interests.",
+    "title16Description5-5": "Financial Management, Accounting, and Reporting",
+    "title16Description5-5-1": "Utilization of your transactions for our accounting and reporting purposes.",
+    "title16Description5-5-2": "Legal Basis: Fulfillment of legal obligations.",
+    "title16Description5-5-3": "For each purpose, a distinct legal basis is identified, ensuring compliance with relevant legal requirements. These purposes are clearly delineated to facilitate transparency and accountability in the processing of personal data by Parking Time Sweden AB."
+  },
+  
+  "ourTeam": {
+    "pageTitle": "Meet Our Team!",
+    "pageSubtitle": "Each member brings a unige blend of expertise, and forward-thinking mindset."
+  },
+  
+    "CustomerTestimonials": {
+    "pageTitle": "Customer Testimonials",
+    "pageSubTitle": "Hear from some of our clients.",
+    "client1": "Implementing Parking Time has been a game-changer for our urban planning efforts. The detailed usage data and behavior patterns provided by the app have given us valuable insights into parking trends and helped us optimize our parking resources. Parking Time has truly revolutionized the way we approach parking and urban development.",
+    "cliet1title": "Municipal Manager, Nässjö Municipality",
+    "client2": "Parking Time has significantly improved our parking management and user satisfaction in the city center. The ease of use and intuitive interface have made it simple for residents and visitors to find and manage parking. We highly recommend Parking Time to other municipalities looking for a modern and efficient parking solution.",
+    "cliet2title": "City Architect, Falköping Municipality"
   }
 }
