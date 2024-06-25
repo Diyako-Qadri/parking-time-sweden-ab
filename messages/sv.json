@@ -252,7 +252,12 @@
  "downloadNow": {
     "title": "Ladda ner nu",
     "description": "Appen är gratis att ladda ner för dig som användare. Men din kommun måste vara registrerad som kund hos oss för att vår app ska vara giltig i ditt område. Om vår app inte är tillgänglig i din kommun är du välkommen att kontakta oss eller föreslå oss till din kommun!"
-  }
+  },
 
-  
+  "placeholder": {
+    "name": "För- och efternamn",
+    "job": "Jobbtitel",
+    "mobile": "+46 70 8123456",
+    "message": "Skriv ditt meddelande..."
+  }
 }

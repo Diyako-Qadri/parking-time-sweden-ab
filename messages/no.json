@@ -239,7 +239,13 @@
     "pageTitle": "Møt vårt team!",
     "pageSubtitle": "Hvert medlem bringer en unik blanding av ekspertise og en fremtidsrettet tankegang."
   },
-
+ 
+  "placeholder": {
+    "name": "For- og etternavn",
+    "job": "Jobbtittel",
+    "mobile": "+47 912 34 567",
+    "message": "Skriv meldingen din..."
+  },
 
   "ourVision": {
     "title1": "Vår visjon",

@@ -231,6 +231,13 @@
     "cliet2title": "Kaupunginarkkitehti, Falköping Kunta"
   },
 
+  "placeholder": {
+    "name": "Etu- ja sukunimi",
+    "job": "Työnimike",
+    "mobile": "+358 40 1234567",
+    "message": "Kirjoita viestisi..."
+  },
+
 
   "ourVision": {
     "title1": "Visiomme",

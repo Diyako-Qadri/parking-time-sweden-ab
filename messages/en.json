@@ -252,5 +252,12 @@
   "downloadNow": {
     "title": "Download now",
     "description": "The app is free to download for you as a user. However, your municipality must be registered as a customer with us for our app to be valid in your area. If our app is not available in your municipality, you are welcome to contact us or suggest us to your municipality!"
+  },
+  
+  "placeholder": {
+    "name": "First and last name",
+    "job": "Job title",
+    "mobile": "+44 7712 345678",
+    "message": "Type your message..."
   }
 }

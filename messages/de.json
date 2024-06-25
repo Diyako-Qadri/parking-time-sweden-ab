@@ -251,5 +251,13 @@
   "downloadNow": {
     "title": "Jetzt herunterladen",
     "description": "Die App ist für Sie als Benutzer kostenlos herunterzuladen. Ihre Gemeinde muss jedoch als Kunde bei uns registriert sein, damit unsere App in Ihrem Gebiet gültig ist. Wenn unsere App in Ihrer Gemeinde nicht verfügbar ist, können Sie uns gerne kontaktieren oder uns Ihrer Gemeinde vorschlagen!"
+  },
+  
+  "placeholder": {
+    "name": "Vor- und Nachname",
+    "job": "Berufsbezeichnung",
+    "mobile": "+49 171 1234567",
+    "message": "Geben Sie Ihre Nachricht ein..."
   }
+
 }
