@@ -16,10 +16,6 @@ const News = () => {
         heroText={t("heroText")}
       />
       <section className="bg-pt-background text-center py-16">
-        {/* <h2 className="text-lg font-bold leading-[21.6px]"> {t("news")}</h2>
-        <h3 className="text-4xl font-bold leading-[57.6px] text-center text-[#0B051D] pt-4 pb-9">
-          {t("Latest News")}
-        </h3> */}
         <div className="container mx-auto max-w-screen-xl px-4">
           <div className="flex flex-wrap justify-center md:justify-start -mx-2">
             {newsItems.map((news, index) => (
