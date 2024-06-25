@@ -90,7 +90,7 @@
 
   "knowMore": {
     "name-title": "Matilda Öhman, VD",
-    "mail": "info@parkingtime.se",
+    "mail": "Matilda@parkingtime.se",
     "question": "Vill du veta mer?",
     "description": "Kontakta oss för att ta reda på mer om vår lösning och hur vi kan implementera den i din kommun."
   },
@@ -223,5 +223,22 @@
   "downloadNow": {
     "title": "Ladda ner nu",
     "description": "Appen är gratis att ladda ner för dig som användare. Men din kommun måste vara registrerad som kund hos oss för att vår app ska vara giltig i ditt område. Om vår app inte är tillgänglig i din kommun är du välkommen att kontakta oss eller föreslå oss till din kommun!"
+  },
+  
+  "ourVision": {
+    "title1": "Vår vision",
+    "description1": "Parking Time Sweden är en teknikstartup som syftar till att revolutionera parkeringsupplevelsen för alla parter – parkerare, parkeringsvakter, kommuner och fastighetsägare.",
+    "description2": "Vi erbjuder för närvarande en gratis digital parkeringsskiva inom en app för att komplettera det befintliga utbudet av parkeringsappar.",
+    "title2": "Vår historia",
+    "description3": "Parking Time Sweden grundades 2021 i Luleå. Idag verkar vi i hela Sverige med ambitionen att expandera globalt inom de kommande åren, och vi hoppas att du vill följa med oss på vår resa!"
+  },
+
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "P-skivan har länge varit ett verktyg för att främja cirkulation och aktivitet i din stads centrum. Det är en fantastisk uppfinning som gynnar invånare, besökare och lokala företag. Vi vill vara en del av denna utveckling genom att skapa en gratis digital p-skiva.",
+    "firstArrow": "Vi strävar efter att stödja tillväxt och effektivitet i stadsområden.",
+    "secondArrow": "Vår digitala p-skiva förenklar parkeringsprocessen.",
+    "thirdArrow": "Alla parkeringsvaktsystem kan enkelt integreras med vårt system.",
+    "secondParkingText": "Vi är glada att dela mer om vår lösning i ett möte."
   }
 }
