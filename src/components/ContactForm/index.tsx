@@ -224,7 +224,7 @@ export const ContactUs: React.FC = () => {
             onChange={handleInputChange}
             required
           />
-          <div className="flex justify-between ml-1 flex-col md:flex-row med:items-center  mb-1">
+          <div className="flex justify-between ml-1 flex-col md:flex-row-reverese med:items-center  mb-1">
             <div className="flex flex-row">
               <span className="text-xl mr-1">* </span>
               <p className="text-sm">{b('message3')}</p>
