@@ -218,17 +218,17 @@
     "title16Description5-5-2": "Juridisk grundlag: Opfyldelse af juridiske forpligtelser.",
     "title16Description5-5-3": "For hvert formål identificeres et entydigt juridisk grundlag for at sikre overholdelse af relevante juridiske krav. Disse formål er klart afgrænset for at lette gennemsigtighed og ansvarlighed i behandlingen af personoplysninger af Parking Time Sweden AB."
   },
-  
+
   "ourTeam": {
     "pageTitle": "Mød vores team!",
     "pageSubtitle": "Hvert medlem bidrager med en unik blanding af ekspertise og en fremadskuende tankegang."
   },
-  
+
   "ceoQuote": {
     "quote": "Af alle de ting, du skal tænke på i løbet af dagen, bør parkering være en af de mindste. Parkering skal være så problemfrit, at du næppe behøver at tænke på det; det skal bare fungere. Vi kalder dette Smart Parkering.",
     "title": "og grundlægger."
   },
-  
+
   "CustomerTestimonials": {
     "pageTitle": "Kundereferencer",
     "pageSubTitle": "Hør fra nogle af vores kunder.",
@@ -244,5 +244,10 @@
     "description2": "Vi tilbyder i øjeblikket en gratis digital parkeringsskive i en app for at supplere det eksisterende udvalg af parkeringsapps.",
     "title2": "Vores historie",
     "description3": "Parking Time Sweden blev grundlagt i 2021 i Luleå. I dag opererer vi i hele Sverige med ambitionen om at ekspandere globalt inden for de kommende år, og vi håber, at du vil følge med os på vores rejse!"
+  },
+
+  "downloadNow": {
+    "title": "Download nu",
+    "description": "Appen er gratis at downloade for dig som bruger. Din kommune skal dog være registreret som kunde hos os, for at vores app er gyldig i dit område. Hvis vores app ikke er tilgængelig i din kommune, er du velkommen til at kontakte os eller foreslå os til din kommune!"
   }
 }

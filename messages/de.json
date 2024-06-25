@@ -219,6 +219,11 @@
     "title16Description5-5-3": "Für jeden Zweck wird eine eindeutige rechtliche Grundlage identifiziert, um die Einhaltung der relevanten rechtlichen Anforderungen sicherzustellen. Diese Zwecke sind klar abgegrenzt, um Transparenz und Verantwortlichkeit bei der Verarbeitung personenbezogener Daten durch Parking Time Sweden AB zu erleichtern."
   },
 
+  "ourTeam": {
+    "pageTitle": "Treffen Sie unser Team!",
+    "pageSubtitle": "Jedes Mitglied bringt eine einzigartige Mischung aus Fachwissen und zukunftsorientierter Denkweise mit."
+  },
+
   "CustomerTestimonials": {
     "pageTitle": "Kundenreferenzen",
     "pageSubTitle": "Hören Sie von einigen unserer Kunden.",
@@ -226,11 +231,6 @@
     "cliet1title": "Gemeindeverwalter, Nässjö Gemeinde",
     "client2": "Parking Time hat unser Parkmanagement und die Zufriedenheit der Nutzer im Stadtzentrum erheblich verbessert. Die Benutzerfreundlichkeit und das intuitive Interface haben es den Bewohnern und Besuchern leicht gemacht, Parkplätze zu finden und zu verwalten. Wir empfehlen Parking Time anderen Gemeinden, die eine moderne und effiziente Parklösung suchen, sehr.",
     "cliet2title": "Stadtarchitekt, Falköping Gemeinde"
-  },
-
-  "ourTeam": {
-    "pageTitle": "Treffen Sie unser Team!",
-    "pageSubtitle": "Jedes Mitglied bringt eine einzigartige Mischung aus Fachwissen und zukunftsorientierter Denkweise mit."
   },
 
   "ceoQuote": {
@@ -244,5 +244,10 @@
     "description2": "Wir bieten derzeit eine kostenlose digitale Parkscheibe in einer App an, um das bestehende Angebot an Park-Apps zu ergänzen.",
     "title2": "Unsere Geschichte",
     "description3": "Parking Time Sweden wurde 2021 in Luleå gegründet. Heute sind wir in ganz Schweden tätig und haben die Ambition, in den kommenden Jahren global zu expandieren. Wir hoffen, dass Sie uns auf unserer Reise begleiten werden!"
+  },
+
+  "downloadNow": {
+    "title": "Jetzt herunterladen",
+    "description": "Die App ist für Sie als Benutzer kostenlos herunterzuladen. Ihre Gemeinde muss jedoch als Kunde bei uns registriert sein, damit unsere App in Ihrem Gebiet gültig ist. Wenn unsere App in Ihrer Gemeinde nicht verfügbar ist, können Sie uns gerne kontaktieren oder uns Ihrer Gemeinde vorschlagen!"
   }
 }

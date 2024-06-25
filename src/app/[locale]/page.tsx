@@ -7,6 +7,7 @@ import Faq from "@/components/Faq";
 import LatestNews from "@/components/LatestNews";
 import HowItWorks from "@/components/HowItWorksSection";
 import SolutionSection from "@/components/SolutionSection";
+import DownloadNow from "@/components/DownloadNow";
 import CustomerTestimonials from '@/components/CustomerTestimonials';
 export default function index() {
   return (
@@ -18,6 +19,7 @@ export default function index() {
       <CustomerTestimonials />
       <ThrustedBy />
       <Statistics />
+      <DownloadNow />
       <LatestNews />
       <KnowMore />
       <Faq />
