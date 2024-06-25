@@ -232,9 +232,9 @@
   },
 
   "placeholder": {
-    "name": "Vor- und Nachname",
+    "name": "Name",
     "job": "Berufsbezeichnung",
-    "mobile": "+49 171 1234567",
+    "mobile": "+49 170 0000000",
     "message": "Geben Sie Ihre Nachricht ein..."
   },
   
