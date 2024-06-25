@@ -1,7 +1,7 @@
-import { useTranslations } from 'next-intl';
-import PageHero from '@/components/PageHero';
-import OurTeam from '@/components/OurTeam';
-import KnowMoreAbout from '@/components/KnowMoreAbout';
+import { useTranslations } from "next-intl";
+import PageHero from "@/components/PageHero";
+import KnowMoreAbout from "@/components/KnowMoreAbout";
+import OurTeam from "@/components/OurTeam";
 import CEOquote from "@/components/CEOquote";
 
 const about = () => {

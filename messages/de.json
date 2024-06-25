@@ -154,15 +154,6 @@
     "digitalDiskText": "Nachdem Sie Ihre Parkzone ausgewählt haben, können Sie die geltenden Regeln überprüfen, das Parken starten und die App einfach schließen."
   },
 
-  "SmartParkingSolution": {
-    "title": "Smart Parking Solution",
-    "parkingText": "Die Parkscheibe ist seit langem ein Werkzeug, um die Zirkulation und Aktivität im Stadtzentrum zu fördern. Es ist eine fantastische Erfindung, die sowohl Bewohnern, Besuchern als auch lokalen Unternehmen zugutekommt. Wir möchten Teil dieser Entwicklung sein, indem wir eine kostenlose digitale Parkscheibe erstellen.",
-    "firstArrow": "Wir streben danach, das Wachstum und die Effizienz von städtischen Gebieten zu unterstützen.",
-    "secondArrow": "Unsere digitale Parkscheibe vereinfacht den Parkvorgang.",
-    "thirdArrow": "Jedes Parkwächter-System kann leicht in unser System integriert werden.",
-    "secondParkingText": "Wir freuen uns darauf, mehr über unsere Lösung in einem Meeting zu teilen."
-  },
-
   "privacyPolicy": {
     "date": "Inkrafttreten: 3. April 2023",
     "privacyTitle": "Datenschutzrichtlinie",
@@ -227,7 +218,7 @@
     "title16Description5-5-2": "Rechtliche Grundlage: Erfüllung rechtlicher Verpflichtungen.",
     "title16Description5-5-3": "Für jeden Zweck wird eine eindeutige rechtliche Grundlage identifiziert, um die Einhaltung der relevanten rechtlichen Anforderungen sicherzustellen. Diese Zwecke sind klar abgegrenzt, um Transparenz und Verantwortlichkeit bei der Verarbeitung personenbezogener Daten durch Parking Time Sweden AB zu erleichtern."
   },
-
+  
   "CustomerTestimonials": {
     "pageTitle": "Kundenreferenzen",
     "pageSubTitle": "Hören Sie von einigen unserer Kunden.",
