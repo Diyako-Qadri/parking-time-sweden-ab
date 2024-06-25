@@ -44,15 +44,9 @@ const DesktopMenu = () => {
             href={`/${locale}${item.link}`}
             className="relative group"
           >
-            <span
-              className={`relative inline-block  ${
-                path === `/${locale}${item.link}`
-                  ? 'border-b-[1px] border-white'
-                  : ''
-              }`}
-            >
+            <span className={`relative inline-block`}>
               {t(item.name)}
-              {path === item.link && (
+              {path === `/${locale}${item.link}` && (
                 <span className="absolute left-0 bottom-0 h-[1px] w-full bg-white"></span>
               )}
               <span className="absolute left-0 bottom-0 h-[1px] w-full bg-white transform scale-x-0 origin-bottom-right transition-transform duration-300 ease-out group-hover:scale-x-100 group-hover:origin-bottom-left"></span>
