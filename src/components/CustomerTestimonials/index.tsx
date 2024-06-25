@@ -20,13 +20,13 @@ const customer: Customer[] = [
     image: Partner2,
     description: 'client1',
     clientName: 'Jonas Eriksson',
-    clientJob: 'cliet1title',
+    clientJob: 'cliet2title',
   },
   {
     image: Partner1,
     description: 'client2',
     clientName: 'Maria Lundin',
-    clientJob: 'cliet2title',
+    clientJob: 'cliet1title',
   },
 ];
 
