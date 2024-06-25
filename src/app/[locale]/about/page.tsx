@@ -13,10 +13,10 @@ const about = () => {
          <div>
             <PageHero bgImage={'bg-aboutHero-image'} categoryText={t('categoryText')} headline={t('headline')} heroText={t('heroText')}/>
             <OurVision/>
+            <OurValues />
             <CEOquote/>
             <OurTeam/>
             <KnowMoreAbout/>
-            <OurValues />
         </div>
         </>
        

@@ -6,7 +6,6 @@ import { useTranslations } from "next-intl";
 const OurValues = () => {
     const t = useTranslations('ourValue')
     return (
-        <>
         <div className="flex w-full h-full bg-pt-background md:h-[878px]">
             <div className="flex flex-col items-center justify-center w-full">
                 <div className="block text-center bg-pt-background">  
@@ -32,7 +31,6 @@ const OurValues = () => {
                 </div>
             </div>
         </div>
-        </>
     )
 }
 
