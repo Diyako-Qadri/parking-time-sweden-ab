@@ -227,5 +227,13 @@
     "cliet1title": "Gemeindeverwalter, Nässjö Gemeinde",
     "client2": "Parking Time hat unser Parkmanagement und die Zufriedenheit der Nutzer im Stadtzentrum erheblich verbessert. Die Benutzerfreundlichkeit und das intuitive Interface haben es den Bewohnern und Besuchern leicht gemacht, Parkplätze zu finden und zu verwalten. Wir empfehlen Parking Time anderen Gemeinden, die eine moderne und effiziente Parklösung suchen, sehr.",
     "cliet2title": "Stadtarchitekt, Falköping Gemeinde"
+  },
+
+  "placeholder": {
+    "name": "Vor- und Nachname",
+    "job": "Berufsbezeichnung",
+    "mobile": "+49 171 1234567",
+    "message": "Geben Sie Ihre Nachricht ein..."
   }
+
 }

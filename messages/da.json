@@ -238,5 +238,12 @@
     "cliet1title": "Kommunaldirektør, Nässjö Kommune",
     "client2": "Parking Time har markant forbedret vores parkeringsadministration og brugertilfredshed i byens centrum. Den enkle brug og det intuitive interface har gjort det let for beboere og besøgende at finde og administrere parkering. Vi anbefaler stærkt Parking Time til andre kommuner, der søger en moderne og effektiv parkeringsløsning.",
     "cliet2title": "Byarkitekt, Falköping Kommune"
+  },
+
+  "placeholder": {
+    "name": "For- og efternavn",
+    "job": "Jobtitel",
+    "mobile": "+45 21 123456",
+    "message": "Skriv din besked..."
   }
 }

@@ -227,6 +227,13 @@
     "secondArrow": "Vår digitale parkeringsskive forenkler parkeringsprosessen.",
     "thirdArrow": "Ethvert parkeringsvakt-system kan enkelt integreres med vårt system.",
     "secondParkingText": "Vi er spente på å dele mer om vår løsning i et møte."
+  },
+
+  "placeholder": {
+    "name": "For- og etternavn",
+    "job": "Jobbtittel",
+    "mobile": "+47 912 34 567",
+    "message": "Skriv meldingen din..."
   }
 
 }

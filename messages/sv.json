@@ -140,7 +140,7 @@
     "quote": "Av alla saker du behöver tänka på under dagen, bör parkering vara en av de minsta. Parkering ska vara så smidig att du knappt behöver tänka på det; det ska bara fungera. Vi kallar detta för Smart Parkering.",
     "title": "och grundare."
   },
-  
+
   "privacyPolicy": {
     "date": "Ikraftträdandedatum: 3 april 2023",
     "privacyTitle": "Integritetspolicy",
@@ -204,14 +204,13 @@
     "title16Description5-5-1": "Användning av dina transaktioner för våra bokförings- och rapporteringsändamål.",
     "title16Description5-5-2": "Laglig grund: Uppfyllande av rättsliga skyldigheter.",
     "title16Description5-5-3": "För varje syfte identifieras en särskild laglig grund för att säkerställa att relevanta rättsliga krav efterlevs. Dessa syften är tydligt avgränsade för att underlätta transparens och ansvarighet i behandlingen av personuppgifter av Parking Time Sweden AB."
- },
- 
- 
- "ourTeam": {
+  },
+
+  "ourTeam": {
     "pageTitle": "Träffa vårt team! ",
     "pageSubtitle": "Varje medlem bidrar med en unik blandning av expertis och ett framåttänkande synsätt."
   },
-  
+
   "CustomerTestimonials": {
     "pageTitle": "Kundreferenser",
     "pageSubTitle": " Hör några av våra kunder.",
@@ -228,7 +227,12 @@
     "secondArrow": "Vår digitala p-skiva förenklar parkeringsprocessen.",
     "thirdArrow": "Alla parkeringsvaktsystem kan enkelt integreras med vårt system.",
     "secondParkingText": "Vi är glada att dela mer om vår lösning i ett möte."
-}
+  },
 
-  
+  "placeholder": {
+    "name": "För- och efternamn",
+    "job": "Jobbtitel",
+    "mobile": "+46 70 8123456",
+    "message": "Skriv ditt meddelande..."
+  }
 }

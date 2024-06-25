@@ -12,6 +12,7 @@ export const ContactUs: React.FC = () => {
   const formRef = useRef<HTMLFormElement>(null);
   const t = useTranslations('button');
   const b = useTranslations('contact_us');
+  const y = useTranslations("placeholder")
   const [selectedOption, setSelectedOption] = useState<string>('');
   const [dropdownOpen, setDropdownOpen] = useState<boolean>(false);
   const [showPopup, setShowPopup] = useState<boolean>(false);
@@ -134,7 +135,7 @@ export const ContactUs: React.FC = () => {
           <input
             type="text"
             name="user_name&lastname"
-            placeholder="First and last name"
+            placeholder={y("name")}
             className={`w-full h-10 p-2 mt-1 mb-2 text-black bg-white border ${
               nameValid
                 ? 'border-gray-300 focus:border-green-500'
@@ -147,7 +148,7 @@ export const ContactUs: React.FC = () => {
           <input
             type="text"
             name="user_job_title"
-            placeholder="Job title"
+            placeholder={y("job")}
             className="w-full h-10 p-2 mt-1 mb-2 text-black bg-white border border-gray-300 rounded-xl focus:border-green-500 focus:outline-none"
           />
           <div className="flex flex-row gap-2 w-full">
@@ -173,7 +174,7 @@ export const ContactUs: React.FC = () => {
               <input
                 type="phone"
                 name="user_phone"
-                placeholder="+46708123456"
+                placeholder={y("mobile")}
                 className="h-10 p-2 mt-1 mb-2 text-black bg-white border border-gray-300 rounded-xl focus:border-green-500 focus:outline-none"
               />
             </div>
@@ -215,7 +216,7 @@ export const ContactUs: React.FC = () => {
           </label>
           <textarea
             name="message"
-            placeholder={b('message') + '...'}
+            placeholder={y("message") + '...'}
             className={`w-full h-32 p-2 mt-1 mb-2 text-black bg-white border ${
               messageValid
                 ? 'border-gray-300 focus:border-green-500'

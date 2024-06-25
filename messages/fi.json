@@ -224,6 +224,13 @@
     "secondArrow": "Digitaalinen pysäköintikiekkomme yksinkertaistaa pysäköintiprosessia.",
     "thirdArrow": "Mikä tahansa pysäköinninvalvontajärjestelmä voidaan helposti integroida järjestelmäämme.",
     "secondParkingText": "Olemme innoissamme voidessamme kertoa lisää ratkaisustamme tapaamisessa."
+  },
+
+  "placeholder": {
+    "name": "Etu- ja sukunimi",
+    "job": "Työnimike",
+    "mobile": "+358 40 1234567",
+    "message": "Kirjoita viestisi..."
   }
 
 }
