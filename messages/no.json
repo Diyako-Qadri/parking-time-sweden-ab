@@ -263,5 +263,23 @@
     "secondArrow": "Vår digitale parkeringsskive forenkler parkeringsprosessen.",
     "thirdArrow": "Ethvert parkeringsvakt-system kan enkelt integreres med vårt system.",
     "secondParkingText": "Vi er spente på å dele mer om vår løsning i et møte."
+  },
+
+  "placeholder": {
+    "name": "Navn",
+    "job": "Jobbtittel",
+    "mobile": "+47 900 00 000",
+    "message": "Skriv meldingen din..."
+  },
+
+  "ourValue": {
+    "pageTitle": "Våre Verdier",
+    "pageSubTitle": "Hva vi tror på",
+    "title1": "Enkelhet",
+    "description1": "Vi streber etter å skape enkle og smidige opplevelser.",
+    "title2": "Innovasjon",
+    "description2": "Alltid forsøke å forbedre og gjøre appene våre ledende på sitt felt.",
+    "title3": "Brukervennlighet",
+    "description3": "Det er avgjørende at vår tjeneste møter brukernes behov og forbedrer deres parkeringsopplevelse."
   }
 }

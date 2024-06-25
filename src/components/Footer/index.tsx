@@ -51,7 +51,7 @@ const Footer = () => {
                     </div> 
                     <div className="w-48 h-26 gap-8"> 
                         <p className="text-[18px] font-semibold pb-2">{t("Address")}</p>
-                        <p className="text-sm">Nyköpingsvägen 52 | 61150 </p>
+                        <p className="text-sm">Nyköpingsvägen 52 | 611 50 </p>
                         <p>NYKÖPING</p>
                     </div>
                     <div className="w-36 h-[102px]">
@@ -100,13 +100,3 @@ const Footer = () => {
     )
 }
 export default Footer
-
- 
-    
-
- 
-    
-
-
-
-

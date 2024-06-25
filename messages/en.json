@@ -240,6 +240,13 @@
     "cliet2title": "City Architect, Falköping Municipality"
   },
 
+  "placeholder": {
+    "name": "Name",
+    "job": "Job title",
+    "mobile": "+44 7700 000000",
+    "message": "Type your message..."
+  },
+  
   "downloadNow": {
     "title": "Download now",
     "description": "The app is free to download for you as a user. However, your municipality must be registered as a customer with us for our app to be valid in your area. If our app is not available in your municipality, you are welcome to contact us or suggest us to your municipality!"
@@ -251,5 +258,16 @@
     "description2": "We currently offer a free digital parking disc within an app to complement the existing range of parking apps.",
     "title2": "Our History",
     "description3": "Parking Time Sweden was founded in 2021 in Luleå. Today, we operate across Sweden with the ambition to expand globally within the coming years, and we hope you'll join us on our journey!"
+  },
+
+  "ourValue": {
+    "pageTitle": "Our Values",
+    "pageSubTitle": "What we believe in",
+    "title1": "Simplicity",
+    "description1": "We are striving to create simple and smooth experiences.",
+    "title2": "Innovation",
+    "description2": "Always trying to improve and making our apps a leader in its field.",
+    "title3": "User friendly",
+    "description3": "Its crucial that our service meets users needs and enhances their parking experience."
   }
 }

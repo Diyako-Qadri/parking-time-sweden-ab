@@ -261,5 +261,23 @@
     "secondArrow": "Vår digitala p-skiva förenklar parkeringsprocessen.",
     "thirdArrow": "Alla parkeringsvaktsystem kan enkelt integreras med vårt system.",
     "secondParkingText": "Vi är glada att dela mer om vår lösning i ett möte."
+  },
+
+  "placeholder": {
+    "name": "Namn",
+    "job": "Jobbtitel",
+    "mobile": "+46 70 0000000",
+    "message": "Skriv ditt meddelande..."
+  },
+
+  "ourValue": {
+      "pageTitle": "Våra Värderingar",
+      "pageSubTitle": "Vad vi tror på",
+      "title1": "Enkelhet",
+      "description1": "Vi strävar efter att skapa enkla och smidiga upplevelser.",
+      "title2": "Innovation",
+      "description2": "Alltid försöka förbättra och göra våra appar ledande inom sitt område.",
+      "title3": "Användarvänlighet",
+      "description3": "Det är avgörande att vår tjänst uppfyller användarnas behov och förbättrar deras parkeringsupplevelse."
   }
 }
