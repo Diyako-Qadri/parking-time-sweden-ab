@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useRef,useEffect } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Accordion from '../Accordion'
 import Button from "../Buttons";
 
@@ -13,6 +13,7 @@ type FaqItem = {
 const Faq = () => {
     const t = useTranslations("FAQ");
     const b = useTranslations("button");
+    const locale = useLocale(); 
     const [openIndex, setOpenIndex] = useState<number | null>(null)
     const accordionRef = useRef<HTMLDivElement>(null);
 
@@ -90,10 +91,14 @@ const Faq = () => {
         </div>
       </div>
       <div className="flex relative justify-center bg-pt-light-gray top-[-10px] pb-20 mt-20 md:hidden">
-        <Button variant="mobileBlack" size="mobileSecondary">{b('contact')}</Button>
+        <a href={`/${locale}/contact`}>
+          <Button variant="mobileBlack" size="mobileSecondary">{b('contact')}</Button>
+        </a>
       </div>
       <div className="hidden md:flex md:relative justify-center bg-pt-light-gray top-[-10px] pb-20 mt-20">
-        <Button variant="desktopBlack" size="desktopPrimary">{b('contact')}</Button>
+        <a href={`/${locale}/contact`}>
+          <Button variant="desktopBlack" size="desktopPrimary">{b('contact')}</Button>
+        </a>
       </div>
     </div>
   );
