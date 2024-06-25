@@ -56,8 +56,8 @@ const Footer = () => {
                     </div>
                     <div className="w-36 h-[102px]">
                         <p className="text-[18px] pb-1 font-semibold">{t("Contact")}</p>
-                        <a href="mailto:info@example.com" className="hover:underline cursor-pointer">info@example.com</a> | 
-                        <a href="tel:+46727224400" className="hover:underline cursor-pointer">+46727224400</a>
+                        <a href="mailto:info@example.com" className="hover:underline cursor-pointer">info@parkingtime.se</a> | 
+                        <a href="tel:+46727224400" className="hover:underline cursor-pointer">+46 72 722 44 00</a>
                         <div className="flex mt-4 w-[50px] text-lg flex-row md:w-[40px] justify-between"> 
                            <Link href="https://www.instagram.com/parkingtimesweden" passHref legacyBehavior>
                                 <a target="_blank"> 
