@@ -114,7 +114,8 @@
   "knowMore": {
     "name-title": "Matilda Öhman, CEO",
     "mail": "Matilda@parkingtime.se",
-    "mail": "Matilda@parkingtime.se",
+    "copyMail": "Email copied",
+    "copyError": "Could not copy",
     "question": "Want to know more?",
     "description": "Contact us to find out more about our solution and how we can help you."
   },

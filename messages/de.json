@@ -88,6 +88,30 @@
     "subheadline2": "Bitte kontaktieren Sie uns, wenn Sie Fragen haben."
   },
 
+  "knowMore": {
+    "name-title": "Matilda Öhman, GF",
+    "mail": "Matilda@parkingtime.se",
+    "copyMail": "E-Mail kopiert",
+    "copyError": "Konnte nicht kopieren",
+    "question": "Möchten Sie mehr wissen?",
+    "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir sie in Ihrer Gemeinde implementieren können."
+  },
+
+  "button": {
+    "contact": "Kontaktiere uns",
+    "download": "App downloaden",
+    "learnMore": "Erfahre mehr über uns",
+    "subscribe": "Abonnieren",
+    "viewAllDesktop": "Alle anzeigen",
+    "ViewAllMobile": "Alle Nachrichten anzeigen",
+    "message": "Nachricht senden",
+    "meeting": "Ein Treffen buchen"
+  },
+
+  "SingleNews": {
+    "notFound": "Nachricht nicht gefunden"
+  },
+  
   "howItWorks": {
     "registrationTitle": "Geben Sie Ihre Registrierungsnummer ein",
     "locationTitle": "Finden Sie Ihren gewünschten Parkplatz",

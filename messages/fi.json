@@ -88,6 +88,25 @@
     "parking-sessions": "Pysäköintikerrat",
     "parking-zone": "Pysäköintialueet"
   },
+  "knowMore": {
+    "name-title": "Matilda Öhman, TJ",
+    "mail": "Matilda@parkingtime.se",
+    "copyMail": "Sähköposti kopioitu",
+    "copyError": "Kopiointi epäonnistui",
+    "question": "Haluatko tietää lisää?",
+    "description": "Ota yhteyttä saadaksesi lisätietoja ratkaisustamme ja siitä, kuinka voimme toteuttaa sen kunnassasi."
+  },
+
+  "button": {
+    "contact": "Ota yhteyttä",
+    "download": "Lataa sovellus",
+    "learnMore": "Lue lisää meistä",
+    "subscribe": "Tilaa",
+    "viewAllDesktop": "Näytä kaikki",
+    "ViewAllMobile": "Näytä kaikki uutiset",
+    "message": "Lähetä viesti",
+    "meeting": "Varaa tapaaminen"
+  },
 
   "SingleNews": {
     "notFound": "Sivua ei löytynyt"
