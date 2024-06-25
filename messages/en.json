@@ -236,6 +236,11 @@
     "pageSubtitle": "Each member brings a unige blend of expertise, and forward-thinking mindset."
   },
 
+  "downloadNow": {
+    "title": "Download now",
+    "description": "The app is free to download for you as a user. However, your municipality must be registered as a customer with us for our app to be valid in your area. If our app is not available in your municipality, you are welcome to contact us or suggest us to your municipality!"
+  },
+
   "ceoQuote": {
     "quote": "Of all the things you need to think about during the day, parking should be one of the least. Parking should be so seamless that you hardly need to think about it; it should just work. We call this Smart Parking.",
     "title": "and founder"
@@ -248,12 +253,7 @@
     "title2": "Our History",
     "description3": "Parking Time Sweden was founded in 2021 in Luleå. Today, we operate across Sweden with the ambition to expand globally within the coming years, and we hope you'll join us on our journey!"
   },
-  
-  "downloadNow": {
-    "title": "Download now",
-    "description": "The app is free to download for you as a user. However, your municipality must be registered as a customer with us for our app to be valid in your area. If our app is not available in your municipality, you are welcome to contact us or suggest us to your municipality!"
-  },
-  
+
   "placeholder": {
     "name": "Name",
     "job": "Job title",

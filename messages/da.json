@@ -240,6 +240,11 @@
     "cliet2title": "Byarkitekt, Falköping Kommune"
   },
 
+  "downloadNow": {
+    "title": "Download nu",
+    "description": "Appen er gratis at downloade for dig som bruger. Din kommune skal dog være registreret som kunde hos os, for at vores app er gyldig i dit område. Hvis vores app ikke er tilgængelig i din kommune, er du velkommen til at kontakte os eller foreslå os til din kommune!"
+  },
+
   "ourVision": {
     "title1": "Vores vision",
     "description1": "Parking Time Sweden er en teknologisk startup, der sigter mod at revolutionere parkeringsoplevelsen for alle parter – parkeringsbrugere, parkeringsvagter, kommuner og ejendomsejere.",
@@ -248,12 +253,7 @@
     "description3": "Parking Time Sweden blev grundlagt i 2021 i Luleå. I dag opererer vi i hele Sverige med ambitionen om at ekspandere globalt inden for de kommende år, og vi håber, at du vil følge med os på vores rejse!"
   },
 
-  "downloadNow": {
-    "title": "Download nu",
-    "description": "Appen er gratis at downloade for dig som bruger. Din kommune skal dog være registreret som kunde hos os, for at vores app er gyldig i dit område. Hvis vores app ikke er tilgængelig i din kommune, er du velkommen til at kontakte os eller foreslå os til din kommune!"
- },
- 
- "placeholder": {
+  "placeholder": {
     "name": "Navn",
     "job": "Jobtitel",
     "mobile": "+45 21 123456",
