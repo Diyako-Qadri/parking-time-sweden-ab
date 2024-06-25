@@ -31,7 +31,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "homeHero-image": "linear-gradient(#00000075, #0000004d), url(/images/homeHero.jpeg)",
         "newsHero-image": "url(/images/newsHero.png)",
-        "aboutHero-image": "url(/images/aboutHero.jpg)",
+        "aboutHero-image": "url(/images/aboutHero.png)",
         "contactHero-image": "url(/images/contactHero.png)",
       },
       backgroundPosition: {
