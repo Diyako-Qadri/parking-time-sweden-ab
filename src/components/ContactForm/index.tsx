@@ -232,7 +232,7 @@ export const ContactUs: React.FC = () => {
             </div>
           </div>
           <input
-            className="bg-pt-dark-btn text-white rounded-[40px] self-center md:self-start w-[315px] h-[40px] md:w-[180px] md:h-[48px] cursor-pointer focus:outline-none"
+            className="bg-pt-dark-btn text-white rounded-[40px] self-center md:self-start w-[315px] h-[40px] md:w-[180px] md:h-[48px] cursor-pointer focus:outline-none hover:bg-pt-desktopBlackHover"
             type="submit"
             value={t('message')}
           />
