@@ -26,11 +26,11 @@ const NewsCard = ({ image, title, description, date, slug }: NewsCardProps) => {
         <div>
           <h6 className="text-2xl font-bold leading-[29px] mb-2">{title}</h6>
           <p className="text-base leading-6 mb-4">{description}</p>
+        </div>
+        <div className="mt-auto">
           <span className="text-gray-600 text-base block leading-6 mb-4">
             {date}
           </span>
-        </div>
-        <div className="mt-auto">
           <Link
             href={`/${locale}/news/${slug}`}
             locale={false}
