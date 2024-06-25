@@ -120,15 +120,15 @@
     "Read more": "Mehr lesen"
   },
 
-"SmartParkingSolution": {
-      "title": "Smart Parking Solution",
-      "parkingText": "Die Parkscheibe ist seit langem ein Werkzeug, um die Zirkulation und Aktivität im Stadtzentrum zu fördern. Es ist eine fantastische Erfindung, die sowohl Bewohnern, Besuchern als auch lokalen Unternehmen zugutekommt. Wir möchten Teil dieser Entwicklung sein, indem wir eine kostenlose digitale Parkscheibe erstellen.",
-      "firstArrow": "Wir streben danach, das Wachstum und die Effizienz von städtischen Gebieten zu unterstützen.",
-      "secondArrow": "Unsere digitale Parkscheibe vereinfacht den Parkvorgang.",
-      "thirdArrow": "Jedes Parkwächter-System kann leicht in unser System integriert werden.",
-      "secondParkingText": "Wir freuen uns darauf, mehr über unsere Lösung in einem Meeting zu teilen."
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "Die Parkscheibe ist seit langem ein Werkzeug, um die Zirkulation und Aktivität im Stadtzentrum zu fördern. Es ist eine fantastische Erfindung, die sowohl Bewohnern, Besuchern als auch lokalen Unternehmen zugutekommt. Wir möchten Teil dieser Entwicklung sein, indem wir eine kostenlose digitale Parkscheibe erstellen.",
+    "firstArrow": "Wir streben danach, das Wachstum und die Effizienz von städtischen Gebieten zu unterstützen.",
+    "secondArrow": "Unsere digitale Parkscheibe vereinfacht den Parkvorgang.",
+    "thirdArrow": "Jedes Parkwächter-System kann leicht in unser System integriert werden.",
+    "secondParkingText": "Wir freuen uns darauf, mehr über unsere Lösung in einem Meeting zu teilen."
   },
-  
+
   "contact_us": {
     "page-title": "Kontaktieren Sie uns",
     "page-message": "Ob Sie eine Frage haben, Feedback geben oder Unterstützung benötigen, füllen Sie das untenstehende Formular aus und unser Team wird sich so schnell wie möglich bei Ihnen melden.",
@@ -218,7 +218,7 @@
     "title16Description5-5-2": "Rechtliche Grundlage: Erfüllung rechtlicher Verpflichtungen.",
     "title16Description5-5-3": "Für jeden Zweck wird eine eindeutige rechtliche Grundlage identifiziert, um die Einhaltung der relevanten rechtlichen Anforderungen sicherzustellen. Diese Zwecke sind klar abgegrenzt, um Transparenz und Verantwortlichkeit bei der Verarbeitung personenbezogener Daten durch Parking Time Sweden AB zu erleichtern."
   },
-  
+
   "CustomerTestimonials": {
     "pageTitle": "Kundenreferenzen",
     "pageSubTitle": "Hören Sie von einigen unserer Kunden.",
@@ -232,9 +232,17 @@
     "pageTitle": "Treffen Sie unser Team!",
     "pageSubtitle": "Jedes Mitglied bringt eine einzigartige Mischung aus Fachwissen und zukunftsorientierter Denkweise mit."
   },
-  
-    "ceoQuote": {
+
+  "ceoQuote": {
     "quote": "Von all den Dingen, über die Sie im Laufe des Tages nachdenken müssen, sollte das Parken eines der geringsten sein. Das Parken sollte so nahtlos sein, dass Sie kaum darüber nachdenken müssen; es sollte einfach funktionieren.Wir nennen das Smart Parking.",
     "title": "und Gründer."
+  },
+
+  "ourVision": {
+    "title1": "Unsere Vision",
+    "description1": "Parking Time Sweden ist ein Technologie-Startup, das darauf abzielt, das Parkerlebnis für alle Beteiligten zu revolutionieren – Parker, Parkplatzwächter, Gemeinden und Immobilieneigentümer.",
+    "description2": "Wir bieten derzeit eine kostenlose digitale Parkscheibe in einer App an, um das bestehende Angebot an Park-Apps zu ergänzen.",
+    "title2": "Unsere Geschichte",
+    "description3": "Parking Time Sweden wurde 2021 in Luleå gegründet. Heute sind wir in ganz Schweden tätig und haben die Ambition, in den kommenden Jahren global zu expandieren. Wir hoffen, dass Sie uns auf unserer Reise begleiten werden!"
   }
 }

@@ -232,9 +232,17 @@
     "pageTitle": "Träffa vårt team! ",
     "pageSubtitle": "Varje medlem bidrar med en unik blandning av expertis och ett framåttänkande synsätt."
   },
-  
-    "ceoQuote": {
+
+  "ceoQuote": {
     "quote": "Av alla saker du behöver tänka på under dagen, bör parkering vara en av de minsta. Parkering ska vara så smidig att du knappt behöver tänka på det; det ska bara fungera. Vi kallar detta för Smart Parkering.",
     "title": "och grundare."
+  },
+
+  "ourVision": {
+    "title1": "Vår vision",
+    "description1": "Parking Time Sweden är en teknikstartup som syftar till att revolutionera parkeringsupplevelsen för alla parter – parkerare, parkeringsvakter, kommuner och fastighetsägare.",
+    "description2": "Vi erbjuder för närvarande en gratis digital parkeringsskiva inom en app för att komplettera det befintliga utbudet av parkeringsappar.",
+    "title2": "Vår historia",
+    "description3": "Parking Time Sweden grundades 2021 i Luleå. Idag verkar vi i hela Sverige med ambitionen att expandera globalt inom de kommande åren, och vi hoppas att du vill följa med oss på vår resa!"
   }
 }
