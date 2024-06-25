@@ -254,14 +254,6 @@
     "description3": "Parking Time Sweden grundades 2021 i Luleå. Idag verkar vi i hela Sverige med ambitionen att expandera globalt inom de kommande åren, och vi hoppas att du vill följa med oss på vår resa!"
   },
 
-  "SmartParkingSolution": {
-    "title": "Smart Parking Solution",
-    "parkingText": "P-skivan har länge varit ett verktyg för att främja cirkulation och aktivitet i din stads centrum. Det är en fantastisk uppfinning som gynnar invånare, besökare och lokala företag. Vi vill vara en del av denna utveckling genom att skapa en gratis digital p-skiva.",
-    "firstArrow": "Vi strävar efter att stödja tillväxt och effektivitet i stadsområden.",
-    "secondArrow": "Vår digitala p-skiva förenklar parkeringsprocessen.",
-    "thirdArrow": "Alla parkeringsvaktsystem kan enkelt integreras med vårt system.",
-    "secondParkingText": "Vi är glada att dela mer om vår lösning i ett möte."
-  },
 
   "placeholder": {
     "name": "Namn",
