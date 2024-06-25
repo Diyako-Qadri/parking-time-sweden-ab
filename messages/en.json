@@ -233,5 +233,18 @@
     "job": "Job title",
     "mobile": "+44 7712 345678",
     "message": "Type your message..."
+  },
+  
+  "downloadNow": {
+    "title": "Download now",
+    "description": "The app is free to download for you as a user. However, your municipality must be registered as a customer with us for our app to be valid in your area. If our app is not available in your municipality, you are welcome to contact us or suggest us to your municipality!"
+  },
+  
+  "ourVision": {
+    "title1": "Our Vision",
+    "description1": "Parking Time Sweden is a tech startup aiming to revolutionize the parking experience for all parties – parkers, parking attendants, municipalities, and property owners.",
+    "description2": "We currently offer a free digital parking disc within an app to complement the existing range of parking apps.",
+    "title2": "Our History",
+    "description3": "Parking Time Sweden was founded in 2021 in Luleå. Today, we operate across Sweden with the ambition to expand globally within the coming years, and we hope you'll join us on our journey!"
   }
 }

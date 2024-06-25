@@ -220,6 +220,19 @@
     "cliet2title": "Byarkitekt, Falköping Kommune"
   },
 
+  "downloadNow": {
+    "title": "Last ned nå",
+    "description": "Appen er gratis å laste ned for deg som bruker. Men din kommune må være registrert som kunde hos oss for at vår app skal være gyldig i ditt område. Hvis vår app ikke er tilgjengelig i din kommune, er du velkommen til å kontakte oss eller foreslå oss til din kommune!"
+  },
+  
+  "ourVision": {
+    "title1": "Vår visjon",
+    "description1": "Parking Time Sweden er en teknologistartup som har som mål å revolusjonere parkeringsopplevelsen for alle parter – bilister, parkeringsvakter, kommuner og eiendomseiere.",
+    "description2": "Vi tilbyr for øyeblikket en gratis digital parkeringsskive i en app for å supplere det eksisterende utvalget av parkeringsapper.",
+    "title2": "Vår historie",
+    "description3": "Parking Time Sweden ble grunnlagt i 2021 i Luleå. I dag opererer vi over hele Sverige med ambisjonen om å ekspandere globalt i løpet av de kommende årene, og vi håper du vil følge oss på vår reise!"
+  },
+  
   "SmartParkingSolution": {
     "title": "Smart Parking Solution",
     "parkingText": "Parkeringsskiven har lenge vært et verktøy for å fremme sirkulasjon og aktivitet i byens sentrum. Det er en fantastisk oppfinnelse som gagner innbyggere, besøkende og lokale bedrifter. Vi ønsker å være en del av denne utviklingen ved å lage en gratis digital parkeringsskive.",
