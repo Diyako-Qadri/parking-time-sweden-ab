@@ -22,7 +22,7 @@ const KnowMore = () => {
                 </img>
                 <p className="text-2xl pb-2">{t('name-title')}</p>
                 <p className="underline cursor-pointer text-lg md:text-[16px] font-thin">
-                    <a href="mailto:info@parkingtime.se"></a>
+                    <a href="mailto:Matilda@parkingtime.se"></a>
                         {t('mail')}
                 </p>
             </div>
