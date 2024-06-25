@@ -90,7 +90,7 @@
 
   "knowMore": {
     "name-title": "Matilda Öhman, CEO",
-    "mail": "info@parkingtime.se",
+    "mail": "Matilda@parkingtime.se",
     "question": "Want to know more?",
     "description": "Contact us to find out more about our solution and how we can implement it in your municipality."
   },
@@ -118,6 +118,14 @@
 
   "NewsCard": {
     "Read more": "Read more"
+  },
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "The parking disc has long been a tool to promote circulation and activity in your city´s center. It's a fantastic invention that benefits residents, visitors, and local businesses alike. We want to be part of this evolution by creating a free digital parking disc.",
+    "firstArrow": "We aim to support the growth and efficient of urban areas.",
+    "secondArrow": "Our digital parking disc simplifies the parking process.",
+    "thirdArrow": "Any parking attendant system can easily be integrated with our system.",
+    "secondParkingText": "We're exited to share more about our solution in a meeting."
   },
 
   "contact_us": {

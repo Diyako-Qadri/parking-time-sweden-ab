@@ -40,6 +40,15 @@
     "heroText": ""
   },
 
+  "newsHero": {
+    "categoryText": "Nyheter",
+    "headline": "Vi forvandler parkerings- opplevelser.",
+    "heroText": "",
+    "news": "Nyheter",
+    "Latest News": "Siste nytt",
+    "View all": "Se alle"
+  },
+
   "WhyParkingTime": {
     "sectionTitle": "Hvorfor",
     "avoidFinesTitle": "Unngå bøter og reduser stress",
@@ -81,7 +90,7 @@
 
   "knowMore": {
     "name-title": "Matilda Öhman, AD",
-    "mail": "info@parkingtime.se",
+    "mail": "Matilda@parkingtime.se",
     "question": "Vil du vite mer?",
     "description": "Kontakt oss for å finne ut mer om vår løsning og hvordan vi kan implementere den i din kommune."
   },
@@ -217,5 +226,15 @@
     "description2": "Vi tilbyr for øyeblikket en gratis digital parkeringsskive i en app for å supplere det eksisterende utvalget av parkeringsapper.",
     "title2": "Vår historie",
     "description3": "Parking Time Sweden ble grunnlagt i 2021 i Luleå. I dag opererer vi over hele Sverige med ambisjonen om å ekspandere globalt i løpet av de kommende årene, og vi håper du vil følge oss på vår reise!"
+  },
+  
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "Parkeringsskiven har lenge vært et verktøy for å fremme sirkulasjon og aktivitet i byens sentrum. Det er en fantastisk oppfinnelse som gagner innbyggere, besøkende og lokale bedrifter. Vi ønsker å være en del av denne utviklingen ved å lage en gratis digital parkeringsskive.",
+    "firstArrow": "Vi har som mål å støtte vekst og effektivitet i urbane områder.",
+    "secondArrow": "Vår digitale parkeringsskive forenkler parkeringsprosessen.",
+    "thirdArrow": "Ethvert parkeringsvakt-system kan enkelt integreres med vårt system.",
+    "secondParkingText": "Vi er spente på å dele mer om vår løsning i et møte."
   }
+
 }

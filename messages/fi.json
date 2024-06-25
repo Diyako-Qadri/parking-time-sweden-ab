@@ -88,7 +88,7 @@
   },
   "knowMore": {
     "name-title": "Matilda Öhman, TJ",
-    "mail": "info@parkingtime.se",
+    "mail": "Matilda@parkingtime.se",
     "question": "Haluatko tietää lisää?",
     "description": "Ota yhteyttä saadaksesi lisätietoja ratkaisustamme ja siitä, kuinka voimme toteuttaa sen kunnassasi."
   },
@@ -224,5 +224,14 @@
     "description2": "Tarjoamme tällä hetkellä ilmaisen digitaalisen pysäköintikiekon sovelluksen kautta täydentämään olemassa olevaa pysäköintisovellusten valikoimaa.",
     "title2": "Historiamme",
     "description3": "Parking Time Sweden perustettiin vuonna 2021 Luulajassa. Nykyään toimimme koko Ruotsissa tavoitteenamme laajentua maailmanlaajuisesti tulevina vuosina, ja toivomme, että haluat seurata meitä matkallamme!"
+ },
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "Pysäköintikiekko on pitkään ollut työkalu, joka edistää kiertoa ja toimintaa kaupunkisi keskustassa. Se on mahtava keksintö, joka hyödyttää asukkaita, vierailijoita ja paikallisia yrityksiä. Haluamme olla osa tätä kehitystä luomalla ilmaisen digitaalisen pysäköintikiekon.",
+    "firstArrow": "Tavoitteenamme on tukea kaupunkialueiden kasvua ja tehokkuutta.",
+    "secondArrow": "Digitaalinen pysäköintikiekkomme yksinkertaistaa pysäköintiprosessia.",
+    "thirdArrow": "Mikä tahansa pysäköinninvalvontajärjestelmä voidaan helposti integroida järjestelmäämme.",
+    "secondParkingText": "Olemme innoissamme voidessamme kertoa lisää ratkaisustamme tapaamisessa."
   }
+
 }
