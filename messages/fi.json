@@ -154,12 +154,11 @@
     "thirdArrow": "Mikä tahansa pysäköinninvalvontajärjestelmä voidaan helposti integroida järjestelmäämme.",
     "secondParkingText": "Olemme innoissamme voidessamme kertoa lisää ratkaisustamme tapaamisessa."
   },
- 
+
   "ceoQuote": {
     "quote": "Kaikista asioista, joita sinun on mietittävä päivän aikana, pysäköinnin tulisi olla yksi vähäisimmistä. Pysäköinnin tulisi olla niin saumaton, että sinun tuskin tarvitsee ajatella sitä; sen tulisi vain toimia. Kutsumme tätä älypysäköinniksi.",
     "title": "ja perustaja."
   },
-
 
   "privacyPolicy": {
     "date": "Voimaantulopäivä: 3. huhtikuuta 2023",
@@ -231,7 +230,6 @@
     "pageSubtitle": "Jokainen jäsen tuo mukanaan ainutlaatuisen yhdistelmän asiantuntemusta ja edistyksellistä ajattelutapaa."
   },
 
-
   "CustomerTestimonials": {
     "pageTitle": "Asiakaspalautteet",
     "pageSubTitle": "Kuule asiakkailtamme.",
@@ -252,7 +250,14 @@
     "description2": "Tarjoamme tällä hetkellä ilmaisen digitaalisen pysäköintikiekon sovelluksen kautta täydentämään olemassa olevaa pysäköintisovellusten valikoimaa.",
     "title2": "Historiamme",
     "description3": "Parking Time Sweden perustettiin vuonna 2021 Luulajassa. Nykyään toimimme koko Ruotsissa tavoitteenamme laajentua maailmanlaajuisesti tulevina vuosina, ja toivomme, että haluat seurata meitä matkallamme!"
+ },
+
+  "SmartParkingSolution": {
+    "title": "Smart Parking Solution",
+    "parkingText": "Pysäköintikiekko on pitkään ollut työkalu, joka edistää kiertoa ja toimintaa kaupunkisi keskustassa. Se on mahtava keksintö, joka hyödyttää asukkaita, vierailijoita ja paikallisia yrityksiä. Haluamme olla osa tätä kehitystä luomalla ilmaisen digitaalisen pysäköintikiekon.",
+    "firstArrow": "Tavoitteenamme on tukea kaupunkialueiden kasvua ja tehokkuutta.",
+    "secondArrow": "Digitaalinen pysäköintikiekkomme yksinkertaistaa pysäköintiprosessia.",
+    "thirdArrow": "Mikä tahansa pysäköinninvalvontajärjestelmä voidaan helposti integroida järjestelmäämme.",
+    "secondParkingText": "Olemme innoissamme voidessamme kertoa lisää ratkaisustamme tapaamisessa."
   }
-
-
 }
