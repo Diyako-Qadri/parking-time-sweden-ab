@@ -123,7 +123,7 @@ export const ContactUs: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="relative flex w-full md:w-1/2 p-5">
+      <div className="relative flex w-full md:w-1/2 max-w-[1440px] p-5">
         <form
           className="flex flex-col self-center p w-full"
           ref={formRef}
