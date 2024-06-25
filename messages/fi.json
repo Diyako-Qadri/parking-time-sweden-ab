@@ -89,6 +89,8 @@
   "knowMore": {
     "name-title": "Matilda Öhman, TJ",
     "mail": "Matilda@parkingtime.se",
+    "copyMail": "Sähköposti kopioitu",
+    "copyError": "Kopiointi epäonnistui",
     "question": "Haluatko tietää lisää?",
     "description": "Ota yhteyttä saadaksesi lisätietoja ratkaisustamme ja siitä, kuinka voimme toteuttaa sen kunnassasi."
   },
