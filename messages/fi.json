@@ -89,6 +89,8 @@
   "knowMore": {
     "name-title": "Matilda Öhman, TJ",
     "mail": "Matilda@parkingtime.se",
+    "copyMail": "Sähköposti kopioitu",
+    "copyError": "Kopiointi epäonnistui",
     "question": "Haluatko tietää lisää?",
     "description": "Ota yhteyttä saadaksesi lisätietoja ratkaisustamme ja siitä, kuinka voimme toteuttaa sen kunnassasi."
   },
@@ -237,6 +239,13 @@
     "secondArrow": "Digitaalinen pysäköintikiekkomme yksinkertaistaa pysäköintiprosessia.",
     "thirdArrow": "Mikä tahansa pysäköinninvalvontajärjestelmä voidaan helposti integroida järjestelmäämme.",
     "secondParkingText": "Olemme innoissamme voidessamme kertoa lisää ratkaisustamme tapaamisessa."
+  },
+
+  "placeholder": {
+    "name": "Nimi",
+    "job": "Työnimike",
+    "mobile": "+358 40 0000000",
+    "message": "Kirjoita viestisi..."
   },
 
   "ourValue": {

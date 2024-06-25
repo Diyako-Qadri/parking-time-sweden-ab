@@ -91,6 +91,8 @@
   "knowMore": {
     "name-title": "Matilda Öhman, AD",
     "mail": "Matilda@parkingtime.se",
+    "copyMail": "E-post kopiert",
+    "copyError": "Kunne ikke kopiere",
     "question": "Vil du vite mer?",
     "description": "Kontakt oss for å finne ut mer om vår løsning og hvordan vi kan implementere den i din kommune."
   },
@@ -240,6 +242,13 @@
     "secondArrow": "Vår digitale parkeringsskive forenkler parkeringsprosessen.",
     "thirdArrow": "Ethvert parkeringsvakt-system kan enkelt integreres med vårt system.",
     "secondParkingText": "Vi er spente på å dele mer om vår løsning i et møte."
+  },
+
+  "placeholder": {
+    "name": "Navn",
+    "job": "Jobbtittel",
+    "mobile": "+47 900 00 000",
+    "message": "Skriv meldingen din..."
   },
 
   "ourValue": {

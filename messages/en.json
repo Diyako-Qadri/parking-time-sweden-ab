@@ -91,6 +91,8 @@
   "knowMore": {
     "name-title": "Matilda Öhman, CEO",
     "mail": "Matilda@parkingtime.se",
+    "copyMail": "Email copied",
+    "copyError": "Could not copy",
     "question": "Want to know more?",
     "description": "Contact us to find out more about our solution and how we can implement it in your municipality."
   },
@@ -228,6 +230,13 @@
     "cliet2title": "City Architect, Falköping Municipality"
   },
 
+  "placeholder": {
+    "name": "Name",
+    "job": "Job title",
+    "mobile": "+44 7700 000000",
+    "message": "Type your message..."
+  },
+  
   "downloadNow": {
     "title": "Download now",
     "description": "The app is free to download for you as a user. However, your municipality must be registered as a customer with us for our app to be valid in your area. If our app is not available in your municipality, you are welcome to contact us or suggest us to your municipality!"

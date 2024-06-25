@@ -12,12 +12,11 @@ export const ContactUs: React.FC = () => {
   const formRef = useRef<HTMLFormElement>(null);
   const t = useTranslations('button');
   const b = useTranslations('contact_us');
-  const [isChecked, setIsChecked] = useState<boolean>(false);
+  const y = useTranslations("placeholder")
   const [selectedOption, setSelectedOption] = useState<string>('');
   const [dropdownOpen, setDropdownOpen] = useState<boolean>(false);
   const [showPopup, setShowPopup] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(false);
-
   const [nameValid, setNameValid] = useState<boolean>(true);
   const [emailValid, setEmailValid] = useState<boolean>(true);
   const [messageValid, setMessageValid] = useState<boolean>(true);
@@ -28,7 +27,7 @@ export const ContactUs: React.FC = () => {
 
     setShowPopup(true);
 
-    if (!isChecked || !nameValid || !emailValid || !messageValid) {
+    if (!nameValid || !emailValid || !messageValid) {
       alert('Please fill in all required fields correctly to proceed');
       setLoading(false);
       setShowPopup(false);
@@ -45,7 +44,6 @@ export const ContactUs: React.FC = () => {
         );
         setTimeout(() => setShowPopup(false), 500);
         formRef.current.reset();
-        setIsChecked(false);
         setSelectedOption('');
       } catch (error) {
         console.log('FAILED...', error);
@@ -137,7 +135,7 @@ export const ContactUs: React.FC = () => {
           <input
             type="text"
             name="user_name&lastname"
-            placeholder="First and last name"
+            placeholder={y("name")}
             className={`w-full h-10 p-2 mt-1 mb-2 text-black bg-white border ${
               nameValid
                 ? 'border-gray-300 focus:border-green-500'
@@ -150,7 +148,7 @@ export const ContactUs: React.FC = () => {
           <input
             type="text"
             name="user_job_title"
-            placeholder="Job title"
+            placeholder={y("job")}
             className="w-full h-10 p-2 mt-1 mb-2 text-black bg-white border border-gray-300 rounded-xl focus:border-green-500 focus:outline-none"
           />
           <div className="flex flex-row gap-2 w-full">
@@ -176,7 +174,7 @@ export const ContactUs: React.FC = () => {
               <input
                 type="phone"
                 name="user_phone"
-                placeholder="+46708123456"
+                placeholder={y("mobile")}
                 className="h-10 p-2 mt-1 mb-2 text-black bg-white border border-gray-300 rounded-xl focus:border-green-500 focus:outline-none"
               />
             </div>
@@ -218,7 +216,7 @@ export const ContactUs: React.FC = () => {
           </label>
           <textarea
             name="message"
-            placeholder={b('message') + '...'}
+            placeholder={y("message") + '...'}
             className={`w-full h-32 p-2 mt-1 mb-2 text-black bg-white border ${
               messageValid
                 ? 'border-gray-300 focus:border-green-500'
@@ -227,24 +225,7 @@ export const ContactUs: React.FC = () => {
             onChange={handleInputChange}
             required
           />
-          <div className="flex justify-between ml-1 flex-col md:flex-row med:items-center  mb-1">
-            <div>
-              {' '}
-              <input
-                type="checkbox"
-                id="consentCheckbox"
-                className="mr-2"
-                checked={isChecked}
-                onChange={() => setIsChecked(!isChecked)}
-                required
-              />
-              <label htmlFor="consentCheckbox" className="text-base">
-                {b('terms1')}{' '}
-                <a className="underline" href="#">
-                  {b('terms2')}
-                </a>
-              </label>
-            </div>
+          <div className="flex justify-between ml-1 flex-col md:flex-row-reverese med:items-center  mb-1">
             <div className="flex flex-row">
               <span className="text-xl mr-1">* </span>
               <p className="text-sm">{b('message3')}</p>

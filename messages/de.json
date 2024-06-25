@@ -91,6 +91,8 @@
   "knowMore": {
     "name-title": "Matilda Öhman, GF",
     "mail": "Matilda@parkingtime.se",
+    "copyMail": "E-Mail kopiert",
+    "copyError": "Konnte nicht kopieren",
     "question": "Möchten Sie mehr wissen?",
     "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir sie in Ihrer Gemeinde implementieren können."
   },
@@ -229,6 +231,13 @@
     "cliet2title": "Stadtarchitekt, Falköping Gemeinde"
   },
 
+  "placeholder": {
+    "name": "Name",
+    "job": "Berufsbezeichnung",
+    "mobile": "+49 170 0000000",
+    "message": "Geben Sie Ihre Nachricht ein..."
+  },
+  
   "downloadNow": {
     "title": "Jetzt herunterladen",
     "description": "Die App ist für Sie als Benutzer kostenlos herunterzuladen. Ihre Gemeinde muss jedoch als Kunde bei uns registriert sein, damit unsere App in Ihrem Gebiet gültig ist. Wenn unsere App in Ihrer Gemeinde nicht verfügbar ist, können Sie uns gerne kontaktieren oder uns Ihrer Gemeinde vorschlagen!"
