@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import DownloadImage from '../../../public/images/downloadNowLarge.png';
 import { FaApple } from 'react-icons/fa';
-import { BsGooglePlay } from 'react-icons/bs';
+import GooglePlay from "../../../public/images/google-play.png"
 import DownloadQR from '../../../public/images/downloadQR.png';
 
 const DownloadNow = () => {
@@ -26,8 +26,8 @@ const DownloadNow = () => {
               href="https://apps.apple.com/se/app/parking-time/id1611019108"
               target="_blank"
             >
-              <div className="w-[130px] h-[43px] border-[1px] flex flex-row items-center border-pt-secondary transform transition-all ease-in-out rounded-[5px] hover:scale-[1.02]">
-                <div className="w-1/3 px-2 text-[30px]">
+              <div className="w-[136px] h-[43px] border-[1px] flex flex-row items-center border-pt-secondary transform transition-all ease-in-out rounded-[5px] hover:scale-[1.02]">
+                <div className="w-1/3 px-[3px] text-[34px]">
                   <FaApple />
                 </div>
                 <div>
@@ -40,12 +40,17 @@ const DownloadNow = () => {
               href="https://play.google.com/store/apps/details?id=se.parkingtime.app&hl=en_US&pli=1"
               target="_blank"
             >
-              <div className="w-[130px] h-[43px] border-[1px] flex flex-row items-center border-pt-secondary transform transition-all ease-in-out rounded-[5px] hover:scale-[1.02]">
-                <div className="w-1/3 px-2 text-[25px]">
-                  <BsGooglePlay />
+              <div className="w-[136px] h-[43px] border-[1px] flex flex-row items-center border-pt-secondary transform transition-all ease-in-out rounded-[5px] hover:scale-[1.02]">
+                <div className="w-1/3 px-[6px] text-[25px]">
+                <Image
+            src={GooglePlay}
+            objectFit="contain"
+            className="w-full h-full md:max-w-[600px] "
+            alt="DownloadImage"
+          ></Image>
                 </div>
                 <div>
-                  <p className="text-[10px]">Download on the</p>
+                  <p className="text-[12px]">GET IT ON</p>
                   <p>Google Play</p>
                 </div>
               </div>
