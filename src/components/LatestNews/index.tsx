@@ -67,7 +67,7 @@ const LatestNews = () => {
       <div className="mt-8 flex justify-center">
         <a
           href={`/${locale}/news`}
-          className={`${lato.className} w-[160px] h-[48px] py-[15px] px-[32px] gap-[8px] rounded-[50px] bg-[#0B051D] text-white shadow-[1px_1px_30px_0px_rgba(0,0,0,0.1)] flex items-center justify-center text-base font-medium leading-[19.2px] text-center`}>
+          className={`${lato.className} w-[160px] h-[48px] py-[15px] px-[32px] gap-[8px] rounded-[50px] bg-[#0B051D] text-white shadow-[1px_1px_30px_0px_rgba(0,0,0,0.1)] flex items-center justify-center text-base font-medium leading-[19.2px] text-center hover:bg-pt-desktopBlackHover`}>
           {t("View all")}
         </a>
       </div>
