@@ -19,7 +19,6 @@ const about = () => {
             <KnowMoreAbout/>
         </div>
         </>
-       
     )
 };
 
