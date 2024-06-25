@@ -91,6 +91,8 @@
   "knowMore": {
     "name-title": "Matilda Öhman, GF",
     "mail": "Matilda@parkingtime.se",
+    "copyMail": "E-Mail kopiert",
+    "copyError": "Konnte nicht kopieren",
     "question": "Möchten Sie mehr wissen?",
     "description": "Kontaktieren Sie uns, um mehr über unsere Lösung zu erfahren und wie wir Ihnen helfen können."
   },
