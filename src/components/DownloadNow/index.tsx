@@ -8,12 +8,13 @@ import DownloadQR from '../../../public/images/downloadQR.png';
 const DownloadNow = () => {
   const t = useTranslations('downloadNow');
   return (
-    <div className="h-full md:h-[724px] pb-16 md:py-11 flex justify-center items-center">
+    <div className="h-full md:h-[724px] pb-16 md:py-11 flex flex-col justify-center items-center">
       <div className="w-full md:w-[90%] flex flex-col md:flex-row-reverse justify-center gap-16">
-        <div className=" w-full md:w-1/2">
+        <div className="w-full md:w-1/2">
           <Image
             src={DownloadImage}
-            objectFit="contain"
+            style={{objectFit:"contain"}}
+          
             className="w-full h-full md:max-w-[600px] md:boxShadow md:rounded-[15px]"
             alt="DownloadImage"
           ></Image>
@@ -46,7 +47,7 @@ const DownloadNow = () => {
             src={GooglePlay}
             objectFit="contain"
             className="w-full h-full md:max-w-[600px] "
-            alt="DownloadImage"
+            alt="GoogleplayIcon"
           ></Image>
                 </div>
                 <div>
