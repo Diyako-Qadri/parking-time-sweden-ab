@@ -231,9 +231,9 @@
   },
 
   "placeholder": {
-    "name": "First and last name",
+    "name": "Name",
     "job": "Job title",
-    "mobile": "+44 7712 345678",
+    "mobile": "+44 7700 000000",
     "message": "Type your message..."
   },
   

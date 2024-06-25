@@ -242,9 +242,9 @@
   },
 
   "placeholder": {
-    "name": "Etu- ja sukunimi",
+    "name": "Nimi",
     "job": "Työnimike",
-    "mobile": "+358 40 1234567",
+    "mobile": "+358 40 0000000",
     "message": "Kirjoita viestisi..."
   }
 
