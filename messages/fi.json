@@ -144,6 +144,11 @@
     "secondParkingText": "Olemme innoissamme voidessamme kertoa lisää ratkaisustamme tapaamisessa."
   },
 
+  "ceoQuote": {
+    "quote": "Kaikista asioista, joita sinun on mietittävä päivän aikana, pysäköinnin tulisi olla yksi vähäisimmistä. Pysäköinnin tulisi olla niin saumaton, että sinun tuskin tarvitsee ajatella sitä; sen tulisi vain toimia. Kutsumme tätä älypysäköinniksi.",
+    "title": "ja perustaja."
+  },
+
   "privacyPolicy": {
     "date": "Voimaantulopäivä: 3. huhtikuuta 2023",
     "privacyTitle": "Tietosuojakäytäntö",
@@ -214,10 +219,6 @@
     "pageSubtitle": "Jokainen jäsen tuo mukanaan ainutlaatuisen yhdistelmän asiantuntemusta ja edistyksellistä ajattelutapaa."
   },
   
-    "ceoQuote": {
-    "quote": "Kaikista asioista, joita sinun on mietittävä päivän aikana, pysäköinnin tulisi olla yksi vähäisimmistä. Pysäköinnin tulisi olla niin saumaton, että sinun tuskin tarvitsee ajatella sitä; sen tulisi vain toimia. Kutsumme tätä älypysäköinniksi.",
-    "title": "ja perustaja."
-    },
 
     "CustomerTestimonials": {
     "pageTitle": "Asiakaspalautteet",
@@ -227,6 +228,7 @@
     "client2": "Parking Time on merkittävästi parantanut pysäköinnin hallintaamme ja käyttäjätyytyväisyyttä kaupungin keskustassa. Helppokäyttöisyys ja intuitiivinen käyttöliittymä ovat tehneet pysäköinnin löytämisestä ja hallinnasta yksinkertaista asukkaille ja vierailijoille. Suosittelemme lämpimästi Parking Time muille kunnille, jotka etsivät modernia ja tehokasta pysäköintiratkaisua.",
     "cliet2title": "Kaupunginarkkitehti, Falköping Kunta"
   },
+
 
   "ourVision": {
     "title1": "Visiomme",

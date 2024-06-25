@@ -153,6 +153,11 @@
     "thirdArrow": "Alla parkeringsvaktsystem kan enkelt integreras med vårt system.",
     "secondParkingText": "Vi är glada att dela mer om vår lösning i ett möte."
   },
+  
+  "ceoQuote": {
+    "quote": "Av alla saker du behöver tänka på under dagen, bör parkering vara en av de minsta. Parkering ska vara så smidig att du knappt behöver tänka på det; det ska bara fungera. Vi kallar detta för Smart Parkering.",
+    "title": "och grundare."
+  },
 
   "privacyPolicy": {
     "date": "Ikraftträdandedatum: 3 april 2023",
@@ -233,10 +238,6 @@
     "cliet2title": "Stadsarkitekt, Falköping Kommun"
   },
 
-  "ceoQuote": {
-    "quote": "Av alla saker du behöver tänka på under dagen, bör parkering vara en av de minsta. Parkering ska vara så smidig att du knappt behöver tänka på det; det ska bara fungera. Vi kallar detta för Smart Parkering.",
-    "title": "och grundare."
-  },
 
   "ourVision": {
     "title1": "Vår vision",
@@ -250,4 +251,6 @@
     "title": "Ladda ner nu",
     "description": "Appen är gratis att ladda ner för dig som användare. Men din kommun måste vara registrerad som kund hos oss för att vår app ska vara giltig i ditt område. Om vår app inte är tillgänglig i din kommun är du välkommen att kontakta oss eller föreslå oss till din kommun!"
   }
+
+  
 }
