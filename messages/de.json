@@ -240,6 +240,18 @@
     "description2": "Wir bieten derzeit eine kostenlose digitale Parkscheibe in einer App an, um das bestehende Angebot an Park-Apps zu ergänzen.",
     "title2": "Unsere Geschichte",
     "description3": "Parking Time Sweden wurde 2021 in Luleå gegründet. Heute sind wir in ganz Schweden tätig und haben die Ambition, in den kommenden Jahren global zu expandieren. Wir hoffen, dass Sie uns auf unserer Reise begleiten werden!"
-  }
+  },
+
+  "ourValue": {
+    "pageTitle": "Vores Værdier",
+    "pageSubTitle": "Hvad vi tror på",
+    "title1": "Enkelhed",
+    "description1": "Vi stræber efter at skabe enkle og glatte oplevelser.",
+    "title2": "Innovation",
+    "description2": "Altid forsøger at forbedre og gøre vores apps førende inden for sit felt.",
+    "title3": "Brugervenlighed",
+    "description3": "Det er afgørende, at vores service opfylder brugernes behov og forbedrer deres parkeringsoplevelse."
+}
+
 
 }
