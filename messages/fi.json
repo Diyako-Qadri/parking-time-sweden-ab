@@ -246,6 +246,16 @@
     "job": "Työnimike",
     "mobile": "+358 40 0000000",
     "message": "Kirjoita viestisi..."
-  }
+  },
 
+  "ourValue": {
+    "pageTitle": "Arvomme",
+    "pageSubTitle": "Mihin uskomme",
+    "title1": "Yksinkertaisuus",
+    "description1": "Pyrimme luomaan yksinkertaisia ja sujuvia kokemuksia.",
+    "title2": "Innovaatio",
+    "description2": "Aina pyrkien parantamaan ja tekemään sovelluksistamme alansa johtavia.",
+    "title3": "Käyttäjäystävällisyys",
+    "description3": "On ratkaisevan tärkeää, että palvelumme täyttää käyttäjien tarpeet ja parantaa heidän pysäköintikokemustaan."
+  }
 }
