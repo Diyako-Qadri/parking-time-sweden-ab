@@ -57,7 +57,7 @@ const SingleNews = ({ params }: { params: { slug: string | string[] } }) => {
   }
 
   return (
-    <div className="max-w-[1000px] mx-auto px-4 pt-32">
+    <div className="max-w-[1000px] mx-auto px-4 py-32">
       <div className="flex items-center mb-4 pb-6">
         <img
           src={newsItem.authorImage}
