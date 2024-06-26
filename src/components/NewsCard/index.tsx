@@ -27,7 +27,9 @@ const NewsCard = ({ image, title, description, date, slug }: NewsCardProps) => {
       <div className="flex flex-col justify-between flex-1 p-4">
         <div>
           <h6 className="text-2xl font-bold leading-[29px] mb-2">{title}</h6>
-          <p className="text-base leading-6 mb-4">{description}</p>
+          <div
+            className="text-base leading-6 mb-4"
+            dangerouslySetInnerHTML={{ __html: description }}></div>
           <span className="text-gray-600 text-base block leading-6 mb-4">
             {date}
           </span>

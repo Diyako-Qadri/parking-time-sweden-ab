@@ -1,5 +1,3 @@
-// frontend/src/data/newsData.js
-
 const baseUrl = "http://localhost:1337";
 
 export const getNewsItems = async (locale: any) => {
@@ -11,8 +9,8 @@ export const getNewsItems = async (locale: any) => {
       attributes: {
         Image: { data: { attributes: { url: string } } };
         Title: any;
-        Description: any[];
-        Content: any[];
+        Ingress: string;
+        Innehall: string;
         Author: any;
         AuthorImage: { data: { attributes: { url: string } } };
         Date: string | number | Date;
@@ -24,16 +22,8 @@ export const getNewsItems = async (locale: any) => {
         ? baseUrl + item.attributes.Image.data.attributes.url
         : "/path/to/default/image.jpg",
       title: item.attributes.Title,
-      description: Array.isArray(item.attributes.Description)
-        ? item.attributes.Description.map((desc: { children: any[] }) =>
-            desc.children.map((child: { text: any }) => child.text).join(" ")
-          ).join(" ")
-        : item.attributes.Description,
-      content: Array.isArray(item.attributes.Content)
-        ? item.attributes.Content.map((cont: { children: any[] }) =>
-            cont.children.map((child: { text: any }) => child.text).join(" ")
-          ).join(" ")
-        : item.attributes.Content,
+      description: item.attributes.Ingress,
+      content: item.attributes.Innehall,
       author: item.attributes.Author,
       authorImage: item.attributes.AuthorImage?.data?.attributes.url
         ? baseUrl + item.attributes.AuthorImage.data.attributes.url
@@ -62,22 +52,14 @@ export const getSingleNewsItem = async (
       ? baseUrl + item.attributes.Image.data.attributes.url
       : "/path/to/default/image.jpg",
     title: item.attributes.Title,
-    description: Array.isArray(item.attributes.Description)
-      ? item.attributes.Description.map((desc: { children: any[] }) =>
-          desc.children.map((child: { text: any }) => child.text).join(" ")
-        ).join(" ")
-      : item.attributes.Description,
-    content: Array.isArray(item.attributes.Content)
-      ? item.attributes.Content.map((cont: { children: any[] }) =>
-          cont.children.map((child: { text: any }) => child.text).join(" ")
-        ).join(" ")
-      : item.attributes.Content,
+    description: item.attributes.Ingress,
+    content: item.attributes.Innehall,
     author: item.attributes.Author,
     authorImage: item.attributes.AuthorImage?.data?.attributes.url
       ? baseUrl + item.attributes.AuthorImage.data.attributes.url
       : "/path/to/default/author-image.jpg",
     date: new Date(item.attributes.Date).toLocaleDateString(),
     slug: item.attributes.Slug,
-    locale: item.attributes.locale, // Lägg till denna rad
+    locale: item.attributes.locale,
   };
 };

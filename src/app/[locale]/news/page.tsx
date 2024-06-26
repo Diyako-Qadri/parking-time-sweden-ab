@@ -17,7 +17,7 @@ interface NewsItem {
       };
     } | null;
     Title: string;
-    Description: { type: string; children: { text: string }[] }[];
+    Ingress: string;
     Date: string;
     Slug: string;
   };
@@ -63,9 +63,7 @@ const News = () => {
               const imageUrl = news.attributes.Image?.data?.attributes.url
                 ? baseUrl + news.attributes.Image.data.attributes.url
                 : "/path/to/default/image.jpg";
-              const description = news.attributes.Description.map((desc) =>
-                desc.children.map((child) => child.text).join(" ")
-              ).join(" ");
+              const description = news.attributes.Ingress;
 
               return (
                 <div key={news.id} className="flex-shrink-0 snap-start">

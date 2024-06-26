@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { Lato } from "next/font/google";
 import { Roboto } from "next/font/google";
 import { useTranslations, useLocale } from "next-intl";
