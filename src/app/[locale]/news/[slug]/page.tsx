@@ -6,6 +6,7 @@ import { Roboto } from "next/font/google";
 import { useTranslations, useLocale } from "next-intl";
 import { useRouter } from "next/navigation";
 import { getSingleNewsItem } from "@/data/newsData";
+import parse from "html-react-parser";
 
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 const roboto = Roboto({ subsets: ["latin"], weight: ["400", "500"] });
@@ -81,10 +82,9 @@ const SingleNews = ({ params }: { params: { slug: string | string[] } }) => {
         alt={newsItem.title}
         className="w-full h-[240px] md:h-[650px] object-cover mb-4 py-6"
       />
-      <div
-        className={`${roboto.className} text-base leading-6 text-[#2A394E]`}
-        dangerouslySetInnerHTML={{ __html: newsItem.content }}
-      />
+      <div className={`${roboto.className} text-base leading-6 text-[#2A394E]`}>
+        {parse(newsItem.content)}
+      </div>
     </div>
   );
 };

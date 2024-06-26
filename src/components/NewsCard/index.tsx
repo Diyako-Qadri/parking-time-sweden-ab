@@ -1,6 +1,9 @@
+// src/components/NewsCard/index.tsx
+
 import Link from "next/link";
 import { Lato } from "next/font/google";
 import { useLocale, useTranslations } from "next-intl";
+import parse from "html-react-parser";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -27,9 +30,7 @@ const NewsCard = ({ image, title, description, date, slug }: NewsCardProps) => {
       <div className="flex flex-col justify-between flex-1 p-4">
         <div>
           <h6 className="text-2xl font-bold leading-[29px] mb-2">{title}</h6>
-          <div
-            className="text-base leading-6 mb-4"
-            dangerouslySetInnerHTML={{ __html: description }}></div>
+          <div className="text-base leading-6 mb-4">{parse(description)}</div>
           <span className="text-gray-600 text-base block leading-6 mb-4">
             {date}
           </span>

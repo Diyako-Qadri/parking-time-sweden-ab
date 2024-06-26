@@ -1,3 +1,5 @@
+// src/app/[locale]/news/page.tsx
+
 "use client";
 
 import { useEffect, useState } from "react";
@@ -5,6 +7,7 @@ import { fetchNews } from "@/api";
 import NewsCard from "@/components/NewsCard";
 import PageHero from "@/components/PageHero";
 import { useLocale, useTranslations } from "next-intl";
+import parse from "html-react-parser";
 
 interface NewsItem {
   id: number;

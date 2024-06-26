@@ -12,6 +12,7 @@
     "axios": "^1.7.2",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.10",
+    "html-react-parser": "^5.1.10",
     "next": "14.2.3",
     "next-intl": "^3.14.1",
     "react": "^18",
