@@ -1,3 +1,5 @@
+// src/components/LatestNews/index.tsx
+
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
@@ -5,6 +7,7 @@ import NewsCard from "../NewsCard";
 import { useEffect, useState } from "react";
 import { fetchNews } from "@/api";
 import { Lato } from "next/font/google";
+import parse from "html-react-parser";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -22,7 +25,7 @@ interface NewsItem {
       };
     } | null;
     Title: string;
-    Description: { type: string; children: { text: string }[] }[];
+    Ingress: string;
     Date: string;
     Slug: string;
   };
@@ -67,9 +70,9 @@ const LatestNews = () => {
             const imageUrl = news.attributes.Image?.data?.attributes.url
               ? baseUrl + news.attributes.Image.data.attributes.url
               : "/path/to/default/image.jpg";
-            const description = news.attributes.Description.map((desc) =>
-              desc.children.map((child) => child.text).join(" ")
-            ).join(" ");
+            const description = news.attributes.Ingress
+              ? parse(news.attributes.Ingress)
+              : "";
 
             return (
               <div

@@ -1,5 +1,3 @@
-// src/app/[locale]/news/page.tsx
-
 "use client";
 
 import { useEffect, useState } from "react";
