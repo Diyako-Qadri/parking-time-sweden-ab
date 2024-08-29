@@ -260,5 +260,16 @@
     "description2": "Vi tilbyder i øjeblikket en gratis digital parkeringsskive i en app for at supplere det eksisterende udvalg af parkeringsapps.",
     "title2": "Vores historie",
     "description3": "Parking Time Sweden blev grundlagt i 2021 i Luleå. I dag opererer vi i hele Sverige med ambitionen om at ekspandere globalt inden for de kommende år, og vi håber, at du vil følge med os på vores rejse!"
+  },
+
+  "ourValue": {
+    "pageTitle": "Vores Værdier",
+    "pageSubTitle": "Hvad vi tror på",
+    "title1": "Enkelhed",
+    "description1": "Vi stræber efter at skabe enkle og glatte oplevelser.",
+    "title2": "Innovation",
+    "description2": "Altid forsøger at forbedre og gøre vores apps førende inden for sit felt.",
+    "title3": "Brugervenlighed",
+    "description3": "Det er afgørende, at vores service opfylder brugernes behov og forbedrer deres parkeringsoplevelse."
   }
 }
